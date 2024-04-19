@@ -54,6 +54,14 @@
 			{"name": "neocat_police","url": "/parts/neocat_police.png"},
 			{"name": "neocat_santa","url": "/parts/neocat_santa.png"},
 			{"name": "neocat_mask","url": "/parts/neocat_mask.png"},
+			{"name": "neopossum","url": "/parts/neopossum.png"},
+			{"name": "neopossum_angel","url": "/parts/neopossum_angel.png"},
+			{"name": "neopossum_foxmask","url": "/parts/neopossum_foxmask.png"},
+			{"name": "neopossum_catmask","url": "/parts/neopossum_catmask.png"},
+			{"name": "neopossum_comfy","url": "/parts/neopossum_comfy.png"},
+			{"name": "neopossum_devil","url": "/parts/neopossum_devil.png"},
+			{"name": "neopossum_devil_floof","url": "/parts/neopossum_devil_floof.png"},
+			{"name": "neopossum_rainbow","url": "/parts/neopossum_rainbow.png"},
 			{"name": "neofox","url": "/parts/neofox.png"}
 		],
 		"mouth": [
@@ -79,6 +87,7 @@
 			{"name": "nom_toblerone","url": "/parts/mouth_nom_toblerone.png"},
 			{"name": "nom_verified","url": "/parts/mouth_nom_verified.png"},
 			{"name": "nom_waffle","url": "/parts/mouth_nom_waffle.png"},
+			{"name": "hissing","url": "/parts/mouth_hissing.png"},
 			{"name": "blank", "url": "/parts/blank.png"}
 		],
 		"arms": [
