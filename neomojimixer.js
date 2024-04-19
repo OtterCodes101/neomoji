@@ -21,6 +21,7 @@ const mouth_image = document.getElementById("mouth_img");
 const arms_image = document.getElementById("arms_img");
 
 const canvas = document.getElementById("canvas_export");
+const export_img = document.getElementById("imageExport");
 const neomoji_name = document.getElementById("fullNeomojiName");
 
 //names
@@ -192,14 +193,16 @@ function randomize(){ //Randomize which parts are shown
 }
 
 function exportImage(){ //Export image so it can be saved as one PNG
-	var ctx=canvas.getContext("2d");
+	let ctx=canvas.getContext("2d");
 	
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	
-	var body_export = new Image();
-	var eyes_export = new Image();
-	var mouth_export = new Image();
-	var arms_export = new Image();
+	neomoji_name.value = body[index_body][0] + "_" + eyes[index_eyes][0] + "_" + mouth[index_mouth][0] + "_" + arms[index_arms][0]; //Set name for the emoji to use as the image name and to show as shortcode
+	
+	let body_export = new Image();
+	let eyes_export = new Image();
+	let mouth_export = new Image();
+	let arms_export = new Image();
 	
 	body_export.src = "." + body[index_body][1];
 	body_export.onload = function() {
@@ -213,14 +216,14 @@ function exportImage(){ //Export image so it can be saved as one PNG
 				arms_export.src = "." + arms[index_arms][1];
 					arms_export.onload = function() {
 					ctx.drawImage(arms_export, 0, 0, 256, 256);
+					let img = canvas.toDataURL("image/png");
+					export_img.src = img;
 					}
 			}
 		}
 	};
 	
-	neomoji_name.value = body[index_body][0] + "_" + eyes[index_eyes][0] + "_" + mouth[index_mouth][0] + "_" + arms[index_arms][0];
-	
-	canvas.hidden = false;
+	export_img.hidden = false;
 	neomoji_name.hidden = false;
 	document.getElementById("exportSaveMessage").hidden = false;
 }
