@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<title>Neomojimixer</title>
+		<link rel="shortcut icon" href="favicon.gif"  type="image/gif" />
+		<link rel="stylesheet" href="neomojimixer.css">
+		
+	</head>
+	<body>
+		<h2>Neomojimixer</h2>
+		<p style="padding-bottom:10px;">Mix your Neomoji parts as you like.</p>
+		<p id="noJSmessage">Please active JavaScript to use the Neomojimixer!</p>
+		<div id="images" class="container">
+			<img class="body" id="body_img" src="" />
+			<img class="eyes" id="eyes_img" src="" />
+			<img class="mouth" id="mouth_img" src="" />
+			<img class="arms" id="arms_img" src="" />
+		</div>
+		<div id="controls">
+			<div class="body"><button id="body_left" onclick="onClick_body_prev();" disabled><</button><span class="name" id="body_name">name body</span><button id="body_right" onclick="onClick_body_next();" disabled>></button></div>
+			<div class="eyes"><button id="eyes_left" onclick="onClick_eyes_prev();" disabled><</button><span class="name" id="eyes_name">name eyes</span><button id="eyes_right" onclick="onClick_eyes_next();" disabled>></button></div>
+			<div class="mouth"><button id="mouth_left" onclick="onClick_mouth_prev();" disabled><</button><span class="name" id="mouth_name">name mouth</span><button id="mouth_right" onclick="onClick_mouth_next();" disabled>></button></div>
+			<div class="arms"><button id="arms_left" onclick="onClick_arms_prev();" disabled><</button><span class="name" id="arms_name">name arms</span><button id="arms_right" onclick="onClick_arms_next();" disabled>></button></div>
+			<div class="random"><button id="random" onclick="randomize();" disabled>Random</button></div>
+			<div class="export"><button id="export" onclick="exportImage();" disabled>Export Image</button></div>
+		</div>
+		<div id="stats">stats</div>
+		<canvas id="canvas_export" width="256" height="256" hidden name="test.png"></canvas>
+		<p id="exportSaveMessage" hidden>To save right click and choose "Save image as..."</p>
+		<input type="text" id="fullNeomojiName" name="" value="" readonly hidden/>
+		<p>Neomojis are from the following sources: </p>
+			<ul>
+				<li><b><a href="https://volpeon.ink/emojis/neofox/" target="_blank" class="links">Neofox</a></b> by Volpeon</li>
+				<li><b><a href="https://volpeon.ink/emojis/neocat/" target="_blank" class="links">Neocat</a></b> by Volpeon</li>
+			</ul>
+		<p>Sourcecode on Codeberg: <a href="https://codeberg.org/" target="_blank">TODO: set link to repo! Neomoji Mixer</a>
+			
+		<!-- Load in the JS as the last element or the DOM objects won't be there -->
+			<script src="neomojimixer.js"></script> 
+	</body>
+</html>
