@@ -54,6 +54,7 @@
 			{"name": "neocat_police","url": "/parts/neocat_police.png", "color": "orange"},
 			{"name": "neocat_santa","url": "/parts/neocat_santa.png", "color": "orange"},
 			{"name": "neocat_mask","url": "/parts/neocat_mask.png", "color": "orange"},
+			{"name": "neoredpanda","url": "/parts/neoredpanda.png", "color": "orange"},
 			{"name": "neopossum","url": "/parts/neopossum.png", "color": "orange"},
 			{"name": "neopossum_angel","url": "/parts/neopossum_angel.png", "color": "orange"},
 			{"name": "neopossum_foxmask","url": "/parts/neopossum_foxmask.png", "color": "orange"},
