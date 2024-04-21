@@ -6,11 +6,20 @@ let body = [];
 let mouth = [];
 let arms = [];
 
+//FOr all the different colours of the arms there will be each a own arraz
+let arms_orange = [];
+let arms_blue = [];
+let arms_lightgrey = [];
+let arms_red = [];
+let arms_white = [];
+let arms_yellow = [];
+
 //Index to easily find when to roll back to the first/last element in the list
 let inex_eyes = 0;
 let index_body = 0;
 let index_mouth = 0;
 let index_arms = 0;
+let index_color = 0;
 
 //shotnames for HTML elements to interact with
 
@@ -56,6 +65,9 @@ function loadParts(parts) {
 	parts.type.mouth.forEach(fillArrayMouth);
 	parts.type.arms.forEach(fillArrayArms);
 	
+	//find the indexes of each part of the corresponding color and write those into the color arrays
+	fillArraysArms();
+	
 	//Randomize initial view
 	randomize();
 	
@@ -80,36 +92,78 @@ function loadParts(parts) {
 }
 
 function fillArrayEyes(item){
-	var name = item.name;
-	var url = item.url;
+	let name = item.name;
+	let url = item.url;
 	eyes.push ([name, url]); //Two dimensional array, Second dimension holds name on index 0 and url at index 1
 }
 
 function fillArrayBody(item){
-	var name = item.name;
-	var url = item.url;
-	body.push ([name, url]); //Two dimensional array, Second dimension holds name on index 0 and url at index 1
+	let name = item.name;
+	let url = item.url;
+	let color = item.color;
+	body.push ([name, url, color]); //Two dimensional array, Second dimension holds name on index 0 and url at index 1
 }
 
 function fillArrayMouth(item){
-	var name = item.name;
-	var url = item.url;
+	let name = item.name;
+	let url = item.url;
 	mouth.push ([name, url]); //Two dimensional array, Second dimension holds name on index 0 and url at index 1
 }
 
 function fillArrayArms(item){
-	var name = item.name;
-	var url = item.url;
-	arms.push ([name, url]); //Two dimensional array, Second dimension holds name on index 0 and url at index 1
+	let name = item.name;
+	let url = item.url;
+	let color = item.color;
+	arms.push ([name, url, color]); //Two dimensional array, Second dimension holds name on index 0 and url at index 1
 }
+
+function fillArraysArms(){
+	for (let i=0; i<arms.length; i++){
+		if (arms[i][2] == "blue" || arms[i][2] == ""){
+			arms_blue.push(i);
+		}
+		
+		if (arms[i][2] == "lightgrey" || arms[i][2] == ""){
+			arms_lightgrey.push(i);
+		}
+		
+		if (arms[i][2] == "orange" || arms[i][2] == ""){
+			arms_orange.push(i);
+		}
+		
+		if (arms[i][2] == "red" || arms[i][2] == ""){
+			arms_red.push(i);
+		}
+		
+		if (arms[i][2] == "white" || arms[i][2] == ""){
+			arms_white.push(i);
+		}
+		
+		if (arms[i][2] == "yellow" || arms[i][2] == ""){
+			arms_yellow.push(i);
+		}
+	}
+}
+
+
 
 function onClick_body_next(){
 	index_body++;
 	
 	if (index_body == body.length) {index_body = 0;} //check if index is too big for the array
 	
-	body_image.src = "." + body[index_body][1]; //Change URL of picture
-	body_name.innerHTML = body[index_body][0]; //Change name in controls
+	if (body[index_body][2] == "blue"){index_arms = arms_blue[index_color];}
+	else if (body[index_body][2] == "lightgrey"){index_arms = arms_lightgrey[index_color];}
+	else if (body[index_body][2] == "orange"){index_arms = arms_orange[index_color];}
+	else if (body[index_body][2] == "red"){index_arms = arms_red[index_color];}
+	else if (body[index_body][2] == "white"){index_arms = arms_white[index_color];}
+	else if (body[index_body][2] == "yellow"){index_arms = arms_yellow[index_color];} 
+	
+	body_image.src = "." + body[index_body][1]; //Change URL of body picture
+	body_name.innerHTML = body[index_body][0]; //Change body name in controls
+
+	arms_image.src = "." + arms[index_arms][1]; //Change URL of arms picture
+	arms_name.innerHTML = arms[index_arms][0]; //Change arms name in controls
 }
 
 function onClick_body_prev(){
@@ -117,8 +171,18 @@ function onClick_body_prev(){
 	
 	if (index_body < 0) {index_body = (body.length-1);} //check if index is too big for the array
 	
-	body_image.src = "." + body[index_body][1]; //Change URL of picture
-	body_name.innerHTML = body[index_body][0]; //Change name in controls
+	if (body[index_body][2] == "blue"){index_arms = arms_blue[index_color];}
+	else if (body[index_body][2] == "lightgrey"){index_arms = arms_lightgrey[index_color];}
+	else if (body[index_body][2] == "orange"){index_arms = arms_orange[index_color];}
+	else if (body[index_body][2] == "red"){index_arms = arms_red[index_color];}
+	else if (body[index_body][2] == "white"){index_arms = arms_white[index_color];}
+	else if (body[index_body][2] == "yellow"){index_arms = arms_yellow[index_color];} 
+	
+	body_image.src = "." + body[index_body][1]; //Change URL of body picture
+	body_name.innerHTML = body[index_body][0]; //Change body name in controls
+
+	arms_image.src = "." + arms[index_arms][1]; //Change URL of arms picture
+	arms_name.innerHTML = arms[index_arms][0]; //Change arms name in controls
 }
 
 function onClick_eyes_next(){
@@ -158,18 +222,64 @@ function onClick_mouth_prev(){
 }
 
 function onClick_arms_next(){
-	index_arms++;
+	index_color++;
 	
-	if (index_arms == arms.length) {index_arms = 0;} //check if index is too big for the array
+	if (body[index_body][2] == "blue"){
+		if (index_color == arms_blue.length) {index_color = 0;}
+		index_arms = arms_blue[index_color];
+	}
+	else if (body[index_body][2] == "lightgrey"){
+		if (index_color == arms_lightgrey.length) {index_color = 0;}
+		index_arms = arms_lightgrey[index_color];
+	}
+	else if (body[index_body][2] == "orange"){
+		if (index_color == arms_orange.length) {index_color = 0;}
+		index_arms = arms_orange[index_color];
+	}
+	else if (body[index_body][2] == "red"){
+		if (index_color == arms_red.length) {index_color = 0;}
+		index_arms = arms_red[index_color];
+	}
+	else if (body[index_body][2] == "white"){
+		if (index_color == arms_white.length) {index_color = 0;}
+		index_arms = arms_white[index_color];
+	}
+	else if (body[index_body][2] == "yellow"){
+		if (index_color == arms_yellow.length) {index_color = 0;}
+		index_arms = arms_yellow[index_color];
+	} 
 	
 	arms_image.src = "." + arms[index_arms][1]; //Change URL of picture
 	arms_name.innerHTML = arms[index_arms][0]; //Change name in controls
 }
 
 function onClick_arms_prev(){
-	index_arms--;
+	index_color--;
 	
-	if (index_arms < 0) {index_arms = (arms.length-1);} //check if index is too big for the array
+	if (body[index_body][2] == "blue"){
+		if (index_color < 0) {index_color = arms_blue.length-1;}
+		index_arms = arms_blue[index_color];
+	}
+	else if (body[index_body][2] == "lightgrey"){
+		if (index_color < 0) {index_color = arms_lightgrey.length-1;}
+		index_arms = arms_lightgrey[index_color];
+	}
+	else if (body[index_body][2] == "orange"){
+		if (index_color < 0) {index_color = arms_orange.length-1;}
+		index_arms = arms_orange[index_color];
+	}
+	else if (body[index_body][2] == "red"){
+		if (index_color < 0) {index_color = arms_red.length-1;}
+		index_arms = arms_red[index_color];
+	}
+	else if (body[index_body][2] == "white"){
+		if (index_color < 0) {index_color = arms_white.length-1;}
+		index_arms = arms_white[index_color];
+	}
+	else if (body[index_body][2] == "yellow"){
+		if (index_color < 0) {index_color = arms_yellow.length-1;}
+		index_arms = arms_yellow[index_color];
+	} 
 	
 	arms_image.src = "." + arms[index_arms][1]; //Change URL of picture
 	arms_name.innerHTML = arms[index_arms][0]; //Change name in controls
@@ -179,7 +289,34 @@ function randomize(){ //Randomize which parts are shown
 	index_body = Math.floor(Math.random() * body.length);
 	index_eyes = Math.floor(Math.random() * eyes.length);
 	index_mouth = Math.floor(Math.random() * mouth.length);
-	index_arms = Math.floor(Math.random() * arms.length);
+	index_arms = 0;
+	
+	//Determine what color the body has and chose the arms color in the same way
+	//Basically it does a random on the arms array and returns an index number with the right color for that body
+	if (body[index_body][2] == "blue"){
+		index_color = Math.floor(Math.random() * arms_blue.length)
+		index_arms = arms_blue[index_color];
+	}
+	else if (body[index_body][2] == "lightgrey"){
+		index_color = Math.floor(Math.random() * arms_lightgrey.length)
+		index_arms = arms_lightgrey[index_color];
+	}
+	else if (body[index_body][2] == "orange"){
+		index_color = Math.floor(Math.random() * arms_orange.length)
+		index_arms = arms_orange[index_color];
+	}
+	else if (body[index_body][2] == "red"){
+		index_color = Math.floor(Math.random() * arms_red.length)
+		index_arms = arms_red[index_color];
+	}
+	else if (body[index_body][2] == "white"){
+		index_color = Math.floor(Math.random() * arms_white.length)
+		index_arms = arms_white[index_color];
+	}
+	else if (body[index_body][2] == "yellow"){
+		index_color = Math.floor(Math.random() * arms_yellow.length)
+		index_arms = arms_yellow[index_color];
+	}
 	
 	body_image.src = "." + body[index_body][1];
 	eyes_image.src = "." + eyes[index_eyes][1];
