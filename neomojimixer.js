@@ -73,7 +73,7 @@ function loadParts(parts) {
 	
 	//Show little statistic
 	var sum = body.length + eyes.length + mouth.length + arms.length;
-	var variety = body.length * eyes.length * mouth.length * arms.length;
+	var variety = body.length * eyes.length * mouth.length * arms_orange.length;
 	
 	stats.innerHTML = "There are " + sum + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.";
 	
