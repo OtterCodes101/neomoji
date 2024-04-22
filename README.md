@@ -36,17 +36,13 @@ I used [lighttpd](https://www.lighttpd.net/) on an Linux laptop, that I started 
 
 YES! I actually do! creating the first 95 elements took me over six hours to make. Some parts where as easy as simply two clicks, others had to be manually extracted, so any help is welcome, especially when you ask yourself the following questions:
 
-`partX` **looks wonky/ doesn't work with** `partY`
-As stated it took me quite some work to edit all the parts. So if you are good in editing PNG graphics or have more patience with GIMP, feel free to improve the files!
+`partX` **looks wonky/ doesn't work with** `partY`: As stated it took me quite some work to edit all the parts. So if you are good in editing PNG graphics or have more patience with GIMP, feel free to improve the files!
 
-**I am missing** `partZ`
-I haven't and can't add all of the parts the neomojis are made of. For example the `flop` or `up` variants are a little bit tricky because I have to flip the other three layers of the image and adjust for their position to make it fit. Maybe I will work on a solution later, but at the moment its not my main goal.
+**I am missing** `partZ` : I haven't and can't add all of the parts the neomojis are made of. For example the `flop` or `up` variants are a little bit tricky because I have to flip the other three layers of the image and adjust for their position to make it fit. Maybe I will work on a solution later, but at the moment its not my main goal.
 
-**"That isn't Javascript, that is an illness!" or "That HTML is ugly as fuck!"**
-I am not a professional programmer or webdev of any kind. So if you can improve any of my code, to make it faster or better to read, feel free to send me a pull request. Every help in this way is welcome.
+**"That isn't Javascript, that is an illness!" or "That HTML is ugly as fuck!"** : I am not a professional programmer or webdev of any kind. So if you can improve any of my code, to make it faster or better to read, feel free to send me a pull request. Every help in this way is welcome.
 
-**Why isn't ** `$neomoji` **available?**
-Probably I don't know about the existence of the neomoji, couldn't reach the original author or they just didn't allowed the usage of it for the neomojimixer.
+**Why isn't** `$neomoji` **available?** : Probably I don't know about the existence of the neomoji, couldn't reach the original author or they just didn't allowed the usage of it for the neomojimixer.
 
 ## Thanks to the following people
 
