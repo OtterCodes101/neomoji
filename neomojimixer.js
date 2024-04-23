@@ -224,6 +224,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		//Randomize initial view
 		randomize();
 
+		// If there was a hash, restore as a direct permalink.
+		if (document.location.hash != "") {
+			loadFromHash(document.location.hash);
+		}
+		window.addEventListener("hashchange", () => {
+			loadFromHash(document.location.hash);
+		});
+
 		//Show little statistic
 		var sum = 0;
 		var variety = 1;
@@ -241,6 +249,26 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		document.getElementById("random").disabled = false;
 		document.getElementById("export").disabled = false;
 
+	}
+
+	function loadFromHash(hash) {
+		let parts = hash
+			.slice(1) // the first character is always the '#' sign
+			.split('+');
+
+		// define a constant order for the parts to appear in the hash
+		const parts_order = ["body", "eyes", "mouth", "arms"];
+
+		if (parts.length == parts_order.length) {
+			// convert the part names to part indices
+			parts = parts.map((name, i) =>
+				Array.from(part_handlers[parts_order[i]].name_element.options).findIndex(x => x.value === name)
+			);
+			if (parts.every(x => x != -1)) {
+				// all part names were found
+				parts.forEach((part_index, i) => part_handlers[parts_order[i]].setIndex(part_index));
+			}
+		}
 	}
 
 	function randomize() { //Randomize which parts are shown
