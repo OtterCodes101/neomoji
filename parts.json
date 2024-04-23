@@ -91,6 +91,7 @@
 			{"name": "nom_verified","url": "/parts/mouth_nom_verified.png"},
 			{"name": "nom_waffle","url": "/parts/mouth_nom_waffle.png"},
 			{"name": "hissing","url": "/parts/mouth_hissing.png"},
+			{"name": "woozy","url": "/parts/mouth_woozy.png"},
 			{"name": "blank", "url": "/parts/blank.png"}
 		],
 		"arms": [
