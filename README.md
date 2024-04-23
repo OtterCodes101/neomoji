@@ -26,7 +26,7 @@ The colour of the arms is determined by the last of the three entries named `"co
 
 The export works in a way that in the background all the parts are drawn onto a canvas and then exported into a PNG that is then displayed. Direct canvas download isn't supported on the most mobile browsers so I chosen to got that little bit longer route, to make it more easily to download any of the mixed neomojis.
 
-## I dowoloaded it localy, but it doesn't work?!?
+## I downloaded it localy, but it doesn't work?!?
 
 Welcome to the world of Javascript!
 Due to security reasons javascript that is displayed in a Brwoser can't access files diretly, so to speak on the PC the JavaScript si executed one. The solutions is relativly simple: Run a small http server locally.
@@ -57,6 +57,10 @@ YES! I actually do! creating the first 95 elements took me over six hours to mak
 [EeveeEuphoria](https://yiff.life/@EeveeEuphoria)
 - For creating the [neopossum emojis](https://yiff.life/@EeveeEuphoria/112039918021786980)
 - For letting me use them in this project!
+
+[vftdan](https://mastodon.ml/@vftdan)
+- For completly rewriting the JavaScript
+- Adding drowpdown menus for the part selection
 
 You
 - For any feedback, bug report or pull request to improve this project!
