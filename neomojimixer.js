@@ -282,7 +282,9 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-		neomoji_name.value = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0]; //Set name for the emoji to use as the image name and to show as shortcode
+		//Set name for the emoji to use as the image name and to show as shortcode
+		neomoji_name.innerText = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0];
+		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0], document.location.href)
 
 		let export_layers = [
 			part_handlers.body.createExportImage(),
