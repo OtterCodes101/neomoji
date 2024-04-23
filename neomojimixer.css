@@ -47,7 +47,7 @@ button#export {
 	width: 250px;
 }
 
-span.name {
+#controls > div > .name {
 	display: inline-block;
 	width: 200px;
 	text-align: center;
