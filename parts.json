@@ -106,7 +106,9 @@
 			{"name": "nom_waffle","url": "/parts/mouth_nom_waffle.png"},
 			{"name": "hissing","url": "/parts/mouth_hissing.png"},
 			{"name": "woozy","url": "/parts/mouth_woozy.png"},
+			{"name": "hmph","url": "/parts/mouth_hmph.png"},
 			{"name": "blank", "url": "/parts/blank.png"}
+
 		],
 		"arms": [
 			{"name": "hide","url": "/parts/arms_hide_orange.png", "color": "orange"},
