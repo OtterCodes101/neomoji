@@ -58,6 +58,10 @@ YES! I actually do! creating the first 95 elements took me over six hours to mak
 - For creating the [neopossum emojis](https://yiff.life/@EeveeEuphoria/112039918021786980)
 - For letting me use them in this project!
 
+[olivvybee](https://honeycomb.engineer/@olivvybee)
+- For creating the [neobread emojis](https://github.com/olivvybee/neobread) and [blobbee emojis](https://github.com/olivvybee/blobbee/releases/latest)
+- For letting me use them in this project!
+
 [vftdan](https://mastodon.ml/@vftdan)
 - For completly rewriting the JavaScript
 - Adding drowpdown menus for the part selection
