@@ -16,6 +16,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 	const canvas = document.getElementById("canvas_export");
 	const export_img = document.getElementById("imageExport");
+	const export_img_download = document.getElementById("imageExportLink");
 	const neomoji_name = document.getElementById("fullNeomojiName");
 
 	//Stats
@@ -259,7 +260,8 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-		neomoji_name.value = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0]; //Set name for the emoji to use as the image name and to show as shortcode
+		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0];
+		neomoji_name.value = name; //Set name for the emoji to use as the image name and to show as shortcode
 
 		let export_layers = [
 			part_handlers.body.createExportImage(),
@@ -281,11 +283,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			}
 			let img = canvas.toDataURL(export_mime, export_options);
 			export_img.src = img;
+			export_img_download.href = img;
+			export_img_download.download = name + "." + (export_mime.match(/\/(\w+)/) || ["", "png"])[1];
 		}
 
 		setTimeout(layerCallback, 0); //Run asynchronously
 
 		export_img.hidden = false;
+		export_img_download.hidden = false;
 		neomoji_name.hidden = false;
 		document.getElementById("exportSaveMessage").hidden = false;
 	}
