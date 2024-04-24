@@ -66,5 +66,8 @@ YES! I actually do! creating the first 95 elements took me over six hours to mak
 - For completly rewriting the JavaScript
 - Adding drowpdown menus for the part selection
 
+[Johann150](https://genau.qwertqwefsday.eu/@Johann150)
+- For the permalink functionality
+
 You
 - For any feedback, bug report or pull request to improve this project!
