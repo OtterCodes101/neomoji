@@ -251,6 +251,11 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 	function exportImage() { //Export image so it can be saved as one PNG
 		let ctx=canvas.getContext("2d");
+		let export_mime = document.getElementById("export-mime").value;
+		let export_options = undefined;
+		if (document.getElementById("export-quality-enabled").checked) {
+			export_options = +document.getElementById("export-quality").value;
+		}
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -274,7 +279,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 				export_layers.shift()
 				ctx.drawImage(layer, 0, 0, 256, 256);
 			}
-			let img = canvas.toDataURL("image/png");
+			let img = canvas.toDataURL(export_mime, export_options);
 			export_img.src = img;
 		}
 

@@ -34,16 +34,33 @@ img.arms {
 	width: 256px;
 }
 
+input, button, select {
+	box-sizing: border-box;
+}
+
 button {
 	width: 25px;
 	height: 25px;
 }
 
-button#random {
-	width: 250px;
+input[type="checkbox"] {
+	margin: 4px;
+	width: 17px;
+	height: 17px;
 }
 
-button#export {
+.export > label {
+	display: block;
+	width: 250px;
+	clear: both;
+}
+
+.export > label > input:not([type="checkbox"]) {
+	width: 125px;
+	float: right;
+}
+
+button#random, button#export {
 	width: 250px;
 }
 
