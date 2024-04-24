@@ -9,6 +9,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"white",
 		"yellow",
 		"lightbrown",
+		"grey",
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];
