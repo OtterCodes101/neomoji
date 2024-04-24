@@ -8,6 +8,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"red",
 		"white",
 		"yellow",
+		"lightbrown",
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];
@@ -225,6 +226,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		//Randomize initial view
 		randomize();
 
+		// If there was a hash, restore as a direct permalink.
+		if (document.location.hash != "") {
+			loadFromHash(document.location.hash);
+		}
+		window.addEventListener("hashchange", () => {
+			loadFromHash(document.location.hash);
+		});
+
 		//Show little statistic
 		var sum = 0;
 		var variety = 1;
@@ -244,6 +253,26 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 	}
 
+	function loadFromHash(hash) {
+		let parts = hash
+			.slice(1) // the first character is always the '#' sign
+			.split('+');
+
+		// define a constant order for the parts to appear in the hash
+		const parts_order = ["body", "eyes", "mouth", "arms"];
+
+		if (parts.length == parts_order.length) {
+			// convert the part names to part indices
+			parts = parts.map((name, i) =>
+				Array.from(part_handlers[parts_order[i]].name_element.options).findIndex(x => x.value === name)
+			);
+			if (parts.every(x => x != -1)) {
+				// all part names were found
+				parts.forEach((part_index, i) => part_handlers[parts_order[i]].setIndex(part_index));
+			}
+		}
+	}
+
 	function randomize() { //Randomize which parts are shown
 		for (const i in part_handlers) {
 			part_handlers[i].randomize();
@@ -260,8 +289,10 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+		//Set name for the emoji to use as the image name and to show as shortcode
 		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0];
-		neomoji_name.value = name; //Set name for the emoji to use as the image name and to show as shortcode
+		neomoji_name.innerText = name;
+		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0], document.location.href)
 
 		let export_layers = [
 			part_handlers.body.createExportImage(),
