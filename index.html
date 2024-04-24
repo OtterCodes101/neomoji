@@ -22,12 +22,29 @@
 			<div class="mouth"><button id="mouth_left" onclick="NeomojiMixer.part_handlers.mouth.onClickPrev();" disabled><</button><select class="name" id="mouth_name" onchange="NeomojiMixer.part_handlers.mouth.onChangeDropdown();" disabled>name mouth</select><button id="mouth_right" onclick="NeomojiMixer.part_handlers.mouth.onClickNext();" disabled>></button></div>
 			<div class="arms"><button id="arms_left" onclick="NeomojiMixer.part_handlers.arms.onClickPrev();" disabled><</button><select class="name" id="arms_name" onchange="NeomojiMixer.part_handlers.arms.onChangeDropdown();" disabled>name arms</select><button id="arms_right" onclick="NeomojiMixer.part_handlers.arms.onClickNext();" disabled>></button></div>
 			<div class="random"><button id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button></div>
-			<div class="export"><button id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button></div>
+			<div class="export">
+				<button id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
+				<label>
+					Export type:
+					<input type="text" id="export-mime" list="export-mime-list" value="image/png" />
+					<datalist id="export-mime-list">
+						<option value="image/png"></option>
+						<option value="image/webp"></option>
+						<option value="image/jpeg"></option>
+					</datalist>
+				</label>
+				<label>
+					<input type="checkbox" id="export-quality-enabled" />Quality:<input type="number" id="export-quality" min="0.0" max="1.0" step="0.1" value="1.0" />
+				</label>
+			</div>
 		</div>
 		<div id="stats">stats</div>
 		<canvas id="canvas_export" width="256" height="256" hidden name="test.png"></canvas>
 		<img id="imageExport" src="" hidden/>
-		<p id="exportSaveMessage" hidden>To save right click and choose "Save image as..."</p>
+		<p>
+			<a id="imageExportLink" download href="" target="_blank" hidden>Download</a>
+		</p>
+		<p id="exportSaveMessage" hidden>To save right click and choose "Save image as..." or click the "Download" link</p>
 		<a id="fullNeomojiName" hidden></a>
 		<p>Neomojis are from the following sources: </p>
 			<ul>

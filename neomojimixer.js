@@ -18,6 +18,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 	const canvas = document.getElementById("canvas_export");
 	const export_img = document.getElementById("imageExport");
+	const export_img_download = document.getElementById("imageExportLink");
 	const neomoji_name = document.getElementById("fullNeomojiName");
 
 	//Stats
@@ -281,11 +282,17 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 	function exportImage() { //Export image so it can be saved as one PNG
 		let ctx=canvas.getContext("2d");
+		let export_mime = document.getElementById("export-mime").value;
+		let export_options = undefined;
+		if (document.getElementById("export-quality-enabled").checked) {
+			export_options = +document.getElementById("export-quality").value;
+		}
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 		//Set name for the emoji to use as the image name and to show as shortcode
-		neomoji_name.innerText = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0];
+		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0];
+		neomoji_name.innerText = name;
 		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0], document.location.href)
 
 		let export_layers = [
@@ -306,13 +313,16 @@ const NeomojiMixer = (function(NeomojiMixer) {
 				export_layers.shift()
 				ctx.drawImage(layer, 0, 0, 256, 256);
 			}
-			let img = canvas.toDataURL("image/png");
+			let img = canvas.toDataURL(export_mime, export_options);
 			export_img.src = img;
+			export_img_download.href = img;
+			export_img_download.download = name + "." + (export_mime.match(/\/(\w+)/) || ["", "png"])[1];
 		}
 
 		setTimeout(layerCallback, 0); //Run asynchronously
 
 		export_img.hidden = false;
+		export_img_download.hidden = false;
 		neomoji_name.hidden = false;
 		document.getElementById("exportSaveMessage").hidden = false;
 	}
