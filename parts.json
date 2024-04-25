@@ -35,6 +35,7 @@
 			{"name": "blank", "url": "/parts/blank.png"}
 		],
 		"body": [
+			{"name": "neofox","url": "/parts/neofox.png", "color": "orange"},
 			{"name": "neofox_floof","url": "/parts/neofox_floofy.png", "color": "orange"},
 			{"name": "neofox_comfy","url": "/parts/neofox_comfy.png", "color": "orange"},
 			{"name": "neofox_trans","url": "/parts/neofox_trans.png", "color": "orange"},
@@ -79,7 +80,7 @@
 			{"name": "blobbee","url": "/parts/blobbee.png", "color": "grey"},
 			{"name": "blobbee_angel","url": "/parts/blobbee_angel.png", "color": "grey"},
 			{"name": "blobbee_headphones","url": "/parts/blobbee_headphones.png", "color": "grey"},
-			{"name": "neofox","url": "/parts/neofox.png", "color": "orange"}
+			{"name": "neoyas","url": "/parts/neoyas.png", "color": "red"}
 		],
 		"mouth": [
 			{"name": "baa","url": "/parts/mouth_drool.png"},
