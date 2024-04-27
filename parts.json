@@ -257,6 +257,11 @@
         "color": "orange"
       },
       {
+        "name": "neofox_aroace",
+        "url": "/parts/neofox_aroace.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_devil",
         "url": "/parts/neofox_devil.png",
         "color": "red"
