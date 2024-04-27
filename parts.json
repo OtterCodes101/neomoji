@@ -436,6 +436,10 @@
         "url": "/parts/mouth_normal.png"
       },
       {
+        "name": "pacifier",
+        "url": "/parts/mouth_pacifier.png"
+      },
+      {
         "name": "pout",
         "url": "/parts/mouth_pout.png"
       },
