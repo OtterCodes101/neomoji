@@ -257,11 +257,6 @@
         "color": "yellow"
       },
       {
-        "name": "neocat_demigay",
-        "url": "/parts/neocat_demigay.png",
-        "color": "yellow"
-      },
-      {
         "name": "neocat_demigirl",
         "url": "/parts/neocat_demigirl.png",
         "color": "yellow"
@@ -382,8 +377,33 @@
         "color": "orange"
       },
       {
+        "name": "neofox_ace",
+        "url": "/parts/neofox_ace.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_agender",
+        "url": "/parts/neofox_agender.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_ambiamorous",
+        "url": "/parts/neofox_ambiamorous.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_androgyne",
+        "url": "/parts/neofox_androgyne.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_angel",
         "url": "/parts/neofox_angel.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_aro",
+        "url": "/parts/neofox_aro.png",
         "color": "orange"
       },
       {
@@ -392,8 +412,58 @@
         "color": "orange"
       },
       {
+        "name": "neofox_aroflux",
+        "url": "/parts/neofox_aroflux.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_bi",
+        "url": "/parts/neofox_bi.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_bigender",
+        "url": "/parts/neofox_bigender.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_comfy",
         "url": "/parts/neofox_comfy.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_demiace",
+        "url": "/parts/neofox_demiace.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_demiaro",
+        "url": "/parts/neofox_demiaro.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_demiflux",
+        "url": "/parts/neofox_demiflux.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_demigirl",
+        "url": "/parts/neofox_demigirl.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_demiguy",
+        "url": "/parts/neofox_demiguy.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_demilesbian",
+        "url": "/parts/neofox_demilesbian.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_deminb",
+        "url": "/parts/neofox_deminb.png",
         "color": "orange"
       },
       {
@@ -407,8 +477,38 @@
         "color": "red"
       },
       {
+        "name": "neofox_disabled",
+        "url": "/parts/neofox_disabled.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_finsexual",
+        "url": "/parts/neofox_finsexual.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_floof",
         "url": "/parts/neofox_floofy.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_gay",
+        "url": "/parts/neofox_gay.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_genderfluid",
+        "url": "/parts/neofox_genderfluid.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_intersex",
+        "url": "/parts/neofox_intersex.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_lesbian",
+        "url": "/parts/neofox_lesbian.png",
         "color": "orange"
       },
       {
@@ -417,8 +517,28 @@
         "color": "orange"
       },
       {
+        "name": "neofox_nb",
+        "url": "/parts/neofox_nb.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_pan",
+        "url": "/parts/neofox_pan.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_plural",
+        "url": "/parts/neofox_plural.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_police",
         "url": "/parts/neofox_police.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_polyam",
+        "url": "/parts/neofox_polyam.png",
         "color": "orange"
       },
       {
@@ -427,8 +547,18 @@
         "color": "orange"
       },
       {
+        "name": "neofox_salmacian",
+        "url": "/parts/neofox_salmacian.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_santa",
         "url": "/parts/neofox_santa.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_sapphic",
+        "url": "/parts/neofox_aroflux.png",
         "color": "orange"
       },
       {
