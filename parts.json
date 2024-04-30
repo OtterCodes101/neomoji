@@ -202,8 +202,78 @@
         "color": "yellow"
       },
       {
-        "name": "neocat_comfy",
-        "url": "/parts/neocat_comfy.png",
+        "name": "neocat_ace",
+        "url": "/parts/neocat_ace.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_agender",
+        "url": "/parts/neocat_agender.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_ambiamorous",
+        "url": "/parts/neocat_ambiamorous.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_androgyne",
+        "url": "/parts/neocat_androgyne.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_aro",
+        "url": "/parts/neocat_aro.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_aroflux",
+        "url": "/parts/neocat_aroflux.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_bi",
+        "url": "/parts/neocat_bi.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_bigender",
+        "url": "/parts/neocat_bigender.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_demiace",
+        "url": "/parts/neocat_demiace.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_demiaro",
+        "url": "/parts/neocat_demiaro.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_demiflux",
+        "url": "/parts/neocat_demiflux.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_demigay",
+        "url": "/parts/neocat_demigay.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_demigirl",
+        "url": "/parts/neocat_demigirl.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_demiguy",
+        "url": "/parts/neocat_demiguy.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_deminb",
+        "url": "/parts/neocat_deminb.png",
         "color": "yellow"
       },
       {
@@ -217,8 +287,38 @@
         "color": "red"
       },
       {
+        "name": "neocat_disabled",
+        "url": "/parts/neocat_disabled.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_finsexual",
+        "url": "/parts/neocat_finsexual.png",
+        "color": "yellow"
+      },
+      {
         "name": "neocat_floof",
         "url": "/parts/neocat_floof.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_gay",
+        "url": "/parts/neocat_gay.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_genderfluid",
+        "url": "/parts/neocat_genderfluid.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_intersex",
+        "url": "/parts/neocat_intersex.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_lesbian",
+        "url": "/parts/neocat_lesbian.png",
         "color": "yellow"
       },
       {
@@ -227,8 +327,28 @@
         "color": "yellow"
       },
       {
+        "name": "neocat_nb",
+        "url": "/parts/neocat_nb.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_pan",
+        "url": "/parts/neocat_pan.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_plural",
+        "url": "/parts/neocat_plural.png",
+        "color": "yellow"
+      },
+      {
         "name": "neocat_police",
         "url": "/parts/neocat_police.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_polyam",
+        "url": "/parts/neocat_polyam.png",
         "color": "yellow"
       },
       {
@@ -237,8 +357,23 @@
         "color": "yellow"
       },
       {
+        "name": "neocat_salmacian",
+        "url": "/parts/neocat_salmacian.png",
+        "color": "yellow"
+      },
+      {
         "name": "neocat_santa",
         "url": "/parts/neocat_santa.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_sapphic",
+        "url": "/parts/neocat_sapphic.png",
+        "color": "yellow"
+      },
+      {
+        "name": "neocat_trans",
+        "url": "/parts/neocat_trans.png",
         "color": "yellow"
       },
       {
