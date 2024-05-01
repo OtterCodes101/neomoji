@@ -40,6 +40,13 @@ h1, h2, h3, h4, h5, h6, p {
 	box-shadow: var(--harsh-shadow);
 	transition: transform .4s cubic-bezier(0,0,0,2.5);
 }
+.button.muted {
+	border-radius: 100px;
+	background: var(--bg-2);
+	color: var(--fg);
+	padding-block: 8px;
+	font-size: .8em
+}
 @media (prefers-reduced-motion: no-preference) {
 	.button:hover {
 		transform: scale(1.02)
@@ -218,6 +225,15 @@ label input:not([type="checkbox"]) {
 	margin-inline-start: auto;
 }
 
+.neo-list {
+	display: flex;
+	justify-content: center;
+	gap: 4px;
+}
+.neo-list img {
+	width: 30px;
+	height: 30px;
+}
 
 #export-container {
 	position: sticky;
@@ -302,3 +318,4 @@ label input:not([type="checkbox"]) {
 		opacity: 0;
 	}
 }
+
