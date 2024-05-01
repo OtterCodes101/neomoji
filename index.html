@@ -9,7 +9,19 @@
 	<body>
 		<h2>Neomojimixer (BETA)</h2>
 		<p style="padding-bottom:10px;">Mix your Neomoji parts as you like.</p>
-		<p id="noJSmessage">Please active JavaScript to use the Neomojimixer!</p>
+		<noscript>
+			<p>Please active JavaScript to use the Neomojimixer!</p>
+		</noscript>
+		<div>
+			<section>
+				<h3>
+
+				</h3>
+				<div class="list-row" id="body_name">
+					
+				</div>
+			</section>
+		</div>
 		<div id="images" class="container">
 			<img class="body" id="body_img" src="" />
 			<img class="eyes" id="eyes_img" src="" />
@@ -17,7 +29,7 @@
 			<img class="arms" id="arms_img" src="" />
 		</div>
 		<div id="controls">
-			<div class="body"><button id="body_left" onclick="NeomojiMixer.part_handlers.body.onClickPrev();" disabled><</button><select class="name" id="body_name" onchange="NeomojiMixer.part_handlers.body.onChangeDropdown();" disabled>name body</select><button id="body_right" onclick="NeomojiMixer.part_handlers.body.onClickNext();" disabled>></button></div>
+			<!-- <div class="body"><button id="body_left" onclick="NeomojiMixer.part_handlers.body.onClickPrev();" disabled><</button><select class="name" id="body_name" onchange="NeomojiMixer.part_handlers.body.onChangeDropdown();" disabled>name body</select><button id="body_right" onclick="NeomojiMixer.part_handlers.body.onClickNext();" disabled>></button></div> -->
 			<div class="eyes"><button id="eyes_left" onclick="NeomojiMixer.part_handlers.eyes.onClickPrev();" disabled><</button><select class="name" id="eyes_name" onchange="NeomojiMixer.part_handlers.eyes.onChangeDropdown();" disabled>name eyes</select><button id="eyes_right" onclick="NeomojiMixer.part_handlers.eyes.onClickNext();" disabled>></button></div>
 			<div class="mouth"><button id="mouth_left" onclick="NeomojiMixer.part_handlers.mouth.onClickPrev();" disabled><</button><select class="name" id="mouth_name" onchange="NeomojiMixer.part_handlers.mouth.onChangeDropdown();" disabled>name mouth</select><button id="mouth_right" onclick="NeomojiMixer.part_handlers.mouth.onClickNext();" disabled>></button></div>
 			<div class="arms"><button id="arms_left" onclick="NeomojiMixer.part_handlers.arms.onClickPrev();" disabled><</button><select class="name" id="arms_name" onchange="NeomojiMixer.part_handlers.arms.onChangeDropdown();" disabled>name arms</select><button id="arms_right" onclick="NeomojiMixer.part_handlers.arms.onClickNext();" disabled>></button></div>

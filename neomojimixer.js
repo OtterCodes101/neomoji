@@ -87,8 +87,6 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			this.setIndex(this.name_element.selectedIndex);
 		},
 		activateControls: function() {
-			this.button_left.disabled = false;
-			this.button_right.disabled = false;
 			this.name_element.disabled = false;
 		},
 		randomize: function() {
@@ -101,20 +99,34 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			return img;
 		},
 		updateOptions: function() {
-			const options = this.name_element.options;
+			const options = this.name_element.childNodes;
+			this.name_element.innerHTML = "";
 			for (let i = 0; i < this.entry_indices.length; i++) {
 				const index = this.entry_indices[i];
 				const entry = this.entries[index];
+				console.log(entry);
 				if (options.length > i && options[i].value == entry[0]) {
 					continue;
 				} else {
-					const option = new Option(entry[0], entry[0], false, this.selected_index == i);
-					if (this.name_element.length <= i) {
-						this.name_element.add(option);
-					} else {
-						this.name_element.remove(i);
-						this.name_element.add(option, i);
-					}
+					// const option = new Option(entry[0], entry[0], false, this.selected_index == i);
+					const option = document.createElement("button");
+					option.classList.add("img_button");
+					const option_img = document.createElement("img");
+					option_img.src = "./" + entry[1];
+					option_img.setAttribute("loading", "lazy");
+					option.appendChild(option_img);
+
+					this.name_element.appendChild(option);
+
+					option.onclick = () => {
+						this.setIndex(index);
+					};
+					// if (this.name_element.length <= i) {
+					// 	// this.name_element.add(option);
+					// } else {
+					// 	// this.name_element.remove(i);
+					// 	// this.name_element.add(option, i);
+					// }
 				}
 			}
 		},
@@ -361,5 +373,4 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 
 //Main Programm
-document.getElementById("noJSmessage").hidden = true;
 NeomojiMixer.getData();
