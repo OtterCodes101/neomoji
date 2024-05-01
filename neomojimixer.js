@@ -110,11 +110,16 @@ const NeomojiMixer = (function(NeomojiMixer) {
 				} else {
 					// const option = new Option(entry[0], entry[0], false, this.selected_index == i);
 					const option = document.createElement("button");
-					option.classList.add("img_button");
+					option.classList.add("img-button");
+					option.setAttribute("aria-label", entry[0]);
 					const option_img = document.createElement("img");
 					option_img.src = "./" + entry[1];
 					option_img.setAttribute("loading", "lazy");
 					option.appendChild(option_img);
+
+					if (this.selected_index == index) {
+						option.classList.add("active");
+					}
 
 					this.name_element.appendChild(option);
 

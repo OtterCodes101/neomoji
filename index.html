@@ -5,6 +5,7 @@
 		<title>Neomojimixer (BETA)</title>
 		<link rel="shortcut icon" href="favicon.gif"  type="image/gif" />
 		<link rel="stylesheet" href="neomojimixer.css">
+		<link rel="stylesheet" href="styling.css">
 	</head>
 	<body>
 		<h2>Neomojimixer (BETA)</h2>
@@ -12,16 +13,54 @@
 		<noscript>
 			<p>Please active JavaScript to use the Neomojimixer!</p>
 		</noscript>
+
+
 		<div>
 			<section>
-				<h3>
-
-				</h3>
-				<div class="list-row" id="body_name">
-					
+				<h3>Animal</h3>
+				<div class="list-row">
+					<div class="list-row" id="animal_name">
+					</div>
+				</div>
+			</section>
+			<section>
+				<h3>Body</h3>
+				<div class="list-row">
+					<button id="body_left" onclick="NeomojiMixer.part_handlers.body.onClickPrev();" disabled><</button>
+					<div class="list-row" id="body_name">
+					</div>
+					<button id="body_right" onclick="NeomojiMixer.part_handlers.body.onClickNext();" disabled>></button>
+				</div>
+			</section>
+			<section>
+				<h3>Eyes</h3>
+				<div class="list-row">
+					<button id="eyes_left" onclick="NeomojiMixer.part_handlers.eyes.onClickPrev();" disabled><</button>
+					<div class="list-row" id="eyes_name">
+					</div>
+					<button id="eyes_right" onclick="NeomojiMixer.part_handlers.eyes.onClickNext();" disabled>></button>
+				</div>
+			</section>
+			<section>
+				<h3>Mouth</h3>
+				<div class="list-row">
+					<button id="mouth_left" onclick="NeomojiMixer.part_handlers.mouth.onClickPrev();" disabled><</button>
+					<div class="list-row" id="mouth_name">
+					</div>
+					<button id="mouth_right" onclick="NeomojiMixer.part_handlers.mouth.onClickNext();" disabled><</button>
+				</div>
+			</section>
+			<section>
+				<h3>Paws</h3>
+				<div class="list-row">
+					<button id="arms_left" onclick="NeomojiMixer.part_handlers.arms.onClickPrev();" disabled><</button>
+					<div class="list-row" id="arms_name">
+					</div>
+					<button id="arms_right" onclick="NeomojiMixer.part_handlers.arms.onClickNext();" disabled><</button>
 				</div>
 			</section>
 		</div>
+
 		<div id="images" class="container">
 			<img class="body" id="body_img" src="" />
 			<img class="eyes" id="eyes_img" src="" />
@@ -29,11 +68,8 @@
 			<img class="arms" id="arms_img" src="" />
 		</div>
 		<div id="controls">
-			<!-- <div class="body"><button id="body_left" onclick="NeomojiMixer.part_handlers.body.onClickPrev();" disabled><</button><select class="name" id="body_name" onchange="NeomojiMixer.part_handlers.body.onChangeDropdown();" disabled>name body</select><button id="body_right" onclick="NeomojiMixer.part_handlers.body.onClickNext();" disabled>></button></div> -->
-			<div class="eyes"><button id="eyes_left" onclick="NeomojiMixer.part_handlers.eyes.onClickPrev();" disabled><</button><select class="name" id="eyes_name" onchange="NeomojiMixer.part_handlers.eyes.onChangeDropdown();" disabled>name eyes</select><button id="eyes_right" onclick="NeomojiMixer.part_handlers.eyes.onClickNext();" disabled>></button></div>
-			<div class="mouth"><button id="mouth_left" onclick="NeomojiMixer.part_handlers.mouth.onClickPrev();" disabled><</button><select class="name" id="mouth_name" onchange="NeomojiMixer.part_handlers.mouth.onChangeDropdown();" disabled>name mouth</select><button id="mouth_right" onclick="NeomojiMixer.part_handlers.mouth.onClickNext();" disabled>></button></div>
-			<div class="arms"><button id="arms_left" onclick="NeomojiMixer.part_handlers.arms.onClickPrev();" disabled><</button><select class="name" id="arms_name" onchange="NeomojiMixer.part_handlers.arms.onChangeDropdown();" disabled>name arms</select><button id="arms_right" onclick="NeomojiMixer.part_handlers.arms.onClickNext();" disabled>></button></div>
-			<div class="random"><button id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button></div>
+			<div class="random">
+				<button id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button></div>
 			<div class="export">
 				<button id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
 				<label>
