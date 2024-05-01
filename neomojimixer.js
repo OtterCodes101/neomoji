@@ -39,8 +39,8 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		this.selected_index = 0; //index_color -> arms.selected_index; index_arms -> arms.entry_indices[arms.selected_index]
 		this.image_element = document.getElementById(name + "_img");
 		this.name_element = document.getElementById(name + "_name");
-		this.button_left = document.getElementById(name + "_left");
-		this.button_right = document.getElementById(name + "_right");
+		// this.button_left = document.getElementById(name + "_left");
+		// this.button_right = document.getElementById(name + "_right");
 	}
 
 	PartHandler.prototype = {
@@ -104,11 +104,9 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			for (let i = 0; i < this.entry_indices.length; i++) {
 				const index = this.entry_indices[i];
 				const entry = this.entries[index];
-				console.log(entry);
 				if (options.length > i && options[i].value == entry[0]) {
 					continue;
 				} else {
-					// const option = new Option(entry[0], entry[0], false, this.selected_index == i);
 					const option = document.createElement("button");
 					option.classList.add("img-button");
 					option.setAttribute("aria-label", entry[0]);
@@ -126,12 +124,6 @@ const NeomojiMixer = (function(NeomojiMixer) {
 					option.onclick = () => {
 						this.setIndex(i);
 					};
-					// if (this.name_element.length <= i) {
-					// 	// this.name_element.add(option);
-					// } else {
-					// 	// this.name_element.remove(i);
-					// 	// this.name_element.add(option, i);
-					// }
 				}
 			}
 		},
@@ -337,11 +329,8 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		}
 
 		setTimeout(layerCallback, 0); //Run asynchronously
-
-		export_img.hidden = false;
-		export_img_download.hidden = false;
-		neomoji_name.hidden = false;
-		document.getElementById("exportSaveMessage").hidden = false;
+		
+		document.getElementById("export-container").style.display = "";
 	}
 
 	NeomojiMixer.PartHandler = PartHandler;

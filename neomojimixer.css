@@ -24,10 +24,6 @@ img.arms {
 	position: absolute;
 }
 
-div#stats {
-	font-size: 0.5em;
-}
-
 canvas {
 	height: 300px;
 	width: 300px;
