@@ -11,6 +11,7 @@
 	--outer-padding: 3vh;
 	--padding: 24px;
 	--shadow: 0 4px 24px rgba(0,0,0,0.2);
+	--harsh-shadow: 0 4px 0 rgba(0,0,0,0.1);
 	--img-size: 100px;
 }
 
@@ -25,15 +26,28 @@
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 }
-button:not(.img-button) {
+.button {
+	display: inline-block;
 	background: var(--accent);
 	color: var(--accent-fg);
-	padding: 12px 18px;
+	padding: 12px 24px;
 	border-radius: var(--radius-small);
 	font-weight: bold;
 	margin: 8px;
 	border: 0;
 	font-size: inherit;
+	text-decoration: none;
+	box-shadow: var(--harsh-shadow);
+	transition: transform .4s cubic-bezier(0,0,0,2.5);
+}
+@media (prefers-reduced-motion: no-preference) {
+	.button:hover {
+		transform: scale(1.02)
+	}
+	.button:active {
+		transform: scale(.97);
+		transition: transform .3s cubic-bezier(0,0.2,0,1);
+	}
 }
 .list-row {
 	display: flex;
@@ -101,6 +115,10 @@ body {
 	gap: var(--outer-padding);
 	line-height: 1.5;
 }
+.title {
+	color: var(--accent-fg);
+	text-decoration: none;
+}
 h1 span {
 	display: inline-block;
 	background: var(--bg);
@@ -125,6 +143,11 @@ h1 span {
 	overflow-y: auto;
 	box-shadow: var(--shadow);
 }
+main {
+	padding: var(--padding);
+	margin: auto;
+	
+}
 .left-panel, .right-panel {
 	max-height: 100%;
 	box-sizing: border-box;
@@ -138,6 +161,7 @@ h1 span {
 .left-panel section {
 	overflow-x: auto;
 	padding: var(--padding);
+	padding-inline-end: calc(var(--padding) * 2);
 	border-bottom: 1px solid rgba(100,100,100,0.1);
 	contain: paint inline-size
 }
@@ -159,9 +183,9 @@ h1 span {
 	border-radius: var(--radius);
 	aspect-ratio: 1;
 	display: flex;
-	position: sticky;
-	top: 0;
 	z-index: 100;
+	margin-bottom: var(--padding);
+	box-shadow: var(--harsh-shadow);
 }
 .preview .container {
 	margin: auto;
@@ -176,7 +200,6 @@ h1 span {
 }
 
 #controls {
-	margin-top: var(--padding);
 	box-sizing: border-box;
 }
 #controls button {
@@ -187,16 +210,43 @@ h1 span {
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.export {
-	padding: var(--padding);
-}
 label {
 	display: flex;
+	margin: var(--padding);
 }
 label input:not([type="checkbox"]) {
 	margin-inline-start: auto;
 }
 
+
+#export-container {
+	position: sticky;
+	bottom: calc(0px - var(--padding) / 2);
+	margin: calc(0px - var(--padding) / 2);
+	background: var(--bg-2);
+	padding: var(--padding);
+	border-radius: var(--radius);
+	font-weight: bold;
+	margin-top: var(--padding);
+	animation: jumpFromBottom .4s cubic-bezier(0,0.7,0,1.2);
+	transition: transform .4s cubic-bezier(.4,0.4,0,1.2);
+}
+#export-container img {
+	height: 150px;
+	width: 100%;
+	object-fit: contain
+}
+#export-container a {
+	border-radius: 100px
+}
+#export-container .footer {
+	font-size: .7em
+}
+@media (prefers-reduced-motion: no-preference) {
+	#export-container:not(:hover):not(:focus-within) {
+		transform: translateY(60px) scale(.98);
+	}
+}
 
 
 @media (max-width: 700px) {
@@ -240,5 +290,15 @@ label input:not([type="checkbox"]) {
 		margin-inline: auto;
 		box-shadow: var(--shadow);
 		background: var(--bg);
+	}
+}
+
+
+
+
+@keyframes jumpFromBottom {
+	from {
+		transform: translateY(50px);
+		opacity: 0;
 	}
 }
