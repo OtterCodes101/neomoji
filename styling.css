@@ -246,7 +246,6 @@ label input:not([type="checkbox"]) {
 	font-weight: bold;
 	margin-top: var(--padding);
 	animation: jumpFromBottom .4s cubic-bezier(0,0.7,0,1.2);
-	transition: transform .4s cubic-bezier(.4,0.4,0,1.2);
 }
 #export-container img {
 	height: 150px;
@@ -258,11 +257,6 @@ label input:not([type="checkbox"]) {
 }
 #export-container .footer {
 	font-size: .7em
-}
-@media (prefers-reduced-motion: no-preference) {
-	#export-container:not(:hover):not(:focus-within) {
-		transform: translateY(60px) scale(.98);
-	}
 }
 
 
