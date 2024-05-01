@@ -9,10 +9,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div class="title">
+		<a class="title" href="/">
 			<h1>Neomojimixer <span>BETA</span></h1>
 			<p>Mix your Neomoji parts as you like.</p>
-		</div>
+		</a>
 		<noscript>
 			<p>Please active JavaScript to use the Neomojimixer!</p>
 		</noscript>
@@ -74,8 +74,8 @@
 				</section>
 				<section id="controls">
 					<div class="random">
-						<button id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button>
-						<button id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
+						<button class="button" id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button>
+						<button class="button" id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
 					</div>
 					<div class="export">
 						<label>
@@ -93,27 +93,17 @@
 					</div>
 				</section>
 				<div id="stats">stats</div>
-				<canvas id="canvas_export" width="256" height="256" hidden name="test.png"></canvas>
-				<img id="imageExport" src="" hidden/>
-				<p>
-					<a id="imageExportLink" download href="" target="_blank" hidden>Download</a>
-				</p>
-				<p id="exportSaveMessage" hidden>To save right click and choose "Save image as..." or click the "Download" link</p>
-				<a id="fullNeomojiName" hidden></a>
-				<p>Neomojis are from the following sources: </p>
-					<ul>
-						<li><b><a href="https://volpeon.ink/emojis/neofox/" target="_blank" class="links">Neofox</a></b> by <a href="https://is-a.wyvern.rip/@volpeon" target="_blank" class="links">Volpeon</a></li>
-						<li><b><a href="https://volpeon.ink/emojis/neocat/" target="_blank" class="links">Neocat</a></b> by Volpeon</li>
-						<li><b><a href="https://emoji-repo.absturztau.be/repo/neorat.zip" target="_blank" class="links">Neorat</a></b> by <a href="https://onemuri.nl/" target="_blank" class="links">Justje</a></li>
-						<li><b><a href="https://yiff.life/@EeveeEuphoria/112039918021786980" target="_blank" class="links">Neopossum</a></b> by <a href="https://yiff.life/@EeveeEuphoria" target="_blank" class="links">EeveeEuphoria</a></li>
-						<li><b><a href="https://github.com/olivvybee/neobread" target="_blank" class="links">Neobread</a></b> by <a href="https://honeycomb.engineer/@olivvybee" target="_blank" class="links">Olivvybee</a></li>
-						<li><b><a href="https://github.com/olivvybee/blobbee/releases/latest" target="_blank" class="links">Blobbee</a></b> by Olivvybee</li>
-						<li><b><a href="https://tech.lgbt/@kuriko/112331547364081709" target="_blank" class="links">Neoyas</a></b> by <a href="https://tech.lgbt/@kuriko" target="_blank" class="links">Kuriko</a> (exclusiv)</li>
-						<li><b><a href="https://floofy.city/notes/9slmyugwwsbe02hc" target="_blank" class="links">Neofox_aroace</a></b> by <a href="https://floofy.city/@asahi" target="_blank" class="links">asahi</a></li>
-						<li><b>Neoredpanda</b> by <a href="https://hat-eine.entenbru.st/@Erpel" target="_blank" class="links">Ente</a> (exclusiv)</li>
-					</ul>
-				<p>Sourcecode on Codeberg: <a href="https://codeberg.org/fotoente/neomojimixer" target="_blank">Neomojimixer</a>
-				<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+				<a href="imprint.html">Imprint</a>
+				
+				<div id="export-container" style="display: none;">
+					<canvas id="canvas_export" width="256" height="256" name="test.png" hidden></canvas>
+					<img id="imageExport" src="" />
+					<a id="imageExportLink" class="button" download href="" target="_blank">Download</a>
+					<div class="footer">
+						<a id="fullNeomojiName"></a>
+						<p>To save right click and choose "Save image as..." or click the "Download" link</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
