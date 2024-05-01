@@ -274,7 +274,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
 			parts = parts.map((name, i) =>
-				Array.from(part_handlers[parts_order[i]].name_element).findIndex(x => x.getAttribute("aria-label") === name)
+				Array.from(part_handlers[parts_order[i]].name_element.children).findIndex(x => x.getAttribute("aria-label") === name)
 			);
 			if (parts.every(x => x != -1)) {
 				// all part names were found
