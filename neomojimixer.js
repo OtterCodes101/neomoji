@@ -117,14 +117,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 					option_img.setAttribute("loading", "lazy");
 					option.appendChild(option_img);
 
-					if (this.selected_index == index) {
+					if (this.selected_index == i) {
 						option.classList.add("active");
 					}
 
 					this.name_element.appendChild(option);
 
 					option.onclick = () => {
-						this.setIndex(index);
+						this.setIndex(i);
 					};
 					// if (this.name_element.length <= i) {
 					// 	// this.name_element.add(option);

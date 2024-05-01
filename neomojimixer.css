@@ -2,13 +2,8 @@ body {
 	font-size: 1em;
 }
 
-p#noJSmessage {
-	font-size:2em;
-	color: red;
-}
-
 .container {
-	 position: realtive;
+	 position: relative;
 	 width: 256px;
 	 height: 256px;
 }
@@ -27,49 +22,6 @@ img.mouth {
 
 img.arms {
 	position: absolute;
-}
-
-#controls {
-	position:relative;
-	width: 256px;
-}
-
-input, button, select {
-	box-sizing: border-box;
-}
-
-button {
-	width: 25px;
-	height: 25px;
-}
-
-input[type="checkbox"] {
-	margin: 4px;
-	width: 17px;
-	height: 17px;
-}
-
-.export > label {
-	display: block;
-	width: 250px;
-	clear: both;
-}
-
-.export > label > input:not([type="checkbox"]) {
-	width: 125px;
-	float: right;
-}
-
-button#random, button#export {
-	width: 250px;
-}
-
-#controls > div > .name {
-	display: inline-block;
-	width: 200px;
-	text-align: center;
-	background: #D3D3D3;
-	vertical-align: middle;
 }
 
 div#stats {
