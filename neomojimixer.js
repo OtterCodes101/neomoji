@@ -32,6 +32,49 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		}
 	}
 
+	function PartOption(parent_element, entry, active, callback) {
+		const element = document.createElement("button");
+		element.classList.add("img-button");
+		const img_element = document.createElement("img");
+		img_element.setAttribute("loading", "lazy");
+		element.appendChild(img_element);
+		const that = this;
+		element.addEventListener("click", function(e) {
+			if (that.onclick) {
+				that.onclick(e);
+			}
+		});
+		this.element = element;
+		this.img_element = img_element;
+		if (parent_element) {
+			parent_element.appendChild(element);
+		}
+		this.onclick = callback;
+		this.update(entry, active);
+	}
+
+	PartOption.prototype = {
+		update: function(entry, active) {
+			this.name = entry[0];
+			this.element.setAttribute("aria-label", entry[0]);
+			const src = "./" + entry[1];
+			if (this.img_element.src != src) {
+				this.img_element.src = src;
+			}
+			if (active) {
+				this.element.classList.add("active");
+			} else {
+				this.element.classList.remove("active");
+			}
+		},
+		destroy: function() {
+			const parent_element = this.element.parentNode;
+			if (parent_element) {
+				parent_element.removeChild(this.element);
+			}
+		},
+	};
+
 	function PartHandler(name) {
 		this.name = name;
 		this.entries = []; //Arrays to hold the parts
@@ -39,6 +82,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		this.selected_index = 0; //index_color -> arms.selected_index; index_arms -> arms.entry_indices[arms.selected_index]
 		this.image_element = document.getElementById(name + "_img");
 		this.name_element = document.getElementById(name + "_name");
+		this.part_options = []; //Option button wrappers
 		// this.button_left = document.getElementById(name + "_left");
 		// this.button_right = document.getElementById(name + "_right");
 	}
@@ -99,32 +143,22 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			return img;
 		},
 		updateOptions: function() {
-			const options = this.name_element.childNodes;
-			this.name_element.innerHTML = "";
+			const options = this.part_options;
 			for (let i = 0; i < this.entry_indices.length; i++) {
 				const index = this.entry_indices[i];
 				const entry = this.entries[index];
-				if (options.length > i && options[i].value == entry[0]) {
-					continue;
-				} else {
-					const option = document.createElement("button");
-					option.classList.add("img-button");
-					option.setAttribute("aria-label", entry[0]);
-					const option_img = document.createElement("img");
-					option_img.src = "./" + entry[1];
-					option_img.setAttribute("loading", "lazy");
-					option.appendChild(option_img);
-
-					if (this.selected_index == i) {
-						option.classList.add("active");
-					}
-
-					this.name_element.appendChild(option);
-
-					option.onclick = () => {
-						this.setIndex(i);
+				const saved_i = i;
+				if (options.length <= i) {
+					const callback = () => {
+						this.setIndex(saved_i);
 					};
+					options.push(new PartOption(this.name_element, entry, this.selected_index == i, callback));
+				} else {
+					options[i].update(entry, this.selected_index == i);
 				}
+			}
+			while (options.length > this.entry_indices.length) {
+				options.pop().destroy();
 			}
 		},
 	};
@@ -274,7 +308,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
 			parts = parts.map((name, i) =>
-				Array.from(part_handlers[parts_order[i]].name_element).findIndex(x => x.getAttribute("aria-label") === name)
+				part_handlers[parts_order[i]].part_options.findIndex(x => x.name === name)
 			);
 			if (parts.every(x => x != -1)) {
 				// all part names were found
@@ -333,6 +367,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		document.getElementById("export-container").style.display = "";
 	}
 
+	NeomojiMixer.PartOption = PartOption;
 	NeomojiMixer.PartHandler = PartHandler;
 	NeomojiMixer.ColoredPartHandler = ColoredPartHandler;
 	NeomojiMixer.BodyPartHandler = BodyPartHandler;
