@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p {
 	display: grid;
 	grid-auto-flow: column;
 	grid-template-rows: var(--img-size) var(--img-size);
+	padding-inline-end: var(--padding);
 }
 
 .img-button {
