@@ -592,6 +592,11 @@
         "color": "lightgrey"
       },
       {
+        "name": "neopossum_angel",
+        "url": "/parts/neopossum_angel.png",
+        "color": "lightgrey"
+      },
+      {
         "name": "neopossum_aro",
         "url": "/parts/neopossum_aro.png",
         "color": "lightgrey"
@@ -609,6 +614,16 @@
       {
         "name": "neopossum_bigender",
         "url": "/parts/neopossum_bigender.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_catmask",
+        "url": "/parts/neopossum_catmask.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_comfy",
+        "url": "/parts/neopossum_comfy.png",
         "color": "lightgrey"
       },
       {
@@ -647,6 +662,16 @@
         "color": "lightgrey"
       },
       {
+        "name": "neopossum_devil",
+        "url": "/parts/neopossum_devil.png",
+        "color": "red"
+      },
+      {
+        "name": "neopossum_devil_floof",
+        "url": "/parts/neopossum_devil_floof.png",
+        "color": "red"
+      },
+      {
         "name": "neopossum_disabled",
         "url": "/parts/neopossum_disabled.png",
         "color": "lightgrey"
@@ -654,6 +679,16 @@
       {
         "name": "neopossum_finsexual",
         "url": "/parts/neopossum_finsexual.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_floof",
+        "url": "/parts/neopossum_floof.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_foxmask",
+        "url": "/parts/neopossum_foxmask.png",
         "color": "lightgrey"
       },
       {
@@ -697,6 +732,11 @@
         "color": "lightgrey"
       },
       {
+        "name": "neopossum_rainbow",
+        "url": "/parts/neopossum_rainbow.png",
+        "color": "lightgrey"
+      },
+      {
         "name": "neopossum_salmacian",
         "url": "/parts/neopossum_salmacian.png",
         "color": "lightgrey"
@@ -709,46 +749,6 @@
       {
         "name": "neopossum_trans",
         "url": "/parts/neopossum_trans.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_angel",
-        "url": "/parts/neopossum_angel.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_catmask",
-        "url": "/parts/neopossum_catmask.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_comfy",
-        "url": "/parts/neopossum_comfy.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_devil",
-        "url": "/parts/neopossum_devil.png",
-        "color": "red"
-      },
-      {
-        "name": "neopossum_devil_floof",
-        "url": "/parts/neopossum_devil_floof.png",
-        "color": "red"
-      },
-      {
-        "name": "neopossum_floof",
-        "url": "/parts/neopossum_floof.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_foxmask",
-        "url": "/parts/neopossum_foxmask.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_rainbow",
-        "url": "/parts/neopossum_rainbow.png",
         "color": "lightgrey"
       },
       {
