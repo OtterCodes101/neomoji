@@ -572,6 +572,146 @@
         "color": "lightgrey"
       },
       {
+        "name": "neopossum_ace",
+        "url": "/parts/neopossum_ace.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_agender",
+        "url": "/parts/neopossum_agender.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_ambiamorous",
+        "url": "/parts/neopossum_ambiamorous.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_androgyne",
+        "url": "/parts/neopossum_androgyne.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_aro",
+        "url": "/parts/neopossum_aro.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_aroflux",
+        "url": "/parts/neopossum_aroflux.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_bi",
+        "url": "/parts/neopossum_bi.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_bigender",
+        "url": "/parts/neopossum_bigender.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_demiace",
+        "url": "/parts/neopossum_demiace.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_demiaro",
+        "url": "/parts/neopossum_demiaro.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_demiflux",
+        "url": "/parts/neopossum_demiflux.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_demigirl",
+        "url": "/parts/neopossum_demigirl.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_demiguy",
+        "url": "/parts/neopossum_demiguy.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_demilesbian",
+        "url": "/parts/neopossum_demilesbian.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_deminb",
+        "url": "/parts/neopossum_deminb.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_disabled",
+        "url": "/parts/neopossum_disabled.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_finsexual",
+        "url": "/parts/neopossum_finsexual.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_gay",
+        "url": "/parts/neopossum_gay.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_genderfluid",
+        "url": "/parts/neopossum_genderfluid.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_intersex",
+        "url": "/parts/neopossum_intersex.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_lesbian",
+        "url": "/parts/neopossum_lesbian.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_nb",
+        "url": "/parts/neopossum_nb.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_pan",
+        "url": "/parts/neopossum_pan.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_plural",
+        "url": "/parts/neopossum_plural.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_polyam",
+        "url": "/parts/neopossum_polyam.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_salmacian",
+        "url": "/parts/neopossum_salmacian.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_sapphic",
+        "url": "/parts/neopossum_sapphic.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neopossum_trans",
+        "url": "/parts/neopossum_trans.png",
+        "color": "lightgrey"
+      },
+      {
         "name": "neopossum_angel",
         "url": "/parts/neopossum_angel.png",
         "color": "lightgrey"
