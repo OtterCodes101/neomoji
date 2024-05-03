@@ -91,8 +91,11 @@ h1, h2, h3, h4, h5, h6, p {
 	height: 100%;
 }
 .active {
-	position: relative;
+	position: sticky;
 	background: var(--accent) !important;
+	right: calc(-2 * var(--padding) - .5 * var(--img-size));
+	left: calc(-1 * var(--padding) - .5 * var(--img-size));
+	z-index: 1;
 }
 .active::before {
 	content: "";
