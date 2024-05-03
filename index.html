@@ -5,61 +5,140 @@
 		<title>Neomojimixer (BETA)</title>
 		<link rel="shortcut icon" href="favicon.gif"  type="image/gif" />
 		<link rel="stylesheet" href="neomojimixer.css">
+		<link rel="stylesheet" href="styling.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<h2>Neomojimixer (BETA)</h2>
-		<p style="padding-bottom:10px;">Mix your Neomoji parts as you like.</p>
-		<p id="noJSmessage">Please active JavaScript to use the Neomojimixer!</p>
-		<div id="images" class="container">
-			<img class="body" id="body_img" src="" />
-			<img class="eyes" id="eyes_img" src="" />
-			<img class="mouth" id="mouth_img" src="" />
-			<img class="arms" id="arms_img" src="" />
-		</div>
-		<div id="controls">
-			<div class="body"><button id="body_left" onclick="NeomojiMixer.part_handlers.body.onClickPrev();" disabled><</button><select class="name" id="body_name" onchange="NeomojiMixer.part_handlers.body.onChangeDropdown();" disabled>name body</select><button id="body_right" onclick="NeomojiMixer.part_handlers.body.onClickNext();" disabled>></button></div>
-			<div class="eyes"><button id="eyes_left" onclick="NeomojiMixer.part_handlers.eyes.onClickPrev();" disabled><</button><select class="name" id="eyes_name" onchange="NeomojiMixer.part_handlers.eyes.onChangeDropdown();" disabled>name eyes</select><button id="eyes_right" onclick="NeomojiMixer.part_handlers.eyes.onClickNext();" disabled>></button></div>
-			<div class="mouth"><button id="mouth_left" onclick="NeomojiMixer.part_handlers.mouth.onClickPrev();" disabled><</button><select class="name" id="mouth_name" onchange="NeomojiMixer.part_handlers.mouth.onChangeDropdown();" disabled>name mouth</select><button id="mouth_right" onclick="NeomojiMixer.part_handlers.mouth.onClickNext();" disabled>></button></div>
-			<div class="arms"><button id="arms_left" onclick="NeomojiMixer.part_handlers.arms.onClickPrev();" disabled><</button><select class="name" id="arms_name" onchange="NeomojiMixer.part_handlers.arms.onChangeDropdown();" disabled>name arms</select><button id="arms_right" onclick="NeomojiMixer.part_handlers.arms.onClickNext();" disabled>></button></div>
-			<div class="random"><button id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button></div>
-			<div class="export">
-				<button id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
-				<label>
-					Export type:
-					<input type="text" id="export-mime" list="export-mime-list" value="image/png" />
-					<datalist id="export-mime-list">
-						<option value="image/png"></option>
-						<option value="image/webp"></option>
-						<option value="image/jpeg"></option>
-					</datalist>
-				</label>
-				<label>
-					<input type="checkbox" id="export-quality-enabled" />Quality:<input type="number" id="export-quality" min="0.0" max="1.0" step="0.1" value="1.0" />
-				</label>
+		<a class="title" href="/">
+			<h1>Neomojimixer <span>BETA</span></h1>
+			<p>Mix your Neomoji parts as you like.</p>
+		</a>
+		<noscript>
+			<p>Please active JavaScript to use the Neomojimixer!</p>
+		</noscript>
+		<div id="main-panel">
+			<div class="left-panel">
+				<!-- animal category would've been preferred but i have no idea how work -->
+				<!-- <section>
+					<h3>Animal</h3>
+					<div class="list-row">
+						<div class="row-grid" id="animal_name">
+						</div>
+					</div>
+				</section> -->
+				<section>
+					<h3>Body</h3>
+					<div class="list-row">
+						<!-- <button id="body_left" onclick="NeomojiMixer.part_handlers.body.onClickPrev();" disabled><</button> -->
+						<div class="row-grid" id="body_name">
+						</div>
+						<!-- <button id="body_right" onclick="NeomojiMixer.part_handlers.body.onClickNext();" disabled>></button> -->
+					</div>
+				</section>
+				<section>
+					<h3>Eyes</h3>
+					<div class="list-row">
+						<!-- <button id="eyes_left" onclick="NeomojiMixer.part_handlers.eyes.onClickPrev();" disabled><</button> -->
+						<div class="row-grid" id="eyes_name">
+						</div>
+						<!-- <button id="eyes_right" onclick="NeomojiMixer.part_handlers.eyes.onClickNext();" disabled>></button> -->
+					</div>
+				</section>
+				<section>
+					<h3>Mouth</h3>
+					<div class="list-row">
+						<!-- <button id="mouth_left" onclick="NeomojiMixer.part_handlers.mouth.onClickPrev();" disabled><</button> -->
+						<div class="row-grid" id="mouth_name">
+						</div>
+						<!-- <button id="mouth_right" onclick="NeomojiMixer.part_handlers.mouth.onClickNext();" disabled><</button> -->
+					</div>
+				</section>
+				<section>
+					<h3>Paws</h3>
+					<div class="list-row">
+						<!-- <button id="arms_left" onclick="NeomojiMixer.part_handlers.arms.onClickPrev();" disabled><</button> -->
+						<div class="row-grid" id="arms_name">
+						</div>
+						<!-- <button id="arms_right" onclick="NeomojiMixer.part_handlers.arms.onClickNext();" disabled><</button> -->
+					</div>
+				</section>
+			</div>
+			<div class="right-panel">
+				<section class="preview">
+					<div id="images" class="container">
+						<img class="body" id="body_img" src="" />
+						<img class="eyes" id="eyes_img" src="" />
+						<img class="mouth" id="mouth_img" src="" />
+						<img class="arms" id="arms_img" src="" />
+					</div>
+				</section>
+				<section id="controls">
+					<div class="random">
+						<button class="button" id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button>
+						<button class="button" id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
+					</div>
+					<div class="export">
+						<label>
+							Export type:
+							<input type="text" id="export-mime" list="export-mime-list" value="image/png" />
+							<datalist id="export-mime-list">
+								<option value="image/png"></option>
+								<option value="image/webp"></option>
+								<option value="image/jpeg"></option>
+							</datalist>
+						</label>
+						<label>
+							<input type="checkbox" id="export-quality-enabled" />Quality:<input type="number" id="export-quality" min="0.0" max="1.0" step="0.1" value="1.0" />
+						</label>
+					</div>
+				</section>
+				<p>Neomojis are from the following sources: </p>
+				<div class="neo-list">
+					<a href="https://volpeon.ink/emojis/neofox" title="Neofox">
+						<img src="./parts/neofox.png" alt="">
+					</a>
+					<a href="https://volpeon.ink/emojis/neocat" title="Neocat">
+						<img src="./parts/neocat.png" alt="">
+					</a>
+					<a href="https://onemuri.nl/" title="Neorat">
+						<img src="./parts/neorat.png" alt="">
+					</a>
+					<a href="https://yiff.life/@EeveeEuphoria/112039918021786980" title="Neopossum">
+						<img src="./parts/neopossum.png" alt="">
+					</a>
+					<a href="https://github.com/olivvybee/neobread" title="Neobread">
+						<img src="./parts/neobread.png" alt="">
+					</a>
+					<a href="https://github.com/olivvybee/blobbee/releases/latest" title="Blobbee">
+						<img src="./parts/blobbee.png" alt="">
+					</a>
+					<a href="https://tech.lgbt/@kuriko/112331547364081709" title="Neoyas">
+						<img src="./parts/neoyas.png" alt="">
+					</a>
+					<a href="https://floofy.city/notes/9slmyugwwsbe02hc" title="Neofox_aroace">
+						<img src="./parts/neofox_aroace.png" alt="">
+					</a>
+					<a href="https://hat-eine.entenbru.st/@Erpel" title="Neoredpanda">
+						<img src="./parts/neoredpanda.png" alt="">
+					</a>
+				</div>
+				<br>
+				<div id="stats">stats</div>
+				<br>
+				<a href="imprint.html" class="button muted">Imprint</a>
+				
+				<div id="export-container" style="display: none;">
+					<canvas id="canvas_export" width="256" height="256" name="test.png" hidden></canvas>
+					<img id="imageExport" src="" />
+					<a id="imageExportLink" class="button" download href="" target="_blank">Download</a>
+					<div class="footer">
+						<a id="fullNeomojiName"></a>
+						<p>To save right click and choose "Save image as..." or click the "Download" link</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div id="stats">stats</div>
-		<canvas id="canvas_export" width="256" height="256" hidden name="test.png"></canvas>
-		<img id="imageExport" src="" hidden/>
-		<p>
-			<a id="imageExportLink" download href="" target="_blank" hidden>Download</a>
-		</p>
-		<p id="exportSaveMessage" hidden>To save right click and choose "Save image as..." or click the "Download" link</p>
-		<a id="fullNeomojiName" hidden></a>
-		<p>Neomojis are from the following sources: </p>
-			<ul>
-				<li><b><a href="https://volpeon.ink/emojis/neofox/" target="_blank" class="links">Neofox</a></b> by <a href="https://is-a.wyvern.rip/@volpeon" target="_blank" class="links">Volpeon</a></li>
-				<li><b><a href="https://volpeon.ink/emojis/neocat/" target="_blank" class="links">Neocat</a></b> by Volpeon</li>
-				<li><b><a href="https://emoji-repo.absturztau.be/repo/neorat.zip" target="_blank" class="links">Neorat</a></b> by <a href="https://onemuri.nl/" target="_blank" class="links">Justje</a></li>
-				<li><b><a href="https://yiff.life/@EeveeEuphoria/112039918021786980" target="_blank" class="links">Neopossum</a></b> by <a href="https://yiff.life/@EeveeEuphoria" target="_blank" class="links">EeveeEuphoria</a></li>
-				<li><b><a href="https://github.com/olivvybee/neobread" target="_blank" class="links">Neobread</a></b> by <a href="https://honeycomb.engineer/@olivvybee" target="_blank" class="links">Olivvybee</a></li>
-				<li><b><a href="https://github.com/olivvybee/blobbee/releases/latest" target="_blank" class="links">Blobbee</a></b> by Olivvybee</li>
-				<li><b><a href="https://tech.lgbt/@kuriko/112331547364081709" target="_blank" class="links">Neoyas</a></b> by <a href="https://tech.lgbt/@kuriko" target="_blank" class="links">Kuriko</a> (exclusiv)</li>
-				<li><b><a href="https://floofy.city/notes/9slmyugwwsbe02hc" target="_blank" class="links">Neofox_aroace</a></b> by <a href="https://floofy.city/@asahi" target="_blank" class="links">asahi</a></li>
-				<li><b>Neoredpanda</b> by <a href="https://hat-eine.entenbru.st/@Erpel" target="_blank" class="links">Ente</a> (exclusiv)</li>
-			</ul>
-		<p>Sourcecode on Codeberg: <a href="https://codeberg.org/fotoente/neomojimixer" target="_blank">Neomojimixer</a>
-		<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+
 
 		<!-- Load in the JS as the last element or the DOM objects won't be there -->
 		<script src="neomojimixer.js"></script>
