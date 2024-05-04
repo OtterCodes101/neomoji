@@ -147,6 +147,11 @@
         "color": "grey"
       },
       {
+        "name": "neobear",
+        "url": "/parts/neobear.png",
+        "color": "darkbrown"
+      },
+      {
         "name": "neobread",
         "url": "/parts/neobread.png",
         "color": "lightbrown"
@@ -894,6 +899,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_grey.png",
         "color": "grey"
       },
@@ -931,6 +941,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "aww",
@@ -979,6 +994,11 @@
       },
       {
         "name": "book",
+        "url": "/parts/arms_book_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "book",
         "url": "/parts/arms_book_grey.png",
         "color": "grey"
       },
@@ -1024,6 +1044,11 @@
       },
       {
         "name": "facepalm",
+        "url": "/parts/arms_facepalm_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "facepalm",
         "url": "/parts/arms_facepalm_grey.png",
         "color": "grey"
       },
@@ -1061,6 +1086,11 @@
         "name": "fingerguns",
         "url": "/parts/arms_fingerguns_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "fingerguns",
@@ -1104,6 +1134,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_grey.png",
         "color": "grey"
       },
@@ -1141,6 +1176,11 @@
         "name": "hold_burger",
         "url": "/parts/arms_hold_burger_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hold_burger",
+        "url": "/parts/arms_hold_burger_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "hold_burger",
@@ -1184,6 +1224,11 @@
       },
       {
         "name": "hungry",
+        "url": "/parts/arms_hungry_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hungry",
         "url": "/parts/arms_hungry_grey.png",
         "color": "grey"
       },
@@ -1221,6 +1266,11 @@
         "name": "knife",
         "url": "/parts/arms_knife_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "knife",
+        "url": "/parts/arms_knife_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "knife",
@@ -1264,6 +1314,11 @@
       },
       {
         "name": "mug",
+        "url": "/parts/arms_mug_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "mug",
         "url": "/parts/arms_mug_grey.png",
         "color": "grey"
       },
@@ -1301,6 +1356,11 @@
         "name": "phone",
         "url": "/parts/arms_phone_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "phone",
+        "url": "/parts/arms_phone_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "phone",
@@ -1344,6 +1404,11 @@
       },
       {
         "name": "pleading",
+        "url": "/parts/arms_pleading_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "pleading",
         "url": "/parts/arms_pleading_grey.png",
         "color": "grey"
       },
@@ -1381,6 +1446,11 @@
         "name": "reach",
         "url": "/parts/arms_reach_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "reach",
@@ -1424,6 +1494,11 @@
       },
       {
         "name": "redlos",
+        "url": "/parts/arms_redlos_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "redlos",
         "url": "/parts/arms_redlos_grey.png",
         "color": "grey"
       },
@@ -1461,6 +1536,11 @@
         "name": "science",
         "url": "/parts/arms_science_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "science",
+        "url": "/parts/arms_science_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "science",
@@ -1504,6 +1584,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_grey.png",
         "color": "grey"
       },
@@ -1541,6 +1626,11 @@
         "name": "sign_aaa",
         "url": "/parts/arms_sign_aaa_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_aaa",
+        "url": "/parts/arms_sign_aaa_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_aaa",
@@ -1584,6 +1674,11 @@
       },
       {
         "name": "sign_boobs",
+        "url": "/parts/arms_sign_boobs_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sign_boobs",
         "url": "/parts/arms_sign_boobs_grey.png",
         "color": "grey"
       },
@@ -1621,6 +1716,11 @@
         "name": "sign_butts",
         "url": "/parts/arms_sign_butts_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_butts",
+        "url": "/parts/arms_sign_butts_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_butts",
@@ -1664,6 +1764,11 @@
       },
       {
         "name": "sign_heart",
+        "url": "/parts/arms_heart_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sign_heart",
         "url": "/parts/arms_heart_grey.png",
         "color": "grey"
       },
@@ -1701,6 +1806,11 @@
         "name": "sign_no",
         "url": "/parts/arms_sign_no_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_no",
+        "url": "/parts/arms_sign_no_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_no",
@@ -1744,6 +1854,11 @@
       },
       {
         "name": "sign_nya",
+        "url": "/parts/arms_sign_nya_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sign_nya",
         "url": "/parts/arms_sign_nya_grey.png",
         "color": "grey"
       },
@@ -1781,6 +1896,11 @@
         "name": "sign_thx",
         "url": "/parts/arms_sign_thx_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_thx",
+        "url": "/parts/arms_sign_thx_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_thx",
@@ -1824,6 +1944,11 @@
       },
       {
         "name": "sign_yes",
+        "url": "/parts/arms_sign_yes_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sign_yes",
         "url": "/parts/arms_sign_yes_grey.png",
         "color": "grey"
       },
@@ -1861,6 +1986,11 @@
         "name": "sign_yip",
         "url": "/parts/arms_sign_yip_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_yip",
+        "url": "/parts/arms_sign_yip_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_yip",
@@ -1909,6 +2039,11 @@
       },
       {
         "name": "solder",
+        "url": "/parts/arms_solder_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "solder",
         "url": "/parts/arms_solder_grey.png",
         "color": "grey"
       },
@@ -1946,6 +2081,11 @@
         "name": "sweat",
         "url": "/parts/arms_sweat_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sweat",
+        "url": "/parts/arms_sweat_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sweat",
@@ -1989,6 +2129,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_grey.png",
         "color": "grey"
       },
@@ -2026,6 +2171,11 @@
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "thumbsdown",
@@ -2069,6 +2219,11 @@
       },
       {
         "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "thumbsup",
         "url": "/parts/arms_thumbsup_grey.png",
         "color": "grey"
       },
@@ -2106,6 +2261,11 @@
         "name": "verified",
         "url": "/parts/arms_verified_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "verified",
+        "url": "/parts/arms_verified_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "verified",
