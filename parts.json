@@ -937,51 +937,6 @@
         "url": "/parts/arms_3c_yellow.png",
         "color": "yellow"
       },
-       {
-        "name": "box",
-        "url": "/parts/arms_box_blue.png",
-        "color": "blue"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_darkbrown.png",
-        "color": "darkbrown"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_grey.png",
-        "color": "grey"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_lightbrown.png",
-        "color": "lightbrown"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_lightgrey.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_orange.png",
-        "color": "orange"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_red.png",
-        "color": "red"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_white.png",
-        "color": "white"
-      },
-      {
-        "name": "box",
-        "url": "/parts/arms_box_yellow.png",
-        "color": "yellow"
-      },
       {
         "name": "aww",
         "url": "/parts/arms_aww_blue.png",
@@ -1081,6 +1036,51 @@
         "name": "boop",
         "url": "/parts/arms_boop.png",
         "color": ""
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_red.png",
+        "color": "red"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_white.png",
+        "color": "white"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_yellow.png",
+        "color": "yellow"
       },
       {
         "name": "facepalm",
@@ -1351,6 +1351,11 @@
         "name": "knife",
         "url": "/parts/arms_knife_yellow.png",
         "color": "yellow"
+      },
+      {
+        "name": "laptop",
+        "url": "/parts/arms_laptop.png",
+        "color": ""
       },
       {
         "name": "mug",
