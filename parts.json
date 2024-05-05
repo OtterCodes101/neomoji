@@ -94,6 +94,10 @@
         "url": "/parts/eyes_shy.png"
       },
       {
+        "name": "sleep",
+        "url": "/parts/eyes_sleep.png"
+      },
+      {
         "name": "smug",
         "url": "/parts/eyes_smug.png"
       },
