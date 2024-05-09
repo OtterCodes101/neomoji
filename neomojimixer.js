@@ -2,7 +2,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	//global variables
 
 	const color_names = [
-		"blue",
+		"frozen",
 		"lightgrey",
 		"orange",
 		"red",
