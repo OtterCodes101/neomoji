@@ -1095,6 +1095,66 @@
         "color": "yellow"
       },
       {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_red.png",
+        "color": "red"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_white.png",
+        "color": "white"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_yellow.png",
+        "color": "green"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_yellow.png",
+        "color": "blue"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_yellow.png",
+        "color": "pink"
+      },
+      {
         "name": "facepalm",
         "url": "/parts/arms_facepalm_frozen.png",
         "color": "frozen"
