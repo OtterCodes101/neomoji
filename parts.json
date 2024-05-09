@@ -839,6 +839,10 @@
         "url": "/parts/mouth_nom_pizza.png"
       },
       {
+        "name": "nom_potato",
+        "url": "/parts/mouth_nom_potato.png"
+      },
+      {
         "name": "nom_toblerone",
         "url": "/parts/mouth_nom_toblerone.png"
       },
@@ -861,6 +865,10 @@
       {
         "name": "pacifier",
         "url": "/parts/mouth_pacifier.png"
+      },
+      {
+        "name": "party_blower",
+        "url": "/parts/mouth_party_blower.png"
       },
       {
         "name": "pout",
