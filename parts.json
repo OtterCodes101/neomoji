@@ -2241,6 +2241,11 @@
       },
       {
         "name": "sign_heart",
+        "url": "/parts/arms_heart_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "sign_heart",
         "url": "/parts/arms_heart_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2248,6 +2253,11 @@
         "name": "sign_heart",
         "url": "/parts/arms_heart_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "sign_heart",
+        "url": "/parts/arms_heart_green.png",
+        "color": "green"
       },
       {
         "name": "sign_heart",
@@ -2268,6 +2278,11 @@
         "name": "sign_heart",
         "url": "/parts/arms_heart_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "sign_heart",
+        "url": "/parts/arms_heart_pink.png",
+        "color": "pink"
       },
       {
         "name": "sign_heart",
