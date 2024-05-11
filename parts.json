@@ -906,13 +906,13 @@
     "arms": [
       {
         "name": "3c",
-        "url": "/parts/arms_3c_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_3c_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "3c",
-        "url": "/parts/arms_3c_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_3c_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "3c",
@@ -951,13 +951,13 @@
       },
       {
         "name": "aww",
-        "url": "/parts/arms_aww_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_aww_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "aww",
-        "url": "/parts/arms_aww_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_aww_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "aww",
@@ -1001,13 +1001,13 @@
       },
       {
         "name": "book",
-        "url": "/parts/arms_book_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_book_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "book",
-        "url": "/parts/arms_book_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_book_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "book",
@@ -1051,13 +1051,13 @@
       },
       {
         "name": "box",
-        "url": "/parts/arms_box_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_box_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "box",
-        "url": "/parts/arms_box_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_box_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "box",
@@ -1096,13 +1096,23 @@
       },
       {
         "name": "checkmark",
-        "url": "/parts/arms_checkmark_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_checkmark_blue.png",
+        "color": "blue"
       },
       {
         "name": "checkmark",
         "url": "/parts/arms_checkmark_darkbrown.png",
         "color": "darkbrown"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_green.png",
+        "color": "green"
       },
       {
         "name": "checkmark",
@@ -1126,6 +1136,11 @@
       },
       {
         "name": "checkmark",
+        "url": "/parts/arms_checkmark_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "checkmark",
         "url": "/parts/arms_checkmark_red.png",
         "color": "red"
       },
@@ -1140,29 +1155,194 @@
         "color": "yellow"
       },
       {
-        "name": "checkmark",
-        "url": "/parts/arms_checkmark_yellow.png",
-        "color": "green"
-      },
-      {
-        "name": "checkmark",
-        "url": "/parts/arms_checkmark_yellow.png",
+        "name": "controller",
+        "url": "/parts/arms_controller_blue.png",
         "color": "blue"
       },
       {
-        "name": "checkmark",
-        "url": "/parts/arms_checkmark_yellow.png",
+        "name": "controller",
+        "url": "/parts/arms_controller_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_green.png",
+        "color": "green"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_pink.png",
         "color": "pink"
       },
       {
-        "name": "facepalm",
-        "url": "/parts/arms_facepalm_frozen.png",
+        "name": "controller",
+        "url": "/parts/arms_controller_red.png",
+        "color": "red"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_white.png",
+        "color": "white"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_green.png",
+        "color": "green"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_red.png",
+        "color": "red"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_white.png",
+        "color": "white"
+      },
+      {
+        "name": "cross",
+        "url": "/parts/arms_cross_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_green.png",
+        "color": "green"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_red.png",
+        "color": "red"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_white.png",
+        "color": "white"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_yellow.png",
+        "color": "yellow"
       },
       {
         "name": "facepalm",
         "url": "/parts/arms_facepalm_darkbrown.png",
         "color": "darkbrown"
+      },
+      {
+        "name": "facepalm",
+        "url": "/parts/arms_facepalm_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "facepalm",
@@ -1201,13 +1381,13 @@
       },
       {
         "name": "fingerguns",
-        "url": "/parts/arms_fingerguns_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_fingerguns_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "fingerguns",
-        "url": "/parts/arms_fingerguns_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_fingerguns_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "fingerguns",
@@ -1246,13 +1426,13 @@
       },
       {
         "name": "hide",
-        "url": "/parts/arms_hide_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_hide_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "hide",
-        "url": "/parts/arms_hide_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_hide_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "hide",
@@ -1291,13 +1471,13 @@
       },
       {
         "name": "hold_burger",
-        "url": "/parts/arms_hold_burger_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_hold_burger_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "hold_burger",
-        "url": "/parts/arms_hold_burger_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_hold_burger_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "hold_burger",
@@ -1335,14 +1515,194 @@
         "color": "yellow"
       },
       {
-        "name": "hungry",
-        "url": "/parts/arms_hungry_frozen.png",
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_yellow.png",
+        "color": "yellow"
       },
       {
         "name": "hungry",
         "url": "/parts/arms_hungry_darkbrown.png",
         "color": "darkbrown"
+      },
+      {
+        "name": "hungry",
+        "url": "/parts/arms_hungry_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "hungry",
@@ -1381,13 +1741,13 @@
       },
       {
         "name": "knife",
-        "url": "/parts/arms_knife_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_knife_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "knife",
-        "url": "/parts/arms_knife_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_knife_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "knife",
@@ -1431,13 +1791,13 @@
       },
       {
         "name": "mug",
-        "url": "/parts/arms_mug_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_mug_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "mug",
-        "url": "/parts/arms_mug_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_mug_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "mug",
@@ -1476,13 +1836,13 @@
       },
       {
         "name": "phone",
-        "url": "/parts/arms_phone_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_phone_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "phone",
-        "url": "/parts/arms_phone_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_phone_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "phone",
@@ -1521,13 +1881,13 @@
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_pleading_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_pleading_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "pleading",
@@ -1566,13 +1926,13 @@
       },
       {
         "name": "reach",
-        "url": "/parts/arms_reach_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_reach_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "reach",
-        "url": "/parts/arms_reach_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_reach_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "reach",
@@ -1611,13 +1971,13 @@
       },
       {
         "name": "redlos",
-        "url": "/parts/arms_redlos_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_redlos_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "redlos",
-        "url": "/parts/arms_redlos_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_redlos_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "redlos",
@@ -1656,13 +2016,13 @@
       },
       {
         "name": "science",
-        "url": "/parts/arms_science_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_science_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "science",
-        "url": "/parts/arms_science_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_science_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "science",
@@ -1701,13 +2061,13 @@
       },
       {
         "name": "shocked",
-        "url": "/parts/arms_shocked_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_shocked_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "shocked",
-        "url": "/parts/arms_shocked_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_shocked_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "shocked",
@@ -1746,13 +2106,13 @@
       },
       {
         "name": "sign_aaa",
-        "url": "/parts/arms_sign_aaa_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_aaa_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_aaa",
-        "url": "/parts/arms_sign_aaa_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_aaa_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_aaa",
@@ -1791,13 +2151,13 @@
       },
       {
         "name": "sign_boobs",
-        "url": "/parts/arms_sign_boobs_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_boobs_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_boobs",
-        "url": "/parts/arms_sign_boobs_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_boobs_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_boobs",
@@ -1836,13 +2196,13 @@
       },
       {
         "name": "sign_butts",
-        "url": "/parts/arms_sign_butts_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_butts_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_butts",
-        "url": "/parts/arms_sign_butts_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_butts_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_butts",
@@ -1881,13 +2241,13 @@
       },
       {
         "name": "sign_heart",
-        "url": "/parts/arms_heart_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_heart_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_heart",
-        "url": "/parts/arms_heart_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_heart_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_heart",
@@ -1926,13 +2286,13 @@
       },
       {
         "name": "sign_no",
-        "url": "/parts/arms_sign_no_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_no_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_no",
-        "url": "/parts/arms_sign_no_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_no_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_no",
@@ -1971,13 +2331,13 @@
       },
       {
         "name": "sign_nya",
-        "url": "/parts/arms_sign_nya_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_nya_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_nya",
-        "url": "/parts/arms_sign_nya_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_nya_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_nya",
@@ -2016,13 +2376,13 @@
       },
       {
         "name": "sign_thx",
-        "url": "/parts/arms_sign_thx_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_thx_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_thx",
-        "url": "/parts/arms_sign_thx_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_thx_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_thx",
@@ -2061,13 +2421,13 @@
       },
       {
         "name": "sign_yes",
-        "url": "/parts/arms_sign_yes_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_yes_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_yes",
-        "url": "/parts/arms_sign_yes_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_yes_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_yes",
@@ -2106,13 +2466,13 @@
       },
       {
         "name": "sign_yip",
-        "url": "/parts/arms_sign_yip_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_sign_yip_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "sign_yip",
-        "url": "/parts/arms_sign_yip_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_sign_yip_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sign_yip",
@@ -2156,13 +2516,13 @@
       },
       {
         "name": "solder",
-        "url": "/parts/arms_solder_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_solder_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "solder",
-        "url": "/parts/arms_solder_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_solder_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "solder",
@@ -2200,14 +2560,74 @@
         "color": "yellow"
       },
       {
-        "name": "sweat",
-        "url": "/parts/arms_sweat_frozen.png",
+        "name": "spool",
+        "url": "/parts/arms_spool_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_green.png",
+        "color": "green"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_red.png",
+        "color": "red"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_white.png",
+        "color": "white"
+      },
+      {
+        "name": "spool",
+        "url": "/parts/arms_spool_yellow.png",
+        "color": "yellow"
       },
       {
         "name": "sweat",
         "url": "/parts/arms_sweat_darkbrown.png",
         "color": "darkbrown"
+      },
+      {
+        "name": "sweat",
+        "url": "/parts/arms_sweat_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "sweat",
@@ -2246,13 +2666,13 @@
       },
       {
         "name": "think",
-        "url": "/parts/arms_think_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_think_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "think",
-        "url": "/parts/arms_think_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_think_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "think",
@@ -2291,13 +2711,13 @@
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_thumbsdown_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_thumbsdown_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "thumbsdown",
@@ -2336,13 +2756,13 @@
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_thumbsup_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_thumbsup_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "thumbsup",
@@ -2381,13 +2801,13 @@
       },
       {
         "name": "verified",
-        "url": "/parts/arms_verified_frozen.png",
-        "color": "frozen"
+        "url": "/parts/arms_verified_darkbrown.png",
+        "color": "darkbrown"
       },
       {
         "name": "verified",
-        "url": "/parts/arms_verified_darkbrown.png",
-        "color": "darkbrown"
+        "url": "/parts/arms_verified_frozen.png",
+        "color": "frozen"
       },
       {
         "name": "verified",
