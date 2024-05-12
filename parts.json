@@ -1039,6 +1039,11 @@
       },
       {
         "name": "book",
+        "url": "/parts/arms_book_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "book",
         "url": "/parts/arms_book_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1046,6 +1051,11 @@
         "name": "book",
         "url": "/parts/arms_book_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "book",
+        "url": "/parts/arms_book_green.png",
+        "color": "green"
       },
       {
         "name": "book",
@@ -1066,6 +1076,11 @@
         "name": "book",
         "url": "/parts/arms_book_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "book",
+        "url": "/parts/arms_book_pink.png",
+        "color": "pink"
       },
       {
         "name": "book",
