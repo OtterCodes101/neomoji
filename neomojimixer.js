@@ -60,7 +60,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	PartOption.prototype = {
 		update: function(entry, active) {
 			this.name = entry[0];
-			this.element.setAttribute("aria-label", entry[0]);
+			this.element.setAttribute("aria-label", entry[0].replace("_", " "));
 			const src = "./" + entry[1];
 			if (this.img_element.src != src) {
 				this.img_element.src = src;
