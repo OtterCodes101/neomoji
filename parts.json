@@ -110,6 +110,10 @@
         "url": "/parts/eyes_squint.png"
       },
       {
+        "name": "stare",
+        "url": "/parts/eyes_stare.png"
+      },
+      {
         "name": "sunglasses",
         "url": "/parts/eyes_sunglasses.png"
       },
