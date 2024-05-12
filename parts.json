@@ -389,6 +389,31 @@
         "color": "yellow"
       },
       {
+        "name": "neodino",
+        "url": "/parts/neodino.png",
+        "color": "green"
+      },
+      {
+        "name": "neodino_angel",
+        "url": "/parts/neodino_angel.png",
+        "color": "green"
+      },
+      {
+        "name": "neodino_comfy",
+        "url": "/parts/neodino_comfy.png",
+        "color": "green"
+      },
+      {
+        "name": "neodino_devil",
+        "url": "/parts/neodino_devil.png",
+        "color": "red"
+      },
+      {
+        "name": "neodino_police",
+        "url": "/parts/neodino_police.png",
+        "color": "green"
+      },
+      {
         "name": "neofox",
         "url": "/parts/neofox.png",
         "color": "orange"
@@ -582,6 +607,51 @@
         "name": "neofox_trans",
         "url": "/parts/neofox_trans.png",
         "color": "orange"
+      },
+      {
+        "name": "neohaj",
+        "url": "/parts/neohaj.png",
+        "color": "blue"
+      },
+      {
+        "name": "neohaj_angel",
+        "url": "/parts/neohaj_angel.png",
+        "color": "blue"
+      },
+      {
+        "name": "neohaj_comfy",
+        "url": "/parts/neohaj_comfy.png",
+        "color": "blue"
+      },
+      {
+        "name": "neohaj_devil",
+        "url": "/parts/neohaj_devil.png",
+        "color": "red"
+      },
+      {
+        "name": "neohaj_pink",
+        "url": "/parts/neohaj_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "neohaj_pink_angel",
+        "url": "/parts/neohaj_pink_angel.png",
+        "color": "pink"
+      },
+      {
+        "name": "neohaj_pink_comfy",
+        "url": "/parts/neohaj_pink_comfy.png",
+        "color": "pink"
+      },
+      {
+        "name": "neohaj_pink_police",
+        "url": "/parts/neohaj_pink_police.png",
+        "color": "pink"
+      },
+      {
+        "name": "neohaj_police",
+        "url": "/parts/neohaj_police.png",
+        "color": "blue"
       },
       {
         "name": "neopossum",
@@ -1104,6 +1174,11 @@
       },
       {
         "name": "box",
+        "url": "/parts/arms_box_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "box",
         "url": "/parts/arms_box_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1111,6 +1186,11 @@
         "name": "box",
         "url": "/parts/arms_box_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_green.png",
+        "color": "green"
       },
       {
         "name": "box",
@@ -1131,6 +1211,11 @@
         "name": "box",
         "url": "/parts/arms_box_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "box",
+        "url": "/parts/arms_box_pink.png",
+        "color": "pink"
       },
       {
         "name": "box",
