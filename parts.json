@@ -974,6 +974,11 @@
       },
       {
         "name": "aww",
+        "url": "/parts/arms_aww_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "aww",
         "url": "/parts/arms_aww_darkbrown.png",
         "color": "darkbrown"
       },
@@ -981,6 +986,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_green.png",
+        "color": "green"
       },
       {
         "name": "aww",
@@ -1001,6 +1011,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_pink.png",
+        "color": "pink"
       },
       {
         "name": "aww",
