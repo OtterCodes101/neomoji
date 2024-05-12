@@ -914,6 +914,11 @@
     "arms": [
       {
         "name": "3c",
+        "url": "/parts/arms_3c_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_darkbrown.png",
         "color": "darkbrown"
       },
@@ -921,6 +926,11 @@
         "name": "3c",
         "url": "/parts/arms_3c_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_green.png",
+        "color": "green"
       },
       {
         "name": "3c",
@@ -941,6 +951,11 @@
         "name": "3c",
         "url": "/parts/arms_3c_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_pink.png",
+        "color": "pink"
       },
       {
         "name": "3c",
