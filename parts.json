@@ -42,6 +42,10 @@
         "url": "/parts/eyes_evil.png"
       },
       {
+        "name": "eyes",
+        "url": "/parts/eyes_eyes.png"
+      },
+      {
         "name": "glare",
         "url": "/parts/eyes_glare.png"
       },
