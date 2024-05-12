@@ -207,7 +207,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 				}
 			}
 		},
-		onColorChange: function() {
+		onColorChange: function() { //When a new body is selected switch over which Array to use
 			this.entry_indices = this.colored_indices[selected_color];
 			this.redraw();
 		},
