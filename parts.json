@@ -1474,6 +1474,11 @@
       },
       {
         "name": "facepalm",
+        "url": "/parts/arms_facepalm_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "facepalm",
         "url": "/parts/arms_facepalm_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1481,6 +1486,11 @@
         "name": "facepalm",
         "url": "/parts/arms_facepalm_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "facepalm",
+        "url": "/parts/arms_facepalm_green.png",
+        "color": "green"
       },
       {
         "name": "facepalm",
@@ -1501,6 +1511,11 @@
         "name": "facepalm",
         "url": "/parts/arms_facepalm_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "facepalm",
+        "url": "/parts/arms_facepalm_pink.png",
+        "color": "pink"
       },
       {
         "name": "facepalm",
