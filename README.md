@@ -69,5 +69,11 @@ YES! I actually do! creating the first 95 elements took me over six hours to mak
 [Johann150](https://genau.qwertqwefsday.eu/@Johann150)
 - For the permalink functionality
 
+[Freeplay](https://wetdry.world/@freeplay)
+- For redoing the complete User interface
+
+[Fruye](https://codeberg.org/fruye)
+- For QoL improvments of the UI
+
 You
 - For any feedback, bug report or pull request to improve this project!
