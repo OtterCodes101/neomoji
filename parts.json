@@ -1534,6 +1534,11 @@
       },
       {
         "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "fingerguns",
         "url": "/parts/arms_fingerguns_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1541,6 +1546,11 @@
         "name": "fingerguns",
         "url": "/parts/arms_fingerguns_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_green.png",
+        "color": "green"
       },
       {
         "name": "fingerguns",
@@ -1561,6 +1571,11 @@
         "name": "fingerguns",
         "url": "/parts/arms_fingerguns_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_pink.png",
+        "color": "pink"
       },
       {
         "name": "fingerguns",
