@@ -118,6 +118,16 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			}
 			this.redraw();
 		},
+		trySetIndexByName: function(name, fallback /* optional */) {
+			let newIndex = this.part_options.findIndex(x => x.name === name);
+			if (newIndex < 0) {
+				newIndex = fallback;
+			}
+			if (newIndex === undefined || newIndex < 0) {
+				return false;
+			}
+			this.setIndex(newIndex);
+		},
 		redraw: function() {
 			const entry = this.getSelectedEntry();
 			this.image_element.src = "." + entry[1]; //Change URL of picture
@@ -208,8 +218,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			}
 		},
 		onColorChange: function() { //When a new body is selected switch over which Array to use
+			const name = (this.getSelectedEntry() || [])[0];
 			this.entry_indices = this.colored_indices[selected_color];
-			this.redraw();
+			this.updateOptions();
+			if (!this.trySetIndexByName(name, 0)) {
+				// redraw is already called from trySetIndexByName
+				// Currently should be unreachable
+				this.redraw();
+			}
 		},
 	});
 
@@ -311,6 +327,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
+			// TODO consider rewriting using trySetIndexByName
 			parts = parts.map((name, i) =>
 				part_handlers[parts_order[i]].part_options.findIndex(x => x.name === name)
 			);
