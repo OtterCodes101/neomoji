@@ -256,6 +256,7 @@ label input:not([type="checkbox"]) {
 	display: flex;
 	justify-content: center;
 	gap: 4px;
+	flex-wrap: wrap;
 }
 .neo-list img {
 	width: 30px;
