@@ -1659,6 +1659,11 @@
       },
       {
         "name": "hold_burger",
+        "url": "/parts/arms_hold_burger_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hold_burger",
         "url": "/parts/arms_hold_burger_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1666,6 +1671,11 @@
         "name": "hold_burger",
         "url": "/parts/arms_hold_burger_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "hold_burger",
+        "url": "/parts/arms_hold_burger_green.png",
+        "color": "green"
       },
       {
         "name": "hold_burger",
@@ -1686,6 +1696,11 @@
         "name": "hold_burger",
         "url": "/parts/arms_hold_burger_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hold_burger",
+        "url": "/parts/arms_hold_burger_pink.png",
+        "color": "pink"
       },
       {
         "name": "hold_burger",
