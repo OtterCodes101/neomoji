@@ -74,6 +74,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .img-button {
+	position: sticky;
+	display: flex;
+	justify-content: center; /* center tooltips */
 	width: var(--img-size);
 	height: var(--img-size);
 	background: none;
@@ -85,6 +88,26 @@ h1, h2, h3, h4, h5, h6, p {
 .img-button:hover, .img-button:focus {
 	background: var(--bg);
 	border: 4px solid var(--bg-2);
+	z-index: 2;
+}
+.img-button::after {
+	/* tooltips */
+	content: attr(aria-label);
+	position: absolute;
+	bottom: -10px;
+	background: var(--accent);
+	border-radius: var(--radius-small);
+	color: var(--accent-fg);
+	padding: 2px 8px;
+	opacity: 0;
+	font-weight: bold;
+	box-shadow: var(--shadow);
+	text-transform: capitalize;
+	white-space: nowrap;
+	transition: opacity .2s;
+}
+.img-button:hover:after, .img-button:focus:after {
+	opacity: 1;
 }
 .img-button img {
 	width: 100%;
@@ -92,7 +115,6 @@ h1, h2, h3, h4, h5, h6, p {
 	filter: drop-shadow(var(--harsh-shadow));
 }
 .active {
-	position: sticky;
 	background: var(--accent) !important;
 	right: calc(-2 * var(--padding) - .5 * var(--img-size));
 	left: calc(-1 * var(--padding) - .5 * var(--img-size));
