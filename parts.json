@@ -259,6 +259,11 @@
         "color": "yellow"
       },
       {
+        "name": "neocat_comfy",
+        "url": "/parts/neocat_comfy.png",
+        "color": "yellow"
+      },
+      {
         "name": "neocat_demiace",
         "url": "/parts/neocat_demiace.png",
         "color": "yellow"
