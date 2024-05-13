@@ -1899,6 +1899,11 @@
       },
       {
         "name": "hungry",
+        "url": "/parts/arms_hungry_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hungry",
         "url": "/parts/arms_hungry_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1906,6 +1911,11 @@
         "name": "hungry",
         "url": "/parts/arms_hungry_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "hungry",
+        "url": "/parts/arms_hungry_green.png",
+        "color": "green"
       },
       {
         "name": "hungry",
@@ -1926,6 +1936,11 @@
         "name": "hungry",
         "url": "/parts/arms_hungry_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hungry",
+        "url": "/parts/arms_hungry_pink.png",
+        "color": "pink"
       },
       {
         "name": "hungry",
