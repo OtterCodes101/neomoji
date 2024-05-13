@@ -1599,6 +1599,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1606,6 +1611,11 @@
         "name": "hide",
         "url": "/parts/arms_hide_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_green.png",
+        "color": "green"
       },
       {
         "name": "hide",
@@ -1626,6 +1636,11 @@
         "name": "hide",
         "url": "/parts/arms_hide_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_pink.png",
+        "color": "pink"
       },
       {
         "name": "hide",
