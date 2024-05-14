@@ -2204,6 +2204,11 @@
       },
       {
         "name": "reach",
+        "url": "/parts/arms_reach_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "reach",
         "url": "/parts/arms_reach_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2211,6 +2216,11 @@
         "name": "reach",
         "url": "/parts/arms_reach_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_green.png",
+        "color": "green"
       },
       {
         "name": "reach",
@@ -2231,6 +2241,11 @@
         "name": "reach",
         "url": "/parts/arms_reach_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_pink.png",
+        "color": "pink"
       },
       {
         "name": "reach",
