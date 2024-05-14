@@ -1959,6 +1959,11 @@
       },
       {
         "name": "knife",
+        "url": "/parts/arms_knife_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "knife",
         "url": "/parts/arms_knife_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1966,6 +1971,11 @@
         "name": "knife",
         "url": "/parts/arms_knife_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "knife",
+        "url": "/parts/arms_knife_green.png",
+        "color": "green"
       },
       {
         "name": "knife",
@@ -1986,6 +1996,11 @@
         "name": "knife",
         "url": "/parts/arms_knife_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "knife",
+        "url": "/parts/arms_knife_pink.png",
+        "color": "pink"
       },
       {
         "name": "knife",
