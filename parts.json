@@ -2083,6 +2083,11 @@
         "color": "yellow"
       },
       {
+        "name": "pat",
+        "url": "/parts/arms_pat.png",
+        "color": ""
+      },
+      {
         "name": "phone",
         "url": "/parts/arms_phone_blue.png",
         "color": "blue"
