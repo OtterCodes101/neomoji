@@ -1113,6 +1113,11 @@
         "color": ""
       },
       {
+        "name": "bonk",
+        "url": "/parts/arms_bonk.png",
+        "color": ""
+      },
+      {
         "name": "book",
         "url": "/parts/arms_book_blue.png",
         "color": "blue"
