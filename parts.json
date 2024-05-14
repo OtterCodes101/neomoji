@@ -2144,6 +2144,11 @@
       },
       {
         "name": "pleading",
+        "url": "/parts/arms_pleading_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "pleading",
         "url": "/parts/arms_pleading_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2151,6 +2156,11 @@
         "name": "pleading",
         "url": "/parts/arms_pleading_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "pleading",
+        "url": "/parts/arms_pleading_green.png",
+        "color": "green"
       },
       {
         "name": "pleading",
@@ -2171,6 +2181,11 @@
         "name": "pleading",
         "url": "/parts/arms_pleading_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "pleading",
+        "url": "/parts/arms_pleading_pink.png",
+        "color": "pink"
       },
       {
         "name": "pleading",
