@@ -2268,51 +2268,6 @@
         "color": "yellow"
       },
       {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_darkbrown.png",
-        "color": "darkbrown"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_frozen.png",
-        "color": "frozen"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_grey.png",
-        "color": "grey"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_lightbrown.png",
-        "color": "lightbrown"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_lightgrey.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_orange.png",
-        "color": "orange"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_red.png",
-        "color": "red"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_white.png",
-        "color": "white"
-      },
-      {
-        "name": "redlos",
-        "url": "/parts/arms_redlos_yellow.png",
-        "color": "yellow"
-      },
-      {
         "name": "science",
         "url": "/parts/arms_science_darkbrown.png",
         "color": "darkbrown"
@@ -2871,6 +2826,66 @@
         "name": "solder",
         "url": "/parts/arms_solder_yellow.png",
         "color": "yellow"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_green.png",
+        "color": "green"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_red.png",
+        "color": "red"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_white.png",
+        "color": "white"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_pink.png",
+        "color": "pink"
       },
       {
         "name": "spool",
