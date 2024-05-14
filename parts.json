@@ -2024,6 +2024,11 @@
       },
       {
         "name": "mug",
+        "url": "/parts/arms_mug_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "mug",
         "url": "/parts/arms_mug_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2031,6 +2036,11 @@
         "name": "mug",
         "url": "/parts/arms_mug_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "mug",
+        "url": "/parts/arms_mug_green.png",
+        "color": "green"
       },
       {
         "name": "mug",
@@ -2051,6 +2061,11 @@
         "name": "mug",
         "url": "/parts/arms_mug_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "mug",
+        "url": "/parts/arms_mug_pink.png",
+        "color": "pink"
       },
       {
         "name": "mug",
