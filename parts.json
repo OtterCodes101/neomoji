@@ -2819,6 +2819,11 @@
       },
       {
         "name": "solder",
+        "url": "/parts/arms_solder_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "solder",
         "url": "/parts/arms_solder_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2826,6 +2831,11 @@
         "name": "solder",
         "url": "/parts/arms_solder_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "solder",
+        "url": "/parts/arms_solder_green.png",
+        "color": "green"
       },
       {
         "name": "solder",
@@ -2846,6 +2856,11 @@
         "name": "solder",
         "url": "/parts/arms_solder_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "solder",
+        "url": "/parts/arms_solder_pink.png",
+        "color": "pink"
       },
       {
         "name": "solder",
