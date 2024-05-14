@@ -2869,6 +2869,11 @@
       },
       {
         "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "solder_wrong",
         "url": "/parts/arms_solder_wrong_red.png",
         "color": "red"
       },
@@ -2881,11 +2886,6 @@
         "name": "solder_wrong",
         "url": "/parts/arms_solder_wrong_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "solder_wrong",
-        "url": "/parts/arms_solder_wrong_pink.png",
-        "color": "pink"
       },
       {
         "name": "spool",
@@ -3170,6 +3170,66 @@
       {
         "name": "verified",
         "url": "/parts/arms_verified_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_green.png",
+        "color": "green"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_red.png",
+        "color": "red"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_white.png",
+        "color": "white"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_yellow.png",
         "color": "yellow"
       }
     ]
