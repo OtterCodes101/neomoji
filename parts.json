@@ -2084,6 +2084,11 @@
       },
       {
         "name": "phone",
+        "url": "/parts/arms_phone_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "phone",
         "url": "/parts/arms_phone_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2091,6 +2096,11 @@
         "name": "phone",
         "url": "/parts/arms_phone_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "phone",
+        "url": "/parts/arms_phone_green.png",
+        "color": "green"
       },
       {
         "name": "phone",
@@ -2111,6 +2121,11 @@
         "name": "phone",
         "url": "/parts/arms_phone_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "phone",
+        "url": "/parts/arms_phone_pink.png",
+        "color": "pink"
       },
       {
         "name": "phone",
