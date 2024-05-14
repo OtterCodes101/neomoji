@@ -2334,6 +2334,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2341,6 +2346,11 @@
         "name": "shocked",
         "url": "/parts/arms_shocked_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_green.png",
+        "color": "green"
       },
       {
         "name": "shocked",
@@ -2361,6 +2371,11 @@
         "name": "shocked",
         "url": "/parts/arms_shocked_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_pink.png",
+        "color": "pink"
       },
       {
         "name": "shocked",
