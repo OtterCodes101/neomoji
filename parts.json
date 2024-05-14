@@ -2274,6 +2274,11 @@
       },
       {
         "name": "science",
+        "url": "/parts/arms_science_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "science",
         "url": "/parts/arms_science_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2281,6 +2286,11 @@
         "name": "science",
         "url": "/parts/arms_science_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "science",
+        "url": "/parts/arms_science_green.png",
+        "color": "green"
       },
       {
         "name": "science",
@@ -2301,6 +2311,11 @@
         "name": "science",
         "url": "/parts/arms_science_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "science",
+        "url": "/parts/arms_science_pink.png",
+        "color": "pink"
       },
       {
         "name": "science",
