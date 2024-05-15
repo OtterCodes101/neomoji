@@ -3059,6 +3059,11 @@
       },
       {
         "name": "sweat",
+        "url": "/parts/arms_sweat_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "sweat",
         "url": "/parts/arms_sweat_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3066,6 +3071,11 @@
         "name": "sweat",
         "url": "/parts/arms_sweat_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "sweat",
+        "url": "/parts/arms_sweat_green.png",
+        "color": "green"
       },
       {
         "name": "sweat",
@@ -3086,6 +3096,11 @@
         "name": "sweat",
         "url": "/parts/arms_sweat_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "sweat",
+        "url": "/parts/arms_sweat_pink.png",
+        "color": "pink"
       },
       {
         "name": "sweat",
