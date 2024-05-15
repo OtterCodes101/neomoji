@@ -1543,6 +1543,66 @@
         "color": "yellow"
       },
       {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_green.png",
+        "color": "green"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_red.png",
+        "color": "red"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_white.png",
+        "color": "white"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "fingerguns",
         "url": "/parts/arms_fingerguns_blue.png",
         "color": "blue"
