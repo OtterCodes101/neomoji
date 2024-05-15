@@ -2023,6 +2023,66 @@
         "color": "yellow"
       },
       {
+        "name": "knives",
+        "url": "/parts/arms_knives_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_green.png",
+        "color": "green"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_red.png",
+        "color": "red"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_white.png",
+        "color": "white"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "laptop",
         "url": "/parts/arms_laptop.png",
         "color": ""
