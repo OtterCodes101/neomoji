@@ -3479,6 +3479,11 @@
       },
       {
         "name": "verified",
+        "url": "/parts/arms_verified_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "verified",
         "url": "/parts/arms_verified_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3486,6 +3491,11 @@
         "name": "verified",
         "url": "/parts/arms_verified_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "verified",
+        "url": "/parts/arms_verified_green.png",
+        "color": "green"
       },
       {
         "name": "verified",
@@ -3506,6 +3516,11 @@
         "name": "verified",
         "url": "/parts/arms_verified_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "verified",
+        "url": "/parts/arms_verified_pink.png",
+        "color": "pink"
       },
       {
         "name": "verified",
