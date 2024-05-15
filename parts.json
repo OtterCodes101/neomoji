@@ -3119,6 +3119,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3126,6 +3131,11 @@
         "name": "think",
         "url": "/parts/arms_think_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "think",
+        "url": "/parts/arms_think_green.png",
+        "color": "green"
       },
       {
         "name": "think",
@@ -3149,6 +3159,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_red.png",
         "color": "red"
       },
@@ -3164,6 +3179,11 @@
       },
       {
         "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3171,6 +3191,11 @@
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_green.png",
+        "color": "green"
       },
       {
         "name": "thumbsdown",
@@ -3194,6 +3219,11 @@
       },
       {
         "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_red.png",
         "color": "red"
       },
@@ -3209,6 +3239,11 @@
       },
       {
         "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "thumbsup",
         "url": "/parts/arms_thumbsup_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3216,6 +3251,11 @@
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_green.png",
+        "color": "green"
       },
       {
         "name": "thumbsup",
@@ -3236,6 +3276,11 @@
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_pink.png",
+        "color": "pink"
       },
       {
         "name": "thumbsup",
