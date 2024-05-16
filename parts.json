@@ -870,8 +870,12 @@
     ],
     "mouth": [
       {
+        "name": "aww",
+        "url": "/parts/mouth_aww.png"
+      },
+      {
         "name": "baa",
-        "url": "/parts/mouth_drool.png"
+        "url": "/parts/mouth_baa.png"
       },
       {
         "name": "blank",
@@ -880,6 +884,10 @@
       {
         "name": "blep",
         "url": "/parts/mouth_blep.png"
+      },
+      {
+        "name": "drool",
+        "url": "/parts/mouth_drool.png"
       },
       {
         "name": "drowsy",
