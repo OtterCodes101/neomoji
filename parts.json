@@ -1316,6 +1316,66 @@
         "color": "yellow"
       },
       {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_green.png",
+        "color": "green"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_red.png",
+        "color": "red"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_white.png",
+        "color": "white"
+      },
+      {
+        "name": "clipboard",
+        "url": "/parts/arms_clipboard_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "controller",
         "url": "/parts/arms_controller_blue.png",
         "color": "blue"
