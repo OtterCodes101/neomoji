@@ -2095,6 +2095,131 @@
         "color": "yellow"
       },
       {
+        "name": "hyvis",
+        "url": "/parts/arms_hyvis.png",
+        "color": ""
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "knife",
         "url": "/parts/arms_knife_blue.png",
         "color": "blue"
