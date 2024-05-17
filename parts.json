@@ -364,6 +364,11 @@
         "color": "yellow"
       },
       {
+        "name": "neocat_plural_median",
+        "url": "/parts/neocat_plural_median.png",
+        "color": "yellow"
+      },
+      {
         "name": "neocat_police",
         "url": "/parts/neocat_police.png",
         "color": "yellow"
@@ -581,6 +586,11 @@
       {
         "name": "neofox_plural",
         "url": "/parts/neofox_plural.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_plural_median",
+        "url": "/parts/neofox_plural_median.png",
         "color": "orange"
       },
       {
