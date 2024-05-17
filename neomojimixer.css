@@ -40,3 +40,40 @@ input#fullNeomojiName {
 a.links {
 	color: black;
 }
+
+p#link{
+	top-padding: 0.5em;
+}
+
+h2.imprint {
+	padding-top: 1em;
+}
+
+ul.source {
+	margin: auto;
+	max-width: 600px;
+}
+
+img.source {
+	height: 25px;
+	width: 25px;
+	vertical-align:middle;
+}
+
+div.faq {
+	text-align: justify;
+}
+
+div.faq h3 {
+	padding-top: 0.75em;
+}
+
+ul.donation {
+	margin: auto;
+	max-width: 600px;
+	text-align: justify;
+}
+
+ul.donation li {
+	padding-top: 0.5em;
+}
