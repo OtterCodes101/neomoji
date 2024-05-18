@@ -874,6 +874,26 @@
         "color": "orange"
       },
       {
+        "name": "neotrain",
+        "url": "/parts/neotrain.png",
+        "color": "white"
+      },
+      {
+        "name": "neotrain_angel",
+        "url": "/parts/neotrain_angel.png",
+        "color": "white"
+      },
+      {
+        "name": "neotrain_conductor",
+        "url": "/parts/neotrain_conductor.png",
+        "color": "white"
+      },
+      {
+        "name": "neotrain_police",
+        "url": "/parts/neotrain_police.png",
+        "color": "white"
+      },
+      {
         "name": "neoyas",
         "url": "/parts/neoyas.png",
         "color": "red"
