@@ -884,6 +884,11 @@
         "color": "white"
       },
       {
+        "name": "neotrain_comfy",
+        "url": "/parts/neotrain_comfy.png",
+        "color": "white"
+      },
+      {
         "name": "neotrain_conductor",
         "url": "/parts/neotrain_conductor.png",
         "color": "white"
