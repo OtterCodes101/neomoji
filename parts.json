@@ -899,22 +899,22 @@
         "color": "white"
       },
       {
-        "name": "neotrain_sream",
+        "name": "neotrain_steam",
         "url": "/parts/neotrain_steam.png",
         "color": "grey"
       },
       {
-        "name": "neotrain_sream_angel",
+        "name": "neotrain_steam_angel",
         "url": "/parts/neotrain_steam_angel.png",
         "color": "grey"
       },
       {
-        "name": "neotrain_sream_conductor",
+        "name": "neotrain_steam_conductor",
         "url": "/parts/neotrain_steam_conductor.png",
         "color": "grey"
       },
       {
-        "name": "neotrain_sream_devil",
+        "name": "neotrain_steam_devil",
         "url": "/parts/neotrain_steam_devil.png",
         "color": "red"
       },
