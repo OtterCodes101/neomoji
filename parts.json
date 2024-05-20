@@ -899,6 +899,26 @@
         "color": "white"
       },
       {
+        "name": "neotrain_sream",
+        "url": "/parts/neotrain_steam.png",
+        "color": "grey"
+      },
+      {
+        "name": "neotrain_sream_angel",
+        "url": "/parts/neotrain_steam_angel.png",
+        "color": "grey"
+      },
+      {
+        "name": "neotrain_sream_conductor",
+        "url": "/parts/neotrain_steam_conductor.png",
+        "color": "grey"
+      },
+      {
+        "name": "neotrain_sream_devil",
+        "url": "/parts/neotrain_steam_devil.png",
+        "color": "red"
+      },
+      {
         "name": "neoyas",
         "url": "/parts/neoyas.png",
         "color": "red"
