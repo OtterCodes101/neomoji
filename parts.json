@@ -1030,6 +1030,10 @@
         "url": "/parts/mouth_what.png"
       },
       {
+        "name": "whistle",
+        "url": "/parts/mouth_whistle.png"
+      },
+      {
         "name": "woozy",
         "url": "/parts/mouth_woozy.png"
       }
