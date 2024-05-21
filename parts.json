@@ -63,6 +63,10 @@
         "url": "/parts/eyes_googly_woozy.png"
       },
       {
+        "name": "googly_woozy_angry",
+        "url": "/parts/eyes_googly_woozy_angry.png"
+      },
+      {
         "name": "hyper",
         "url": "/parts/eyes_hyper.png"
       },
