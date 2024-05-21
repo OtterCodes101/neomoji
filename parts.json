@@ -15,6 +15,10 @@
         "url": "/parts/blank.png"
       },
       {
+        "name": "cheese",
+        "url": "/parts/eyes_cheese.png"
+      },
+      {
         "name": "confused",
         "url": "/parts/eyes_confused.png"
       },
