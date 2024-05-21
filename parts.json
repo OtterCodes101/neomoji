@@ -99,6 +99,10 @@
         "url": "/parts/eyes_pleading.png"
       },
       {
+        "name": "rolling",
+        "url": "/parts/eyes_rolling.png"
+      },
+      {
         "name": "sad",
         "url": "/parts/eyes_sad.png"
       },
