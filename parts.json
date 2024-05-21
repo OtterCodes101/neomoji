@@ -943,6 +943,10 @@
     ],
     "mouth": [
       {
+        "name": ":3",
+        "url": "/parts/mouth_3.png"
+      },
+      {
         "name": "aww",
         "url": "/parts/mouth_aww.png"
       },
