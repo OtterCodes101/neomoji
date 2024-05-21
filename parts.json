@@ -3858,6 +3858,71 @@
         "color": "yellow"
       },
       {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_green.png",
+        "color": "green"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_red.png",
+        "color": "red"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_white.png",
+        "color": "white"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "think",
         "url": "/parts/arms_think_blue.png",
         "color": "blue"
