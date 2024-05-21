@@ -13,7 +13,8 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"grey",
 		"blue",
 		"pink",
-		"green"
+		"green",
+		"wyvern"
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];

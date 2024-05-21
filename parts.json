@@ -927,6 +927,11 @@
         "color": "red"
       },
       {
+        "name": "neowyvern",
+        "url": "/parts/neowyvern.png",
+        "color": "wyvern"
+      },
+      {
         "name": "neoyas",
         "url": "/parts/neoyas.png",
         "color": "red"
@@ -1132,6 +1137,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_yellow.png",
         "color": "yellow"
       },
@@ -1189,6 +1199,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_white.png",
         "color": "white"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "aww",
@@ -1262,6 +1277,11 @@
       },
       {
         "name": "book",
+        "url": "/parts/arms_book_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "book",
         "url": "/parts/arms_book_yellow.png",
         "color": "yellow"
       },
@@ -1327,6 +1347,11 @@
       },
       {
         "name": "box",
+        "url": "/parts/arms_box_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "box",
         "url": "/parts/arms_box_yellow.png",
         "color": "yellow"
       },
@@ -1384,6 +1409,11 @@
         "name": "checkmark",
         "url": "/parts/arms_checkmark_white.png",
         "color": "white"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "checkmark",
@@ -1447,6 +1477,11 @@
       },
       {
         "name": "clipboard",
+        "url": "/parts/arms_clipboard_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "clipboard",
         "url": "/parts/arms_clipboard_yellow.png",
         "color": "yellow"
       },
@@ -1504,6 +1539,11 @@
         "name": "controller",
         "url": "/parts/arms_controller_white.png",
         "color": "white"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "controller",
@@ -1567,6 +1607,11 @@
       },
       {
         "name": "cross",
+        "url": "/parts/arms_cross_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "cross",
         "url": "/parts/arms_cross_yellow.png",
         "color": "yellow"
       },
@@ -1624,6 +1669,11 @@
         "name": "crossstich",
         "url": "/parts/arms_crossstich_white.png",
         "color": "white"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "crossstich",
@@ -1687,6 +1737,11 @@
       },
       {
         "name": "facepalm",
+        "url": "/parts/arms_facepalm_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "facepalm",
         "url": "/parts/arms_facepalm_yellow.png",
         "color": "yellow"
       },
@@ -1744,6 +1799,11 @@
         "name": "fcknzs",
         "url": "/parts/arms_fcknzs_white.png",
         "color": "white"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "fcknzs",
@@ -1807,6 +1867,11 @@
       },
       {
         "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "fingerguns",
         "url": "/parts/arms_fingerguns_yellow.png",
         "color": "yellow"
       },
@@ -1864,6 +1929,11 @@
         "name": "heart",
         "url": "/parts/arms_heart_white.png",
         "color": "white"
+      },
+      {
+        "name": "heart",
+        "url": "/parts/arms_heart_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "heart",
@@ -1927,6 +1997,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_yellow.png",
         "color": "yellow"
       },
@@ -1984,6 +2059,11 @@
         "name": "hold_burger",
         "url": "/parts/arms_hold_burger_white.png",
         "color": "white"
+      },
+      {
+        "name": "hold_burger",
+        "url": "/parts/arms_hold_burger_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "hold_burger",
@@ -2047,6 +2127,11 @@
       },
       {
         "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "hold_lego",
         "url": "/parts/arms_hold_lego_yellow.png",
         "color": "yellow"
       },
@@ -2104,6 +2189,11 @@
         "name": "hold_meeple",
         "url": "/parts/arms_hold_meeple_white.png",
         "color": "white"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "hold_meeple",
@@ -2167,6 +2257,11 @@
       },
       {
         "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "hold_rainbow_infinity",
         "url": "/parts/arms_hold_rainbow_infinity_yellow.png",
         "color": "yellow"
       },
@@ -2224,6 +2319,11 @@
         "name": "hungry",
         "url": "/parts/arms_hungry_white.png",
         "color": "white"
+      },
+      {
+        "name": "hungry",
+        "url": "/parts/arms_hungry_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "hungry",
@@ -2292,6 +2392,11 @@
       },
       {
         "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "hyvis_clipboard",
         "url": "/parts/arms_hyvis_clipboard_yellow.png",
         "color": "yellow"
       },
@@ -2349,6 +2454,11 @@
         "name": "hyvis_mug",
         "url": "/parts/arms_hyvis_mug_white.png",
         "color": "white"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "hyvis_mug",
@@ -2412,6 +2522,11 @@
       },
       {
         "name": "knife",
+        "url": "/parts/arms_knife_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "knife",
         "url": "/parts/arms_knife_yellow.png",
         "color": "yellow"
       },
@@ -2469,6 +2584,11 @@
         "name": "knives",
         "url": "/parts/arms_knives_white.png",
         "color": "white"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "knives",
@@ -2537,6 +2657,11 @@
       },
       {
         "name": "mug",
+        "url": "/parts/arms_mug_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "mug",
         "url": "/parts/arms_mug_yellow.png",
         "color": "yellow"
       },
@@ -2602,6 +2727,11 @@
       },
       {
         "name": "phone",
+        "url": "/parts/arms_phone_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "phone",
         "url": "/parts/arms_phone_yellow.png",
         "color": "yellow"
       },
@@ -2659,6 +2789,11 @@
         "name": "pleading",
         "url": "/parts/arms_pleading_white.png",
         "color": "white"
+      },
+      {
+        "name": "pleading",
+        "url": "/parts/arms_pleading_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "pleading",
@@ -2722,6 +2857,11 @@
       },
       {
         "name": "reach",
+        "url": "/parts/arms_reach_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "reach",
         "url": "/parts/arms_reach_yellow.png",
         "color": "yellow"
       },
@@ -2779,6 +2919,11 @@
         "name": "science",
         "url": "/parts/arms_science_white.png",
         "color": "white"
+      },
+      {
+        "name": "science",
+        "url": "/parts/arms_science_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "science",
@@ -2842,6 +2987,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_yellow.png",
         "color": "yellow"
       },
@@ -2899,6 +3049,11 @@
         "name": "sign_aaa",
         "url": "/parts/arms_sign_aaa_white.png",
         "color": "white"
+      },
+      {
+        "name": "sign_aaa",
+        "url": "/parts/arms_sign_aaa_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "sign_aaa",
@@ -2962,6 +3117,11 @@
       },
       {
         "name": "sign_blank",
+        "url": "/parts/arms_sign_blank_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sign_blank",
         "url": "/parts/arms_sign_blank_yellow.png",
         "color": "yellow"
       },
@@ -3019,6 +3179,11 @@
         "name": "sign_boobs",
         "url": "/parts/arms_sign_boobs_white.png",
         "color": "white"
+      },
+      {
+        "name": "sign_boobs",
+        "url": "/parts/arms_sign_boobs_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "sign_boobs",
@@ -3082,6 +3247,11 @@
       },
       {
         "name": "sign_butts",
+        "url": "/parts/arms_sign_butts_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sign_butts",
         "url": "/parts/arms_sign_butts_yellow.png",
         "color": "yellow"
       },
@@ -3139,6 +3309,11 @@
         "name": "sign_no",
         "url": "/parts/arms_sign_no_white.png",
         "color": "white"
+      },
+      {
+        "name": "sign_no",
+        "url": "/parts/arms_sign_no_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "sign_no",
@@ -3202,6 +3377,11 @@
       },
       {
         "name": "sign_nya",
+        "url": "/parts/arms_sign_nya_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sign_nya",
         "url": "/parts/arms_sign_nya_yellow.png",
         "color": "yellow"
       },
@@ -3259,6 +3439,11 @@
         "name": "sign_thx",
         "url": "/parts/arms_sign_thx_white.png",
         "color": "white"
+      },
+      {
+        "name": "sign_thx",
+        "url": "/parts/arms_sign_thx_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "sign_thx",
@@ -3322,6 +3507,11 @@
       },
       {
         "name": "sign_yes",
+        "url": "/parts/arms_sign_yes_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sign_yes",
         "url": "/parts/arms_sign_yes_yellow.png",
         "color": "yellow"
       },
@@ -3379,6 +3569,11 @@
         "name": "sign_yip",
         "url": "/parts/arms_sign_yip_white.png",
         "color": "white"
+      },
+      {
+        "name": "sign_yip",
+        "url": "/parts/arms_sign_yip_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "sign_yip",
@@ -3447,6 +3642,11 @@
       },
       {
         "name": "solder",
+        "url": "/parts/arms_solder_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "solder",
         "url": "/parts/arms_solder_yellow.png",
         "color": "yellow"
       },
@@ -3504,6 +3704,11 @@
         "name": "solder_wrong",
         "url": "/parts/arms_solder_wrong_white.png",
         "color": "white"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "solder_wrong",
@@ -3567,6 +3772,11 @@
       },
       {
         "name": "spool",
+        "url": "/parts/arms_spool_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "spool",
         "url": "/parts/arms_spool_yellow.png",
         "color": "yellow"
       },
@@ -3624,6 +3834,11 @@
         "name": "sweat",
         "url": "/parts/arms_sweat_white.png",
         "color": "white"
+      },
+      {
+        "name": "sweat",
+        "url": "/parts/arms_sweat_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "sweat",
@@ -3687,6 +3902,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_yellow.png",
         "color": "yellow"
       },
@@ -3744,6 +3964,11 @@
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_white.png",
         "color": "white"
+      },
+      {
+        "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "thumbsdown",
@@ -3807,6 +4032,11 @@
       },
       {
         "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "thumbsup",
         "url": "/parts/arms_thumbsup_yellow.png",
         "color": "yellow"
       },
@@ -3867,6 +4097,11 @@
       },
       {
         "name": "verified",
+        "url": "/parts/arms_verified_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "verified",
         "url": "/parts/arms_verified_yellow.png",
         "color": "yellow"
       },
@@ -3924,6 +4159,11 @@
         "name": "wine",
         "url": "/parts/arms_wine_white.png",
         "color": "white"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_wyvern.png",
+        "color": "wyvern"
       },
       {
         "name": "wine",
