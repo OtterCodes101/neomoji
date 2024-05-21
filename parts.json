@@ -1035,6 +1035,10 @@
         "url": "/parts/mouth_nom_watermelon.png"
       },
       {
+        "name": "nom_wire",
+        "url": "/parts/mouth_nom_wire.png"
+      },
+      {
         "name": "normal",
         "url": "/parts/mouth_normal.png"
       },
