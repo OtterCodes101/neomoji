@@ -35,14 +35,17 @@ for i in range(100):
     color_arms = []
     skip_element = 100
 
-    chosen_body = random.choice(bodies)
+     if i > 1:
+        skip_element = random.randint(0,3)
+
+    if skip_element != 2:
+        chosen_body = random.choice(bodies)
 
     for item in arms:
         if item[1] == chosen_body[1]:
             color_arms.append(item[0])
 
-    if i > 1:
-        skip_element = random.randint(0,3)
+
 
     if skip_element != 0:
         image_eye = Image.open("."+random.choice(eyes)).convert("RGBA")
@@ -50,8 +53,7 @@ for i in range(100):
     if skip_element != 1:
         image_mouth = Image.open("."+random.choice(mouth)).convert("RGBA")
 
-    if skip_element != 2:
-        image_bodies = Image.open("."+chosen_body[0]).convert("RGBA")
+    image_bodies = Image.open("."+chosen_body[0]).convert("RGBA")
 
     if skip_element != 3:
         image_arms = Image.open("."+random.choice(color_arms)).convert("RGBA")
