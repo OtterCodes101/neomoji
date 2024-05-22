@@ -35,7 +35,7 @@ for i in range(100):
     color_arms = []
     skip_element = 100
 
-     if i > 1:
+    if i > 1:
         skip_element = random.randint(0,3)
 
     if skip_element != 2:
