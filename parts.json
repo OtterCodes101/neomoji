@@ -55,6 +55,10 @@
         "url": "/parts/eyes_glare.png"
       },
       {
+        "name": "glare_sob",
+        "url": "/parts/eyes_glare_sob.png"
+      },
+      {
         "name": "glasses",
         "url": "/parts/eyes_glasses.png"
       },
