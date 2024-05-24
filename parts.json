@@ -2630,6 +2630,71 @@
         "color": ""
       },
       {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_green.png",
+        "color": "green"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_red.png",
+        "color": "red"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_white.png",
+        "color": "white"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "mastodont",
+        "url": "/parts/arms_mastodont_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "middlefinger",
         "url": "/parts/arms_middlefinger_blue.png",
         "color": "blue"
