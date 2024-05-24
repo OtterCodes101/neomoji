@@ -188,6 +188,11 @@
         "color": "grey"
       },
       {
+        "name": "neoDLR",
+        "url": "/parts/neoDLR.png",
+        "color": "red"
+      },
+      {
         "name": "neobear",
         "url": "/parts/neobear.png",
         "color": "darkbrown"
