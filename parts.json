@@ -147,6 +147,10 @@
         "url": "/parts/eyes_sunglasses.png"
       },
       {
+        "name": "sunglasses_sob",
+        "url": "/parts/eyes_sunglasses_sob.png"
+      },
+      {
         "name": "thinking",
         "url": "/parts/eyes_thinking.png"
       },
