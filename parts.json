@@ -2625,6 +2625,136 @@
         "color": ""
       },
       {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_green.png",
+        "color": "green"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_red.png",
+        "color": "red"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_white.png",
+        "color": "white"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_green.png",
+        "color": "green"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_red.png",
+        "color": "red"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_white.png",
+        "color": "white"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "mug",
         "url": "/parts/arms_mug_blue.png",
         "color": "blue"
