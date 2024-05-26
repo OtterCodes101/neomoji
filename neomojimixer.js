@@ -14,6 +14,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"blue",
 		"pink",
 		"green",
+		"dog",
 		"wyvern"
 	];
 	let selected_color = "blue";
