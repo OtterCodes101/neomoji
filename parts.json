@@ -713,6 +713,26 @@
         "color": "blue"
       },
       {
+        "name": "neomilk",
+        "url": "/parts/neomilk.png",
+        "color": "white"
+      },
+      {
+        "name": "neomilk_devil",
+        "url": "/parts/neomilk_devil.png",
+        "color": "red"
+      },
+      {
+        "name": "neomilk_expired",
+        "url": "/parts/neomilk_expired.png",
+        "color": "green"
+      },
+      {
+        "name": "neomilk_pilk",
+        "url": "/parts/neomilk_pilk.png",
+        "color": "wyvern"
+      },
+      {
         "name": "neopossum",
         "url": "/parts/neopossum.png",
         "color": "lightgrey"
