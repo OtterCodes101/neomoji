@@ -4033,6 +4033,26 @@
         "color": ""
       },
       {
+        "name": "sip_milk",
+        "url": "/parts/arms_sip_milk.png",
+        "color": ""
+      },
+      {
+        "name": "sip_milk_devil",
+        "url": "/parts/arms_sip_milk_devil.png",
+        "color": ""
+      },
+      {
+        "name": "sip_milk_expired",
+        "url": "/parts/arms_sip_milk_expired.png",
+        "color": ""
+      },
+      {
+        "name": "sip_pilk",
+        "url": "/parts/arms_sip_pilk.png",
+        "color": ""
+      },
+      {
         "name": "solder",
         "url": "/parts/arms_solder_blue.png",
         "color": "blue"
