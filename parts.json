@@ -1088,12 +1088,20 @@
         "url": "/parts/mouth_shocked.png"
       },
       {
+        "name": "sicl",
+        "url": "/parts/mouth_sick.png"
+      },
+      {
         "name": "sip",
         "url": "/parts/mouth_sip.png"
       },
       {
         "name": "surprised",
         "url": "/parts/mouth_surprised.png"
+      },
+      {
+        "name": "vomit",
+        "url": "/parts/mouth_vomit.png"
       },
       {
         "name": "what",
