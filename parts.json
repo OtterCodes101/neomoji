@@ -1035,6 +1035,10 @@
         "url": "/parts/mouth_kisser.png"
       },
       {
+        "name": "laugh",
+        "url": "/parts/mouth_laugh.png"
+      },
+      {
         "name": "meh",
         "url": "/parts/mouth_meh.png"
       },
