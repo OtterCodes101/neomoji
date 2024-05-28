@@ -193,6 +193,11 @@
         "color": "red"
       },
       {
+        "name": "neoSSB",
+        "url": "/parts/neoSSB.png",
+        "color": "yellow"
+      },
+      {
         "name": "neobear",
         "url": "/parts/neobear.png",
         "color": "darkbrown"
