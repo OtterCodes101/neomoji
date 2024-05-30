@@ -918,6 +918,11 @@
         "color": "lightgrey"
       },
       {
+        "name": "neoradish",
+        "url": "/parts/neoradish.png",
+        "color": "red"
+      },
+      {
         "name": "neorat",
         "url": "/parts/neorat.png",
         "color": "white"
