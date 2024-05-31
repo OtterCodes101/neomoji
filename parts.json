@@ -1158,6 +1158,10 @@
       {
         "name": "woozy",
         "url": "/parts/mouth_woozy.png"
+      },
+      {
+        "name": "zipper",
+        "url": "/parts/mouth_zipper.png"
       }
     ],
     "arms": [
