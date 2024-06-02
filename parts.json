@@ -4791,6 +4791,76 @@
         "color": "yellow"
       },
       {
+        "name": "torch",
+        "url": "/parts/arms_torch_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_green.png",
+        "color": "green"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_red.png",
+        "color": "red"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_white.png",
+        "color": "white"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "verified",
         "url": "/parts/arms_verified_blue.png",
         "color": "blue"
