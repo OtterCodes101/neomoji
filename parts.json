@@ -4441,6 +4441,76 @@
         "color": "yellow"
       },
       {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_green.png",
+        "color": "green"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_red.png",
+        "color": "red"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_white.png",
+        "color": "white"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "sweat",
         "url": "/parts/arms_sweat_blue.png",
         "color": "blue"
