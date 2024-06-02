@@ -1311,6 +1311,76 @@
         "color": ""
       },
       {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_green.png",
+        "color": "green"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_red.png",
+        "color": "red"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_white.png",
+        "color": "white"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "bomb",
+        "url": "/parts/arms_bomb_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "bonk",
         "url": "/parts/arms_bonk.png",
         "color": ""
