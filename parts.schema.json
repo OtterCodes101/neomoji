@@ -20,7 +20,7 @@
         }
       },
       "required": [
-        "eyes", "mouth", "arms", "body"
+        "eyes", "mouth", "arms", "body", 'hat'
       ]
     }
   },

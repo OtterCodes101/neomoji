@@ -36,6 +36,15 @@
 					</div>
 				</section>
 				<section>
+					<h3>Hat</h3>
+					<div class="list-row">
+						<!-- <button id="hat_left" onclick="NeomojiMixer.part_handlers.hat.onClickPrev();" disabled><</button> -->
+						<div class="row-grid" id="hat_name">
+						</div>
+						<!-- <button id="hat_right" onclick="NeomojiMixer.part_handlers.hat.onClickNext();" disabled>></button> -->
+					</div>
+				</section>
+				<section>
 					<h3>Eyes</h3>
 					<div class="list-row">
 						<!-- <button id="eyes_left" onclick="NeomojiMixer.part_handlers.eyes.onClickPrev();" disabled><</button> -->
@@ -68,6 +77,7 @@
 					<div id="images" class="container">
 						<img class="body" id="body_img" src="" />
 						<img class="eyes" id="eyes_img" src="" />
+						<img class="hat" id="hat_img" src="" />
 						<img class="mouth" id="mouth_img" src="" />
 						<img class="arms" id="arms_img" src="" />
 					</div>
@@ -87,9 +97,9 @@
 								<option value="image/jpeg"></option>
 							</datalist>
 						</label>
-						<label>
+						<!-- <label>
 							<input type="checkbox" id="export-quality-enabled" />Quality:<input type="number" id="export-quality" min="0.0" max="1.0" step="0.1" value="1.0" />
-						</label>
+						</label> -->
 					</div>
 				</section>
 				<p>Neomojis are from the following sources: </p>

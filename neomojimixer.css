@@ -24,6 +24,10 @@ img.arms {
 	position: absolute;
 }
 
+img.hat {
+	position: absolute;
+}
+
 canvas {
 	height: 300px;
 	width: 300px;

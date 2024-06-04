@@ -259,6 +259,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	const part_handlers = {
 		body: new BodyPartHandler("body"),
 		eyes: new PartHandler("eyes"),
+		hat: new PartHandler("hat"),
 		mouth: new PartHandler("mouth"),
 		arms: new ColoredPartHandler("arms"),
 	};
@@ -308,7 +309,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			variety *= part_handlers[i].entry_indices.length;
 		}
 
-		stats.innerHTML = "There are " + sum + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.";
+		stats.innerHTML = "There are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.";
 
 		//Activate the buttons after everything is loaded in
 		for (const i in part_handlers) {
@@ -325,7 +326,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			.split('+');
 
 		// define a constant order for the parts to appear in the hash
-		const parts_order = ["body", "eyes", "mouth", "arms"];
+		const parts_order = ["body", "eyes", "hat", "mouth", "arms"];
 
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
@@ -357,13 +358,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 		//Set name for the emoji to use as the image name and to show as shortcode
-		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0];
+		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0] + "_" + part_handlers.hat.getSelectedEntry()[0];
 		neomoji_name.innerText = name;
-		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0], document.location.href)
+		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0] + "+" + part_handlers.hat.getSelectedEntry()[0], document.location.href)
 
 		let export_layers = [
 			part_handlers.body.createExportImage(),
 			part_handlers.eyes.createExportImage(),
+			part_handlers.hat.createExportImage(),
 			part_handlers.mouth.createExportImage(),
 			part_handlers.arms.createExportImage(),
 		];

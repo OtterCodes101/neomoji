@@ -178,11 +178,6 @@
         "color": "grey"
       },
       {
-        "name": "blobbee_angel",
-        "url": "/parts/blobbee_angel.png",
-        "color": "grey"
-      },
-      {
         "name": "blobbee_headphones",
         "url": "/parts/blobbee_headphones.png",
         "color": "grey"
@@ -393,11 +388,6 @@
         "color": "yellow"
       },
       {
-        "name": "neocat_police",
-        "url": "/parts/neocat_police.png",
-        "color": "yellow"
-      },
-      {
         "name": "neocat_polyam",
         "url": "/parts/neocat_polyam.png",
         "color": "yellow"
@@ -433,11 +423,6 @@
         "color": "green"
       },
       {
-        "name": "neodino_angel",
-        "url": "/parts/neodino_angel.png",
-        "color": "green"
-      },
-      {
         "name": "neodino_comfy",
         "url": "/parts/neodino_comfy.png",
         "color": "green"
@@ -446,11 +431,6 @@
         "name": "neodino_devil",
         "url": "/parts/neodino_devil.png",
         "color": "red"
-      },
-      {
-        "name": "neodino_police",
-        "url": "/parts/neodino_police.png",
-        "color": "green"
       },
       {
         "name": "neoDLR",
@@ -490,11 +470,6 @@
       {
         "name": "neofox_androgyne",
         "url": "/parts/neofox_androgyne.png",
-        "color": "orange"
-      },
-      {
-        "name": "neofox_angel",
-        "url": "/parts/neofox_angel.png",
         "color": "orange"
       },
       {
@@ -633,11 +608,6 @@
         "color": "orange"
       },
       {
-        "name": "neofox_police",
-        "url": "/parts/neofox_police.png",
-        "color": "orange"
-      },
-      {
         "name": "neofox_polyam",
         "url": "/parts/neofox_polyam.png",
         "color": "orange"
@@ -673,11 +643,6 @@
         "color": "blue"
       },
       {
-        "name": "neohaj_angel",
-        "url": "/parts/neohaj_angel.png",
-        "color": "blue"
-      },
-      {
         "name": "neohaj_comfy",
         "url": "/parts/neohaj_comfy.png",
         "color": "blue"
@@ -693,24 +658,9 @@
         "color": "pink"
       },
       {
-        "name": "neohaj_pink_angel",
-        "url": "/parts/neohaj_pink_angel.png",
-        "color": "pink"
-      },
-      {
         "name": "neohaj_pink_comfy",
         "url": "/parts/neohaj_pink_comfy.png",
         "color": "pink"
-      },
-      {
-        "name": "neohaj_pink_police",
-        "url": "/parts/neohaj_pink_police.png",
-        "color": "pink"
-      },
-      {
-        "name": "neohaj_police",
-        "url": "/parts/neohaj_police.png",
-        "color": "blue"
       },
       {
         "name": "neomilk",
@@ -755,11 +705,6 @@
       {
         "name": "neopossum_androgyne",
         "url": "/parts/neopossum_androgyne.png",
-        "color": "lightgrey"
-      },
-      {
-        "name": "neopossum_angel",
-        "url": "/parts/neopossum_angel.png",
         "color": "lightgrey"
       },
       {
@@ -948,38 +893,13 @@
         "color": "white"
       },
       {
-        "name": "neotrain_angel",
-        "url": "/parts/neotrain_angel.png",
-        "color": "white"
-      },
-      {
         "name": "neotrain_comfy",
         "url": "/parts/neotrain_comfy.png",
         "color": "white"
       },
       {
-        "name": "neotrain_conductor",
-        "url": "/parts/neotrain_conductor.png",
-        "color": "white"
-      },
-      {
-        "name": "neotrain_police",
-        "url": "/parts/neotrain_police.png",
-        "color": "white"
-      },
-      {
         "name": "neotrain_steam",
         "url": "/parts/neotrain_steam.png",
-        "color": "grey"
-      },
-      {
-        "name": "neotrain_steam_angel",
-        "url": "/parts/neotrain_steam_angel.png",
-        "color": "grey"
-      },
-      {
-        "name": "neotrain_steam_conductor",
-        "url": "/parts/neotrain_steam_conductor.png",
         "color": "grey"
       },
       {
@@ -5139,6 +5059,28 @@
         "name": "wine",
         "url": "/parts/arms_wine_yellow.png",
         "color": "yellow"
+      }
+    ],
+    "hat": [
+      {
+        "name": "angel",
+        "url": "/parts/hat_angel.png"
+      },
+      {
+        "name": "blank",
+        "url": "/parts/blank.png"
+      },
+      {
+        "name": "conductor",
+        "url": "/parts/hat_conductor.png"
+      },
+      {
+        "name": "police",
+        "url": "/parts/hat_police.png"
+      },
+      {
+        "name": "witch",
+        "url": "/parts/hat_witch.png"
       }
     ]
   }
