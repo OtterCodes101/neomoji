@@ -326,7 +326,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			.split('+');
 
 		// define a constant order for the parts to appear in the hash
-		const parts_order = ["body", "eyes", "hat", "mouth", "arms"];
+		const parts_order = ["body", "eyes", "mouth", "arms", "hat"];
 
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
@@ -351,9 +351,9 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		let ctx=canvas.getContext("2d");
 		let export_mime = document.getElementById("export-mime").value;
 		let export_options = undefined;
-		if (document.getElementById("export-quality-enabled").checked) {
+		/*if (document.getElementById("export-quality-enabled").checked) {
 			export_options = +document.getElementById("export-quality").value;
-		}
+		}*/
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
