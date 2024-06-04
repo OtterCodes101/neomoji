@@ -5075,6 +5075,10 @@
         "url": "/parts/hat_conductor.png"
       },
       {
+        "name": "fire",
+        "url": "/parts/hat_fire.png"
+      },
+      {
         "name": "police",
         "url": "/parts/hat_police.png"
       },
