@@ -5062,7 +5062,7 @@
       },
       {
         "name": "bonk",
-        "url": "/parts/arms_bonk.png"
+        "url": "/parts/hat_bonk.png"
       },
       {
         "name": "conductor",
@@ -5074,7 +5074,7 @@
       },
       {
         "name": "pat",
-        "url": "/parts/arms_pat.png"
+        "url": "/parts/hat_pat.png"
       },
       {
         "name": "police",
