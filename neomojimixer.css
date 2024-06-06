@@ -28,6 +28,10 @@ img.hat {
 	position: absolute;
 }
 
+img.front {
+	position: absolute;
+}
+
 canvas {
 	height: 300px;
 	width: 300px;

@@ -1371,11 +1371,6 @@
         "color": "yellow"
       },
       {
-        "name": "boop",
-        "url": "/parts/arms_boop.png",
-        "color": ""
-      },
-      {
         "name": "bottle",
         "url": "/parts/arms_bottle_blue.png",
         "color": "blue"
@@ -2919,11 +2914,6 @@
         "name": "knives",
         "url": "/parts/arms_knives_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "laptop",
-        "url": "/parts/arms_laptop.png",
-        "color": ""
       },
       {
         "name": "mastodont",
@@ -5083,6 +5073,32 @@
       {
         "name": "witch",
         "url": "/parts/hat_witch.png"
+      }
+    ],
+    "front": [
+      {
+        "name": "blank",
+        "url": "/parts/blank.png"
+      },
+      {
+        "name": "boop",
+        "url": "/parts/front_boop.png"
+      },
+      {
+        "name": "bread",
+        "url": "/parts/front_bread.png"
+      },
+      {
+        "name": "laptop",
+        "url": "/parts/front_laptop.png"
+      },
+      {
+        "name": "lurk",
+        "url": "/parts/front_lurk.png"
+      },
+      {
+        "name": "wall",
+        "url": "/parts/front_wall.png"
       }
     ]
   }
