@@ -1301,11 +1301,6 @@
         "color": "yellow"
       },
       {
-        "name": "bonk",
-        "url": "/parts/arms_bonk.png",
-        "color": ""
-      },
-      {
         "name": "book",
         "url": "/parts/arms_book_blue.png",
         "color": "blue"
@@ -3211,11 +3206,6 @@
         "color": "yellow"
       },
       {
-        "name": "pat",
-        "url": "/parts/arms_pat.png",
-        "color": ""
-      },
-      {
         "name": "phone",
         "url": "/parts/arms_phone_blue.png",
         "color": "blue"
@@ -5071,12 +5061,20 @@
         "url": "/parts/blank.png"
       },
       {
+        "name": "bonk",
+        "url": "/parts/arms_bonk.png"
+      },
+      {
         "name": "conductor",
         "url": "/parts/hat_conductor.png"
       },
       {
         "name": "fire",
         "url": "/parts/hat_fire.png"
+      },
+      {
+        "name": "pat",
+        "url": "/parts/arms_pat.png"
       },
       {
         "name": "police",
