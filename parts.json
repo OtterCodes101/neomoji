@@ -5094,6 +5094,10 @@
         "url": "/parts/front_bread.png"
       },
       {
+        "name": "kissing_booth",
+        "url": "/parts/front_kissing_booth.png"
+      },
+      {
         "name": "laptop",
         "url": "/parts/front_laptop.png"
       },
