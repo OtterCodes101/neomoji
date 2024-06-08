@@ -5056,6 +5056,10 @@
         "url": "/parts/hat_bonk.png"
       },
       {
+        "name": "cat_ears",
+        "url": "/parts/hat_cat_ears.png"
+      },
+      {
         "name": "conductor",
         "url": "/parts/hat_conductor.png"
       },
