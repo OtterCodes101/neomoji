@@ -19,10 +19,6 @@
         "url": "/parts/eyes_cheese.png"
       },
       {
-        "name": "confused",
-        "url": "/parts/eyes_confused.png"
-      },
-      {
         "name": "cry",
         "url": "/parts/eyes_cry.png"
       },
@@ -5064,8 +5060,16 @@
         "url": "/parts/hat_conductor.png"
       },
       {
+        "name": "confused",
+        "url": "/parts/hat_confused.png"
+      },
+      {
         "name": "fire",
         "url": "/parts/hat_fire.png"
+      },
+      {
+        "name": "notice",
+        "url": "/parts/hat_notice.png"
       },
       {
         "name": "pat",
