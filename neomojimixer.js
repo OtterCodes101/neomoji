@@ -44,7 +44,8 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		if (name == "hat") {return "hats"};
 		if (name == "mouth") {return "mouths"};
 		if (name == "arms") {return "arms"};
-		if (name == "front") {return "front decorations"};
+		if (name == "front") {return "front decorations"}
+		else {return name};
 	}
 
 	function PartOption(parent_element, entry, active, callback) {
