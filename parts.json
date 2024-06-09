@@ -5080,6 +5080,10 @@
         "url": "/parts/hat_fox_ears.png"
       },
       {
+        "name": "light_bulb",
+        "url": "/parts/hat_light_bulb.png"
+      },
+      {
         "name": "notice",
         "url": "/parts/hat_notice.png"
       },
