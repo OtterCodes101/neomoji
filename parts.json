@@ -5068,8 +5068,16 @@
         "url": "/parts/hat_confused.png"
       },
       {
+        "name": "cow_ears",
+        "url": "/parts/hat_cow_ears.png"
+      },
+      {
         "name": "fire",
         "url": "/parts/hat_fire.png"
+      },
+      {
+        "name": "fox_ears",
+        "url": "/parts/hat_fox_ears.png"
       },
       {
         "name": "notice",
