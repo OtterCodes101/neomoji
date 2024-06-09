@@ -5084,6 +5084,10 @@
         "url": "/parts/hat_notice.png"
       },
       {
+        "name": "opossum_ears",
+        "url": "/parts/hat_opossum_ears.png"
+      },
+      {
         "name": "pat",
         "url": "/parts/hat_pat.png"
       },
