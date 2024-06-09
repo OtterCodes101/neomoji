@@ -1,5 +1,5 @@
 from flask import Flask, request, send_file, g, jsonify
-from PIL import Image, ExifTags
+from PIL import Image, ExifTags, ImageDraw, ImageFont
 from io import BytesIO
 import json
 from jsonpath import JSONPath
@@ -93,6 +93,17 @@ class Layer:
     def render(self) -> Image:
         return self._image
 
+    def add_text(self, text:str):
+        draw = ImageDraw.Draw(self._image)
+        too_big = True
+        font_size = 74
+        while too_big:
+            font_size -= 2
+            drawfont = ImageFont.truetype("RobotoCondensed-Medium.ttf", font_size, encoding="unic")
+            if draw.textlength(text, font=drawfont) < 130:
+                too_big = False
+        draw.text((124,192), text, "#000", drawfont, anchor="mm", align="center")
+
 class BlankLayer(Layer):
     def __init__(self, level: Level):
         self.name = "blank"
@@ -159,6 +170,9 @@ class Neomoji:
                 new_layer = Layer(Level[level.upper()], part_name, specification[level]["variant"])
             else:
                 new_layer = Layer(Level[level.upper()], part_name, self.color)
+
+        if level == Level.ARMS and "blank" in part_name and "text" in specification[level]:
+            new_layer.add_text(specification[level]["text"])
 
         if "mirror" in specification[level]:
             try:
