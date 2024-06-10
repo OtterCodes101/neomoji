@@ -110,7 +110,7 @@ class Neomoji:
 @app.route("/create", methods=["GET", "POST", ])
 def handle_create(specification:dict=None):
     if not specification:
-        specification = {l: None for l in Level}
+        specification = {l: "blank" for l in Level}
         if request.is_json:
             for l in Level:
                 try:
@@ -160,7 +160,9 @@ def handle_create_random():
     for l in Level:
         if blank_chance[l] < random.random():
             parts = JSONPath(f'$.type.{l}[*][name]').parse(get_src_parts())
-            random_spec[l] = random.choice(parts)
+            random_spec[str(l)] = random.choice(parts)
+        else:
+            random_spec[str(l)] = "blank"
     return handle_create(random_spec)
 
 @app.route("/list", methods=["GET","POST"])
