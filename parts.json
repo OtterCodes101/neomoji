@@ -1085,6 +1085,10 @@
         "url": "/parts/mouth_whistle.png"
       },
       {
+        "name": "woem",
+        "url": "/parts/mouth_woem.png"
+      },
+      {
         "name": "woozy",
         "url": "/parts/mouth_woozy.png"
       },
