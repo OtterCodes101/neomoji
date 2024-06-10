@@ -115,13 +115,13 @@ def handle_create(specification:dict=None):
             for l in Level:
                 try:
                     specification[l] = str(request.json[l])
-                except TypeError:
+                except (TypeError, KeyError):
                     pass
         else:
             for l in Level:
                 try:
                     specification[l] = str(request.args[l])
-                except TypeError:
+                except (TypeError, KeyError):
                     pass
     
     n = Neomoji()
