@@ -19,10 +19,6 @@
         "url": "/parts/eyes_cheese.png"
       },
       {
-        "name": "confused",
-        "url": "/parts/eyes_confused.png"
-      },
-      {
         "name": "cry",
         "url": "/parts/eyes_cry.png"
       },
@@ -969,8 +965,16 @@
         "url": "/parts/mouth_laugh.png"
       },
       {
+        "name": "lick_lemon",
+        "url": "/parts/mouth_lick_lemon.png"
+      },
+      {
         "name": "meh",
         "url": "/parts/mouth_meh.png"
+      },
+      {
+        "name": "mlem",
+        "url": "/parts/mouth_mlem.png"
       },
       {
         "name": "nom_bread",
@@ -5060,12 +5064,40 @@
         "url": "/parts/hat_bonk.png"
       },
       {
+        "name": "cat_ears",
+        "url": "/parts/hat_cat_ears.png"
+      },
+      {
         "name": "conductor",
         "url": "/parts/hat_conductor.png"
       },
       {
+        "name": "confused",
+        "url": "/parts/hat_confused.png"
+      },
+      {
+        "name": "cow_ears",
+        "url": "/parts/hat_cow_ears.png"
+      },
+      {
         "name": "fire",
         "url": "/parts/hat_fire.png"
+      },
+      {
+        "name": "fox_ears",
+        "url": "/parts/hat_fox_ears.png"
+      },
+      {
+        "name": "light_bulb",
+        "url": "/parts/hat_light_bulb.png"
+      },
+      {
+        "name": "notice",
+        "url": "/parts/hat_notice.png"
+      },
+      {
+        "name": "opossum_ears",
+        "url": "/parts/hat_opossum_ears.png"
       },
       {
         "name": "pat",
@@ -5092,6 +5124,10 @@
       {
         "name": "bread",
         "url": "/parts/front_bread.png"
+      },
+      {
+        "name": "kissing_booth",
+        "url": "/parts/front_kissing_booth.png"
       },
       {
         "name": "laptop",

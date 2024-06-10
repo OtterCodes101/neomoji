@@ -38,6 +38,16 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		}
 	}
 
+	function ReturnPlural(name){
+		if (name == "body") {return "bodies"};
+		if (name == "eyes") {return "eyes"};
+		if (name == "hat") {return "hats"};
+		if (name == "mouth") {return "mouths"};
+		if (name == "arms") {return "arms"};
+		if (name == "front") {return "front decorations"}
+		else {return name};
+	}
+
 	function PartOption(parent_element, entry, active, callback) {
 		const element = document.createElement("button");
 		element.classList.add("img-button");
@@ -305,12 +315,17 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		//Show little statistic
 		var sum = 0;
 		var variety = 1;
+
+		stats_text = "";
+
 		for (const i in part_handlers) {
+
+			stats_text += "<p>There are " + part_handlers[i].entries.length + " " + ReturnPlural(part_handlers[i].name) + ".</p>"
 			sum += part_handlers[i].entries.length;
 			variety *= part_handlers[i].entry_indices.length;
 		}
 
-		stats.innerHTML = "There are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.";
+		stats.innerHTML = stats_text + "<br /><p>In total there are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.</p>";
 
 		//Activate the buttons after everything is loaded in
 		for (const i in part_handlers) {
