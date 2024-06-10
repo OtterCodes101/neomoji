@@ -3,7 +3,7 @@ import random
 from PIL import Image
 
 
-with open('parts.json', 'r') as f:
+with open('../parts.json', 'r') as f:
   data = json.load(f)
 
 #no Arms because that made the favicon very noisy
@@ -11,6 +11,8 @@ eyes = []
 mouth = []
 bodies = []
 arms = []
+hat = []
+front = []
 images = []
 
 print('Loading URLs of eyes, mouth and bodies...')
@@ -22,6 +24,12 @@ for eye in data['type']['eyes']:
 for mund in data['type']['mouth']:
     mouth.append(mund['url'])
 
+for hut in data['type']['hat']:
+    hat.append(hut['url'])
+
+for deko in data['type']['front']:
+    front.append(deko['url'])
+
 for body in data['type']['body']:
     bodies.append([body['url'], body['color']])
 
@@ -29,14 +37,14 @@ for arm in data['type']['arms']:
     arms.append([arm['url'], arm['color']])
 
 
-print ("Generating 100 pictures...")
-for i in range(100):
+print ("Generating 300 pictures...")
+for i in range(300):
 
     color_arms = []
     skip_element = 100
 
     if i > 1:
-        skip_element = random.randint(0,3)
+        skip_element = random.randint(0,5)
 
     if skip_element != 2:
         chosen_body = random.choice(bodies)
@@ -52,29 +60,37 @@ for i in range(100):
         arms_url=color_arms[index_arms]
 
     if skip_element != 0:
-        image_eye = Image.open("."+random.choice(eyes)).convert("RGBA")
+        image_eye = Image.open("../"+random.choice(eyes)).convert("RGBA")
 
     if skip_element != 1:
-        image_mouth = Image.open("."+random.choice(mouth)).convert("RGBA")
+        image_mouth = Image.open("../"+random.choice(mouth)).convert("RGBA")
 
-    image_bodies = Image.open("."+chosen_body[0]).convert("RGBA")
+    if skip_element != 4:
+        image_hat = Image.open("../"+random.choice(hat)).convert("RGBA")
 
-    image_arms = Image.open("."+arms_url).convert("RGBA")
+    if skip_element != 5:
+        image_front = Image.open("../"+random.choice(front)).convert("RGBA")
 
-    image_eye = image_eye.resize((128, 128))
-    image_mouth = image_mouth.resize((128, 128))
-    image_bodies = image_bodies.resize((128, 128))
-    image_arms = image_arms.resize((128, 128))
+    image_bodies = Image.open("../"+chosen_body[0]).convert("RGBA")
 
-    result_image = Image.new("RGBA", (128, 128))
+    image_arms = Image.open("../"+arms_url).convert("RGBA")
+
+    #image_eye = image_eye.resize((128, 128))
+    #image_mouth = image_mouth.resize((128, 128))
+    #image_bodies = image_bodies.resize((128, 128))
+    #image_arms = image_arms.resize((128, 128))
+
+    result_image = Image.new("RGBA", (256, 256))
 
     result_image.paste(image_bodies, (0, 0), image_bodies)
     result_image.paste(image_eye, (0, 0), image_eye)
+    result_image.paste(image_hat, (0, 0), image_hat)
     result_image.paste(image_mouth, (0, 0), image_mouth)
     result_image.paste(image_arms, (0, 0), image_arms)
+    result_image.paste(image_front, (0, 0), image_front)
 
     #result_image.save("./favicon_pics/"+str(i)+".png", format="png")
     images.append(result_image)
 
-print("Saving favicon")
-images[0].save('favicon.gif', save_all=True, append_images=images[1:], optimize=False, duration=100, loop=0, disposal=2)
+print("Saving pfp")
+images[0].save('../pfp.gif', save_all=True, append_images=images[1:], optimize=False, duration=2000, loop=0, disposal=2)
