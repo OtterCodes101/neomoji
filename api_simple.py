@@ -60,42 +60,18 @@ class Neomoji:
     render: Image = None
     exif: Image.Exif = None
 
-    def add_layer(self, level:str, specification:dict|str|None):
-        if level not in specification.keys():
-            self.layers.append(BlankLayer(Level[level.upper()]))
-            if Level[level.upper()] == Level.BODY:
-                self.color = "yellow"
-            return
-
-        if not specification[level]:
-            self.layers.append(BlankLayer(Level[level.upper()]))
-            if Level[level.upper()] == Level.BODY:
-                self.color = "yellow"
-            return
-
-        if isinstance(specification[level], str):
-            part_name = specification[level]
-        elif "part" in specification[level].keys():
-            part_name = specification[level]["part"]
-        else:
-            print(f"Error: {level} is a dict but doesn't have a part")
-            self.layers.append(BlankLayer(Level[level.upper()]))
-            if Level[level.upper()] == Level.BODY:
-                self.color = "yellow"
-            return
-        
+    def add_layer(self, level:str, part_name:str) -> None:
         source_part = JSONPath(f'$.type.{level}[?(@.name=="{part_name}")]').parse(get_src_parts())
         variant_count = len(source_part)
+        new_layer = None
         if variant_count == 0:
             print(f"Error: {level} doesn't have {part_name}")
             self.layers.append(BlankLayer(Level[level.upper()]))
+            return
         elif variant_count == 1:
             new_layer = Layer(Level[level.upper()], part_name)
         else:
-            if "variant" in specification[level]:
-                new_layer = Layer(Level[level.upper()], part_name, specification[level]["variant"])
-            else:
-                new_layer = Layer(Level[level.upper()], part_name, self.color)
+            new_layer = Layer(Level[level.upper()], part_name, self.color)
         
         self.layers.append(new_layer)
 
@@ -134,14 +110,23 @@ class Neomoji:
 @app.route("/create", methods=["GET", "POST", ])
 def handle_create(specification:dict=None):
     if not specification:
+        specification = {l: None for l in Level}
         if request.is_json:
-            specification = request.json
+            for l in Level:
+                try:
+                    specification[l] = str(request.json[l])
+                except TypeError:
+                    pass
         else:
-            specification = request.args
+            for l in Level:
+                try:
+                    specification[l] = str(request.args[l])
+                except TypeError:
+                    pass
     
     n = Neomoji()
     for l in Level:
-        n.add_layer(l, specification)
+        n.add_layer(l, specification[l])
 
     try:
         n.author = specification["author"]
@@ -166,8 +151,8 @@ def handle_create_random():
         pass
     blank_chance = {
         Level.BODY: 0,
-        Level.EYES: 0,
-        Level.MOUTH: 0,
+        Level.EYES: 0.01,
+        Level.MOUTH: 0.01,
         Level.ARMS: 0.5,
         Level.HAT: 0.75,
         Level.FRONT: 0.95
