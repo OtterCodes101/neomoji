@@ -199,32 +199,41 @@ def handle_parts_category(level:str):
                         out_dict[part["name"]] = {}
                     else:
                         out_dict[part["name"]] = {"variants": [part["color"], ]}
-        case _:
+        case l if l in Level:
             for part in get_src_parts()["type"][level]:
                 out_dict[part["name"]] = {}
+        case _:
+            return jsonify(error=f"There is not a level named {level}."), 422
     return jsonify(out_dict)
 
 @app.route("/part/<level>/<name>", methods=["GET", "POST"])
 def handle_part_image(level:str, name:str):
-    part = JSONPath(f'$.type.{level}[?(@.name=="{name}")]').parse(get_src_parts())[0]
-    stream = open(f"./{part["url"]}", "rb")
-    return send_file(
-        stream, 
-        mimetype='image/png',
-        as_attachment=False, 
-        download_name=f"{level}_{name}.png"
-    )
+    try:
+        part = JSONPath(f'$.type.{level}[?(@.name=="{name}")]').parse(get_src_parts())[0]
+        stream = open(f"./{part["url"]}", "rb")
+        return send_file(
+            stream, 
+            mimetype='image/png',
+            as_attachment=False, 
+            download_name=f"{level}_{name}.png"
+        )
+    except IndexError:
+        return jsonify(error=f"Unable to find the part {name} in the level {level}."), 422
+
 
 @app.route("/part/<level>/<name>/<variant>", methods=["GET", "POST"])
 def handle_part_image_variant(level:str, name:str, variant:str):
-    part = JSONPath(f'$.type.{level}[?(@.name=="{name}" and @.color=="{variant}")]').parse(get_src_parts())[0]
-    stream = open(f"./{part["url"]}", "rb")
-    return send_file(
-        stream, 
-        mimetype='image/png',
-        as_attachment=False, 
-        download_name=f"{level}_{name}_{variant}.png"
-    )
+    try:
+        part = JSONPath(f'$.type.{level}[?(@.name=="{name}" and @.color=="{variant}")]').parse(get_src_parts())[0]
+        stream = open(f"./{part["url"]}", "rb")
+        return send_file(
+            stream, 
+            mimetype='image/png',
+            as_attachment=False, 
+            download_name=f"{level}_{name}_{variant}.png"
+        )
+    except IndexError:
+        return jsonify(error=f"Unable to find the {variant} variant of the {name} part in the level {level}."), 422
 
 class InvalidAPIUsageException(Exception):
     status_code:int = 422
