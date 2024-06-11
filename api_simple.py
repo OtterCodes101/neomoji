@@ -1,6 +1,6 @@
 import json
 import random
-from flask import Flask, request, send_file, g, jsonify
+from flask import Flask, request, send_file, g, jsonify, abort
 from PIL import Image, ExifTags
 from io import BytesIO
 from jsonpath import JSONPath
@@ -36,7 +36,10 @@ class Layer:
             self.url = part_data["url"]
         else:
             part_data = JSONPath(f'$.type.{self.level }[?(@.name=="{self.name}" and @.color=="{variant}")]').parse(get_src_parts())[0]
-            self.url = part_data["url"]
+            try:
+                self.url = part_data["url"]
+            except KeyError:
+                abort(500, message=f"Could not find {variant} for {name} in {level}")
         self._image = Image.open(f"./{self.url}").convert("RGBA")
 
     def render(self) -> Image:
@@ -65,9 +68,7 @@ class Neomoji:
         variant_count = len(source_part)
         new_layer = None
         if variant_count == 0:
-            print(f"Error: {level} doesn't have {part_name}")
-            self.layers.append(BlankLayer(Level[level.upper()]))
-            return
+            raise InvalidAPIUsageException(f"There is no part named {part_name} for the level {level}.")
         elif variant_count == 1:
             new_layer = Layer(Level[level.upper()], part_name)
         else:
@@ -109,24 +110,32 @@ class Neomoji:
 
 @app.route("/create", methods=["GET", "POST", ])
 def handle_create(specification:dict=None):
+    error_list = []
     if not specification:
         specification = {l: "blank" for l in Level}
         if request.is_json:
-            for l in Level:
-                try:
-                    specification[l] = str(request.json[l])
-                except (TypeError, KeyError):
+            for k, v in request.json.items():
+                if k not in (*Level, "author"):
+                    error_list.append(f"There is no layer named {k}")
+                elif k == "author":
                     pass
+                else:
+                    specification[Level[k.upper()]] = v
         else:
-            for l in Level:
-                try:
-                    specification[l] = str(request.args[l])
-                except (TypeError, KeyError):
+            for k, v in request.args.items():
+                if k not in (*Level, "author"):
+                    error_list.append(f"There is no layer named {k}")
+                elif k == "author":
                     pass
+                else:
+                    specification[Level[k.upper()]] = v
     
     n = Neomoji()
     for l in Level:
-        n.add_layer(l, specification[l])
+        try:
+            n.add_layer(l, specification[l])
+        except InvalidAPIUsageException as e:
+            error_list.append(e.message)
 
     try:
         n.author = specification["author"]
@@ -135,20 +144,19 @@ def handle_create(specification:dict=None):
     n.compile_image()
     n.add_exif()
     stream = n.export()
-    return send_file(
-        stream, 
-        mimetype='image/png',
-        as_attachment=True, 
-        download_name=n.get_filename()
-    )
+    if len(error_list) > 0:
+        return jsonify(error_list), 422
+    else:
+        return send_file(
+            stream, 
+            mimetype='image/png',
+            as_attachment=True, 
+            download_name=n.get_filename()
+        )
 
 @app.route("/create/random", methods=["GET", "POST"])
 def handle_create_random():
     random_spec = {}
-    try:
-        random_spec["author"] = request.args["author"]
-    except KeyError:
-        pass
     blank_chance = {
         Level.BODY: 0,
         Level.EYES: 0.01,
@@ -220,3 +228,15 @@ def handle_part_image_variant(level:str, name:str, variant:str):
         as_attachment=False, 
         download_name=f"{level}_{name}_{variant}.png"
     )
+
+class InvalidAPIUsageException(Exception):
+    status_code:int = 422
+    message: str
+
+    def __init__(self, message: str):
+        super().__init__()
+        self.message = message
+
+@app.errorhandler(500)
+def handle_server_error(e):
+    return jsonify([e.message, ]), 500
