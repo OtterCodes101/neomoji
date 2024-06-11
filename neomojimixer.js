@@ -2,21 +2,21 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	//global variables
 
 	const color_names = [
+		"blue",
+		"catraxx",
+		"darkbrown",
+		"dog",
 		"frozen",
+		"green",
+		"grey",
+		"lightbrown",
 		"lightgrey",
 		"orange",
+		"pink",
 		"red",
 		"white",
+		"wyvern",
 		"yellow",
-		"lightbrown",
-		"darkbrown",
-		"grey",
-		"blue",
-		"pink",
-		"green",
-		"dog",
-		"catraxx",
-		"wyvern"
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];
@@ -325,6 +325,8 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			sum += part_handlers[i].entries.length;
 			variety *= part_handlers[i].entry_indices.length;
 		}
+
+		stats_text += "<p>There are " + color_names.length + " different colours for the arms.</p>"
 
 		stats.innerHTML = stats_text + "<br /><p>In total there are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.</p>";
 
