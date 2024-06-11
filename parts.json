@@ -2609,6 +2609,81 @@
         "color": "yellow"
       },
       {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "hold_rainbow_infinity",
         "url": "/parts/arms_hold_rainbow_infinity_blue.png",
         "color": "blue"
