@@ -1,6 +1,6 @@
 import json
 import random
-from flask import Flask, request, send_file, g, jsonify, abort
+from flask import Flask, request, send_file, g, jsonify
 from PIL import Image, ExifTags
 from io import BytesIO
 from jsonpath import JSONPath
@@ -36,10 +36,7 @@ class Layer:
             self.url = part_data["url"]
         else:
             part_data = JSONPath(f'$.type.{self.level }[?(@.name=="{self.name}" and @.color=="{variant}")]').parse(get_src_parts())[0]
-            try:
-                self.url = part_data["url"]
-            except KeyError:
-                abort(500, message=f"Could not find {variant} for {name} in {level}")
+            self.url = part_data["url"]
         self._image = Image.open(f"./{self.url}").convert("RGBA")
 
     def render(self) -> Image:
@@ -105,14 +102,14 @@ class Neomoji:
 
     def __init__(self):
         self.layers = []
-        self.color = None
+        self.color = "yellow"
         self.render = None
 
 @app.route("/create", methods=["GET", "POST", ])
 def handle_create(specification:dict=None):
     error_list = []
     if not specification:
-        specification = {l: "blank" for l in Level}
+        specification = {l: None for l in Level}
         if request.is_json:
             for k, v in request.json.items():
                 if k not in (*Level, "author"):
@@ -132,10 +129,13 @@ def handle_create(specification:dict=None):
     
     n = Neomoji()
     for l in Level:
-        try:
-            n.add_layer(l, specification[l])
-        except InvalidAPIUsageException as e:
-            error_list.append(e.message)
+        if not specification[l]:
+            n.layers.append(BlankLayer(l))
+        else:
+            try:
+                n.add_layer(l, specification[l])
+            except InvalidAPIUsageException as e:
+                error_list.append(e.message)
 
     try:
         n.author = specification["author"]
@@ -188,11 +188,9 @@ def handle_parts_category(level:str):
     out_dict = {}
     match(level):
         case Level.BODY:
-            print("body")
             for part in get_src_parts()["type"][level]:
                 out_dict[part["name"]] = {"color": part["color"]}
         case Level.ARMS:
-            print("arms")
             for part in get_src_parts()["type"][level]:
                 try:
                     out_dict[part["name"]]["variants"].append(part["color"])
@@ -202,7 +200,6 @@ def handle_parts_category(level:str):
                     else:
                         out_dict[part["name"]] = {"variants": [part["color"], ]}
         case _:
-            print("default")
             for part in get_src_parts()["type"][level]:
                 out_dict[part["name"]] = {}
     return jsonify(out_dict)
@@ -236,7 +233,3 @@ class InvalidAPIUsageException(Exception):
     def __init__(self, message: str):
         super().__init__()
         self.message = message
-
-@app.errorhandler(500)
-def handle_server_error(e):
-    return jsonify([e.message, ]), 500
