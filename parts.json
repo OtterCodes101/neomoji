@@ -414,6 +414,11 @@
         "color": "yellow"
       },
       {
+        "name": "neocatraxx",
+        "url": "/parts/neocatraxx.png",
+        "color": "catraxx"
+      },
+      {
         "name": "neocow",
         "url": "/parts/neocow.png",
         "color": "white"
@@ -1105,6 +1110,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1172,6 +1182,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "aww",
@@ -1250,6 +1265,11 @@
       },
       {
         "name": "bomb",
+        "url": "/parts/arms_bomb_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "bomb",
         "url": "/parts/arms_bomb_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1317,6 +1337,11 @@
         "name": "book",
         "url": "/parts/arms_book_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "book",
+        "url": "/parts/arms_book_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "book",
@@ -1390,6 +1415,11 @@
       },
       {
         "name": "bottle",
+        "url": "/parts/arms_bottle_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "bottle",
         "url": "/parts/arms_bottle_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1457,6 +1487,11 @@
         "name": "bottle_big",
         "url": "/parts/arms_bottle_big_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "bottle_big",
+        "url": "/parts/arms_bottle_big_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "bottle_big",
@@ -1530,6 +1565,11 @@
       },
       {
         "name": "box",
+        "url": "/parts/arms_box_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "box",
         "url": "/parts/arms_box_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1597,6 +1637,11 @@
         "name": "checkmark",
         "url": "/parts/arms_checkmark_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "checkmark",
+        "url": "/parts/arms_checkmark_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "checkmark",
@@ -1670,6 +1715,11 @@
       },
       {
         "name": "clipboard",
+        "url": "/parts/arms_clipboard_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "clipboard",
         "url": "/parts/arms_clipboard_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1737,6 +1787,11 @@
         "name": "controller",
         "url": "/parts/arms_controller_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "controller",
+        "url": "/parts/arms_controller_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "controller",
@@ -1810,6 +1865,11 @@
       },
       {
         "name": "cross",
+        "url": "/parts/arms_cross_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "cross",
         "url": "/parts/arms_cross_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1877,6 +1937,11 @@
         "name": "crossstich",
         "url": "/parts/arms_crossstich_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "crossstich",
+        "url": "/parts/arms_crossstich_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "crossstich",
@@ -1950,6 +2015,11 @@
       },
       {
         "name": "facepalm",
+        "url": "/parts/arms_facepalm_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "facepalm",
         "url": "/parts/arms_facepalm_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2017,6 +2087,11 @@
         "name": "fcknzs",
         "url": "/parts/arms_fcknzs_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "fcknzs",
+        "url": "/parts/arms_fcknzs_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "fcknzs",
@@ -2090,6 +2165,11 @@
       },
       {
         "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "fingerguns",
         "url": "/parts/arms_fingerguns_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2157,6 +2237,11 @@
         "name": "heart",
         "url": "/parts/arms_heart_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "heart",
+        "url": "/parts/arms_heart_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "heart",
@@ -2230,6 +2315,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2297,6 +2387,11 @@
         "name": "hold_burger",
         "url": "/parts/arms_hold_burger_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hold_burger",
+        "url": "/parts/arms_hold_burger_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "hold_burger",
@@ -2370,6 +2465,11 @@
       },
       {
         "name": "hold_lego",
+        "url": "/parts/arms_hold_lego_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "hold_lego",
         "url": "/parts/arms_hold_lego_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2437,6 +2537,11 @@
         "name": "hold_meeple",
         "url": "/parts/arms_hold_meeple_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hold_meeple",
+        "url": "/parts/arms_hold_meeple_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "hold_meeple",
@@ -2510,6 +2615,11 @@
       },
       {
         "name": "hold_rainbow_infinity",
+        "url": "/parts/arms_hold_rainbow_infinity_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "hold_rainbow_infinity",
         "url": "/parts/arms_hold_rainbow_infinity_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2577,6 +2687,11 @@
         "name": "hungry",
         "url": "/parts/arms_hungry_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hungry",
+        "url": "/parts/arms_hungry_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "hungry",
@@ -2655,6 +2770,11 @@
       },
       {
         "name": "hyvis_clipboard",
+        "url": "/parts/arms_hyvis_clipboard_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "hyvis_clipboard",
         "url": "/parts/arms_hyvis_clipboard_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2722,6 +2842,11 @@
         "name": "hyvis_mug",
         "url": "/parts/arms_hyvis_mug_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hyvis_mug",
+        "url": "/parts/arms_hyvis_mug_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "hyvis_mug",
@@ -2795,6 +2920,11 @@
       },
       {
         "name": "knife",
+        "url": "/parts/arms_knife_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "knife",
         "url": "/parts/arms_knife_darkbrown.png",
         "color": "darkbrown"
       },
@@ -2862,6 +2992,11 @@
         "name": "knives",
         "url": "/parts/arms_knives_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "knives",
+        "url": "/parts/arms_knives_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "knives",
@@ -2935,6 +3070,11 @@
       },
       {
         "name": "mastodont",
+        "url": "/parts/arms_mastodont_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "mastodont",
         "url": "/parts/arms_mastodont_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3002,6 +3142,11 @@
         "name": "middlefinger",
         "url": "/parts/arms_middlefinger_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "middlefinger",
+        "url": "/parts/arms_middlefinger_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "middlefinger",
@@ -3075,6 +3220,11 @@
       },
       {
         "name": "middlefinger_double",
+        "url": "/parts/arms_middlefinger_double_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "middlefinger_double",
         "url": "/parts/arms_middlefinger_double_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3142,6 +3292,11 @@
         "name": "mug",
         "url": "/parts/arms_mug_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "mug",
+        "url": "/parts/arms_mug_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "mug",
@@ -3215,6 +3370,11 @@
       },
       {
         "name": "phone",
+        "url": "/parts/arms_phone_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "phone",
         "url": "/parts/arms_phone_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3282,6 +3442,11 @@
         "name": "pleading",
         "url": "/parts/arms_pleading_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "pleading",
+        "url": "/parts/arms_pleading_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "pleading",
@@ -3355,6 +3520,11 @@
       },
       {
         "name": "reach",
+        "url": "/parts/arms_reach_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "reach",
         "url": "/parts/arms_reach_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3422,6 +3592,11 @@
         "name": "science",
         "url": "/parts/arms_science_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "science",
+        "url": "/parts/arms_science_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "science",
@@ -3495,6 +3670,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3562,6 +3742,11 @@
         "name": "sign_aaa",
         "url": "/parts/arms_sign_aaa_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_aaa",
+        "url": "/parts/arms_sign_aaa_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "sign_aaa",
@@ -3635,6 +3820,11 @@
       },
       {
         "name": "sign_blank",
+        "url": "/parts/arms_sign_blank_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sign_blank",
         "url": "/parts/arms_sign_blank_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3702,6 +3892,11 @@
         "name": "sign_boobs",
         "url": "/parts/arms_sign_boobs_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_boobs",
+        "url": "/parts/arms_sign_boobs_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "sign_boobs",
@@ -3775,6 +3970,11 @@
       },
       {
         "name": "sign_butts",
+        "url": "/parts/arms_sign_butts_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sign_butts",
         "url": "/parts/arms_sign_butts_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3842,6 +4042,11 @@
         "name": "sign_no",
         "url": "/parts/arms_sign_no_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_no",
+        "url": "/parts/arms_sign_no_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "sign_no",
@@ -3915,6 +4120,11 @@
       },
       {
         "name": "sign_nya",
+        "url": "/parts/arms_sign_nya_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sign_nya",
         "url": "/parts/arms_sign_nya_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3982,6 +4192,11 @@
         "name": "sign_thx",
         "url": "/parts/arms_sign_thx_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_thx",
+        "url": "/parts/arms_sign_thx_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "sign_thx",
@@ -4055,6 +4270,11 @@
       },
       {
         "name": "sign_yes",
+        "url": "/parts/arms_sign_yes_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sign_yes",
         "url": "/parts/arms_sign_yes_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4122,6 +4342,11 @@
         "name": "sign_yip",
         "url": "/parts/arms_sign_yip_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sign_yip",
+        "url": "/parts/arms_sign_yip_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "sign_yip",
@@ -4220,6 +4445,11 @@
       },
       {
         "name": "solder",
+        "url": "/parts/arms_solder_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "solder",
         "url": "/parts/arms_solder_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4287,6 +4517,11 @@
         "name": "solder_wrong",
         "url": "/parts/arms_solder_wrong_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "solder_wrong",
+        "url": "/parts/arms_solder_wrong_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "solder_wrong",
@@ -4360,6 +4595,11 @@
       },
       {
         "name": "spool",
+        "url": "/parts/arms_spool_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "spool",
         "url": "/parts/arms_spool_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4427,6 +4667,11 @@
         "name": "spraybottle",
         "url": "/parts/arms_spraybottle_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "spraybottle",
+        "url": "/parts/arms_spraybottle_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "spraybottle",
@@ -4500,6 +4745,11 @@
       },
       {
         "name": "sweat",
+        "url": "/parts/arms_sweat_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sweat",
         "url": "/parts/arms_sweat_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4567,6 +4817,11 @@
         "name": "take_my_money",
         "url": "/parts/arms_money_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "take_my_money",
+        "url": "/parts/arms_money_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "take_my_money",
@@ -4640,6 +4895,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4707,6 +4967,11 @@
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "thumbsdown",
@@ -4780,6 +5045,11 @@
       },
       {
         "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "thumbsup",
         "url": "/parts/arms_thumbsup_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4847,6 +5117,11 @@
         "name": "torch",
         "url": "/parts/arms_torch_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "torch",
+        "url": "/parts/arms_torch_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "torch",
@@ -4920,6 +5195,11 @@
       },
       {
         "name": "verified",
+        "url": "/parts/arms_verified_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "verified",
         "url": "/parts/arms_verified_darkbrown.png",
         "color": "darkbrown"
       },
@@ -4987,6 +5267,11 @@
         "name": "wine",
         "url": "/parts/arms_wine_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_catraxx.png",
+        "color": "catraxx"
       },
       {
         "name": "wine",
