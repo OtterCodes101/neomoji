@@ -419,6 +419,11 @@
         "color": "catraxx"
       },
       {
+        "name": "neocircle",
+        "url": "/parts/neocircle",
+        "color": "yellow"
+      },
+      {
         "name": "neocow",
         "url": "/parts/neocow.png",
         "color": "white"
