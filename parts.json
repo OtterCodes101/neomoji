@@ -143,6 +143,10 @@
         "url": "/parts/eyes_stare.png"
       },
       {
+        "name": "starstruck",
+        "url": "/parts/eyes_starstruck.png"
+      },
+      {
         "name": "sunglasses",
         "url": "/parts/eyes_sunglasses.png"
       },
