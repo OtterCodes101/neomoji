@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg849" width="2048" height="2048" version="1.1" viewBox="0 0 542 542">
+  <style>
+    #left_arm{fill:#4f8c9e;stroke:#000;}
+  </style>
+  <defs>
+    <linearGradient id="rw_stripes">
+      <stop offset="0%" stop-color="red"/>
+      <stop offset="20%" stop-color="red"/>
+      <stop offset="20%" stop-color="#fff"/>
+      <stop offset="40%" stop-color="#fff"/>
+      <stop offset="40%" stop-color="red"/>
+      <stop offset="60%" stop-color="red"/>
+      <stop offset="60%" stop-color="#fff"/>
+      <stop offset="80%" stop-color="#fff"/>
+      <stop offset="80%" stop-color="red"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <clipPath id="clipPath1800" clipPathUnits="userSpaceOnUse">
+      <path id="rect1802" d="M246 365h106v109H246z" transform="scale(-1 1)"/>
+    </clipPath>
+  </defs>
+  <g id="layer2">
+    <g id="Popcorn" transform="matrix(2.0506 0 0 2.0506 135 9)">
+      <path id="Outline" fill="none" stroke="#000" stroke-width="15" d="m10 186-2-11a7 7 0 0 1 11-7 10 10 0 0 1 13-12c0-2 1-5 3-7l-2-5c-1-5 5-11 11-10l6 2 4-1c4 0 7 3 8 6l6-1a11 11 0 0 1 8 16h1a9 9 0 0 1 9 11 9 9 0 0 1 11 9l-1 3-9 54c0 7-16 14-34 14-19 0-35-7-35-14z"/>
+      <path id="Kernels" fill="#f8e26c" d="M90 196s-50 15-67 1l-8-11c-4 0-7-7-7-11a7 7 0 0 1 11-7 10 10 0 0 1 13-12c0-2 1-5 3-7l-2-5c-1-5 5-11 11-10l6 2 4-1c4 0 7 3 8 6l6-1a11 11 0 0 1 8 16h1a9 9 0 0 1 9 11 9 9 0 0 1 11 9l-7 20z"/>
+      <path id="Bucket" fill="url(#rw_stripes)" fill-opacity="1" d="m96 177-9 56c0 7-16 14-34 14-19 0-35-7-35-14l-9-56c2 7 21 12 44 12 22 0 41-5 43-12z"/>
+      <g id="Shadows" display="inline">
+        <path id="path9514" fill="none" stroke="#000" stroke-width="3" d="M54 148s-2 7-10 3"/>
+        <path id="path9516" fill="none" stroke="#000" stroke-width="3" d="M70 164s-6 3-10-4"/>
+        <path id="path9518" fill="none" stroke="#000" stroke-width="3" d="M37 167s-1 7-10 6"/>
+        <path id="path9520" fill="none" stroke="#000" stroke-width="3" d="M58 178s-6 4-11-3"/>
+        <path id="path9522" fill="none" stroke="#000" stroke-width="3" d="M81 174s-3 7-11 3"/>
+      </g>
+    </g>
+    <rect id="left_arm" width="193.9" height="88.9" x="-451" y="375" stroke-width="20" clip-path="url(#clipPath1800)"  rx="46" ry="42.5" transform="scale(-1 1) rotate(15 -271 271)"/>
+    <use xlink:href="#left_arm" id="use1451" width="100%" height="100%" x="0" y="0" transform="matrix(-1 0 0 1 475 0)"/>
+  </g>
+</svg>
