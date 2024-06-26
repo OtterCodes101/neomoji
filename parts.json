@@ -3311,6 +3311,81 @@
         "color": "yellow"
       },
       {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_green.png",
+        "color": "green"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_red.png",
+        "color": "red"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_white.png",
+        "color": "white"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "arms_megaphone",
+        "url": "/parts/arms_megaphone_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "middlefinger",
         "url": "/parts/arms_middlefinger_blue.png",
         "color": "blue"
