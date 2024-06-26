@@ -2706,6 +2706,81 @@
         "color": "yellow"
       },
       {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_green.png",
+        "color": "green"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_red.png",
+        "color": "red"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_white.png",
+        "color": "white"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "hold_rainbow_infinity",
         "url": "/parts/arms_hold_rainbow_infinity_blue.png",
         "color": "blue"
