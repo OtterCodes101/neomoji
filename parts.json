@@ -4095,6 +4095,116 @@
         "color": "mousebrown"
       },
       {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_green.png",
+        "color": "green"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_red.png",
+        "color": "red"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_white.png",
+        "color": "white"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
         "name": "science",
         "url": "/parts/arms_science_blue.png",
         "color": "blue"
@@ -5877,6 +5987,10 @@
       {
         "name": "cowboy",
         "url": "/parts/hat_cowboy.png"
+      },
+      {
+        "name": "crown_dutch",
+        "url": "/parts/hat_crown_dutch.png"
       },
       {
         "name": "fire",
