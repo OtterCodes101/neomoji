@@ -17,6 +17,12 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"white",
 		"wyvern",
 		"yellow",
+		"mouse",
+		"hairless",
+		"fawn",
+		"cinnamon",
+		"mousebrown",
+		"mouseblack"
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];
