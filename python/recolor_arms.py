@@ -2,42 +2,69 @@ import subprocess
 import xml.etree.ElementTree as ET
 import re
 import os
+from dataclasses import dataclass, field
 
 INKSCAPE_PATH = "C:\\Program Files\\Inkscape\\bin\\inkscape.com"
 
+@dataclass
+class Palette:
+  fur: str
+  outline: str
+  paw: str
+  nose: str = None
+  whiskers: str = None
+
+  def __init__(self, fur, outline, paw=None):
+    self.fur = fur
+    self.outline = outline
+    if paw:
+      self.paw = paw
+    else:
+      self.paw = fur
+
+
 color_dict = {
-    "blue": ("#4f8c9e","#000000"),
-    "catraxx": ("#070362","#000000"),
-    "darkbrown": ("#672c10","#000000"),
-    "dog": ("#f3c07b", "#000000"),
-    "frozen": ("#7beeff", "#2d67cc"),
-    "green": ("#add359", "#000000"),
-    "grey": ("#979797", "#000000"),
-    "lightbrown": ("#ba856d", "#000000"),
-    "lightgrey": ("#d2d0ca", "#000000"),
-    "orange": ("#f7965b", "#000000"),
-    "pink": ("#dea3aa", "#000000"),
-    "red": ("#f2725a", "#000000"),
-    "white": ("#ffffff", "#000000"),
-    "wyvern": ("#91746e", "#000000"),
-    "yellow": ("#ffc95c", "#000000")
+    "blue": Palette("#4f8c9e","#000000"),
+    "catraxx": Palette("#070362","#000000"),
+    "darkbrown": Palette("#672c10","#000000"),
+    "dog": Palette("#f3c07b", "#000000"),
+    "frozen": Palette("#7beeff", "#2d67cc"),
+    "green": Palette("#add359", "#000000"),
+    "grey": Palette("#979797", "#000000"),
+    "lightbrown": Palette("#ba856d", "#000000"),
+    "lightgrey": Palette("#d2d0ca", "#000000"),
+    "orange": Palette("#f7965b", "#000000"),
+    "pink": Palette("#dea3aa", "#000000"),
+    "red": Palette("#f2725a", "#000000"),
+    "white": Palette("#ffffff", "#000000"),
+    "wyvern": Palette("#91746e", "#000000"),
+    "yellow": Palette("#ffc95c", "#000000"),
+    "mouse": Palette("#e3dedb", "#000000", "#e9afaf"),
+    "hairless": Palette("#e7baba", "#000000", "#e9afaf"),
+    "fawn": Palette("#deb28b", "#000000", "#e9afaf"),
+    "cinnamon": Palette("#b57746", "#000000", "#e9afaf"),
+    "albino": Palette("#ffffff", "#000000", "#e9afaf"),
+    "mouseblack": Palette("#4d5b66", "#000000", "#e9afaf"),
+    "mousebrown": Palette("#6c5d53", "#000000", "#e9afaf"),
 }
 
-part_name = "arms_megaphone"
+location = "arms"
+part_name = "guns_akimbo"
 
-for color, (fill, stroke) in color_dict.items():
+for color, palette in color_dict.items():
     # print(f"{color}, {fill}, {stroke}")
     print(f"""      {{
         "name": "{part_name}",
-        "url": "/parts/{part_name}_{color}.png",
+        "url": "/parts/{location}_{part_name}_{color}.png",
         "color": "{color}"
       }},""")
-    tree = ET.parse(f"high-res-parts/svg/{part_name}.svg")
+    tree = ET.parse(f"high-res-parts/svg/{location}_{part_name}.svg")
     style = tree.find(".//{http://www.w3.org/2000/svg}style")
-    style_text = re.sub("fill:#4f8c9e;stroke:#000", f"fill:{fill};stroke:{stroke}", style.text)
-    style.text = style_text
-
+    style.text = re.sub(r".fur{fill:#e3dedb}", f".fur{{fill:{palette.fur}}}", style.text)
+    style.text = re.sub(r".outline{stroke:#000}", f".outline{{stroke:{palette.outline}}}", style.text)
+    style.text = re.sub(r".paw{fill:#e9afaf}", f".paw{{fill:{palette.paw}}}", style.text)
+    
     tree.write("temp.svg")
-    subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 256 -h 256 --export-filename=.\\parts\\{part_name}_{color}.png", capture_output=True)
-    subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 2048 -h 2048 --export-filename=.\\high-res-parts\\{part_name}_{color}.png", capture_output=True)
+    subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 256 -h 256 --export-filename=.\\parts\\{location}_{part_name}_{color}.png", capture_output=True)
+    subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 2048 -h 2048 --export-filename=.\\high-res-parts\\{location}_{part_name}_{color}_2048.png", capture_output=True)
     os.remove("temp.svg")
