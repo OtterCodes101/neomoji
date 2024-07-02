@@ -1101,6 +1101,10 @@
         "url": "/parts/mouth_sip.png"
       },
       {
+        "name": "smirk",
+        "url": "/parts/mouth_smirk.png"
+      },
+      {
         "name": "surprised",
         "url": "/parts/mouth_surprised.png"
       },
@@ -5878,6 +5882,116 @@
         "name": "verified",
         "url": "/parts/arms_verified_yellow.png",
         "color": "yellow"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_green.png",
+        "color": "green"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_red.png",
+        "color": "red"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_white.png",
+        "color": "white"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "wine",
