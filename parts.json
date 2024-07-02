@@ -1105,6 +1105,10 @@
         "url": "/parts/mouth_smirk.png"
       },
       {
+        "name": "smirk_fang",
+        "url": "/parts/mouth_smirk_fang.png"
+      },
+      {
         "name": "surprised",
         "url": "/parts/mouth_surprised.png"
       },
