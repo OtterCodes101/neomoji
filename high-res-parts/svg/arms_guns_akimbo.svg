@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg9"
+   width="2048"
+   height="2048"
+   version="1.1"
+   sodipodi:docname="arms_guns_akimbo.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata843">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs841" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview839"
+     showgrid="false"
+     inkscape:zoom="0.37060547"
+     inkscape:cx="1024"
+     inkscape:cy="1024"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <style
+     id="style2">
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <g
+     id="g852">
+    <path
+       id="right_gun_outline"
+       stroke="#000000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="98"
+       d="m 65,1379 v 128 h 255 l 1,131 c 0,19 9,35 24,47 19,16 47,12 71,13 -1,38 35,68 72,64 81,1 160,-2 241,2 52,10 94,55 101,108 -1,-68 4,-135 -2,-203 -10,-68 -60,-128 -125,-151 v -43 c -31,7 -81,-29 -37,-52 16,-13 46,-4 37,-32 6,-19 -16,-10 -27,-12 z" />
+    <g
+       id="right_gun">
+      <path
+         id="path8453"
+         fill="#fdfdfd"
+         stroke-width="1"
+         d="m 384,1443 v 64 h 83 c 82,0 82,0 88,2 a 32,32 0 0 1 0,59 c -6,2 -6,2 -88,2 h -83 v 64 h 87 c 86,0 87,0 95,-3 21,-5 41,-18 53,-35 7,-9 15,-24 17,-35 3,-13 3,-32 0,-45 -5,-21 -18,-41 -35,-54 -8,-6 -24,-14 -35,-16 -8,-3 -9,-3 -95,-3 z"
+         display="inline" />
+      <path
+         id="path8444"
+         fill="#d2d2d2"
+         stroke-width="1"
+         d="m 469,1761 a 66,66 0 0 1 -53,-60 v -3 h -19 c -21,0 -28,-1 -37,-5 -18,-7 -30,-20 -37,-40 -2,-5 -2,-6 -3,-76 v -70 H 65 v -128 h 638 v 32 h -3 a 66,66 0 0 0 -53,34 l -4,8 c 1,3 16,11 25,15 9,3 23,7 30,7 h 5 v 43 l 5,2 14,6 a 193,193 0 0 1 108,179 l 1,25 -6,-4 c -21,-16 -51,-30 -77,-36 -19,-4 -25,-5 -76,-5 -49,0 -51,1 -61,3 a 139,139 0 0 0 -94,69 l -3,5 h -21 z m 97,-130 c 21,-5 41,-18 53,-35 7,-9 15,-24 17,-35 3,-13 3,-32 0,-45 -5,-21 -18,-41 -35,-54 -8,-6 -24,-14 -35,-16 -8,-3 -9,-3 -95,-3 h -87 v 64 h 83 c 82,0 82,0 88,2 a 32,32 0 0 1 0,59 c -6,2 -6,2 -88,2 h -83 v 64 h 87 c 86,0 87,0 95,-3 z"
+         display="inline" />
+      <path
+         id="path8442"
+         fill="#8a8a8a"
+         stroke-width="1"
+         d="m 607,1379 v 4 a 98,98 0 0 0 27,62 l 8,8 5,-8 a 65,65 0 0 1 53,-34 h 3 v -32 h -48 z m -223,127 v 64 h 167 l 5,-3 c 12,-5 19,-16 19,-29 0,-12 -7,-23 -19,-28 l -5,-3 h -84 z m 318,12 v 4 a 192,192 0 0 1 -160,173 c -10,2 -17,2 -69,3 h -57 v 3 a 66,66 0 0 0 53,60 l 24,1 h 128 c -54,-91 161,-56 210,-32 l -1,-25 A 193,193 0 0 0 708,1520 Z m -381,120 -1,2 c 0,2 0,3 1,2 z m 0,8 v 2 l 1,1 v -2 z m 12,27 2,2 3,3 -3,-3 z m 6,6 3,3 3,3 -3,-3 z m 14,10 -1,1 2,1 c 1,0 1,-1 -1,-1 z m 14,6 h -1 v 1 l 2,-1 z m 4,1 h -1 v 1 l 2,-1 z m 7,1 h -1 c -1,1 0,1 1,1 1,0 2,0 1,-1 z"
+         display="inline" />
+      <path
+         id="path8440"
+         fill="#414141"
+         stroke-width="1"
+         d="m 703,1519 -1,9 a 195,195 0 0 1 -89,141 194,194 0 0 1 -88,29 h -5 l 9,1 28,7 c 97,42 308,-173 6,2 l 6,4 c 4,3 12,7 16,11 10,7 25,22 30,31 l 5,7 52,1 c 55,0 56,0 74,7 a 130,130 0 0 1 84,103 l 1,-70 v -72 c 1,-22 -1,-59 -7,-81 A 193,193 0 0 0 703,1519 Z m -287,183 v 3 z m 14,36 1,1 1,2 c 1,0 1,-1 -1,-2 z m 7,7 1,1 1,2 c 1,0 1,-1 -1,-2 z m 36,16 h -2 l 1,1 z" />
+    </g>
+    <path
+       id="right_paw"
+       class="paw outline"
+       stroke-width="98"
+       d="m 716,1980 a 114,114 0 1 0 0,-228 h -86 c -31,0 -57,25 -57,57 v 114 c 0,32 26,57 57,57 z"
+       paint-order="stroke markers fill" />
+  </g>
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g852"
+     id="use854"
+     transform="matrix(-1,0,0,1,2048.0931,0)"
+     width="100%"
+     height="100%" />
+</svg>
