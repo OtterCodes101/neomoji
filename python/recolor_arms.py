@@ -49,22 +49,24 @@ color_dict = {
 }
 
 location = "arms"
-part_name = "guns_akimbo"
+part_name = "vulcan"
 
-for color, palette in color_dict.items():
-    # print(f"{color}, {fill}, {stroke}")
-    print(f"""      {{
-        "name": "{part_name}",
-        "url": "/parts/{location}_{part_name}_{color}.png",
-        "color": "{color}"
+with open("new_parts.txt", "w") as new_parts:
+  for color, palette in color_dict.items():
+      # print(f"{color}, {fill}, {stroke}")
+      new_parts.write(f"""
+      {{
+          "name": "{part_name}",
+          "url": "/parts/{location}_{part_name}_{color}.png",
+          "color": "{color}"
       }},""")
-    tree = ET.parse(f"high-res-parts/svg/{location}_{part_name}.svg")
-    style = tree.find(".//{http://www.w3.org/2000/svg}style")
-    style.text = re.sub(r".fur{fill:#e3dedb}", f".fur{{fill:{palette.fur}}}", style.text)
-    style.text = re.sub(r".outline{stroke:#000}", f".outline{{stroke:{palette.outline}}}", style.text)
-    style.text = re.sub(r".paw{fill:#e9afaf}", f".paw{{fill:{palette.paw}}}", style.text)
-    
-    tree.write("temp.svg")
-    subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 256 -h 256 --export-filename=.\\parts\\{location}_{part_name}_{color}.png", capture_output=True)
-    subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 2048 -h 2048 --export-filename=.\\high-res-parts\\{location}_{part_name}_{color}_2048.png", capture_output=True)
-    os.remove("temp.svg")
+      tree = ET.parse(f"high-res-parts/svg/{location}_{part_name}.svg")
+      style = tree.find(".//{http://www.w3.org/2000/svg}style")
+      style.text = re.sub(r"\.fur{fill:\#[0-9a-f]{3,8}}", f".fur{{fill:{palette.fur}}}", style.text)
+      style.text = re.sub(r"\.outline{stroke:\#[0-9a-f]{3,8}}", f".outline{{stroke:{palette.outline}}}", style.text)
+      style.text = re.sub(r"\.paw{fill:\#[0-9a-f]{3,8}}", f".paw{{fill:{palette.paw}}}", style.text)
+      
+      tree.write("temp.svg")
+      subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 256 -h 256 --export-filename=.\\parts\\{location}_{part_name}_{color}.png")
+      subprocess.run(f"{INKSCAPE_PATH} .\\temp.svg --export-area-page -w 2048 -h 2048 --export-filename=.\\high-res-parts\\{location}_{part_name}_{color}_2048.png")
+      os.remove("temp.svg")
