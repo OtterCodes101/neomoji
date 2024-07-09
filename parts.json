@@ -91,6 +91,10 @@
         "url": "/parts/eyes_laugh_sweat.png"
       },
       {
+        "name": "neocat_glasses",
+        "url": "/parts/eyes_neocat_glasses.png"
+      },
+      {
         "name": "normal",
         "url": "/parts/eyes_normal.png"
       },
@@ -6171,6 +6175,10 @@
       {
         "name": "lurk",
         "url": "/parts/front_lurk.png"
+      },
+      {
+        "name": "neocat_glasses",
+        "url": "/parts/front_neocat_glasses.png"
       },
       {
         "name": "wall",
