@@ -91,6 +91,10 @@
         "url": "/parts/eyes_laugh_sweat.png"
       },
       {
+        "name": "neocat_glasses",
+        "url": "/parts/eyes_neocat_glasses.png"
+      },
+      {
         "name": "normal",
         "url": "/parts/eyes_normal.png"
       },
@@ -294,7 +298,7 @@
       {
         "name": "neocat_comfy",
         "url": "/parts/neocat_comfy.png",
-        "color": "yellow"
+        "color": "comfy"
       },
       {
         "name": "neocat_demiace",
@@ -449,7 +453,7 @@
       {
         "name": "neodino_comfy",
         "url": "/parts/neodino_comfy.png",
-        "color": "green"
+        "color": "comfy"
       },
       {
         "name": "neodino_devil",
@@ -524,7 +528,7 @@
       {
         "name": "neofox_comfy",
         "url": "/parts/neofox_comfy.png",
-        "color": "orange"
+        "color": "comfy"
       },
       {
         "name": "neofox_demiace",
@@ -669,7 +673,7 @@
       {
         "name": "neohaj_comfy",
         "url": "/parts/neohaj_comfy.png",
-        "color": "blue"
+        "color": "comfy"
       },
       {
         "name": "neohaj_devil",
@@ -684,7 +688,7 @@
       {
         "name": "neohaj_pink_comfy",
         "url": "/parts/neohaj_pink_comfy.png",
-        "color": "pink"
+        "color": "comfy"
       },
       {
         "name": "neomilk",
@@ -710,6 +714,101 @@
         "name": "neomouse",
         "url": "/parts/neomouse.png",
         "color": "mouse"
+      },
+      {
+        "name": "neomouse_color_albino",
+        "url": "/parts/neomouse_color_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "neomouse_color_black",
+        "url": "/parts/neomouse_color_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "neomouse_color_brown",
+        "url": "/parts/neomouse_color_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "neomouse_color_cinnamon",
+        "url": "/parts/neomouse_color_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "neomouse_color_fawn",
+        "url": "/parts/neomouse_color_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "neomouse_color_hairless",
+        "url": "/parts/neomouse_color_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "neomouse_comfy",
+        "url": "/parts/neomouse_comfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_comfy_color_albino",
+        "url": "/parts/neomouse_comfy_color_albino.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_comfy_color_mouseblack",
+        "url": "/parts/neomouse_comfy_color_mouseblack.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_comfy_color_mousebrown",
+        "url": "/parts/neomouse_comfy_color_mousebrown.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_comfy_color_cinnamon",
+        "url": "/parts/neomouse_comfy_color_cinnamon.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_comfy_color_fawn",
+        "url": "/parts/neomouse_comfy_color_fawn.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_comfy_color_hairless",
+        "url": "/parts/neomouse_comfy_color_hairless.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "neomouse_floof",
+        "url": "/parts/neomouse_floof.png",
+        "color": "mouse"
+      },
+      {
+        "name": "neomouse_floof_color_albino",
+        "url": "/parts/neomouse_floof_color_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "neomouse_floof_color_black",
+        "url": "/parts/neomouse_floof_color_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "neomouse_floof_color_brown",
+        "url": "/parts/neomouse_floof_color_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "neomouse_floof_color_cinnamon",
+        "url": "/parts/neomouse_floof_color_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "neomouse_floof_color_fawn",
+        "url": "/parts/neomouse_floof_color_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "neopossum",
@@ -2379,6 +2478,16 @@
         "color": "mousebrown"
       },
       {
+        "name": "gun",
+        "url": "/parts/arms_gun_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "gun",
+        "url": "/parts/arms_gun_comfy.png",
+        "color": "comfy"
+      },
+      {
         "name": "guns_akimbo",
         "url": "/parts/arms_guns_akimbo_blue.png",
         "color": "blue"
@@ -2487,6 +2596,16 @@
         "name": "guns_akimbo",
         "url": "/parts/arms_guns_akimbo_mousebrown.png",
         "color": "mousebrown"
+      },
+      {
+        "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_comfy.png",
+        "color": "comfy"
       },
       {
         "name": "heart",
@@ -4103,6 +4222,16 @@
         "color": "mousebrown"
       },
       {
+        "name": "reach",
+        "url": "/parts/arms_reach_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_comfy.png",
+        "color": "comfy"
+      },
+      {
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_blue.png",
         "color": "blue"
@@ -4211,6 +4340,16 @@
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_mousebrown.png",
         "color": "mousebrown"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_comfy.png",
+        "color": "comfy"
       },
       {
         "name": "science",
@@ -4361,6 +4500,51 @@
         "name": "shocked",
         "url": "/parts/arms_shocked_yellow.png",
         "color": "yellow"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_comfy.png",
+        "color": "comfy"
       },
       {
         "name": "sign_aaa",
@@ -5996,6 +6180,16 @@
         "name": "vulcan",
         "url": "/parts/arms_vulcan_mousebrown.png",
         "color": "mousebrown"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_comfy.png",
+        "color": "comfy"
       },
       {
         "name": "wine",

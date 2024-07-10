@@ -49,17 +49,17 @@ color_dict = {
 }
 
 location = "arms"
-part_name = "vulcan"
+part_name = "shocked"
 
 with open("new_parts.txt", "w") as new_parts:
   for color, palette in color_dict.items():
       # print(f"{color}, {fill}, {stroke}")
       new_parts.write(f"""
-      {{
+        {{
           "name": "{part_name}",
           "url": "/parts/{location}_{part_name}_{color}.png",
           "color": "{color}"
-      }},""")
+        }},""")
       tree = ET.parse(f"high-res-parts/svg/{location}_{part_name}.svg")
       style = tree.find(".//{http://www.w3.org/2000/svg}style")
       style.text = re.sub(r"\.fur{fill:\#[0-9a-f]{3,8}}", f".fur{{fill:{palette.fur}}}", style.text)
