@@ -20,9 +20,12 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"mouse",
 		"hairless",
 		"fawn",
+		"albino",
 		"cinnamon",
 		"mousebrown",
-		"mouseblack"
+		"mouseblack",
+		"mousecomfy",
+		"comfy"
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];
