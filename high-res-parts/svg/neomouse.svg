@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2048" height="2048" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" version="1.1">
   <style>
     .fur{fill:#e3dedb}.outline{stroke:#000}.nose{stroke:#de8787}.whisker{stroke:#696866}
   </style>
   <path id="body" class="fur outline" stroke-linecap="round" stroke-width="249.6" d="M232 1248v99c0 50 0 91 16 132 0 0 0 0 0 0v17a578 578 0 0 0 562 421h604c223 0 396-182 396-405v-355c0-355-206-636-867-636a702 702 0 0 0-215 33 785 785 0 0 0-496 694z" paint-order="markers stroke fill"/>
   <path id="nose" class="nose" stroke-linecap="round" stroke-linejoin="round" stroke-width="145.4" d="M819 1273v0"/>
   <g class="whisker" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" opacity=".7">
-    <path id="path886" d="M1433 1483c200-75 417-59 550 100" />
-    <path id="path7" d="M1400 1300c175-109 458-67 599 25"/>
-    <path id="path882" d="M476 1483c-117-67-283-100-425 58"/>
-    <path id="path9" d="M484 1291c-216-91-350-33-441 59"/>
+    <path d="M1433 1483c200-75 417-59 550 100" />
+    <path d="M1400 1300c175-109 458-67 599 25"/>
+    <path d="M476 1483c-117-67-283-100-425 58"/>
+    <path d="M484 1291c-216-91-350-33-441 59"/>
   </g>
-  <g id="g878">
-    <path id="path13" fill="#e9afaf" stroke-width="8.3" d="M472 127h-17c-8 0-149-33-264 207-83 157-17 388 124 446l73 34c60-90 282-191 356-191-99-347-223-496-272-496Z" color="#000" paint-order="markers stroke fill"/>
-    <path id="path15" fill="none" stroke="#a02c2c" stroke-width="94.3" d="M367 85c-158 181-33 542 383 484" opacity=".2" paint-order="markers stroke fill"/>
-    <path id="path17" class="outline" stroke-width="8.3" d="M422 3 315 28C232 61 149 135 75 276a464 464 0 0 0-25 347c25 115 99 223 215 272 33 9 50 42 116-82l-66-33c-141-58-207-289-124-446C306 94 447 127 455 127h8c58 0 182 149 281 496 50-9 91-33 99-83v-25c-49-148-99-264-157-347-24-49-57-82-99-115-16-17-33-34-66-42Z" paint-order="markers stroke fill"/>
+  <g id="right_ear">
+    <path fill="#e9afaf" stroke-width="8.3" d="M472 127h-17c-8 0-149-33-264 207-83 157-17 388 124 446l73 34c60-90 282-191 356-191-99-347-223-496-272-496Z" color="#000" paint-order="markers stroke fill"/>
+    <path fill="none" stroke="#a02c2c" stroke-width="94.3" d="M367 85c-158 181-33 542 383 484" opacity=".2" paint-order="markers stroke fill"/>
+    <path class="outline" stroke-width="8.3" d="M422 3 315 28C232 61 149 135 75 276a464 464 0 0 0-25 347c25 115 99 223 215 272 33 9 50 42 116-82l-66-33c-141-58-207-289-124-446C306 94 447 127 455 127h8c58 0 182 149 281 496 50-9 91-33 99-83v-25c-49-148-99-264-157-347-24-49-57-82-99-115-16-17-33-34-66-42Z" paint-order="markers stroke fill"/>
   </g>
-  <g id="g868">
-    <path id="path21" fill="#e9afaf" stroke-width="8.3" d="M1546 124c-66 0-207 149-322 504 165 215 479 157 471 157l41-16c165-67 248-290 149-447-141-239-314-206-323-206Z" color="#000" paint-order="markers stroke fill"/>
-    <path id="path23" fill="none" stroke="#a02c2c" stroke-width="96.8" d="M1583 82c150 148-50 542-358 493" opacity=".2" paint-order="markers stroke fill"/>
-    <path id="path25" class="outline" stroke-width="8.3" d="M1546 0c-50 0-91 17-116 41-41 25-82 66-116 116-66 83-123 198-181 355l-9 25c9 50 42 75 100 91 115-355 256-504 322-504h8s198-25 331 198c99 157 16 380-149 447l-25 8c25 49 41 115 66 107 256-91 347-396 215-628a521 521 0 0 0-281-239c-58-17-116-17-165-17Z" paint-order="markers stroke fill"/>
+  <g id="left_ear">
+    <path fill="#e9afaf" stroke-width="8.3" d="M1546 124c-66 0-207 149-322 504 165 215 479 157 471 157l41-16c165-67 248-290 149-447-141-239-314-206-323-206Z" color="#000" paint-order="markers stroke fill"/>
+    <path fill="none" stroke="#a02c2c" stroke-width="96.8" d="M1583 82c150 148-50 542-358 493" opacity=".2" paint-order="markers stroke fill"/>
+    <path class="outline" stroke-width="8.3" d="M1546 0c-50 0-91 17-116 41-41 25-82 66-116 116-66 83-123 198-181 355l-9 25c9 50 42 75 100 91 115-355 256-504 322-504h8s198-25 331 198c99 157 16 380-149 447l-25 8c25 49 41 115 66 107 256-91 347-396 215-628a521 521 0 0 0-281-239c-58-17-116-17-165-17Z" paint-order="markers stroke fill"/>
   </g>
 </svg>
