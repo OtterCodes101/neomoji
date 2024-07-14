@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <g id="right_arm">
+    <path id="arm" class="fur" paint-order="markers stroke fill" d="M590 1807c78-33 251-88 288-145 31-47 18-99-5-131-31-45-61-58-90-61h-11c-26 0-53 9-77 22-59 31-173 75-238 36"/>
+    <path id="paw" class="paw" d="M774 1470h-2c-34-1-64 17-95 29a198 198 0 0 1-27 6c-26 70 3 213 113 233 30-14 58-29 85-47 44-27 60-86 40-133-19-46-61-89-114-88z"/>
+    <path id="outline" class="outline" fill="none" stroke-width="72" d="M605 1840c89-38 183-65 264-120 51-32 75-99 58-157-13-46-45-87-86-112-51-29-115-17-165 10-52 26-108 50-167 46-11-2-24-4-34-10"/>
+  </g>
+</svg>
