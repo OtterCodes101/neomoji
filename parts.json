@@ -1108,6 +1108,10 @@
         "url": "/parts/mouth_mlem.png"
       },
       {
+        "name": "mustache_blep",
+        "url": "/parts/mouth_mustache_blep.png"
+      },
+      {
         "name": "nom_bread",
         "url": "/parts/mouth_nom_bread.png"
       },
