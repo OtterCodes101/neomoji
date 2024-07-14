@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <g id="sickel" transform="translate(372 309) scale(.75837)">
+    <path id="blade" fill="#afc6e9" stroke="#000" stroke-width="109.1" stroke-linejoin="round" paint-order="markers stroke fill" d="M1656 584c-23 0-93 2-116 6 182-4 383 155 377 316-5 162-45 199-85 259a318 318 0 0 1-406 119c-9 2 70 50 102 57a394 394 0 0 0 521-379c-105 146-105 147-1 0a392 392 0 0 0-392-378z"/>
+    <path  id="path3048" fill="#a05a2c" stroke="#000" stroke-width="143.7" stroke-linejoin="miter" paint-order="markers stroke fill" d="m1046 1695 403-403 56 56-403 403s-16-1-36-20c-19-20-20-36-20-36z"/>
+  </g>
+  <g id="left_arm">
+    <path id="forearm" class="fur outline" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" paint-order="markers stroke fill" d="M1565 1517c-18-22-144-146-144-146-29-30-56-40-83-41l-9 1c-30 2-62 17-89 45-49 48-47 121-12 157 0 0 135 137 156 156"/>
+    <path id="paw" class="paw" d="m1297 1602-69-69c-35-36-37-109 12-157 27-28 59-43 89-45s60 7 92 40l66 67c-27 88-91 158-190 164z"/>
+  </g>
+</svg>
