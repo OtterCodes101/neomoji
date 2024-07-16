@@ -3726,6 +3726,12 @@
         "url": "/parts/arms_hold_meeple_yellow.png",
         "color": "yellow"
       },
+
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_albino.png",
+        "color": "albino"
+      },
       {
         "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_blue.png",
@@ -3738,6 +3744,16 @@
       },
       {
         "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3745,6 +3761,11 @@
         "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "hold_neocat",
@@ -3763,6 +3784,11 @@
       },
       {
         "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_lightbrown.png",
         "color": "lightbrown"
       },
@@ -3770,6 +3796,26 @@
         "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "hold_neocat",
