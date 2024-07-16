@@ -4932,51 +4932,6 @@
         "color": "yellow"
       },
       {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_albino.png",
-        "color": "albino"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "shocked",
-        "url": "/parts/arms_shocked_comfy.png",
-        "color": "comfy"
-      },
-      {
         "name": "sickle",
         "url": "/parts/arms_sickle_blue.png",
         "color": "blue"
