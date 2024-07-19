@@ -1247,6 +1247,11 @@
     "arms": [
       {
         "name": "3c",
+        "url": "/parts/arms_3c_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_blue.png",
         "color": "blue"
       },
@@ -1257,6 +1262,16 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1264,6 +1279,11 @@
         "name": "3c",
         "url": "/parts/arms_3c_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "3c",
@@ -1282,6 +1302,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_lightbrown.png",
         "color": "lightbrown"
       },
@@ -1289,6 +1314,26 @@
         "name": "3c",
         "url": "/parts/arms_3c_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "3c",
@@ -1321,49 +1366,9 @@
         "color": "yellow"
       },
       {
-        "name": "3c",
-        "url": "/parts/arms_3c_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_albino.png",
+        "name": "aww",
+        "url": "/parts/arms_aww_albino.png",
         "color": "albino"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "3c",
-        "url": "/parts/arms_3c_comfy.png",
-        "color": "comfy"
       },
       {
         "name": "aww",
@@ -1377,6 +1382,16 @@
       },
       {
         "name": "aww",
+        "url": "/parts/arms_aww_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "aww",
         "url": "/parts/arms_aww_darkbrown.png",
         "color": "darkbrown"
       },
@@ -1384,6 +1399,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "aww",
@@ -1402,6 +1422,11 @@
       },
       {
         "name": "aww",
+        "url": "/parts/arms_aww_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "aww",
         "url": "/parts/arms_aww_lightbrown.png",
         "color": "lightbrown"
       },
@@ -1409,6 +1434,26 @@
         "name": "aww",
         "url": "/parts/arms_aww_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "aww",
@@ -1439,51 +1484,6 @@
         "name": "aww",
         "url": "/parts/arms_aww_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_albino.png",
-        "color": "albino"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "aww",
-        "url": "/parts/arms_aww_comfy.png",
-        "color": "comfy"
       },
       {
         "name": "baby",
@@ -3065,7 +3065,11 @@
         "url": "/parts/arms_guns_akimbo_yellow.png",
         "color": "yellow"
       },
-
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_albino.png",
+        "color": "albino"
+      },
       {
         "name": "hammer",
         "url": "/parts/arms_hammer_blue.png",
@@ -3078,6 +3082,16 @@
       },
       {
         "name": "hammer",
+        "url": "/parts/arms_hammer_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "hammer",
         "url": "/parts/arms_hammer_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3085,6 +3099,11 @@
         "name": "hammer",
         "url": "/parts/arms_hammer_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "hammer",
@@ -3103,6 +3122,11 @@
       },
       {
         "name": "hammer",
+        "url": "/parts/arms_hammer_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "hammer",
         "url": "/parts/arms_hammer_lightbrown.png",
         "color": "lightbrown"
       },
@@ -3110,6 +3134,26 @@
         "name": "hammer",
         "url": "/parts/arms_hammer_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "hammer",
@@ -3142,49 +3186,9 @@
         "color": "yellow"
       },
       {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_albino.png",
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_albino.png",
         "color": "albino"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "hammer",
-        "url": "/parts/arms_hammer_comfy.png",
-        "color": "comfy"
       },
       {
         "name": "hammer_and_sickle",
@@ -3198,6 +3202,16 @@
       },
       {
         "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3205,6 +3219,11 @@
         "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "hammer_and_sickle",
@@ -3223,6 +3242,11 @@
       },
       {
         "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_lightbrown.png",
         "color": "lightbrown"
       },
@@ -3230,6 +3254,26 @@
         "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "hammer_and_sickle",
@@ -3260,51 +3304,6 @@
         "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_albino.png",
-        "color": "albino"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "hammer_and_sickle",
-        "url": "/parts/arms_hammer_and_sickle_comfy.png",
-        "color": "comfy"
       },
       {
         "name": "heart",
@@ -3383,6 +3382,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_blue.png",
         "color": "blue"
       },
@@ -3393,6 +3397,16 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_darkbrown.png",
         "color": "darkbrown"
       },
@@ -3400,6 +3414,11 @@
         "name": "hide",
         "url": "/parts/arms_hide_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "hide",
@@ -3418,6 +3437,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_lightbrown.png",
         "color": "lightbrown"
       },
@@ -3425,6 +3449,26 @@
         "name": "hide",
         "url": "/parts/arms_hide_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "hide",
@@ -3455,51 +3499,6 @@
         "name": "hide",
         "url": "/parts/arms_hide_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_albino.png",
-        "color": "albino"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "hide",
-        "url": "/parts/arms_hide_comfy.png",
-        "color": "comfy"
       },
       {
         "name": "hold_burger",
@@ -3726,7 +3725,6 @@
         "url": "/parts/arms_hold_meeple_yellow.png",
         "color": "yellow"
       },
-
       {
         "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_albino.png",
@@ -5339,6 +5337,11 @@
       },
       {
         "name": "sickle",
+        "url": "/parts/arms_sickle_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "sickle",
         "url": "/parts/arms_sickle_blue.png",
         "color": "blue"
       },
@@ -5349,6 +5352,16 @@
       },
       {
         "name": "sickle",
+        "url": "/parts/arms_sickle_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "sickle",
         "url": "/parts/arms_sickle_darkbrown.png",
         "color": "darkbrown"
       },
@@ -5356,6 +5369,11 @@
         "name": "sickle",
         "url": "/parts/arms_sickle_dog.png",
         "color": "dog"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_fawn.png",
+        "color": "fawn"
       },
       {
         "name": "sickle",
@@ -5374,6 +5392,11 @@
       },
       {
         "name": "sickle",
+        "url": "/parts/arms_sickle_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "sickle",
         "url": "/parts/arms_sickle_lightbrown.png",
         "color": "lightbrown"
       },
@@ -5381,6 +5404,26 @@
         "name": "sickle",
         "url": "/parts/arms_sickle_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "sickle",
@@ -5411,51 +5454,6 @@
         "name": "sickle",
         "url": "/parts/arms_sickle_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_mouse.png",
-        "color": "mouse"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_hairless.png",
-        "color": "hairless"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_fawn.png",
-        "color": "fawn"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_cinnamon.png",
-        "color": "cinnamon"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_albino.png",
-        "color": "albino"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_mouseblack.png",
-        "color": "mouseblack"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_mousebrown.png",
-        "color": "mousebrown"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_mousecomfy.png",
-        "color": "mousecomfy"
-      },
-      {
-        "name": "sickle",
-        "url": "/parts/arms_sickle_comfy.png",
-        "color": "comfy"
       },
       {
         "name": "sign_aaa",
