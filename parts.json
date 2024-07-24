@@ -27,6 +27,10 @@
         "url": "/parts/eyes_cute.png"
       },
       {
+        "name": "cute_goblin",
+        "url": "/parts/eyes_cute_goblin.png"
+      },
+      {
         "name": "devil",
         "url": "/parts/eyes_devil.png"
       },
@@ -97,6 +101,22 @@
       {
         "name": "normal",
         "url": "/parts/eyes_normal.png"
+      },
+      {
+        "name": "normal_blue",
+        "url": "/parts/eyes_normal_blue.png"
+      },
+      {
+        "name": "normal_green",
+        "url": "/parts/eyes_normal_green.png"
+      },
+      {
+        "name": "normal_orange",
+        "url": "/parts/eyes_normal_orange.png"
+      },
+      {
+        "name": "normal_pink",
+        "url": "/parts/eyes_normal_pink.png"
       },
       {
         "name": "owo",
@@ -666,6 +686,11 @@
         "color": "orange"
       },
       {
+        "name": "neogob",
+        "url": "/parts/neogob.png",
+        "color": "green"
+      },
+      {
         "name": "neohaj",
         "url": "/parts/neohaj.png",
         "color": "blue"
@@ -1214,6 +1239,10 @@
       {
         "name": "smirk_fang",
         "url": "/parts/mouth_smirk_fang.png"
+      },
+      {
+        "name": "snaggletooth",
+        "url": "/parts/mouth_snaggletooth.png"
       },
       {
         "name": "surprised",
