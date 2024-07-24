@@ -716,6 +716,11 @@
         "color": "comfy"
       },
       {
+        "name": "neomelody",
+        "url": "/parts/neomelody.png",
+        "color": "pink"
+      },
+      {
         "name": "neomilk",
         "url": "/parts/neomilk.png",
         "color": "white"
@@ -888,7 +893,7 @@
       {
         "name": "neopossum_comfy",
         "url": "/parts/neopossum_comfy.png",
-        "color": "lightgrey"
+        "color": "comfy"
       },
       {
         "name": "neopossum_demiace",
