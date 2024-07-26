@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <path id="left_hand" class="paw outline" stroke-linejoin="round" stroke-width="150" paint-order="markers stroke fill" d="M1350 1440v160H966c-36 0-64 28-64 64s28 64 64 64l192 1v97c0 51 45 94 97 94h125c50 0 98-41 98-91h0v-229h0c0-69-60-111-128-160z"/>
+  <use id="right_hand" href="#left_hand" transform="matrix(-1 0 0 1 1728 0)"/>
+</svg>
