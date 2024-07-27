@@ -1142,6 +1142,10 @@
         "url": "/parts/mouth_mustache_blep.png"
       },
       {
+        "name": "nom_apple",
+        "url": "/parts/mouth_nom_apple.png"
+      },
+      {
         "name": "nom_bread",
         "url": "/parts/mouth_nom_bread.png"
       },
@@ -1152,6 +1156,10 @@
       {
         "name": "nom_cookie",
         "url": "/parts/mouth_nom_cookie.png"
+      },
+      {
+        "name": "nom_disk",
+        "url": "/parts/mouth_nom_disk.png"
       },
       {
         "name": "nom_donut",
@@ -7591,6 +7599,14 @@
         "url": "/parts/hat_angel.png"
       },
       {
+        "name": "apple",
+        "url": "/parts/hat_apple.png"
+      },
+      {
+        "name": "apple",
+        "url": "/parts/hat_apple_shot.png"
+      },
+      {
         "name": "blank",
         "url": "/parts/blank.png"
       },
@@ -7621,6 +7637,10 @@
       {
         "name": "crown_dutch",
         "url": "/parts/hat_crown_dutch.png"
+      },
+      {
+        "name": "doctor_mirror",
+        "url": "/parts/hat_doctor_mirror.png"
       },
       {
         "name": "fire",

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <defs>
+    <linearGradient id="disk_gradient">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="disk_clip">
+      <path d="M869 1323a162 162 0 0 0-162 162 162 162 0 0 0 162 163 162 162 0 0 0 162-163 162 162 0 0 0-162-162zm0 127a35 35 0 0 1 35 35 35 35 0 0 1-35 36 35 35 0 0 1-35-36 35 35 0 0 1 35-35z"/>
+    </clipPath>
+    <clipPath id="mouth_clip">
+      <path d="m1187 1284-191 162-159-158-127 157-99-156-322 3 6 690 1104-9-5-690z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mouth_clip)" transform="translate(22 31)">
+    <path fill="#bdeaf3" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" d="M804 1298a191 191 0 0 0-110 247 191 191 0 0 0 247 111 191 191 0 0 0 110-248 191 191 0 0 0-247-110zm54 140a41 41 0 0 1 53 24 41 41 0 0 1-23 54 41 41 0 0 1-54-25 41 41 0 0 1 24-53z" paint-order="markers stroke fill"/>
+    <path fill="url(#disk_gradient)" d="m807 1288 124 395-89 8 54-411z" clip-path="url(#disk_clip)" style="mix-blend-mode:normal" transform="rotate(-21 206 2026) scale(1.1798)"/>
+  </g>
+  <path id="mouth" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m639 1316 99 157 127-162 158 165 193-162"/>
+</svg>
