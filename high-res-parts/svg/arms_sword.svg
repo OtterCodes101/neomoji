@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="svg8" version="1.1" viewBox="0 0 2048 2048">
+  <style id="style1">
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <use href="#left_arm" id="right_arm" x="0" y="0" transform="rotate(-40 1287 2114)"/>
+  <g id="sword" transform="rotate(-149 1257 1499) scale(1.28246)">
+    <path id="path14" stroke="#000" stroke-linejoin="round" stroke-width="50" d="M999 744s-51 66-17 176c-37 0-166 0-279 6 0 0-56-8-66-32 0 0-43 5-54 45v2c-20 5-33 11-33 18 0 8 13 14 33 18v3c11 40 54 45 54 45 10-24 66-32 66-32 112 6 241 6 279 6-33 109 17 175 17 175s-13-69 2-129c24-31 83-31 133-35 52-4 357 8 444 3 153-7 218-12 367-53h-865v-1h865c-149-41-214-46-367-53-87-5-392 7-444 3-50-4-109-4-132-35-16-61-3-130-3-130z"/>
+    <path id="path7" fill="#746767" d="M587 941c-23 5-37 11-37 18 0 8 14 14 37 19a76 76 0 0 1 0-37z"/>
+    <path id="path12" fill="#803300" d="M637 894s-43 5-54 45v41c11 40 54 45 54 45 10-24 66-32 66-32 132 8 295 6 295 6v-79s-163-2-295 6c0 0-56-8-66-32z"/>
+    <path id="path3" fill="#e6e7dd" stroke="#000" stroke-width="10" d="M997 959h948c-149-41-214-46-367-53-87-5-392 7-444 3-51-4-110-4-133-36"/>
+    <path id="path8" fill="#e6e7dd" d="m997 959 948 1c-149 41-214 46-367 53-87 5-392-7-444-3-51 4-110 4-133 36"/>
+    <path id="path4" fill="#746767" d="M999 744s-63 82-2 215c-61 133 2 215 2 215s-36-190 82-215c-118-25-82-215-82-215Z"/>
+  </g>
+  <g id="left_arm" transform="rotate(-98 1555 1569)">
+    <path id="forearm" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M1565 1517c-18-22-144-146-144-146-29-30-56-40-83-41l-9 1c-30 2-62 17-89 45-49 48-47 121-12 157 0 0 135 137 156 156" class="fur outline" paint-order="markers stroke fill"/>
+    <path id="paw" d="m1297 1602-69-69c-35-36-37-109 12-157 27-28 59-43 89-45s60 7 92 40l66 67c-27 88-91 158-190 164z" class="paw"/>
+  </g>
+</svg>

@@ -6783,6 +6783,126 @@
         "color": "yellow"
       },
       {
+        "name": "sword",
+        "url": "/parts/arms_sword_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_green.png",
+        "color": "green"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_red.png",
+        "color": "red"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_white.png",
+        "color": "white"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "take_my_money",
         "url": "/parts/arms_money_blue.png",
         "color": "blue"
