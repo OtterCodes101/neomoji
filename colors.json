@@ -14,13 +14,14 @@
         "paw": "#e9afaf"
     },
     "comfy": {
-        "fur": "#5a7294" 
+        "fur": "#5a7294"
     },
     "darkbrown": {
         "fur": "#672c10" 
     },
     "dog": {
-        "fur": "#f3c07b" 
+        "fur": "#f3c07b",
+        "hand": "#ffdea7"
     },
     "fawn": {
         "fur": "#deb28b", 
@@ -63,7 +64,8 @@
         "paw": "#e9afaf"
     },
     "orange": {
-        "fur": "#f7965b"
+        "fur": "#f7965b",
+        "hand": "#f9b388"
     },
     "pink": {
         "fur": "#dea3aa"
@@ -75,9 +77,11 @@
         "fur": "#ffffff"
     },
     "wyvern": {
-        "fur": "#91746e"
+        "fur": "#91746e",
+        "hand": "#ba9c92"
     },
     "yellow": {
-        "fur": "#ffc95c"
+        "fur": "#ffc95c",
+        "hand": "#ffde9c"
     }
 }

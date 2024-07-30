@@ -1,17 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
-  <defs>
-    <filter id="paw_whitener" width="1.5" height="1.5" x="-0.25" y="-0.25">
-      <feComponentTransfer>
-         <feFuncR type="linear" slope="0.5" intercept="0.5" />
-         <feFuncG type="linear" slope="0.5" intercept="0.5" />
-         <feFuncB type="linear" slope="0.5" intercept="0.5" />
-      </feComponentTransfer>
-    </filter>
-  </defs>
   <style>
-    .fur{fill:#ffc95c}.paw{fill:#ffc95c}.outline{stroke:#000}
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.hand{fill:#e9afaf}
   </style>
   <path id="arm"  class="fur outline" paint-order="stroke fill markers" stroke-linejoin="round" stroke-width="150" d="M299 1556c-163-158-230-354-146-582 83-227 407-424 482-467 104-59 194-137 278-18 65 90 35 158-25 197-83 33-323 142-428 286s-70 277 37 407"/>
   <path id="hand_outline" class="outline" paint-order="markers stroke fill" stroke-linejoin="round" stroke-width="150" d="M1152 579H992V194c0-37-28-65-64-65s-65 28-65 65l-1 192h-97c-51 0-94 45-94 97v126c0 50 41 98 91 98h230c69 0 111-60 160-128z"/>
-  <path id="hand" class="paw" filter="url(#paw_whitener)" paint-order="markers stroke fill" stroke-linejoin="round" stroke-width="150" d="M1152 579H992V194c0-37-28-65-64-65s-65 28-65 65l-1 192h-97c-51 0-94 45-94 97v126c0 50 41 98 91 98h230c69 0 111-60 160-128z"/>
+  <path id="hand" class="hand" paint-order="markers stroke fill" stroke-linejoin="round" stroke-width="150" d="M1152 579H992V194c0-37-28-65-64-65s-65 28-65 65l-1 192h-97c-51 0-94 45-94 97v126c0 50 41 98 91 98h230c69 0 111-60 160-128z"/>
 </svg>

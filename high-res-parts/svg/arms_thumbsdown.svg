@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.hand{fill:#e9afaf}
+  </style>
+  <g id="left_hand">
+    <path class="hand outline" stroke-width="150" stroke-linejoin="round" paint-order="markers stroke fill" d="M230 1728h150l2 193c16 0 130-67 130-169v-312c0-54-43-97-97-97H230c-54 0-97 43-97 97v191c0 53 43 97 97 97z"/>
+  </g>
+</svg>
