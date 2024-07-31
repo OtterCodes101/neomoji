@@ -1,0 +1,90 @@
+{
+    "albino": {
+        "fur": "#ffffff", 
+        "paw": "#e9afaf"
+    },
+    "blue": {
+        "fur": "#4f8c9e" 
+    },
+    "brown": {
+        "fur": "#ba856d"
+    },
+    "catraxx": {
+        "fur": "#070362" 
+    },
+    "cinnamon": {
+        "fur": "#b57746", 
+        "paw": "#e9afaf"
+    },
+    "comfy": {
+        "fur": "#5a7294"
+    },
+    "darkbrown": {
+        "fur": "#672c10" 
+    },
+    "dog": {
+        "fur": "#f3c07b",
+        "hand": "#ffdea7"
+    },
+    "fawn": {
+        "fur": "#deb28b", 
+        "paw": "#e9afaf"
+    },
+    "frozen": {
+        "fur": "#7beeff",
+        "outline": "#2d67cc"
+    },
+    "green": {
+        "fur": "#add359"
+    },
+    "grey": {
+        "fur": "#979797"
+    },
+    "hairless": {
+        "fur": "#e7baba",
+        "paw": "#e9afaf"
+    },
+    "lightbrown": {
+        "fur": "#ba856d"
+    },
+    "lightgrey": {
+        "fur": "#d2d0ca"
+    },
+    "mouse": {
+        "fur": "#e3dedb",
+        "paw": "#e9afaf"
+    },
+    "mouse_black": {
+        "fur": "#4d5b66",
+        "paw": "#e9afaf"
+    },
+    "mouse_brown": {
+        "fur": "#6c5d53",
+        "paw": "#e9afaf"
+    },
+    "mouse_comfy": {
+        "fur": "#5a7294",
+        "paw": "#e9afaf"
+    },
+    "orange": {
+        "fur": "#f7965b",
+        "hand": "#f9b388"
+    },
+    "pink": {
+        "fur": "#dea3aa"
+    },
+    "red": {
+        "fur": "#f2725a"
+    },
+    "white": {
+        "fur": "#ffffff"
+    },
+    "wyvern": {
+        "fur": "#91746e",
+        "hand": "#ba9c92"
+    },
+    "yellow": {
+        "fur": "#ffc95c",
+        "hand": "#ffde9c"
+    }
+}

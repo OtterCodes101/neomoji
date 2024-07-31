@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <style>.sclera{fill:#fc5900} .iris{fill:#000000}</style>
+  <g id="left_eye">
+    <circle id="sclera" class="sclera" cx="1244" cy="1004" r="227"/>
+    <circle id="iris" class="iris" cx="1209" cy="1008" r="195"/>
+    <ellipse id="glare" cx="142" cy="1497" fill="#ffffff" rx="99" ry="77" transform="rotate(-45)" />
+<path id="glint" fill="#8bb9a0" d="M1294 1024c-8 3-15 9-18 16-9 17-20 29-32 34a32 32 0 1 0 24 60c31-13 52-38 66-64a32 32 0 0 0-40-46Z" color="#000" style="mix-blend-mode:luminosity;"/>
+  </g>
+  <use id="right_eye" href="#left_eye" transform="translate(-646)"/>
+</svg>

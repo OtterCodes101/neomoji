@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 2048 2048"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="mouth_nom_apple.svg"
+   inkscape:export-filename="..\..\parts\mouth_nom_apple.png"
+   inkscape:export-xdpi="12"
+   inkscape:export-ydpi="12"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.36181641"
+     inkscape:cx="1024"
+     inkscape:cy="1024"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2">
+      <path
+         d="m 2014.4756,1962.4613 -290.5313,-110.5012 75.7367,-268.1828 -247.0758,-42.214 109.2596,-202.3786 -196.1707,-347.64439 -746.19374,422.13959 674.18174,1193.165 746.1938,-420.8979 z"
+         id="path3"
+         style="display:inline;stroke-width:1.24159" />
+    </clipPath>
+  </defs>
+  <g
+     id="g1"
+     clip-path="url(#clipPath2)"
+     transform="matrix(0.39047576,-0.70443692,0.70443692,0.39047576,-960.02891,1968.0038)">
+    <path
+       id="leaf"
+       fill="#7eb865"
+       stroke="#344714"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="20"
+       d="m 1485,1440 c 0,0 18,-63 -30,-99 -48,-36 -92,-54 -92,-54 -3,84 42,120 122,153 z" />
+    <path
+       id="leaf_midrib"
+       fill="none"
+       stroke="#344714"
+       stroke-linecap="round"
+       stroke-width="10"
+       d="m 1481,1432 c 0,0 -44,-64 -72,-82" />
+    <path
+       id="stem"
+       fill="#79473c"
+       d="m 1533,1352 -18,10 c 47,53 -43,91 -43,91 l 39,-3 c 0,0 70,-45 22,-98 z" />
+    <ellipse
+       id="stem_top"
+       cx="1524"
+       cy="1356.1"
+       rx="13.6"
+       ry="7.4000001"
+       fill="#ebb889" />
+    <path
+       id="apple"
+       fill="#cf380a"
+       d="m 1527,1443 c 0,0 139,-67 232,46 93,114 50,265 -41,397 -91,132 -186,56 -240,56 -53,0 -57,81 -190,-51 -132,-133 -119,-306 -69,-384 49,-78 146,-101 183,-76 37,24 125,12 125,12 z" />
+  </g>
+  <path
+     id="mouth"
+     fill="none"
+     stroke="#000"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="80"
+     d="m639 1316 99 157 127-162 158 165 193-162" />
+</svg>
