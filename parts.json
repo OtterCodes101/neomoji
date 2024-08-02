@@ -87,6 +87,10 @@
         "url": "/parts/eyes_kisser.png"
       },
       {
+        "name": "laser",
+        "url": "/parts/eyes_laser.png"
+      },
+      {
         "name": "laugh",
         "url": "/parts/eyes_laugh.png"
       },
