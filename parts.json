@@ -805,12 +805,12 @@
         "color": "mousecomfy"
       },
       {
-        "name": "neomouse_comfy_color_mouseblack",
+        "name": "neomouse_comfy_color_black",
         "url": "/parts/neomouse_comfy_color_mouseblack.png",
         "color": "mousecomfy"
       },
       {
-        "name": "neomouse_comfy_color_mousebrown",
+        "name": "neomouse_comfy_color_brown",
         "url": "/parts/neomouse_comfy_color_mousebrown.png",
         "color": "mousecomfy"
       },
@@ -1208,6 +1208,10 @@
       {
         "name": "nom_wire",
         "url": "/parts/mouth_nom_wire.png"
+      },
+      {
+        "name": "nom_wrench",
+        "url": "/parts/mouth_nom_wrench.png"
       },
       {
         "name": "normal",
@@ -1848,18 +1852,18 @@
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_baby_googly_woozy_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_baby_googly_woozy_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_baby_googly_woozy_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "baby_googly_woozy",
@@ -2993,18 +2997,18 @@
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_feed_baby_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_feed_baby_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_feed_baby_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "feed_baby",
@@ -4783,18 +4787,18 @@
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_loser_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_loser_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_loser_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "loser",
@@ -5353,18 +5357,18 @@
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_pleading_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_pleading_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_pleading_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "pleading",
@@ -7538,18 +7542,18 @@
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_thumbsdown_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_thumbsdown_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_thumbsdown_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "thumbsdown",
@@ -7658,18 +7662,18 @@
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_thumbsup_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_thumbsup_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_thumbsup_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "thumbsup",
@@ -7928,18 +7932,18 @@
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouse_black.png",
-        "color": "mouse_black"
+        "url": "/parts/arms_vulcan_mouseblack.png",
+        "color": "mouseblack"
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouse_brown.png",
-        "color": "mouse_brown"
+        "url": "/parts/arms_vulcan_mousebrown.png",
+        "color": "mousebrown"
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "url": "/parts/arms_vulcan_mousecomfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "vulcan",
@@ -8044,6 +8048,131 @@
       {
         "name": "wine",
         "url": "/parts/arms_wine_yellow.png",
+        "color": "yellow"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_green.png",
+        "color": "green"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_red.png",
+        "color": "red"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_white.png",
+        "color": "white"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_yellow.png",
         "color": "yellow"
       }
     ],
