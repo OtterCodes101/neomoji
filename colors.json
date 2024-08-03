@@ -54,15 +54,15 @@
         "fur": "#e3dedb",
         "paw": "#e9afaf"
     },
-    "mouse_black": {
+    "mouseblack": {
         "fur": "#4d5b66",
         "paw": "#e9afaf"
     },
-    "mouse_brown": {
+    "mousebrown": {
         "fur": "#6c5d53",
         "paw": "#e9afaf"
     },
-    "mouse_comfy": {
+    "mousecomfy": {
         "fur": "#5a7294",
         "paw": "#e9afaf"
     },
