@@ -34,6 +34,12 @@
         "fur": "#7beeff",
         "outline": "#2d67cc"
     },
+    "goblin": {
+        "fur": "#8bb9a0",
+        "sclera": "#fc5900",
+        "mouth": "#542912",
+        "tongue": "#cf4d4c"
+    },
     "green": {
         "fur": "#add359"
     },
@@ -69,6 +75,10 @@
     "orange": {
         "fur": "#f7965b",
         "hand": "#f9b388"
+    },
+    "orc": {
+        "fur": "#808080",
+        "sclera": "#ff6a00"
     },
     "pink": {
         "fur": "#dea3aa"

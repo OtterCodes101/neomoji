@@ -25,7 +25,9 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"mousebrown",
 		"mouseblack",
 		"mousecomfy",
-		"comfy"
+		"comfy",
+		"orc",
+		"goblin"
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];
