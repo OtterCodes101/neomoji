@@ -123,6 +123,10 @@
         "url": "/parts/eyes_normal_pink.png"
       },
       {
+        "name": "orc",
+        "url": "/parts/eyes_orc.png"
+      },
+      {
         "name": "owo",
         "url": "/parts/eyes_owo.png"
       },
@@ -1222,6 +1226,10 @@
       {
         "name": "normal",
         "url": "/parts/mouth_normal.png"
+      },
+      {
+        "name": "orc",
+        "url": "/parts/mouth_orc.png"
       },
       {
         "name": "pacifier",
