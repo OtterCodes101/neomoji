@@ -1,21 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" version="1.1" viewBox="0 0 542 542">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
   <style>
-     #left_arm{fill:#4f8c9e;stroke:#000;}
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
   </style>
-  <defs>
-    <clipPath id="clipPath1800" clipPathUnits="userSpaceOnUse">
-      <path id="rect1802" d="M246 365h106v109H246z" transform="scale(-1 1)"/>
-    </clipPath>
-  </defs>
-  <g id="layer2" stroke-linecap="round" stroke-linejoin="round">
-    <g id="Megaphone" fill-rule="evenodd" stroke-miterlimit="1.5" clip-rule="evenodd" transform="matrix(-1.87328 .529 .529 1.87328 396 9)">
-      <path id="Outline-2" d="m159 191-4 3c-4 2-8 2-12 1-6-2-13-7-18-15-4-9-5-18-4-23s4-8 8-10l5-2 50-52c2-4 5-7 8-9 5-3 11-3 18 0 10 4 22 16 32 32 9 17 13 34 11 44-1 8-5 13-10 15-3 2-7 3-11 2zm-7-9 80-15h7c8-5 5-25-6-46-12-20-27-33-36-28-2 1-3 3-4 6l-55 56-5 1c-4 2-3 11 1 19 5 8 12 13 16 10l2-3z"/>
-      <path id="Mouthpiece" fill="#e3e3e3" d="M133 156c5-3 12 2 16 10 5 8 5 17 1 19-4 3-11-2-16-10-4-8-5-17-1-19z"/>
-      <path id="Body1" fill="#ff5c5c" d="m138 156 60-62 40 72-87 16c-9-2-17-19-13-26z"/>
-      <path id="Outer-ring" fill="#e3e3e3" d="M197 93c9-5 24 8 36 28 11 21 14 41 6 46-9 4-25-9-36-29s-14-41-6-45z"/>
-      <path id="Inside" fill="#2a2a2a" d="M203 98c5-3 18 8 27 25s12 33 7 36c-6 3-18-8-27-25s-12-33-7-36z"/>
-    </g>
-    <rect id="left_arm" width="193.9" height="88.9" x="-451" y="375" stroke-width="20" clip-path="url(#clipPath1800)" rx="46" ry="42.5" transform="scale(-1 1) rotate(-63 -211 344)"/>
+  <g id="Megaphone">
+    <path id="Outline-2" d="m758 1700 34 13c33 6 61-2 87-17 39-26 78-75 97-142 11-71 0-137-17-170s-44-49-77-55l-39-4-457-267c-22-25-49-40-74-48-42-11-84 1-127 36-63 48-124 157-163 290-29 138-24 266 11 332 23 55 61 82 100 86 25 8 55 8 82-8Zm32-78-595 54-50 14c-66-20-85-167-49-337 45-165 125-287 198-270 16 4 28 16 41 35l500 286 37-3c32 6 43 71 31 136-20 66-59 116-93 102Z"/>
+    <path id="Mouthpiece" fill="#e3e3e3" d="M872 1401c-41-11-81 38-93 102-19 67-1 130 31 136 34 14 73-36 93-102 12-65 1-130-31-136Z"/>
+    <path id="Body1" fill="#ff5c5c" d="m837 1405-548-317-139 603 647-67c59-32 82-178 40-219Z"/>
+    <path id="Outer-ring" fill="#e3e3e3" d="M294 1083c-73-17-153 105-198 270-36 170-17 317 49 337 72 10 159-114 197-277s17-317-48-330Z"/>
+    <path id="Inside" fill="#2a2a2a" d="M262 1131c-41-12-111 92-141 230s-19 257 23 268c48 10 111-92 140-230 30-138 19-257-22-268Z"/>
+  </g>
+  <g id="left_arm">
+    <path id="forearm" class="fur outline" paint-order="markers stroke fill" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M897 1841c-12-25-102-177-102-177-20-37-43-54-69-62l-8-1c-30-6-65 1-99 20-59 33-76 105-52 148l110 191"/>
+    <path id="paw" class="paw" d="m616 1855-49-86c-24-43-7-115 52-148 34-19 69-26 99-20 29 5 55 22 77 63l47 81c-48 78-129 129-226 110Z"/>
   </g>
 </svg>
-
