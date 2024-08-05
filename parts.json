@@ -692,7 +692,7 @@
       {
         "name": "neogob",
         "url": "/parts/neogob.png",
-        "color": "green"
+        "color": "goblin"
       },
       {
         "name": "neohaj",
@@ -805,12 +805,12 @@
         "color": "mousecomfy"
       },
       {
-        "name": "neomouse_comfy_color_black",
+        "name": "neomouse_comfy_color_mouseblack",
         "url": "/parts/neomouse_comfy_color_mouseblack.png",
         "color": "mousecomfy"
       },
       {
-        "name": "neomouse_comfy_color_brown",
+        "name": "neomouse_comfy_color_mousebrown",
         "url": "/parts/neomouse_comfy_color_mousebrown.png",
         "color": "mousecomfy"
       },
@@ -843,6 +843,16 @@
         "name": "neomouse_floof_color_fawn",
         "url": "/parts/neomouse_floof_color_fawn.png",
         "color": "fawn"
+      },
+      {
+        "name": "neoorc",
+        "url": "/parts/neoorc.png",
+        "color": "orc"
+      },
+      {
+        "name": "neoorc_urukhai",
+        "url": "/parts/neoorc_urukhai.png",
+        "color": "orc"
       },
       {
         "name": "neopossum",
@@ -1210,10 +1220,6 @@
         "url": "/parts/mouth_nom_wire.png"
       },
       {
-        "name": "nom_wrench",
-        "url": "/parts/mouth_nom_wrench.png"
-      },
-      {
         "name": "normal",
         "url": "/parts/mouth_normal.png"
       },
@@ -1462,6 +1468,11 @@
       },
       {
         "name": "aww",
+        "url": "/parts/arms_aww_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "aww",
         "url": "/parts/arms_aww_green.png",
         "color": "green"
       },
@@ -1509,6 +1520,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_orc.png",
+        "color": "orc"
       },
       {
         "name": "aww",
@@ -1702,6 +1718,11 @@
       },
       {
         "name": "baby_cry",
+        "url": "/parts/arms_baby_cry_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "baby_cry",
         "url": "/parts/arms_baby_cry_green.png",
         "color": "green"
       },
@@ -1749,6 +1770,11 @@
         "name": "baby_cry",
         "url": "/parts/arms_baby_cry_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "baby_cry",
+        "url": "/parts/arms_baby_cry_orc.png",
+        "color": "orc"
       },
       {
         "name": "baby_cry",
@@ -1822,6 +1848,11 @@
       },
       {
         "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_green.png",
         "color": "green"
       },
@@ -1852,23 +1883,28 @@
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_baby_googly_woozy_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_baby_googly_woozy_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_baby_googly_woozy_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_orc.png",
+        "color": "orc"
       },
       {
         "name": "baby_googly_woozy",
@@ -1942,6 +1978,11 @@
       },
       {
         "name": "baby_sleep",
+        "url": "/parts/arms_baby_sleep_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "baby_sleep",
         "url": "/parts/arms_baby_sleep_green.png",
         "color": "green"
       },
@@ -1989,6 +2030,11 @@
         "name": "baby_sleep",
         "url": "/parts/arms_baby_sleep_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "baby_sleep",
+        "url": "/parts/arms_baby_sleep_orc.png",
+        "color": "orc"
       },
       {
         "name": "baby_sleep",
@@ -2967,6 +3013,11 @@
       },
       {
         "name": "feed_baby",
+        "url": "/parts/arms_feed_baby_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "feed_baby",
         "url": "/parts/arms_feed_baby_green.png",
         "color": "green"
       },
@@ -2997,23 +3048,28 @@
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_feed_baby_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_feed_baby_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_feed_baby_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "feed_baby",
         "url": "/parts/arms_feed_baby_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "feed_baby",
+        "url": "/parts/arms_feed_baby_orc.png",
+        "color": "orc"
       },
       {
         "name": "feed_baby",
@@ -3087,6 +3143,11 @@
       },
       {
         "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "fingerguns",
         "url": "/parts/arms_fingerguns_green.png",
         "color": "green"
       },
@@ -3134,6 +3195,11 @@
         "name": "fingerguns",
         "url": "/parts/arms_fingerguns_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_orc.png",
+        "color": "orc"
       },
       {
         "name": "fingerguns",
@@ -3207,6 +3273,11 @@
       },
       {
         "name": "gun",
+        "url": "/parts/arms_gun_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "gun",
         "url": "/parts/arms_gun_green.png",
         "color": "green"
       },
@@ -3254,6 +3325,11 @@
         "name": "gun",
         "url": "/parts/arms_gun_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "gun",
+        "url": "/parts/arms_gun_orc.png",
+        "color": "orc"
       },
       {
         "name": "gun",
@@ -3327,6 +3403,11 @@
       },
       {
         "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "guns_akimbo",
         "url": "/parts/arms_guns_akimbo_green.png",
         "color": "green"
       },
@@ -3374,6 +3455,11 @@
         "name": "guns_akimbo",
         "url": "/parts/arms_guns_akimbo_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_orc.png",
+        "color": "orc"
       },
       {
         "name": "guns_akimbo",
@@ -3447,6 +3533,11 @@
       },
       {
         "name": "hammer",
+        "url": "/parts/arms_hammer_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "hammer",
         "url": "/parts/arms_hammer_green.png",
         "color": "green"
       },
@@ -3494,6 +3585,11 @@
         "name": "hammer",
         "url": "/parts/arms_hammer_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_orc.png",
+        "color": "orc"
       },
       {
         "name": "hammer",
@@ -3567,6 +3663,11 @@
       },
       {
         "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_green.png",
         "color": "green"
       },
@@ -3614,6 +3715,11 @@
         "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_orc.png",
+        "color": "orc"
       },
       {
         "name": "hammer_and_sickle",
@@ -3762,6 +3868,11 @@
       },
       {
         "name": "hide",
+        "url": "/parts/arms_hide_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "hide",
         "url": "/parts/arms_hide_green.png",
         "color": "green"
       },
@@ -3809,6 +3920,11 @@
         "name": "hide",
         "url": "/parts/arms_hide_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_orc.png",
+        "color": "orc"
       },
       {
         "name": "hide",
@@ -4072,6 +4188,11 @@
       },
       {
         "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_catraxx.png",
         "color": "catraxx"
       },
@@ -4104,6 +4225,11 @@
         "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_goblin.png",
+        "color": "goblin"
       },
       {
         "name": "hold_neocat",
@@ -4157,6 +4283,11 @@
       },
       {
         "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_pink.png",
         "color": "pink"
       },
@@ -4182,13 +4313,33 @@
       },
       {
         "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_blue.png",
         "color": "blue"
       },
       {
         "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_catraxx.png",
         "color": "catraxx"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_comfy.png",
+        "color": "comfy"
       },
       {
         "name": "hold_popcorn",
@@ -4202,8 +4353,18 @@
       },
       {
         "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_goblin.png",
+        "color": "goblin"
       },
       {
         "name": "hold_popcorn",
@@ -4217,6 +4378,11 @@
       },
       {
         "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_lightbrown.png",
         "color": "lightbrown"
       },
@@ -4227,8 +4393,33 @@
       },
       {
         "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_orc.png",
+        "color": "orc"
       },
       {
         "name": "hold_popcorn",
@@ -4757,6 +4948,11 @@
       },
       {
         "name": "loser",
+        "url": "/parts/arms_loser_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "loser",
         "url": "/parts/arms_loser_green.png",
         "color": "green"
       },
@@ -4787,23 +4983,28 @@
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_loser_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_loser_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_loser_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "loser",
         "url": "/parts/arms_loser_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "loser",
+        "url": "/parts/arms_loser_orc.png",
+        "color": "orc"
       },
       {
         "name": "loser",
@@ -4907,13 +5108,33 @@
       },
       {
         "name": "megaphone",
+        "url": "/parts/arms_megaphone_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "megaphone",
         "url": "/parts/arms_megaphone_blue.png",
         "color": "blue"
       },
       {
         "name": "megaphone",
+        "url": "/parts/arms_megaphone_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "megaphone",
         "url": "/parts/arms_megaphone_catraxx.png",
         "color": "catraxx"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_comfy.png",
+        "color": "comfy"
       },
       {
         "name": "megaphone",
@@ -4927,8 +5148,18 @@
       },
       {
         "name": "megaphone",
+        "url": "/parts/arms_megaphone_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "megaphone",
         "url": "/parts/arms_megaphone_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_goblin.png",
+        "color": "goblin"
       },
       {
         "name": "megaphone",
@@ -4942,6 +5173,11 @@
       },
       {
         "name": "megaphone",
+        "url": "/parts/arms_megaphone_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "megaphone",
         "url": "/parts/arms_megaphone_lightbrown.png",
         "color": "lightbrown"
       },
@@ -4952,8 +5188,33 @@
       },
       {
         "name": "megaphone",
+        "url": "/parts/arms_megaphone_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "megaphone",
         "url": "/parts/arms_megaphone_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_orc.png",
+        "color": "orc"
       },
       {
         "name": "megaphone",
@@ -5327,6 +5588,11 @@
       },
       {
         "name": "pleading",
+        "url": "/parts/arms_pleading_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "pleading",
         "url": "/parts/arms_pleading_green.png",
         "color": "green"
       },
@@ -5357,23 +5623,28 @@
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_pleading_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_pleading_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_pleading_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "pleading",
         "url": "/parts/arms_pleading_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "pleading",
+        "url": "/parts/arms_pleading_orc.png",
+        "color": "orc"
       },
       {
         "name": "pleading",
@@ -5447,6 +5718,11 @@
       },
       {
         "name": "reach",
+        "url": "/parts/arms_reach_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "reach",
         "url": "/parts/arms_reach_green.png",
         "color": "green"
       },
@@ -5494,6 +5770,11 @@
         "name": "reach",
         "url": "/parts/arms_reach_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_orc.png",
+        "color": "orc"
       },
       {
         "name": "reach",
@@ -5567,6 +5848,11 @@
       },
       {
         "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_green.png",
         "color": "green"
       },
@@ -5614,6 +5900,11 @@
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_orc.png",
+        "color": "orc"
       },
       {
         "name": "scepter_dutch",
@@ -5762,6 +6053,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_green.png",
         "color": "green"
       },
@@ -5809,6 +6105,11 @@
         "name": "shocked",
         "url": "/parts/arms_shocked_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_orc.png",
+        "color": "orc"
       },
       {
         "name": "shocked",
@@ -5882,6 +6183,11 @@
       },
       {
         "name": "sickle",
+        "url": "/parts/arms_sickle_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "sickle",
         "url": "/parts/arms_sickle_green.png",
         "color": "green"
       },
@@ -5929,6 +6235,11 @@
         "name": "sickle",
         "url": "/parts/arms_sickle_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_orc.png",
+        "color": "orc"
       },
       {
         "name": "sickle",
@@ -7077,6 +7388,11 @@
       },
       {
         "name": "sword",
+        "url": "/parts/arms_sword_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "sword",
         "url": "/parts/arms_sword_green.png",
         "color": "green"
       },
@@ -7124,6 +7440,11 @@
         "name": "sword",
         "url": "/parts/arms_sword_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_orc.png",
+        "color": "orc"
       },
       {
         "name": "sword",
@@ -7272,6 +7593,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_green.png",
         "color": "green"
       },
@@ -7319,6 +7645,11 @@
         "name": "think",
         "url": "/parts/arms_think_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "think",
+        "url": "/parts/arms_think_orc.png",
+        "color": "orc"
       },
       {
         "name": "think",
@@ -7392,6 +7723,11 @@
       },
       {
         "name": "think_about_it",
+        "url": "/parts/arms_think_about_it_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "think_about_it",
         "url": "/parts/arms_think_about_it_green.png",
         "color": "green"
       },
@@ -7439,6 +7775,11 @@
         "name": "think_about_it",
         "url": "/parts/arms_think_about_it_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "think_about_it",
+        "url": "/parts/arms_think_about_it_orc.png",
+        "color": "orc"
       },
       {
         "name": "think_about_it",
@@ -7512,6 +7853,11 @@
       },
       {
         "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_green.png",
         "color": "green"
       },
@@ -7542,23 +7888,28 @@
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_thumbsdown_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_thumbsdown_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_thumbsdown_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_orc.png",
+        "color": "orc"
       },
       {
         "name": "thumbsdown",
@@ -7632,6 +7983,11 @@
       },
       {
         "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "thumbsup",
         "url": "/parts/arms_thumbsup_green.png",
         "color": "green"
       },
@@ -7662,23 +8018,28 @@
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_thumbsup_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_thumbsup_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_thumbsup_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_orc.png",
+        "color": "orc"
       },
       {
         "name": "thumbsup",
@@ -7902,6 +8263,11 @@
       },
       {
         "name": "vulcan",
+        "url": "/parts/arms_vulcan_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "vulcan",
         "url": "/parts/arms_vulcan_green.png",
         "color": "green"
       },
@@ -7932,23 +8298,28 @@
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouseblack.png",
-        "color": "mouseblack"
+        "url": "/parts/arms_vulcan_mouse_black.png",
+        "color": "mouse_black"
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mousebrown.png",
-        "color": "mousebrown"
+        "url": "/parts/arms_vulcan_mouse_brown.png",
+        "color": "mouse_brown"
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mousecomfy.png",
-        "color": "mousecomfy"
+        "url": "/parts/arms_vulcan_mouse_comfy.png",
+        "color": "mouse_comfy"
       },
       {
         "name": "vulcan",
         "url": "/parts/arms_vulcan_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_orc.png",
+        "color": "orc"
       },
       {
         "name": "vulcan",
@@ -8102,6 +8473,11 @@
       },
       {
         "name": "wrench",
+        "url": "/parts/arms_wrench_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "wrench",
         "url": "/parts/arms_wrench_green.png",
         "color": "green"
       },
@@ -8149,6 +8525,11 @@
         "name": "wrench",
         "url": "/parts/arms_wrench_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_orc.png",
+        "color": "orc"
       },
       {
         "name": "wrench",
