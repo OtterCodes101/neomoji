@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2" viewBox="0 0 2048 2048">
+  <style id="style2">
+    .paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <rect id="sign" width="1602" height="763" x="189" y="1154" fill="#fafafa" />
+  <path id="left_paw" class="paw outline" paint-order="stroke markers fill" stroke-width="126" d="M1735 1676a146 146 0 1 1 0-293h62c40 0 73 32 73 73v146c0 42-33 74-73 74z"/>
+  <use id="right_paw" href="#left_paw" x="0" y="0" transform="matrix(-1 0 0 1 1981 0)"/>
+  <path id="sign_top" fill="#dedede" d="m189 1154 67-68h1535v68z"/>
+  <text
+     id="sign_text"
+     x="990"
+     y="1535"
+     dominant-baseline="central"
+     text-anchor="middle"
+     fill="#000"
+     font-weight="600"
+     font-family="Roboto Condensed"
+     font-size="900"
+     lengthAdjust="spacing"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:650px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;dominant-baseline:central;shape-inside:url(#sign);fill:#000000"
+     transform="translate(-3.8085938,-118.69531)"
+     xml:space="preserve"><tspan
+       x="594.38232"
+       y="1722.75"
+       id="tspan1">NO</tspan></text>
+</svg>
