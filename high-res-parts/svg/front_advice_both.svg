@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="haloGradient" cx="992" cy="763.1" r="417.6" fx="992" fy="763.1">
+      <stop offset="0" stop-color="#4a57c0" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#4a57c0" stop-opacity=".5"/>
+    </radialGradient>
+  </defs>
+  <g id="neocat_devil">
+    <path id="devil_outline" fill="#1a1a1a" fill-opacity="1" stroke-width=".5" d="M1529 1261c-36 1-68 28-76 63l-10 40c-36 5-67 34-77 69-8 24-6 50-6 75v103a417 417 0 0 0-25 83c-30 31-37 81-17 119-19 36-15 83 12 115 19 22 48 36 77 37 52 51 126 78 198 74 84-1 168 1 251-3 71-10 135-59 163-125 15-34 19-71 18-108 0-48 1-97-10-144-3-16-8-31-14-47 8-51 18-102 23-153 0-30-15-57-38-75a93 93 0 0 0-77-19c-19 4-36 12-54 19 0-21 2-43-3-63-7-27-28-50-54-57-32-9-69 4-88 30a482 482 0 0 0-57 98c-1 2-1 5-4 5l-30 3c-9-32-18-64-29-96a82 82 0 0 0-73-43Z" display="inline"/>
+    <path id="devil_fur" fill="#f2725a" fill-opacity="1" stroke-width=".5" d="M1939 1429c-26 4-50 18-75 27l-64 26c-67-27-142-28-210-3-42-17-85-35-128-50-34-4-39 35-36 60v137c-21 40-30 86-33 130-1 23 2 47 6 69 23 92 109 155 204 148 81-1 162 1 243-2 75-10 129-77 124-152 0-62 6-127-20-185-8-11-4-23-2-34 7-47 16-93 22-139 1-17-15-33-31-32Z" display="inline"/>
+    <g id="devil_whiskers" stroke="#872a11" stroke-linecap="round" stroke-width="76">
+      <path id="devil_whisker_tr" d="m1442 1780-32-15"/>
+      <path id="devil_whisker_tl" d="m1858 1781 64-31"/>
+      <path id="devil_whisker_br" d="m1410 1861 32-15"/>
+      <path id="devil_whisker_bl" d="m1922 1876-64-31"/>
+    </g>
+    <path id="devil_mouth" fill="none" stroke="#562a13" stroke-linecap="round" stroke-linejoin="round" stroke-width="76" d="m1538 1781 32 64 49-65 63 65 65-64"/>
+    <g id="devil_horns" fill="#9b3f32">
+      <path id="left_horn"  d="M1511 1558c-17 2-20-16-19-29-1-65 11-151 27-193 6-16 23-9 26 1 2 11 34 123 50 181-1 13-15 22-25 28-18 10-39 14-59 12Z"/>
+      <path id="right_horn" d="M1744 1559c-22-3-44-18-46-41 11-80 41-130 54-152s26-44 41-38 7 33 7 83v124c-4 8-23 27-56 24Z"/>
+    </g>
+    <g id="devil_left_eye">
+      <path id="devil_eye_outline" fill="none" stroke="#000" stroke-width="32" d="M1671 1676a55 55 0 0 0 40 25h33l13-2c21-7 33-24 37-41 1-7 3-14 1-21-1-7-5-13-8-19"/>
+      <path id="devil_iris" fill="#ffcf50" d="M1773 1625c3 4 6 9 7 15l-1 15c-2 12-11 24-27 29-6 2-8 1-24 1s-18 0-24-2c-8-2-15-7-20-14"/>
+    </g>
+    <use id="devil_right_eye" href="#devil_left_eye" transform="matrix(-1 0 0 1 3267 0)" />
+    <g id="Megaphone">
+      <path id="devil_megaphone_outline" d="m1580 1864 13 5c13 3 25 0 35-6 16-11 31-30 39-57 4-29 0-55-7-68s-18-20-31-22l-15-2-183-107c-9-10-20-16-30-19-17-4-33 1-51 15-25 19-49 62-65 116-11 55-9 106 5 132 9 22 24 33 40 35 10 3 22 3 32-3Zm12-31-238 22-20 5c-26-8-34-67-19-135 18-66 50-114 79-108 6 2 11 7 16 14l200 115 15-1c13 2 17 28 13 54-8 26-24 46-38 41Z"/>
+      <path id="devil_megaphone_mouthpiece" fill="#e3e3e3" d="M1625 1745c-16-5-32 15-37 40-8 27 0 52 12 55 14 5 30-15 38-41 4-26 0-52-13-54Z"/>
+      <path id="devil_megaphone_body" fill="#696969" d="m1611 1746-219-127-56 242 259-27c24-13 33-71 16-88Z"/>
+      <path id="devil_megaphone_outside" fill="#e3e3e3" d="M1394 1617c-29-6-61 42-79 108-15 68-7 127 19 135 29 4 64-45 79-111 15-65 7-126-19-132Z"/>
+      <path id="devil_megaphone_inside" fill="#2a2a2a" d="M1381 1637c-16-5-44 36-56 92-12 55-8 102 9 107 19 4 44-37 56-92s8-103-9-107Z"/>
+    </g>
+    <path id="devil_arm" fill="#f2725a" stroke="#000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="72" paint-order="markers stroke fill" d="m1635 1921c-8-19-41-71-41-71-8-15-17-22-28-25l-3 0c-12-2-26 0-40 8-24 13-30 42-21 59l44 76"/>
+  </g>
+  <g id="neocat_angel">
+    <path id="angel_outline" fill="#000" stroke="#000" stroke-width="72" d="M682 1392h2c51 3 66 59 61 101v120c9 16 13 33 17 51h1c4 13 7 27 9 40a101 101 0 0 1 22 35c6 17 4 36-3 53-3 6-4 13-3 19 1 9 5 17 8 25 7 25 0 53-18 70a76 76 0 0 1-50 20c-12 2-21 11-30 19-33 28-74 47-117 53-23 4-47 2-71 2h-41l1-1-1 1c-66 0-133 2-199-6-77-18-135-92-134-171 1-68-4-138 21-202 5-39-10-78-13-117-8-36-14-86 27-105 37-18 75 8 109 20 31 14 64 30 97 13 56-13 113-8 168 6 35-6 65-26 99-36 12-3 25-10 38-10Z"/>
+    <path id="angel_fur" fill="#fdc75a" d="M200 1424c26 4 50 18 75 27l64 26c67-27 142-28 209-3 43-17 85-35 128-50 34-4 40 35 36 60l1 137c21 40 29 86 33 130 1 23-3 47-7 69a195 195 0 0 1-203 148c-81-1-163 1-244-2-74-10-128-76-124-152 1-62-6-127 20-185 9-11 5-23 3-34l-23-139c0-17 15-33 32-32Z"/>
+    <g id="angel_whiskers" stroke="#8e5e31" stroke-linecap="round" stroke-width="76">
+      <path id="angel_whisker_tr" d="m696 1775 32-15"/>
+      <path id="angel_whisker_tl" d="m280 1776-63-31"/>
+      <path id="angel_whisker_br" d="m729 1856-32-15"/>
+      <path id="angel_whisker_bl" d="m217 1871 63-31"/>
+    </g>
+    <path id="angel_mouth" fill="none" stroke="#562a13" stroke-linecap="round" stroke-linejoin="round" stroke-width="76" d="m600 1776-32 64-48-65-64 65-64-64"/>
+    <path id="angel_left_eye" d="M408 1584c-27 0-49 22-49 49v30a49 49 0 1 0 98 0v-30c0-27-22-49-49-49Z"/>
+    <path id="angel_right_eye" d="M600 1584c-27 0-48 22-48 49v30a49 49 0 1 0 97 0v-30c0-27-22-49-49-49Z"/>
+    <g id="angel_halo">
+      <path id="halo_inside" fill="url(#haloGradient)" d="M 576 1367C 576 1397 500 1412 323 1412C 146 1412 67 1396 67 1368C 67 1340 163 1314 323 1314C 483 1314 576 1337 576 1367Z"/>
+      <path id="halo_ear" fill="#000" stroke-linecap="round" stroke-linejoin="round" d="M 199 1357C 185 1357 170 1360 155 1367C 140 1374 128 1386 119 1399C 161 1407 227 1412 323 1412L 336 1402C 325 1400 311 1393 295 1386L 293 1385L 291 1385C 278 1380 260 1371 237 1364C 226 1360 213 1357 199 1357Z"/>
+      <path id="halo_outside" fill="#9bb8f0" d="M 572 1354C 566 1351 560 1347 553 1344C 565 1351 572 1359 572 1367C 572 1396 497 1411 323 1411C 148 1411 71 1396 71 1368C 71 1348 115 1333 177 1324L 177 1323C 98 1335 32 1360 32 1410C 32 1465 119 1506 320 1506C 522 1506 609 1469 609 1410C 609 1388 597 1369 572 1354ZM 426 1318C 419 1318 408 1317 397 1316C 407 1317 417 1318 426 1318ZM 397 1316C 397 1316 396 1316 396 1316C 396 1316 397 1316 397 1316ZM 396 1316C 393 1316 390 1316 387 1316L 387 1316C 390 1316 393 1316 396 1316Z"/>
+    </g>
+    <g id="angel_megaphone">
+      <path id="angel_megaphone_outline" d="m535 1864-14 5c-13 3-24 0-35-6-15-11-31-30-39-57-4-29 0-55 7-68s18-20 31-22l16-2 182-107c9-10 20-16 30-19 17-4 34 1 51 15 25 19 49 62 65 116 12 55 10 106-4 132-10 22-25 33-40 35-10 3-22 3-33-3Zm-13-31 238 22 20 5c26-8 34-67 19-135-18-66-50-114-79-108-6 2-11 7-16 14l-200 115-15-1c-13 2-17 28-12 54 8 26 23 46 37 41Z"/>
+      <path id="angel_megaphone_mouthpiece" fill="#e3e3e3" d="M489 1745c16-5 32 15 37 40 8 27 1 52-12 55-14 5-29-15-37-41-5-26-1-52 12-54Z"/>
+      <path id="angel_megaphone_body" fill="#696969" d="m503 1746 219-127 56 242-259-27c-24-13-33-71-16-88Z"/>
+      <path id="angel_megphone_outside" fill="#e3e3e3" d="M720 1617c29-6 61 42 79 108 15 68 7 127-19 135-29 4-64-45-79-111-15-65-7-126 19-132Z"/>
+      <path id="angel_megaphone_inside" fill="#2a2a2a" d="M733 1637c16-5 44 36 56 92 12 55 8 102-9 107-19 4-44-37-56-92s-7-103 9-107Z"/>
+    </g>
+    <path id="angel_arm" fill="#fdc75a" stroke="#000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="72" paint-order="markers stroke fill" d="m479 1921c5-10 41-71 41-71 8-15 17-22 28-25l3 0c12-2 26 0 40 8 24 13 30 42 21 59 0 0-35 65-44 76"/>
+  </g>
+</svg>

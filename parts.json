@@ -9868,6 +9868,18 @@
     ],
     "front": [
       {
+        "name": "advice_angel",
+        "url": "/parts/front_advice_angel.png"
+      },
+      {
+        "name": "advice_both",
+        "url": "/parts/front_advice_both.png"
+      },
+      {
+        "name": "advice_devil",
+        "url": "/parts/front_advice_devil.png"
+      },
+      {
         "name": "blank",
         "url": "/parts/blank.png"
       },
