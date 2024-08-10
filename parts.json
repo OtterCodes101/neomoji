@@ -9866,6 +9866,10 @@
         "url": "/parts/hat_police.png"
       },
       {
+        "name": "remlit_ears",
+        "url": "/parts/hat_remlit_ears.png"
+      },
+      {
         "name": "witch",
         "url": "/parts/hat_witch.png"
       }
