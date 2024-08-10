@@ -9790,7 +9790,7 @@
         "url": "/parts/hat_apple.png"
       },
       {
-        "name": "apple",
+        "name": "apple_shot",
         "url": "/parts/hat_apple_shot.png"
       },
       {
@@ -9800,6 +9800,10 @@
       {
         "name": "bonk",
         "url": "/parts/hat_bonk.png"
+      },
+      {
+        "name": "bow_sylveon",
+        "url": "/parts/hat_bow_sylveon.png"
       },
       {
         "name": "cat_ears",
