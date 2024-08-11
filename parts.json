@@ -2575,6 +2575,141 @@
         "color": "yellow"
       },
       {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_green.png",
+        "color": "green"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_red.png",
+        "color": "red"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_white.png",
+        "color": "white"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "clipboard",
         "url": "/parts/arms_clipboard_blue.png",
         "color": "blue"
