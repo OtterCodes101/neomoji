@@ -1321,6 +1321,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_catraxx.png",
         "color": "catraxx"
       },
@@ -1353,6 +1358,11 @@
         "name": "3c",
         "url": "/parts/arms_3c_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_goblin.png",
+        "color": "goblin"
       },
       {
         "name": "3c",
@@ -1406,6 +1416,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_pink.png",
         "color": "pink"
       },
@@ -1438,6 +1453,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_brown.png",
+        "color": "brown"
       },
       {
         "name": "aww",
@@ -1571,6 +1591,11 @@
       },
       {
         "name": "baby",
+        "url": "/parts/arms_baby_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "baby",
         "url": "/parts/arms_baby_catraxx.png",
         "color": "catraxx"
       },
@@ -1603,6 +1628,11 @@
         "name": "baby",
         "url": "/parts/arms_baby_frozen.png",
         "color": "frozen"
+      },
+      {
+        "name": "baby",
+        "url": "/parts/arms_baby_goblin.png",
+        "color": "goblin"
       },
       {
         "name": "baby",
@@ -1656,6 +1686,11 @@
       },
       {
         "name": "baby",
+        "url": "/parts/arms_baby_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "baby",
         "url": "/parts/arms_baby_pink.png",
         "color": "pink"
       },
@@ -1688,6 +1723,11 @@
         "name": "baby_cry",
         "url": "/parts/arms_baby_cry_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "baby_cry",
+        "url": "/parts/arms_baby_cry_brown.png",
+        "color": "brown"
       },
       {
         "name": "baby_cry",
@@ -1821,6 +1861,11 @@
       },
       {
         "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_catraxx.png",
         "color": "catraxx"
       },
@@ -1948,6 +1993,11 @@
         "name": "baby_sleep",
         "url": "/parts/arms_baby_sleep_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "baby_sleep",
+        "url": "/parts/arms_baby_sleep_brown.png",
+        "color": "brown"
       },
       {
         "name": "baby_sleep",
@@ -2986,6 +3036,11 @@
       },
       {
         "name": "feed_baby",
+        "url": "/parts/arms_feed_baby_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "feed_baby",
         "url": "/parts/arms_feed_baby_catraxx.png",
         "color": "catraxx"
       },
@@ -3246,6 +3301,11 @@
       },
       {
         "name": "gun",
+        "url": "/parts/arms_gun_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "gun",
         "url": "/parts/arms_gun_catraxx.png",
         "color": "catraxx"
       },
@@ -3373,6 +3433,11 @@
         "name": "guns_akimbo",
         "url": "/parts/arms_guns_akimbo_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_brown.png",
+        "color": "brown"
       },
       {
         "name": "guns_akimbo",
@@ -3506,6 +3571,11 @@
       },
       {
         "name": "hammer",
+        "url": "/parts/arms_hammer_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "hammer",
         "url": "/parts/arms_hammer_catraxx.png",
         "color": "catraxx"
       },
@@ -3633,6 +3703,11 @@
         "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_brown.png",
+        "color": "brown"
       },
       {
         "name": "hammer_and_sickle",
@@ -3838,6 +3913,11 @@
         "name": "hide",
         "url": "/parts/arms_hide_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_brown.png",
+        "color": "brown"
       },
       {
         "name": "hide",
@@ -5691,6 +5771,11 @@
       },
       {
         "name": "reach",
+        "url": "/parts/arms_reach_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "reach",
         "url": "/parts/arms_reach_catraxx.png",
         "color": "catraxx"
       },
@@ -5818,6 +5903,11 @@
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_brown.png",
+        "color": "brown"
       },
       {
         "name": "scepter_dutch",
@@ -6026,6 +6116,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_catraxx.png",
         "color": "catraxx"
       },
@@ -6153,6 +6248,11 @@
         "name": "sickle",
         "url": "/parts/arms_sickle_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_brown.png",
+        "color": "brown"
       },
       {
         "name": "sickle",
@@ -8573,6 +8673,11 @@
         "name": "sword",
         "url": "/parts/arms_sword_blue.png",
         "color": "blue"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_brown.png",
+        "color": "brown"
       },
       {
         "name": "sword",
