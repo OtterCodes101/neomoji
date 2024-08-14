@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <defs>
+    <symbol id="pill">
+      <rect width="75" height="150" x="27" y="12" fill="#fcf69c" ry="35"/>
+      <path fill="#726c04" d="M27 84h74V71H27Z"/>
+      <path fill="#968e05" d="M27 96h74V84H27Z"/>
+    </symbol>
+  </defs>
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.sclera{fill:#fc5900}.iris{fill:#000}
+  </style>
+  <g id="pill_case" transform="translate(313 1241) scale(.4701)">
+    <circle id="path11" cx="586.7" cy="793.9" r="580.6" fill="#e5e5e5" stroke-width="170"/>
+    <use href="#pill" id="use1" transform="rotate(90 204 934)"/>
+    <use href="#pill" id="use42" transform="rotate(103 229 881)"/>
+    <use href="#pill" id="use43" transform="rotate(116 249 837)"/>
+    <use href="#pill" id="use44" transform="rotate(129 267 799)"/>
+    <use href="#pill" id="use45" transform="rotate(141 283 764)"/>
+    <use href="#pill" id="use46" transform="rotate(154 298 732)"/>
+    <use href="#pill" id="use47" transform="rotate(167 312 702)"/>
+    <use href="#pill" id="use48" transform="rotate(180 325 673)"/>
+    <use href="#pill" id="use49" transform="rotate(-167 339 643)"/>
+    <use href="#pill" id="use50" transform="rotate(-154 353 613)"/>
+    <use href="#pill" id="use51" transform="rotate(-141 368 581)"/>
+    <use href="#pill" id="use52" transform="rotate(-129 384 547)"/>
+    <use href="#pill" id="use53" transform="rotate(-116 402 509)"/>
+    <use href="#pill" id="use54" transform="rotate(-103 422 464)"/>
+    <use href="#pill" id="use55" transform="rotate(-90 447 412)"/>
+    <use href="#pill" id="use56" transform="rotate(-77 477 345)"/>
+    <use href="#pill" id="use57" transform="rotate(-64 518 257)"/>
+    <use href="#pill" id="use58" transform="rotate(-51 577 130)"/>
+    <use href="#pill" id="use59" transform="rotate(-39 672 -74)"/>
+    <use href="#pill" id="use60" transform="rotate(-26 856 -472)"/>
+    <use href="#pill" id="use61" transform="rotate(-13 1400 -1646)"/>
+    <use href="#pill" id="use62" transform="translate(523 242)"/>
+    <use href="#pill" id="use63" transform="rotate(13 -749 2992)"/>
+    <use href="#pill" id="use64" transform="rotate(26 -205 1818)"/>
+    <use href="#pill" id="use65" transform="rotate(39 -21 1420)"/>
+    <use href="#pill" id="use66" transform="rotate(51 74 1215)"/>
+    <use href="#pill" id="use67" transform="rotate(64 133 1089)"/>
+    <use href="#pill" id="use68" transform="rotate(77 174 1000)"/>
+    <path id="circle68" fill="#ef7c94" fill-opacity=".2" stroke="#a8093e" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="31.5" d="m1138 967-53-12h-1l-4-1-95-21a49 49 0 1 1 21-96l96 22h4l52 12a576 576 0 0 0-446-638A576 576 0 0 0 25 671a576 576 0 0 0 439 687 576 576 0 0 0 674-391Z" style="font-variation-settings:'wght' 605"/>
+    <circle id="circle39" cx="586.7" cy="793.9" r="310.5" fill="#999" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="60" style="font-variation-settings:'wght' 605"/>
+    <path id="path42" fill="#ef7c94" fill-opacity="1" stroke="#a8093e" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-opacity="1" stroke-width="96.7" d="m633 668-44 41-43-44a90 90 0 1 0-128 128l63 63 43 43 44 44c11 11 27 11 38 0l43-44 41-40 65-66c36-35 36-92 0-128a94 94 0 0 0-62-27c-22 0-44 11-60 30z" display="inline" opacity="1" paint-order="stroke markers fill" style="font-variation-settings:normal"/>
+  </g>
+  <path id="right_paw" class="paw outline" paint-order="stroke markers fill" stroke-width="98" d="M454 1873a114 114 0 1 0-114-197l-75 43a57 57 0 0 0-21 78l57 99c16 27 51 36 78 20z"/>
+</svg>

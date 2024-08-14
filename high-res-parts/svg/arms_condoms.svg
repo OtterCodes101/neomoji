@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.sclera{fill:#fc5900}.iris{fill:#000}
+  </style>
+  <defs>
+    <symbol id="condom">
+      <path id="packaging" stroke-linejoin="round" stroke-width="40" d="M0 0v325h2a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h6a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h5a13 13 0 0 1 25 0h2V0h-2a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-6a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-5a13 13 0 0 1-25 0h-5A13 13 0 0 1 2 0Z" style="font-variation-settings:'wght' 605"/>
+      <circle id="ring" cx="150" cy="162.5" r="112.5" fill="none" stroke="#fff" stroke-width="32"/>
+      <path id="heart" fill="#ef7c94" stroke="#a8093e" stroke-width="30" paint-order="stroke markers fill" d="m164 124-13 12-14-13a28 28 0 1 0-39 39l19 20 14 13 13 13c3 4 9 4 12 0l13-13 13-13 20-20c11-11 11-28 0-39-5-5-13-8-19-8-7 0-14 3-19 9z"/>
+    </symbol>
+  </defs>
+  <use id="use1" x="0" y="0" fill="#8bb9a0" href="#condom" transform="rotate(-30 3136 47)"/>
+  <use id="use2" fill="#f7965b" href="#condom" transform="translate(598 1477)"/>
+  <use id="use3" x="0" y="0" fill="#070362" href="#condom" transform="rotate(30 -2387 2318)"/>
+  <use id="use4" x="0" y="0" fill="#f3c07b" href="#condom" transform="rotate(60 -914 1675)"/>
+  <path id="right_paw" class="paw outline" stroke-width="98" paint-order="stroke markers fill" d="M716 1980a114 114 0 1 0 0-228h-86c-31 0-57 25-57 57v114c0 32 26 57 57 57z"/>
+</svg>
