@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.sclera{fill:#fc5900}.iris{fill:#000}
+  </style>
+  <path id="cane" fill="#c87137" stroke="#000" stroke-linejoin="round" stroke-width="44" d="M320 947a295 295 0 0 0-286 232 297 297 0 0 0 155 325c278 159 554 320 832 478 16 7 35-3 41-19l44-77c9-24-16-40-35-48-277-162-556-321-833-483-71-49-77-163-11-219 59-56 161-44 208 21 26 34 28 92 79 100 57 16 113-48 88-102a295 295 0 0 0-282-208Z"/>
+  <path id="right_paw" class="paw outline" paint-order="stroke markers fill" stroke-width="98" d="M687 1680a114 114 0 1 0-198-114l-43 74c-15 27-6 62 21 78l99 57c28 16 62 6 78-21z"/>
+</svg>
