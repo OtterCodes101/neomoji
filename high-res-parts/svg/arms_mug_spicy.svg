@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#8bb9a0}
+    .paw{fill:#8bb9a0}
+    .hand{fill:#8bb9a0}
+    .outline{stroke:#000}
+    .iris{fill:#000}
+    .sclera{fill:#ff6a00}
+    .mouth{stroke:#542912}
+    .tooth{fill:#fefbba}
+  </style>
+  <g id="drink">
+    <path id="cup" fill="#5f3e1d" d="M764 1414h191c70 0 127 56 127 127v260c0 70-57 127-127 127H764c-70 0-126-57-126-127v-260c0-71 56-127 126-127z"/>
+    <path id="liquid" fill="#0f0" d="M761 1482h196c33 0 60 26 60 60v4c0 33-27 60-60 60H761c-33 0-60-27-60-60v-4c0-34 27-60 60-60z"/>
+    <path id="top_band" fill="none" stroke="#000" stroke-width="57" d="M1054 1631v2c0 41-33 74-74 74H740c-41 0-74-33-74-74v-2"/>
+    <path id="bottom_band" fill="none" stroke="#000" stroke-width="57" d="M1054 1771v2c0 41-33 74-74 74H740c-41 0-74-33-74-74v-2"/>
+  </g>
+  <g id="arm">
+    <path id="forearm" class="fur outline" paint-order="markers stroke fill" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M1388 1508c-28 4-252 60-252 60-41 9-63 27-78 49l-4 9c-14 26-18 61-8 99 15 67 78 103 127 92 0 0 239-57 267-65"/>
+    <path id="paw" class="paw" d="m1268 1795-95 22c-49 11-112-25-127-92-10-38-6-73 8-99 14-27 37-48 82-58l92-21c61 69 87 160 40 248z"/>
+  </g>
+  <g id="bubbles" fill="#0f0">
+    <circle cx="798" cy="1412" r="30"/>
+    <circle cx="907" cy="1346" r="27"/>
+    <circle cx="943" cy="1478" r="27"/>
+    <circle cx="810" cy="1215" r="49"/>
+  </g>
+</svg>

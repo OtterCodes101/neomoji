@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#8bb9a0}
+    .paw{fill:#8bb9a0}
+    .hand{fill:#8bb9a0}
+    .outline{stroke:#000}
+    .iris{fill:#000}
+    .sclera{fill:#f2fc24}
+    .pupil{fill:#ff0c00}
+    .mouth{stroke:#542912}
+    .tooth{fill:#fefbba}
+  </style>
+  <g id="left_eye">
+    <circle class="sclera" cx="1250" cy="995" r="226"/>
+    <ellipse class="iris" cx="1189" cy="997" rx="75" ry="206"/>
+    <path class="pupil" d="M 1225 992C 1225 1090 1191 1155 1191 1155C 1191 1155 1157 1087 1157 992C 1157 893 1191 840 1191 840C 1191 840 1225 889 1225 992Z"/>
+  </g>
+  <use href="#left_eye" id="right_eye" x="0" y="0" transform="translate(-640)"/>
+</svg>
