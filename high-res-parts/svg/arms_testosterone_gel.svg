@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#f7965b}
+    .paw{fill:#f7965b}
+    .outline{stroke:#000000}
+  </style>
+  <defs>
+    <rect id="rect8" width="556.7" height="1194.7" x="1035" y="670"/>
+  </defs>
+  <g id="left_arm" transform="rotate(40 1037 1692)">
+    <path id="forearm" stroke-linejoin="round" stroke-width="144" d="M1341 882c173 145 232 443 232 531v164c-1 50-57 102-124 102-39 0-72-11-95-31s-41-58-38-89c3-32 4-273-179-513" class="fur outline" paint-order="markers stroke fill"/>
+    <path id="paw" d="M1449 1679c67 0 123-52 124-102v-108c-72-50-186-47-263-13 8 54 7 92 6 103-3 31 15 69 38 89s56 31 95 31z" class="paw"/>
+  </g>
+  <path id="path2" fill="#8b4513" fill-opacity=".5" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1" d="M1575 1348c-18 25-100 66-65 166 36 101 52 30 118 32 67 2 31-70 60-116 28-46 71-47 64-95-6-48-64 7-87 3-23-5-73-15-90 10z"/>
+  <g id="g8" transform="rotate(108 1088 1531)">
+    <path id="path3" fill="#041952" fill-opacity="1" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1" d="M1281 606s-46 269-52 484c0 0-12 8-76 8s-76-8-76-8c-6-215-52-484-52-484z"/>
+    <path id="path4" fill="#a9a9a9" fill-opacity="1" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1" d="M1281 606h-256v-46h256z"/>
+    <path id="path5" fill="#a9a9a9" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1" d="m1100 1093 19 15v43s10 6 31 6 31-6 31-6v-43l25-14z"/>
+    <path id="path7" fill="none" stroke="#696969" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="miter" stroke-opacity="1" stroke-width="6" d="M1119 1142s54 7 62-5"/>
+    <use href="#path7" id="use7" x="0" y="0" stroke="#696969" stroke-dasharray="none" stroke-linecap="round" stroke-width="6" transform="translate(0 -20)"/>
+    <use href="#path7" id="use8" x="0" y="0" stroke="#696969" stroke-dasharray="none" stroke-linecap="round" stroke-width="6" transform="translate(0 -10)"/>
+    <text xml:space="preserve" id="text8" fill="#8ba9f9" fill-opacity="1" stroke="none" display="inline" font-family="Onyx" font-size="500" font-stretch="normal" font-style="normal" font-variant="normal" font-weight="normal" letter-spacing="0" style="line-height:1.25;-inkscape-font-specification:'Onyx, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8)" transform="translate(30 -131)" word-spacing="0"><tspan id="tspan1" x="1035" y="1134">T</tspan></text>
+  </g>
+  <use href="#left_arm" id="right_arm" width="100%" height="100%" x="0" y="0" transform="scale(-1 1) rotate(81 158 48)"/>
+  <path id="path1" fill="#8b4513" fill-opacity=".4" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="72" d="M913 1618c-61-8-71 62-85 103-4 38-16 82-5 117 39 32 94 1 139 20 53 10 106-10 153-28 46-17 62-44 65-89s6-86-32-106c-46-19-95 11-143-1-31-2-61-13-92-16z"/>
+</svg>

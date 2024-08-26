@@ -792,7 +792,7 @@
         "color": "hairless"
       },
       {
-        "name": "neomouse_comfy",
+        "name": "neomousecomfy",
         "url": "/parts/neomouse_comfy.png",
         "color": "mousecomfy"
       },
@@ -2218,18 +2218,23 @@
       },
       {
         "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_comfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "baby_googly_woozy",
@@ -3472,6 +3477,141 @@
         "color": "yellow"
       },
       {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_green.png",
+        "color": "green"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_red.png",
+        "color": "red"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_white.png",
+        "color": "white"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "condoms",
         "url": "/parts/arms_condoms_albino.png",
         "color": "albino"
@@ -4101,6 +4241,141 @@
         "color": "yellow"
       },
       {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_green.png",
+        "color": "green"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_red.png",
+        "color": "red"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_white.png",
+        "color": "white"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "facepalm",
         "url": "/parts/arms_facepalm_blue.png",
         "color": "blue"
@@ -4338,17 +4613,17 @@
       {
         "name": "feed_baby",
         "url": "/parts/arms_feed_baby_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "feed_baby",
         "url": "/parts/arms_feed_baby_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "feed_baby",
         "url": "/parts/arms_feed_baby_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "feed_baby",
@@ -6494,17 +6769,17 @@
       {
         "name": "loser",
         "url": "/parts/arms_loser_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "loser",
         "url": "/parts/arms_loser_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "loser",
         "url": "/parts/arms_loser_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "loser",
@@ -7330,17 +7605,17 @@
       {
         "name": "pleading",
         "url": "/parts/arms_pleading_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "pleading",
         "url": "/parts/arms_pleading_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "pleading",
         "url": "/parts/arms_pleading_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "pleading",
@@ -10493,6 +10768,141 @@
         "color": "yellow"
       },
       {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_green.png",
+        "color": "green"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_red.png",
+        "color": "red"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_white.png",
+        "color": "white"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "think",
         "url": "/parts/arms_think_albino.png",
         "color": "albino"
@@ -10835,17 +11245,17 @@
       {
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "thumbsdown",
@@ -10965,17 +11375,17 @@
       {
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "thumbsup",
@@ -11245,17 +11655,17 @@
       {
         "name": "vulcan",
         "url": "/parts/arms_vulcan_mouse_black.png",
-        "color": "mouse_black"
+        "color": "mouseblack"
       },
       {
         "name": "vulcan",
         "url": "/parts/arms_vulcan_mouse_brown.png",
-        "color": "mouse_brown"
+        "color": "mousebrown"
       },
       {
         "name": "vulcan",
         "url": "/parts/arms_vulcan_mouse_comfy.png",
-        "color": "mouse_comfy"
+        "color": "mousecomfy"
       },
       {
         "name": "vulcan",
@@ -11726,6 +12136,10 @@
       {
         "name": "police",
         "url": "/parts/hat_police.png"
+      },
+      {
+        "name": "third_eye",
+        "url": "/parts/hat_third_eye.png"
       },
       {
         "name": "witch",

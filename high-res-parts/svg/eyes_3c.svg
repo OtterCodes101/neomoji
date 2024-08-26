@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="921.42857"
-     inkscape:cy="1147.1429"
+     inkscape:cx="1172.8571"
+     inkscape:cy="950"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -58,8 +58,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><path
-       d="m 1214.0468,767.14258 c -70.9119,0 -127.4746,57.98007 -127.4746,130 v 63.99998 c 0,31.0322 27.7714,62.94534 62.6075,62.94534 h 132.7832 c 34.8363,0 62.6093,-31.91374 62.6093,-62.94534 v -63.99998 c 0,-72.01993 -59.6134,-130 -130.5254,-130 z"
-       style=""
+       d="m 1214.0468,823.14258 c -70.9119,0 -127.4746,57.98007 -127.4746,130 v 64.00002 c 0,31.0322 27.7714,62.9453 62.6075,62.9453 h 132.7832 c 34.8363,0 62.6093,-31.9137 62.6093,-62.9453 v -64.00002 c 0,-72.01993 -59.6134,-130 -130.5254,-130 z"
        id="path2"
        inkscape:label="left_eye" /><use
        x="0"
