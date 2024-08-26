@@ -3477,6 +3477,141 @@
         "color": "yellow"
       },
       {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_green.png",
+        "color": "green"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_red.png",
+        "color": "red"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_white.png",
+        "color": "white"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "condoms",
         "url": "/parts/arms_condoms_albino.png",
         "color": "albino"
@@ -11731,6 +11866,10 @@
       {
         "name": "police",
         "url": "/parts/hat_police.png"
+      },
+      {
+        "name": "third_eye",
+        "url": "/parts/third_eye/png"
       },
       {
         "name": "witch",
