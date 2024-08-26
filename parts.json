@@ -10768,6 +10768,141 @@
         "color": "yellow"
       },
       {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_green.png",
+        "color": "green"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_red.png",
+        "color": "red"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_white.png",
+        "color": "white"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "think",
         "url": "/parts/arms_think_albino.png",
         "color": "albino"
@@ -12004,7 +12139,7 @@
       },
       {
         "name": "third_eye",
-        "url": "/parts/third_eye/png"
+        "url": "/parts/hat_third_eye.png"
       },
       {
         "name": "witch",
