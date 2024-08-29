@@ -12102,6 +12102,10 @@
         "url": "/parts/hat_crown_dutch.png"
       },
       {
+        "name": "daisy",
+        "url": "/parts/daisy.png"
+      },
+      {
         "name": "doctor_mirror",
         "url": "/parts/hat_doctor_mirror.png"
       },
