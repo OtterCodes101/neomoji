@@ -9483,6 +9483,136 @@
         "color": "yellow"
       },
       {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_green.png",
+        "color": "green"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_red.png",
+        "color": "red"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_white.png",
+        "color": "white"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "sign_thx",
         "url": "/parts/arms_sign_thx_albino.png",
         "color": "albino"
