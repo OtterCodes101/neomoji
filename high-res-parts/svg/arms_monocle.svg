@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="svg1" version="1.1" viewBox="0 0 2048 2048">
+  <style id="style1">
+    .iris{fill:#000000}.fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <path id="circle7" fill="none" fill-opacity=".4" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="20" d="M1244 683a308 308 0 0 0-77 606l7 2a308 308 0 0 0 379-346v-6l-7-28-1-4-10-30-2-5a309 309 0 0 0-289-189z" opacity="1"/>
+  <circle id="circle1" cx="1248.3" cy="991.3" r="262.8" fill="#fff" fill-opacity=".4" stroke="gold" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="74" opacity="1"/>
+  <path id="path1" fill="gold" stroke="#000" stroke-dasharray="none" stroke-width="20" d="m1507 848-53 52 75 75v36l-75 75 53 53 96-97v-97z" color="#000"/>
+  <path id="path5" fill="gold" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-width="20" d="M1601 855v1127h74V855h-37z" color="#000"/>
+  <ellipse id="ellipse4" cx="757.5" cy="-1638.3" fill="gold" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="10" opacity="1" rx="87.9" ry="14.7" transform="rotate(90)"/>
+  <circle id="path3" cx="1638.3" cy="767.6" r="63.5" fill="gold" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="10" opacity="1"/>
+  <ellipse id="path4" cx="1638.3" cy="841.1" fill="gold" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="10" opacity="1" rx="87.9" ry="14.7"/>
+  <path id="path7" fill="none" fill-opacity=".4" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" stroke-width="20" d="M1246 773a220 220 0 0 0-206 153 219 219 0 1 0 206-153z" opacity="1"/>
+  <path id="right_paw" stroke-width="98" d="M1607 1877a114 114 0 1 1 1-228l85-1c31 1 57 25 57 57v115c0 32-26 56-57 57z" class="paw outline" paint-order="stroke markers fill"/>
+</svg>

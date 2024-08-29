@@ -7311,7 +7311,141 @@
         "url": "/parts/arms_middlefinger_double_yellow.png",
         "color": "yellow"
       },
-
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_green.png",
+        "color": "green"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_red.png",
+        "color": "red"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_white.png",
+        "color": "white"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_yellow.png",
+        "color": "yellow"
+      },
       {
         "name": "mug",
         "url": "/parts/arms_mug_albino.png",
