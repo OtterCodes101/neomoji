@@ -10313,6 +10313,141 @@
         "color": ""
       },
       {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_green.png",
+        "color": "green"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_red.png",
+        "color": "red"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_white.png",
+        "color": "white"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "solder",
         "url": "/parts/arms_solder_blue.png",
         "color": "blue"

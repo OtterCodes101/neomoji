@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <path fill="#000" d="M832 1241a48 48 0 0 0-34-4l-8-12c-8-7-18-11-28-9l-6 1c-6-9-17-16-28-15-6 0-12 2-18 5l-9 8a381 381 0 0 0-93 116 186 186 0 0 0-10 147c7 20 17 40 30 57a2726 2726 0 0 1-161 278v-53a1603 1603 0 0 1 17-207l2-18a32 32 0 0 0-34-35c-6 0-13 3-18 7a265 265 0 0 0-116 143c-7 23-12 46-14 69a580 580 0 0 0 49 265c-9 16-19 31-27 47-3 6-5 12-5 19-1 10 1 20 7 29 7 10 18 16 31 18a44 44 0 0 0 48-32v-4l12-20 4-6c41-10 81-24 119-44a380 380 0 0 0 200-346 33 33 0 0 0-28-32c-11-1-23 3-30 12l-7 15a493 493 0 0 1-62 97l-1 1a3240 3240 0 0 0 90-163 275 275 0 0 0 94-20c20-10 39-23 56-38a409 409 0 0 0 102-145c2-7 4-16 4-24-1-10-5-19-12-27s-16-14-27-16c-6-2-12-2-19-2-1-6-2-12-5-18-5-9-15-15-25-16l-17-1a55 55 0 0 0-23-27z" color="#000" style="-inkscape-stroke:none"/>
+  <path fill="none" stroke="#228b22" stroke-linecap="round" stroke-linejoin="round" stroke-width="35" d="M676 1535s-86 177-209 356c-122 178-102 163-102 163"/>
+  <path id="right_paw" class="paw outline" paint-order="stroke markers fill" stroke-width="98" d="M526 1858a114 114 0 1 0 114-198l-74-43c-27-15-62-7-78 21l-57 99c-16 28-6 62 21 78z"/>
+  <path fill="#7cfc00" stroke="#228b22" stroke-linecap="round" stroke-linejoin="round" stroke-width="14" d="M444 1927s180-95 266-282c0 0 16 301-316 363"/>
+  <path fill="#7cfc00" stroke="#228b22" stroke-linecap="round" stroke-linejoin="round" stroke-width="14" d="M393 1994s-164-333 61-462c0 0-43 304-2 371"/>
+  <path fill="none" stroke="#228b22" stroke-linecap="butt" stroke-linejoin="round" stroke-width="35" d="M500 1842c-8 13-21 33-33 49-122 179-102 164-102 164"/>
+  <g transform="rotate(30 -989 114) scale(.7034)" fill="#ff69b4" stroke="#b00058" >
+    <path stroke-linejoin="round" stroke-width="20" d="M1563 310c-13 9-24 25-32 40 9 12 21 28 33 48 10-20 22-41 34-59-17-16-35-29-35-29z"/>
+    <path stroke-linejoin="round" stroke-width="20" d="M1725 303c-17 6-36 22-47 32 11 19 20 44 27 68 15-19 31-36 46-51-9-36-26-49-26-49z"/>
+    <path stroke-linejoin="round" stroke-width="20" d="M1638 302c-22 0-52 52-74 96 19 30 40 68 59 115 24-35 53-74 82-110-14-48-36-101-67-101z"/>
+    <path stroke-linejoin="round" stroke-width="20" d="M1814 313c-46 1-134 116-191 200l3 9 4 9v1a814 814 0 0 1 19 53c22 69 32 110 27 132-2 8-6 13-12 15l-1 1c24-9 59-31 94-64 91-89 103-329 70-352-3-2-8-4-13-4z"/>
+    <path stroke-linejoin="round" stroke-width="20" d="M1505 320s-136 303 123 407c62 25 64-16 10-172a633 633 0 0 0-133-235Z"/>
+  </g>
+</svg>
