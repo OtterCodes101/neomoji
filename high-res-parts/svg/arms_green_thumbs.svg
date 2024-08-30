@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="greenGradient" cx="0%" cy="0%" r="70%" gradientUnits="objectBoundingBox">
+      <stop id="stop3" offset="0" stop-color="#228b22" stop-opacity="1"/>
+      <stop id="stop6" offset=".7" stop-color="#228b22" stop-opacity="1"/>
+      <stop id="stop4" offset="1" stop-color="#228b22" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.hand{fill:#e9afaf}
+  </style>
+  <g id="right_thumb">
+    <path id="path1" stroke-linejoin="round" stroke-width="160" d="M475 1661H351l-2-159c-13 0-107 55-107 139v258c0 45 35 80 80 80h153c44 0 80-35 80-80v-158c0-43-36-80-80-80Z" class="hand outline" paint-order="markers stroke fill"/>
+    <path id="path3" fill="url(#greenGradient)" stroke="none" d="M475 1661H351l-2-159c-13 0-107 55-107 139v258c0 45 35 80 80 80h153c44 0 80-35 80-80v-158c0-43-36-80-80-80Z" paint-order="markers stroke fill"/>
+  </g>
+  <use href="#right_thumb" id="left_thumb" x="0" y="0" transform="matrix(-1 0 0 1 1232 0)"/>
+</svg>
