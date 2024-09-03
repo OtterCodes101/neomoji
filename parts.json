@@ -13699,6 +13699,10 @@
         "url": "/parts/hat_cat_ears.png"
       },
       {
+        "name": "chef",
+        "url": "/parts/hat_chef.png"
+      },
+      {
         "name": "conductor",
         "url": "/parts/hat_conductor.png"
       },
