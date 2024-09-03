@@ -8526,6 +8526,10 @@
         "color": "yellow"
       },
       {
+        "name": "moon_stick",
+        "url": "/parts/moon_stick.png"
+      },
+      {
         "name": "mug",
         "url": "/parts/arms_mug_albino.png",
         "color": "albino"
