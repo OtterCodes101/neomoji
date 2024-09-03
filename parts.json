@@ -13735,6 +13735,10 @@
         "url": "/parts/hat_fox_ears.png"
       },
       {
+        "name": "hair_buns",
+        "url": "/parts/hat_hair_buns.png"
+      },
+      {
         "name": "light_bulb",
         "url": "/parts/hat_light_bulb.png"
       },
@@ -13761,6 +13765,14 @@
       {
         "name": "third_eye",
         "url": "/parts/hat_third_eye.png"
+      },
+      {
+        "name": "tiara",
+        "url": "/parts/hat_tiara.png"
+      },
+      {
+        "name": "tiara_with_buns",
+        "url": "/parts/hat_tiara_with_buns.png"
       },
       {
         "name": "witch",
