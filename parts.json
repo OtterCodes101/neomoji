@@ -147,6 +147,10 @@
         "url": "/parts/eyes_pleading.png"
       },
       {
+        "name": "pretty",
+        "url": "/parts/eyes_pretty.png"
+      },
+      {
         "name": "rolling",
         "url": "/parts/eyes_rolling.png"
       },
