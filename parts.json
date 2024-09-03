@@ -1296,6 +1296,10 @@
         "url": "/parts/mouth_snaggletooth.png"
       },
       {
+        "name": "studded_blep",
+        "url": "/parts/mouth_studded_blep.png"
+      },
+      {
         "name": "surprised",
         "url": "/parts/mouth_surprised.png"
       },
