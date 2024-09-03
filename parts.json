@@ -1132,6 +1132,10 @@
         "url": "/parts/mouth_drowsy.png"
       },
       {
+        "name": "forked_blep",
+        "url": "/parts/mouth_forked_blep.png"
+      },
+      {
         "name": "grimace",
         "url": "/parts/mouth_grimace.png"
       },
