@@ -8527,7 +8527,8 @@
       },
       {
         "name": "moon_stick",
-        "url": "/parts/moon_stick.png"
+        "url": "/parts/arms_moon_stick.png",
+        "color": ""
       },
       {
         "name": "mug",
