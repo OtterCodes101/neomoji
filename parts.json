@@ -111,6 +111,14 @@
         "url": "/parts/eyes_laugh_sweat.png"
       },
       {
+        "name": "neobot",
+        "url": "/parts/eyes_neobot.png"
+      },
+      {
+        "name": "neobot_angry",
+        "url": "/parts/eyes_neobot_angry.png"
+      },
+      {
         "name": "neocat_glasses",
         "url": "/parts/eyes_neocat_glasses.png"
       },

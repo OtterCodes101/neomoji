@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <defs>
+    <filter id="eye_glow" width="5" height="5" x="-2" y="-2">
+      <feGaussianBlur in="SourceGraphic" result="blur1" stdDeviation="50"/>
+      <feGaussianBlur in="SourceGraphic" result="blur2" stdDeviation="25"/>
+      <feGaussianBlur in="SourceGraphic" result="blur3" stdDeviation="12.5 "/>
+      <feComposite in="SourceGraphic" in2="blur1" result="comp1"/>
+      <feComposite in="comp1" in2="blur2" result="comp2"/>
+      <feComposite in="comp2" in2="blur3"/>
+    </filter>
+  </defs>
+  <path id="visor" fill="#353535" d="m639 1210-45-5c-35-5-63-13-89-26-53-27-87-71-98-130-4-19-5-28-5-47 0-74 26-142 77-207 66-83 156-133 270-150a1655 1655 0 0 1 378 0c114 17 204 67 270 150 51 65 77 133 77 207 0 19-1 28-5 47-17 86-80 139-183 156-35 6-13 5-341 6l-306-1z"/>
+  <path id="left_eye" fill="#58d3d7" d="M1209 834a128 128 0 0 0-128 128v64a128 128 0 0 0 128 128 128 128 0 0 0 128-128v-64a128 128 0 0 0-128-128z" filter="url(#eye_glow)"/>
+  <use href="#left_eye" id="right_eye" x="-575" y="0"/>
+</svg>
