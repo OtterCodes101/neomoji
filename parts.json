@@ -23,6 +23,10 @@
         "url": "/parts/blank.png"
       },
       {
+        "name": "catmode",
+        "url": "/parts/eyes_cat_mode.png"
+      },
+      {
         "name": "cheese",
         "url": "/parts/eyes_cheese.png"
       },
