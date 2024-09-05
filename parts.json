@@ -15,6 +15,10 @@
         "url": "/parts/eyes_angler.png"
       },
       {
+        "name": "angry",
+        "url": "/parts/eyes_angry.png"
+      },
+      {
         "name": "baa",
         "url": "/parts/eyes_baa.png"
       },
@@ -53,10 +57,6 @@
       {
         "name": "drowsy",
         "url": "/parts/eyes_drowsy.png"
-      },
-      {
-        "name": "evil",
-        "url": "/parts/eyes_evil.png"
       },
       {
         "name": "eyes",
