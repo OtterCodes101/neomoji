@@ -11666,6 +11666,141 @@
         "color": ""
       },
       {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_green.png",
+        "color": "green"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_red.png",
+        "color": "red"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_white.png",
+        "color": "white"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "sip_milk",
         "url": "/parts/arms_sip_milk.png",
         "color": ""
