@@ -9296,6 +9296,136 @@
         "color": "yellow"
       },
       {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_green.png",
+        "color": "green"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_red.png",
+        "color": "red"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_white.png",
+        "color": "white"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_wyvern.png",
+        "color": "wyvern"
+      },
+      {
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_albino.png",
         "color": "albino"
