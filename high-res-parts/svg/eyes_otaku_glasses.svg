@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <rect id="arm" fill="#000" x="828" y="896" width="950" height="126"/>
+  <g id="left_lens">
+    <circle id="lens" cx="1248" cy="992" r="263" fill="#dedbca" stroke="#000" stroke-width="77"/>
+    <path id="spiral" fill="none" stroke="#a9a9a9" stroke-width="24" stroke-linecap="round" d="M1228 1000c-3-19 18-32 34-31 28 2 45 31 41 57-5 38-44 59-79 52-46-9-73-58-62-102 12-55 71-86 124-73 64 16 99 85 83 147-19 72-98 113-169 93a154 154 0 0 1-103-190 172 172 0 0 1 270-85"/>
+  </g>
+  <use href="#left_lens" id="right_lens" x="-704" y="0"/>
+</svg>

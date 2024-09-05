@@ -135,6 +135,10 @@
         "url": "/parts/eyes_orc.png"
       },
       {
+        "name": "otaku_glasses",
+        "url": "/parts/otaku_glasses.png"
+      },
+      {
         "name": "owo",
         "url": "/parts/eyes_owo.png"
       },
