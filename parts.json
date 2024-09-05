@@ -1216,6 +1216,10 @@
         "url": "/parts/mouth_nom_phone.png"
       },
       {
+        "name": "nom_onigiri",
+        "url": "/parts/mouth_nom_onigiri.png"
+      },
+      {
         "name": "nom_pita",
         "url": "/parts/mouth_nom_pita.png"
       },
