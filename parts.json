@@ -1292,6 +1292,10 @@
         "url": "/parts/mouth_sip.png"
       },
       {
+        "name": "sip_tongue",
+        "url": "/parts/mouth_sip_tongue.png"
+      },
+      {
         "name": "smirk",
         "url": "/parts/mouth_smirk.png"
       },
