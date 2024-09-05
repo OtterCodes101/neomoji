@@ -183,6 +183,10 @@
         "url": "/parts/eyes_smug.png"
       },
       {
+        "name": "snake",
+        "url": "/parts/eyes_snake.png"
+      },
+      {
         "name": "sob",
         "url": "/parts/eyes_sob.png"
       },
