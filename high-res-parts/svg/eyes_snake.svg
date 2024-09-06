@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="eye_gradient" cx="1248" cy="786" r="227" gradientTransform="scale(1 1.25)" gradientUnits="userSpaceOnUse">
+      <stop id="stop2" offset=".5" stop-color="#ff0"/>
+      <stop id="stop3" offset="1" stop-color="#00ff03"/>
+   </radialGradient>
+  </defs>
+  <g id="left_eye" display="inline" opacity="1">
+    <circle id="sclera" cx="1248" cy="982" r="227" fill="url(#eye_gradient)"/>
+    <path id="pupil" fill="#000" d="M1248 764c-55 43-97 148-97 218s42 175 97 218c55-43 97-148 97-218s-42-175-97-218z"/>
+  </g>
+  <use id="right_eye" href="#left_eye" transform="translate(-644)"/>
+</svg>

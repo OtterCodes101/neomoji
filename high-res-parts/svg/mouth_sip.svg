@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#542912}
+  </style>
+  <path id="mouth" class="mouth" fill="none" stroke-linecap="round" stroke-width="78" d="M864 1246c-1 62 34 181 161 227" />
+</svg>

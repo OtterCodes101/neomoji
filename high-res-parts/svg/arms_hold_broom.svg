@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .paw{fill:#8bb9a0}
+    .outline{stroke:#000}
+  </style>
+  <g id="broom">
+    <path id="handle" fill="#8b4513" d="M1978 231c-2-57-79-133-177-133-77 0-96 85-96 85v1502h91V800c0-168 0-509 92-508 64 0 91-27 90-61Z"/>
+    <path id="brush" fill="gold" stroke="#7e6d13" stroke-width="16" d="M1950 2025c-73 0 11-505-153-374h-92c-164-131-80 374-153 374"/>
+    <g id="bristles" fill="none" stroke="#7e6d13" stroke-width="16">
+      <path d="M1779 1651c99-132 45 374 96 374"/>
+      <path d="M1760 1651c34-134 12 374 41 374"/>
+      <path d="M1742 1651c-34-134-12 374-41 374"/>
+      <path d="M1723 1651c-99-132-45 374-96 374"/>
+    </g>
+    <g id="strings" stroke="#ff4500" stroke-linecap="round">
+      <path id="bottom_string" stroke-width="32" d="M1945 1937h-389"/>
+      <path id="middle_string" stroke-width="32" d="M1933 1868h-364"/>
+      <path id="top_string" stroke-width="64" d="M1840 1635h-175"/>
+    </g>
+  </g>
+  <path id="left_paw" class="paw outline" paint-order="stroke markers fill" stroke-width="98" d="M1748 991a114 114 0 1 1 0-228h86c31 0 57 25 57 57v114c0 32-26 57-57 57z"/>
+</svg>
