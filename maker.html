@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Neomoji Maker</title>
+		<link rel="shortcut icon" href="favicon.gif"  type="image/gif" />
+        <script>
+            function replaceStyle(selector, color){
+                let css_style = document.getElementById("neocritter_style");
+                let rule_count = css_style.sheet.cssRules.length;
+                for (let i = 0; i < rule_count; i++) {
+                    if (css_style.sheet.cssRules[i].selectorText == selector){
+                        css_style.sheet.deleteRule(i);
+                        css_style.sheet.insertRule(`${selector} {color:${color}}`, i);
+                        break;
+                    }
+                }
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                document.getElementById("body_type").addEventListener("change", (event) => {
+                    const template = document.getElementById(event.target.value);
+                    let svg_part = document.getElementById("neocritter_body");
+                    svg_part.replaceChildren(template.cloneNode(true));
+                });
+                document.getElementById("eyes_type").addEventListener("change", (event) => {
+                    const template = document.getElementById(event.target.value);
+                    let svg_part = document.getElementById("neocritter_eyes");
+                    svg_part.replaceChildren(template.cloneNode(true));
+                });
+                document.getElementById("mouth_type").addEventListener("change", (event) => {
+                    const template = document.getElementById(event.target.value);
+                    let svg_part = document.getElementById("neocritter_mouth");
+                    svg_part.replaceChildren(template.cloneNode(true));
+                });
+                document.getElementById("fur_color").addEventListener("change", (event) => {
+                    replaceStyle(".fur", event.target.value);
+                });
+                document.getElementById("outline_color").addEventListener("change", (event) => {
+                    replaceStyle(".outline", event.target.value);
+                });
+                document.getElementById("mouth_color").addEventListener("change", (event) => {
+                    replaceStyle(".mouth", event.target.value);
+                });
+                document.getElementById("whisker_color").addEventListener("change", (event) => {
+                    replaceStyle(".whisker", event.target.value);
+                });
+                document.getElementById("tooth_color").addEventListener("change", (event) => {
+                    replaceStyle(".tooth", event.target.value);
+                });
+                document.getElementById("tongue_color").addEventListener("change", (event) => {
+                    replaceStyle(".tongue", event.target.value);
+                });
+                document.getElementById("iris_color").addEventListener("change", (event) => {
+                    replaceStyle(".iris", event.target.value);
+                });
+                document.getElementById("sclera_color").addEventListener("change", (event) => {
+                    replaceStyle(".sclera", event.target.value);
+                });
+                const event = new Event('change');
+                document.getElementById("body_type").dispatchEvent(event);
+                document.getElementById("eyes_type").dispatchEvent(event);
+                document.getElementById("mouth_type").dispatchEvent(event);
+                document.getElementById("fur_color").dispatchEvent(event);
+                document.getElementById("outline_color").dispatchEvent(event); 
+                document.getElementById("mouth_color").dispatchEvent(event);
+                document.getElementById("whisker_color").dispatchEvent(event); 
+                document.getElementById("tooth_color").dispatchEvent(event);
+                document.getElementById("tongue_color").dispatchEvent(event);
+                document.getElementById("iris_color").dispatchEvent(event);
+                document.getElementById("sclera_color").dispatchEvent(event);
+                });
+        </script>
+	</head>
+	<body>
+        <div>
+            <h1>Neomoji Maker</h1>
+        </div>
+        <div id="part_select">
+            <h2>Part Selectors</h2>
+            <label for="body_type">Body</label>
+            <select id="body_type">
+                <option value="body_neocat" selected>Neocat</option>
+                <option value="body_neogob">Neogob</option>
+                <option value="body_neoslime">Neoperson, Neoorc, or Neoslime</option>
+            </select>
+            <label for="eyes_type">Eyes</label>
+            <select id="eyes_type">
+                <option value="eyes_normal" selected>Normal</option>
+                <option value="eyes_angry">Angry</option>
+                <option value="eyes_3c">3c</option>
+                <option value="eyes_cute">Cute</option>
+            </select>
+            <label for="mouth_type">Mouth</label>
+            <select id="mouth_type">
+                <option value="mouth_normal" selected>Normal</option>
+                <option value="mouth_snaggletooth">Snaggletooth</option>
+                <option value="mouth_blep">Blep</option>
+                <option value="mouth_smirk">Smirk</option>
+            </select>
+        </div>
+        <div id="color_select">
+            <h2>Color Selectors</h2>
+            <label for="fur_color">Fur</label>
+            <input type="color" id="fur_color" value="#ffc95c"/>
+            <label for="outline_color">Outline</label>
+            <input type="color" id="outline_color" value="#000000"/>
+            <label for="mouth_color">Mouth</label>
+            <input type="color" id="mouth_color" value="#542912"/>
+            <label for="whisker_color">Whiskers</label>
+            <input type="color" id="whisker_color" value="#8e5e31"/>
+            <label for="tooth_color">Tooth</label>
+            <input type="color" id="tooth_color" value="#fefbba"/>
+            <label for="tongue_color">Tongue</label>
+            <input type="color" id="tongue_color" value="#d14e4e"/>
+            <label for="iris_color">Iris</label>
+            <input type="color" id="iris_color" value="#000000"/>
+            <label for="sclera_color">Sclera</label>
+            <input type="color" id="sclera_color" value="#ffffff"/>
+        </div>
+        <div id="output">
+            <h2>Output</h2>
+            <svg id="neocritter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="512" height="512">
+                <style id="neocritter_style">
+                    .fur{fill:#ffc95c}
+                    .outline{stroke:black}
+                    .mouth{stroke:#542912}
+                    .whisker{stroke:#8e5e31}
+                    .tooth{fill:#fefbba}
+                    .tongue{fill:#d14e4e}
+                    .iris{fill:#000000}
+                    .sclera{fill:#ffffff}
+                </style>
+                <g id="neocritter_body"></g>
+                <g id="neocritter_eyes"></g>
+                <g id="neocritter_mouth"></g>
+            </svg>
+        </div>
+        <div id="templates" hidden="hidden">
+            <svg id="body_neoslime">
+                <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor" d="M1023 249c-354-2-683 249-800 579a938 938 0 0 0-18 568 600 600 0 0 0 599 395c211-1 422 3 633-2a450 450 0 0 0 403-435c-1-141 3-282-3-423a803 803 0 0 0-461-607 844 844 0 0 0-353-75z"/>
+                <path class="fur" fill="currentColor" d="M1023 249c-354-2-683 249-800 579a938 938 0 0 0-18 568 600 600 0 0 0 599 395c211-1 422 3 633-2a450 450 0 0 0 403-435c-1-141 3-282-3-423a803 803 0 0 0-461-607 844 844 0 0 0-353-75z"/>
+            </svg>
+            <svg id="body_neocat">
+                <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor" d="M743 1856a514 514 0 0 1-484-472c-8-151-2-307 61-447 1-189-1-379 3-568 43-97 144-9 210 11l264 113c165-57 349-57 514 2l402-171c110-11 72 121 66 187l-44 391c55 124 61 260 57 393-2 128 19 267-57 380a392 392 0 0 1-365 182c-209 0-418 1-627-1z"/>
+                <path class="fur" fill="currentColor" d="M743 1856a514 514 0 0 1-484-472c-8-151-2-307 61-447 1-189-1-379 3-568 43-97 144-9 210 11l264 113c165-57 349-57 514 2l402-171c110-11 72 121 66 187l-44 391c55 124 61 260 57 393-2 128 19 267-57 380a392 392 0 0 1-365 182c-209 0-418 1-627-1z"/>
+                <g id="whiskers">
+                    <path id="whisker_tr" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77" d="m479 1312-128-64"/>
+                    <path id="whisker_tl" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77" d="m1440 1312 192-96"/>
+                    <use id="whisker_br" href="#whisker_tr" transform="scale(-1 1) translate(-830 192)"/>
+                    <use id="whisker_bl" href="#whisker_tl" transform="scale(-1 1) translate(-3072 224)"/>
+                </g>
+            </svg>
+            <svg id="body_neogob">
+                <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor" d="M1432 1877a388 388 0 0 0 359-361c2-21 1-355-1-372-17-181-65-216-53-246 9-24 136-639 143-663 1-4 1-5-1-3-3 2-509 263-545 261-306-71-526-3-549 5-25-9-629-280-629-280s66 289 69 289c88 32 170 66 182 88 9 18 7 41-7 56-13 14-124 88-125 92-6 27 61 139 32 197-41 82-58 174-66 264-2 19-3 161-1 185a518 518 0 0 0 483 488c19 2 694 2 709 0z"/>
+                <path class="fur" fill="currentColor" style="paint-order: markers stroke fill" d="M1432 1877a388 388 0 0 0 359-361c2-21 1-355-1-372-17-181-65-216-53-246 9-24 136-639 143-663 1-4 1-5-1-3-3 2-509 263-545 261-306-71-526-3-549 5-25-9-629-280-629-280s66 289 69 289c88 32 170 66 182 88 9 18 7 41-7 56-13 14-124 88-125 92-6 27 61 139 32 197-41 82-58 174-66 264-2 19-3 161-1 185a518 518 0 0 0 483 488c19 2 694 2 709 0z"/>
+            </svg>
+            <svg id="mouth_smirk">
+                <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="M642 1357s93 77 223 78 347-80 347-80"/>
+            </svg>
+            <svg id="mouth_normal">
+                <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m639 1376 99 157 127-162 158 165 193-162"/>
+            </svg>
+            <svg id="mouth_snaggletooth">
+                <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m639 1376 99 157 127-162 158 165 193-162"/>
+                <path class="tooth" fill="currentColor" d="m1134 1505 65 80a6 6 0 0 0 11-3l15-149a6 6 0 0 0-10-5l-80 66c-3 3-3 8-1 11z"/>
+            </svg>
+            <svg id="mouth_blep">
+                <path class="tongue" fill="currentColor" d="m864 1310-94 117v64a110 110 0 0 0 110 110 110 110 0 0 0 110-110v-55z"/>
+                <path class="mouth" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="80" d="m640 1310 95 161 129-161 160 160 191-160"/>          
+            </svg>
+            <svg id="eyes_normal">
+                <path class="iris" fill="currentColor" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
+                <path class="iris" fill="currentColor" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
+            </svg>
+            <svg id="eyes_angry">
+                <path class="iris" fill="currentColor" d="m 1081 991 l 237 -95 a 128 128 0 0 1 19 66 v 64 a 128 128 0 0 1 -256 0 z"/>
+                <path class="iris" fill="currentColor" d="m 506 962 a 128 128 0 0 1 19 -66 l 237 95 v 35 a 128 128 0 0 1 -256 0 z"/>
+            </svg>
+            <svg id="eyes_cute">
+                <g id="left_eye">
+                    <circle class="sclera" fill="currentColor" cx="1244" cy="1004" r="227"/>
+                    <circle class="iris" fill="currentColor" cx="1209" cy="1008" r="195"/>
+                    <ellipse cx="142" cy="1497" fill="#ffffff" rx="99" ry="77" transform="rotate(-45)" />
+                    <path fill="#8bb9a0" d="M1294 1024c-8 3-15 9-18 16-9 17-20 29-32 34a32 32 0 1 0 24 60c31-13 52-38 66-64a32 32 0 0 0-40-46Z" color="#000" style="mix-blend-mode:luminosity;"/>
+                </g>
+                <use id="right_eye" href="#left_eye" transform="translate(-646)"/>
+            </svg>
+            <svg id="eyes_3c">
+                <path id="left_eye" class="iris"  fill="currentColor" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />
+                <path id="right_eye" class="iris"  fill="currentColor" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />          
+            </svg>
+        </div>
+    </body>
+</html>
