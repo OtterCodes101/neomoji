@@ -52,11 +52,12 @@
                 style_text += `${rule.selectorText}{color:${RGBToHex(rule.style.color)}}\n`;
             }
             css_style.innerHTML = style_text;
-            css_download_button.setAttribute("href", `data:text/plain;charset=US-ASCII,${encodeURIComponent(style_text)}`);
+            css_download_button.setAttribute("href", `data:text/css,${encodeURIComponent(style_text)}`);
         }
 
         function updateSVGLink(){
-            document.getElementById("svg_download").setAttribute("href", `data:text/plain,${encodeURIComponent(document.getElementById("neocritter").outerHTML)}`);
+            updateCSS();
+            document.getElementById("svg_download").setAttribute("href", `data:image/svg+xml,${encodeURIComponent(document.getElementById("neocritter").outerHTML)}`);
         }
 
         document.addEventListener('DOMContentLoaded', function () {
