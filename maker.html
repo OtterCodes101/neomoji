@@ -1,199 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Floofling Maker</title>
-		<style>
-            span.strike {
-                 text-decoration: line-through;
-            }
-		</style>
-		<link rel="shortcut icon" href="favicon.gif"  type="image/gif" />
-        <script>
-            function replaceStyle(selector, color){
-                let css_style = document.getElementById("neocritter_style");
-                let rule_count = css_style.sheet.cssRules.length;
-                for (let i = 0; i < rule_count; i++) {
-                    if (css_style.sheet.cssRules[i].selectorText == selector){
-                        css_style.sheet.deleteRule(i);
-                        css_style.sheet.insertRule(`${selector} {color:${color}}`, i);
-                        break;
-                    }
+
+<head>
+    <title>Floofling Maker</title>
+    <style>
+        span.strike {
+            text-decoration: line-through;
+        }
+    </style>
+    <link rel="shortcut icon" href="favicon.gif" type="image/gif" />
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.5.2/jscolor.min.js"
+      integrity="sha512-qFhMEJrjI50TwLDGZ7Oi0ksTSWnFOqTNXhlqqUgWnE65S23rWUtQOv+tMNEybkMYSXKgAc3eg/SzkX+qrtJT/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer>
+    </script>
+    <script>
+        function replaceStyle(selector, color) {
+            let css_style = document.getElementById("neocritter_style");
+            let rule_count = css_style.sheet.cssRules.length;
+            for (let i = 0; i < rule_count; i++) {
+                if (css_style.sheet.cssRules[i].selectorText == selector) {
+                    css_style.sheet.deleteRule(i);
+                    css_style.sheet.insertRule(`${selector} {color:${color}}`, i);
+                    break;
                 }
             }
-            document.addEventListener('DOMContentLoaded', function() {
-                document.getElementById("body_type").addEventListener("change", (event) => {
-                    const template = document.getElementById(event.target.value);
-                    let svg_part = document.getElementById("neocritter_body");
-                    svg_part.replaceChildren(template.cloneNode(true));
-                });
-                document.getElementById("eyes_type").addEventListener("change", (event) => {
-                    const template = document.getElementById(event.target.value);
-                    let svg_part = document.getElementById("neocritter_eyes");
-                    svg_part.replaceChildren(template.cloneNode(true));
-                });
-                document.getElementById("mouth_type").addEventListener("change", (event) => {
-                    const template = document.getElementById(event.target.value);
-                    let svg_part = document.getElementById("neocritter_mouth");
-                    svg_part.replaceChildren(template.cloneNode(true));
-                });
-                document.getElementById("fur_color").addEventListener("change", (event) => {
-                    replaceStyle(".fur", event.target.value);
-                });
-                document.getElementById("outline_color").addEventListener("change", (event) => {
-                    replaceStyle(".outline", event.target.value);
-                });
-                document.getElementById("mouth_color").addEventListener("change", (event) => {
-                    replaceStyle(".mouth", event.target.value);
-                });
-                document.getElementById("whisker_color").addEventListener("change", (event) => {
-                    replaceStyle(".whisker", event.target.value);
-                });
-                document.getElementById("tooth_color").addEventListener("change", (event) => {
-                    replaceStyle(".tooth", event.target.value);
-                });
-                document.getElementById("tongue_color").addEventListener("change", (event) => {
-                    replaceStyle(".tongue", event.target.value);
-                });
-                document.getElementById("iris_color").addEventListener("change", (event) => {
-                    replaceStyle(".iris", event.target.value);
-                });
-                document.getElementById("sclera_color").addEventListener("change", (event) => {
-                    replaceStyle(".sclera", event.target.value);
-                });
-                const event = new Event('change');
-                document.getElementById("body_type").dispatchEvent(event);
-                document.getElementById("eyes_type").dispatchEvent(event);
-                document.getElementById("mouth_type").dispatchEvent(event);
-                document.getElementById("fur_color").dispatchEvent(event);
-                document.getElementById("outline_color").dispatchEvent(event); 
-                document.getElementById("mouth_color").dispatchEvent(event);
-                document.getElementById("whisker_color").dispatchEvent(event); 
-                document.getElementById("tooth_color").dispatchEvent(event);
-                document.getElementById("tongue_color").dispatchEvent(event);
-                document.getElementById("iris_color").dispatchEvent(event);
-                document.getElementById("sclera_color").dispatchEvent(event);
-                });
-        </script>
-	</head>
-	<body>
-        <div>
-            <h1>Floofling Maker (<span class="strike">Proof</span> Floof of concept)</h1>
-            <a href="./">Back to the Neomojimixer</a>
-        </div>
-        <div id="part_select">
-            <h2>Part Selectors</h2>
-            <label for="body_type">Body</label>
-            <select id="body_type">
-                <option value="body_neocat" selected>Neocat</option>
-                <option value="body_neogob">Neogob</option>
-                <option value="body_neoslime">Neoperson, Neoorc, or Neoslime</option>
-            </select>
-            <label for="eyes_type">Eyes</label>
-            <select id="eyes_type">
-                <option value="eyes_normal" selected>Normal</option>
-                <option value="eyes_angry">Angry</option>
-                <option value="eyes_3c">3c</option>
-                <option value="eyes_cute">Cute</option>
-            </select>
-            <label for="mouth_type">Mouth</label>
-            <select id="mouth_type">
-                <option value="mouth_normal" selected>Normal</option>
-                <option value="mouth_snaggletooth">Snaggletooth</option>
-                <option value="mouth_blep">Blep</option>
-                <option value="mouth_smirk">Smirk</option>
-            </select>
-        </div>
-        <div id="color_select">
-            <h2>Color Selectors</h2>
-            <label for="fur_color">Fur</label>
-            <input type="color" id="fur_color" value="#ffc95c"/>
-            <label for="outline_color">Outline</label>
-            <input type="color" id="outline_color" value="#000000"/>
-            <label for="mouth_color">Mouth</label>
-            <input type="color" id="mouth_color" value="#542912"/>
-            <label for="whisker_color">Whiskers</label>
-            <input type="color" id="whisker_color" value="#8e5e31"/>
-            <label for="tooth_color">Tooth</label>
-            <input type="color" id="tooth_color" value="#fefbba"/>
-            <label for="tongue_color">Tongue</label>
-            <input type="color" id="tongue_color" value="#d14e4e"/>
-            <label for="iris_color">Iris</label>
-            <input type="color" id="iris_color" value="#000000"/>
-            <label for="sclera_color">Sclera</label>
-            <input type="color" id="sclera_color" value="#ffffff"/>
-        </div>
-        <div id="output">
-            <h2>Output</h2>
-            <svg id="neocritter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="512" height="512">
-                <style id="neocritter_style">
-                    .fur{fill:#ffc95c}
-                    .outline{stroke:black}
-                    .mouth{stroke:#542912}
-                    .whisker{stroke:#8e5e31}
-                    .tooth{fill:#fefbba}
-                    .tongue{fill:#d14e4e}
-                    .iris{fill:#000000}
-                    .sclera{fill:#ffffff}
-                </style>
-                <g id="neocritter_body"></g>
-                <g id="neocritter_eyes"></g>
-                <g id="neocritter_mouth"></g>
-            </svg>
-        </div>
-        <div id="templates" hidden="hidden">
-            <svg id="body_neoslime">
-                <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor" d="M1023 249c-354-2-683 249-800 579a938 938 0 0 0-18 568 600 600 0 0 0 599 395c211-1 422 3 633-2a450 450 0 0 0 403-435c-1-141 3-282-3-423a803 803 0 0 0-461-607 844 844 0 0 0-353-75z"/>
-                <path class="fur" fill="currentColor" d="M1023 249c-354-2-683 249-800 579a938 938 0 0 0-18 568 600 600 0 0 0 599 395c211-1 422 3 633-2a450 450 0 0 0 403-435c-1-141 3-282-3-423a803 803 0 0 0-461-607 844 844 0 0 0-353-75z"/>
-            </svg>
-            <svg id="body_neocat">
-                <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor" d="M743 1856a514 514 0 0 1-484-472c-8-151-2-307 61-447 1-189-1-379 3-568 43-97 144-9 210 11l264 113c165-57 349-57 514 2l402-171c110-11 72 121 66 187l-44 391c55 124 61 260 57 393-2 128 19 267-57 380a392 392 0 0 1-365 182c-209 0-418 1-627-1z"/>
-                <path class="fur" fill="currentColor" d="M743 1856a514 514 0 0 1-484-472c-8-151-2-307 61-447 1-189-1-379 3-568 43-97 144-9 210 11l264 113c165-57 349-57 514 2l402-171c110-11 72 121 66 187l-44 391c55 124 61 260 57 393-2 128 19 267-57 380a392 392 0 0 1-365 182c-209 0-418 1-627-1z"/>
-                <g id="whiskers">
-                    <path id="whisker_tr" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77" d="m479 1312-128-64"/>
-                    <path id="whisker_tl" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77" d="m1440 1312 192-96"/>
-                    <use id="whisker_br" href="#whisker_tr" transform="scale(-1 1) translate(-830 192)"/>
-                    <use id="whisker_bl" href="#whisker_tl" transform="scale(-1 1) translate(-3072 224)"/>
-                </g>
-            </svg>
-            <svg id="body_neogob">
-                <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor" d="M1432 1877a388 388 0 0 0 359-361c2-21 1-355-1-372-17-181-65-216-53-246 9-24 136-639 143-663 1-4 1-5-1-3-3 2-509 263-545 261-306-71-526-3-549 5-25-9-629-280-629-280s66 289 69 289c88 32 170 66 182 88 9 18 7 41-7 56-13 14-124 88-125 92-6 27 61 139 32 197-41 82-58 174-66 264-2 19-3 161-1 185a518 518 0 0 0 483 488c19 2 694 2 709 0z"/>
-                <path class="fur" fill="currentColor" style="paint-order: markers stroke fill" d="M1432 1877a388 388 0 0 0 359-361c2-21 1-355-1-372-17-181-65-216-53-246 9-24 136-639 143-663 1-4 1-5-1-3-3 2-509 263-545 261-306-71-526-3-549 5-25-9-629-280-629-280s66 289 69 289c88 32 170 66 182 88 9 18 7 41-7 56-13 14-124 88-125 92-6 27 61 139 32 197-41 82-58 174-66 264-2 19-3 161-1 185a518 518 0 0 0 483 488c19 2 694 2 709 0z"/>
-            </svg>
-            <svg id="mouth_smirk">
-                <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="M642 1357s93 77 223 78 347-80 347-80"/>
-            </svg>
-            <svg id="mouth_normal">
-                <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m639 1376 99 157 127-162 158 165 193-162"/>
-            </svg>
-            <svg id="mouth_snaggletooth">
-                <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m639 1376 99 157 127-162 158 165 193-162"/>
-                <path class="tooth" fill="currentColor" d="m1134 1505 65 80a6 6 0 0 0 11-3l15-149a6 6 0 0 0-10-5l-80 66c-3 3-3 8-1 11z"/>
-            </svg>
-            <svg id="mouth_blep">
-                <path class="tongue" fill="currentColor" d="m864 1310-94 117v64a110 110 0 0 0 110 110 110 110 0 0 0 110-110v-55z"/>
-                <path class="mouth" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="80" d="m640 1310 95 161 129-161 160 160 191-160"/>          
-            </svg>
-            <svg id="eyes_normal">
-                <path class="iris" fill="currentColor" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
-                <path class="iris" fill="currentColor" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
-            </svg>
-            <svg id="eyes_angry">
-                <path class="iris" fill="currentColor" d="m 1081 991 l 237 -95 a 128 128 0 0 1 19 66 v 64 a 128 128 0 0 1 -256 0 z"/>
-                <path class="iris" fill="currentColor" d="m 506 962 a 128 128 0 0 1 19 -66 l 237 95 v 35 a 128 128 0 0 1 -256 0 z"/>
-            </svg>
-            <svg id="eyes_cute">
-                <g id="left_eye">
-                    <circle class="sclera" fill="currentColor" cx="1244" cy="1004" r="227"/>
-                    <circle class="iris" fill="currentColor" cx="1209" cy="1008" r="195"/>
-                    <ellipse cx="142" cy="1497" fill="#ffffff" rx="99" ry="77" transform="rotate(-45)" />
-                    <path fill="#8bb9a0" d="M1294 1024c-8 3-15 9-18 16-9 17-20 29-32 34a32 32 0 1 0 24 60c31-13 52-38 66-64a32 32 0 0 0-40-46Z" color="#000" style="mix-blend-mode:luminosity;"/>
-                </g>
-                <use id="right_eye" href="#left_eye" transform="translate(-646)"/>
-            </svg>
-            <svg id="eyes_3c">
-                <path id="left_eye" class="iris"  fill="currentColor" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />
-                <path id="right_eye" class="iris"  fill="currentColor" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />          
-            </svg>
-        </div>
-    </body>
+        }
+
+        function RGBToHex(rgb_string){
+            const patt = /rgb\((\d+), (\d+), (\d+)\)/;
+            let colors = rgb_string.match(patt);
+            if (colors){
+                let r = parseInt(colors[1]).toString(16), 
+                    g = parseInt(colors[2]).toString(16),
+                    b = parseInt(colors[3]).toString(16);
+                r = ((r.length == 1) ? "0"+r : r)
+                g = ((g.length == 1) ? "0"+g : g)
+                b = ((b.length == 1) ? "0"+b : b)
+                return `#${r}${g}${b}`
+            }
+            return rgb_string;
+        }
+
+        function updateCSS(){
+            let css_style = document.getElementById("neocritter_style");
+            let css_download_button = document.getElementById("css_download");
+            let style_text = "";
+            for (let rule of css_style.sheet.cssRules){
+                style_text += `${rule.selectorText}{color:${RGBToHex(rule.style.color)}}\n`;
+            }
+            css_style.innerHTML = style_text;
+            css_download_button.setAttribute("href", `data:text/plain;charset=US-ASCII,${encodeURIComponent(style_text)}`);
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById("body_type").addEventListener("change", (event) => {
+                const template = document.getElementById(event.target.value);
+                let svg_part = document.getElementById("neocritter_body");
+                svg_part.replaceChildren(template.cloneNode(true));
+            });
+            document.getElementById("nose_type").addEventListener("change", (event) => {
+                const template = document.getElementById(event.target.value);
+                let svg_part = document.getElementById("neocritter_nose");
+                svg_part.replaceChildren(template.cloneNode(true));
+            });
+            document.getElementById("left_eye_type").addEventListener("change", (event) => {
+                const template = document.getElementById(event.target.value);
+                let svg_part = document.getElementById("neocritter_left_eye");
+                svg_part.replaceChildren(template.cloneNode(true));
+            });
+            document.getElementById("right_eye_type").addEventListener("change", (event) => {
+                const template = document.getElementById(event.target.value);
+                let svg_part = document.getElementById("neocritter_right_eye");
+                svg_part.replaceChildren(template.cloneNode(true));
+            });
+            document.getElementById("mouth_type").addEventListener("change", (event) => {
+                const template = document.getElementById(event.target.value);
+                let svg_part = document.getElementById("neocritter_mouth");
+                svg_part.replaceChildren(template.cloneNode(true));
+            });
+            document.getElementById("whiskers_type").addEventListener("change", (event) => {
+                const template = document.getElementById(event.target.value);
+                let svg_part = document.getElementById("neocritter_whiskers");
+                svg_part.replaceChildren(template.cloneNode(true));
+            });
+            document.getElementById("fur_color").addEventListener("change", (event) => {
+                replaceStyle(".fur", event.target.value);
+            });
+            document.getElementById("outline_color").addEventListener("change", (event) => {
+                replaceStyle(".outline", event.target.value);
+            });
+            document.getElementById("mouth_color").addEventListener("change", (event) => {
+                replaceStyle(".mouth", event.target.value);
+            });
+            document.getElementById("whisker_color").addEventListener("change", (event) => {
+                replaceStyle(".whisker", event.target.value);
+            });
+            document.getElementById("tooth_color").addEventListener("change", (event) => {
+                replaceStyle(".tooth", event.target.value);
+            });
+            document.getElementById("tongue_color").addEventListener("change", (event) => {
+                replaceStyle(".tongue", event.target.value);
+            });
+            document.getElementById("iris_color").addEventListener("change", (event) => {
+                replaceStyle(".iris", event.target.value);
+            });
+            document.getElementById("sclera_color").addEventListener("change", (event) => {
+                replaceStyle(".sclera", event.target.value);
+            });
+            document.getElementById("snout_color").addEventListener("change", (event) => {
+                replaceStyle(".snout", event.target.value);
+            });
+            document.getElementById("nose_color").addEventListener("change", (event) => {
+                replaceStyle(".nose", event.target.value);
+            });
+            document.getElementById("css_download").addEventListener("click", (event) => {
+                updateCSS();
+
+            });
+            const event = new Event('change');
+            document.getElementById("body_type").dispatchEvent(event);
+            document.getElementById("left_eye_type").dispatchEvent(event);
+            document.getElementById("right_eye_type").dispatchEvent(event);
+            document.getElementById("nose_type").dispatchEvent(event);
+            document.getElementById("mouth_type").dispatchEvent(event);
+            document.getElementById("whiskers_type").dispatchEvent(event);
+            document.getElementById("fur_color").dispatchEvent(event);
+            document.getElementById("outline_color").dispatchEvent(event);
+            document.getElementById("mouth_color").dispatchEvent(event);
+            document.getElementById("whisker_color").dispatchEvent(event);
+            document.getElementById("tooth_color").dispatchEvent(event);
+            document.getElementById("tongue_color").dispatchEvent(event);
+            document.getElementById("iris_color").dispatchEvent(event);
+            document.getElementById("sclera_color").dispatchEvent(event);
+            document.getElementById("snout_color").dispatchEvent(event);
+            document.getElementById("nose_color").dispatchEvent(event);
+            updateCSS();
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Floofling Maker (<span class="strike">Proof</span> Floof of concept)</h1>
+        <a href="./">Back to the Neomojimixer</a>
+    </div>
+    <div style="position:relative;float:left">
+    <div id="part_select">
+        <h2>Part Selectors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Part</th>
+                    <!-- <th scope="col">X-offset</th>
+                    <th scope="col">Y-offset</th>
+                    <th scope="col">Scale</th>
+                    <th scope="col">Rotate</th>
+                    <th scope="col">Flip Horz</th>
+                    <th scope="col">Flip Vert</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Body</th>
+                    <td>
+                        <select id="body_type">
+                            <option value="body_neocat" selected>Neocat</option>
+                            <option value="body_neogob">Neogob</option>
+                            <option value="body_neoslime">Neoperson</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Nose</th>
+                    <td>
+                        <select id="nose_type">
+                            <option value="blank" selected><em>None</em></option>
+                            <option value="nose_neofox">Neofox</option>
+                            <option value="nose_neomelody">Neomelody</option>
+                            <option value="nose_neocatraxx">Neocatraxx</option>
+                            <option value="nose_neodog">Neodog</option>
+                            <option value="nose_neomouse">Neomouse</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Left Eye</th>
+                    <td>
+                        <select id="left_eye_type">
+                            <option value="left_eye_normal" selected>Normal</option>
+                            <option value="left_eye_angry">Angry</option>
+                            <option value="left_eye_3c">3c</option>
+                            <option value="left_eye_cute">Cute</option>
+                            <option value="left_eye_happy">Happy</option>
+                            <option value="left_eye_catmode">Catmode</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Right Eye</th>
+                    <td>
+                        <select id="right_eye_type">
+                            <option value="right_eye_normal" selected>Normal</option>
+                            <option value="right_eye_angry">Angry</option>
+                            <option value="right_eye_3c">3c</option>
+                            <option value="right_eye_cute">Cute</option>
+                            <option value="right_eye_happy">Happy</option>
+                            <option value="right_eye_catmode">Catmode</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Mouth</th>
+                    <td>
+                        <select id="mouth_type">
+                            <option value="mouth_normal" selected>Normal</option>
+                            <option value="mouth_snaggletooth">Snaggletooth</option>
+                            <option value="mouth_blep">Blep</option>
+                            <option value="mouth_smirk">Smirk</option>
+                            <option value="mouth_sad">Sad</option>
+                            <option value="mouth_woozy">Woozy</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Whiskers</th>
+                    <td>
+                        <select id="whiskers_type">
+                            <option value="blank" selected><em>None</em>></option>
+                            <option value="whiskers_neocat">Neocat</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="color_select">
+        <h2>Color Selectors</h2>
+        <table>
+            <thead>
+                <th scope="col">Class</th>
+                <th scope="col">Color</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Fur</th>
+                    <td>
+                        <input id="fur_color" 
+                        data-jscolor="{value:'#ffc95c', hideOnPaletteClick:true, palette:'#ffc95c #8bb9a0 #808080 #f7965b #070362 #d2d0ca #91746e #7beeff #66ff66cc'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Outline</th>
+                    <td>
+                        <input id="outline_color" 
+                        data-jscolor="{value:'#000000', hideOnPaletteClick:true, palette:'#000000 #2d67cc #006400 #ffffff'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Mouth</th>
+                    <td>
+                        <input id="mouth_color" 
+                        data-jscolor="{value:'#542912', hideOnPaletteClick:true, palette:'#542912 #32120b #666666 #ca118c #000000'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Whiskers</th>
+                    <td>
+                        <input id="whisker_color" 
+                        data-jscolor="{value:'#8e5e31ff', hideOnPaletteClick:true, palette:'#8e5e31ff'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Tooth</th>
+                    <td>
+                        <input id="tooth_color" 
+                        data-jscolor="{value:'#fefbba', hideOnPaletteClick:true, palette:'#fefbba #ffffff'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Tongue</th>
+                    <td>
+                        <input id="tongue_color" 
+                        data-jscolor="{value:'#d14e4e', hideOnPaletteClick:true, palette:'#d14e4e #0006a0'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Iris</th>
+                    <td>
+                        <input id="iris_color" 
+                        data-jscolor="{value:'#000000', hideOnPaletteClick:true, palette:'##000000 #ffffff #ff0000 #5bcefa #2a980e #ca51b9 #0000ff #006400'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Sclera</th>
+                    <td>
+                        <input id="sclera_color" 
+                        data-jscolor="{value:'#ffffff', hideOnPaletteClick:true, palette:'#ffffff #fc5900'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Snout</th>
+                    <td>
+                        <input id="snout_color" 
+                        data-jscolor="{value:'#ffdea7', hideOnPaletteClick:true, palette:'#ffdea7'}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Nose</th>
+                    <td>
+                        <input id="nose_color" 
+                        data-jscolor="{value:'#000000', hideOnPaletteClick:true, palette:'#000000 #de8787 #ca118c'}" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <div id="output" style="position:relative;float:right">
+        <h2>Output</h2>
+        <svg id="neocritter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="512" height="512">
+            <style id="neocritter_style">
+                .fur{color:#ffc95c}
+                .outline{color:#000000}
+                .mouth{color:#542912}
+                .whisker{color:#8e5e31}
+                .tooth{color:#ff99cc}
+                .tongue{color:#ff99cc}
+                .iris{color:#ff99cc}
+                .sclera{color:#ff99cc}
+                .nose{color:#ff99cc}
+                .snout{color:#ff99cc}
+            </style>
+            <g id="neocritter_body"></g>
+            <g id="neocritter_nose"></g>
+            <g id="neocritter_left_eye"></g>
+            <g id="neocritter_right_eye"></g>
+            <g id="neocritter_mouth"></g>
+            <g id="neocritter_whiskers"></g>
+        </svg><br />
+        <a id="css_download" download="floofling.css" target="_blank">Download Stylesheet</a>
+    </div>
+    <div id="templates" hidden="hidden">
+        <svg id="blank"></svg>
+        <svg id="body_neoslime">
+            <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor"
+                d="M1023 249c-354-2-683 249-800 579a938 938 0 0 0-18 568 600 600 0 0 0 599 395c211-1 422 3 633-2a450 450 0 0 0 403-435c-1-141 3-282-3-423a803 803 0 0 0-461-607 844 844 0 0 0-353-75z" />
+            <path class="fur" fill="currentColor"
+                d="M1023 249c-354-2-683 249-800 579a938 938 0 0 0-18 568 600 600 0 0 0 599 395c211-1 422 3 633-2a450 450 0 0 0 403-435c-1-141 3-282-3-423a803 803 0 0 0-461-607 844 844 0 0 0-353-75z" />
+        </svg>
+        <svg id="body_neocat">
+            <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor"
+                d="M743 1856a514 514 0 0 1-484-472c-8-151-2-307 61-447 1-189-1-379 3-568 43-97 144-9 210 11l264 113c165-57 349-57 514 2l402-171c110-11 72 121 66 187l-44 391c55 124 61 260 57 393-2 128 19 267-57 380a392 392 0 0 1-365 182c-209 0-418 1-627-1z" />
+            <path class="fur" fill="currentColor"
+                d="M743 1856a514 514 0 0 1-484-472c-8-151-2-307 61-447 1-189-1-379 3-568 43-97 144-9 210 11l264 113c165-57 349-57 514 2l402-171c110-11 72 121 66 187l-44 391c55 124 61 260 57 393-2 128 19 267-57 380a392 392 0 0 1-365 182c-209 0-418 1-627-1z" />
+        </svg>
+        <svg id="body_neogob">
+            <path class="outline" stroke-width="256" stroke-linejoin="round" stroke="currentColor"
+                d="M1432 1877a388 388 0 0 0 359-361c2-21 1-355-1-372-17-181-65-216-53-246 9-24 136-639 143-663 1-4 1-5-1-3-3 2-509 263-545 261-306-71-526-3-549 5-25-9-629-280-629-280s66 289 69 289c88 32 170 66 182 88 9 18 7 41-7 56-13 14-124 88-125 92-6 27 61 139 32 197-41 82-58 174-66 264-2 19-3 161-1 185a518 518 0 0 0 483 488c19 2 694 2 709 0z" />
+            <path class="fur" fill="currentColor" style="paint-order: markers stroke fill"
+                d="M1432 1877a388 388 0 0 0 359-361c2-21 1-355-1-372-17-181-65-216-53-246 9-24 136-639 143-663 1-4 1-5-1-3-3 2-509 263-545 261-306-71-526-3-549 5-25-9-629-280-629-280s66 289 69 289c88 32 170 66 182 88 9 18 7 41-7 56-13 14-124 88-125 92-6 27 61 139 32 197-41 82-58 174-66 264-2 19-3 161-1 185a518 518 0 0 0 483 488c19 2 694 2 709 0z" />
+        </svg>
+        <svg id="whiskers_neocat">
+            <path id="whisker_tr" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77"
+                d="m479 1312 -128 -64" />
+            <path id="whisker_tl" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77"
+                d="m1440 1312 192 -96" />
+            <path id="whisker_br" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77"
+                d="m479 1440 -128 64" />
+            <path id="whisker_bl" class="whisker" stroke="currentColor" stroke-linecap="round" stroke-width="77"
+                d="m1440 1440 192 96" />
+        </svg>
+        <svg id="mouth_smirk">
+            <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="80" d="M642 1357s93 77 223 78 347-80 347-80" />
+        </svg>
+        <svg id="mouth_normal">
+            <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="80" d="m639 1376 99 157 127-162 158 165 193-162" />
+        </svg>
+        <svg id="mouth_woozy">
+            <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="80" d="m 611,1376c -9,36 27,116 75,127 88,20 124,-109 192,-92 64,17 85,142 205,122 68,-11 123,-89 135,-156" />
+        </svg>
+        <svg id="mouth_sad">
+            <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="80" d="m 718,1538 127,-123 155,126" />
+        </svg>
+        <svg id="mouth_snaggletooth">
+            <path class="mouth" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="80" d="m639 1376 99 157 127-162 158 165 193-162" />
+            <path class="tooth" fill="currentColor"
+                d="m1134 1505 65 80a6 6 0 0 0 11-3l15-149a6 6 0 0 0-10-5l-80 66c-3 3-3 8-1 11z" />
+        </svg>
+        <svg id="mouth_blep">
+            <path class="tongue" fill="currentColor"
+                d="m864 1310-94 117v64a110 110 0 0 0 110 110 110 110 0 0 0 110-110v-55z" />
+            <path class="mouth" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"
+                stroke-width="80" d="m640 1310 95 161 129-161 160 160 191-160" />
+        </svg>
+        <svg id="left_eye_normal">
+            <path class="iris" fill="currentColor" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
+        </svg>
+        <svg id="left_eye_angry">
+            <path class="iris" fill="currentColor"
+                d="m 1081 991 l 237 -95 a 128 128 0 0 1 19 66 v 64 a 128 128 0 0 1 -256 0 z" />
+        </svg>
+        <svg id="left_eye_happy">
+            <path class="iris" stroke="currentColor" stroke-width="100" stroke-linecap="round"
+                d="m 1289,945c -55,-5 -185,-8 -226,86" />
+        </svg>
+        <svg id="left_eye_catmode">
+            <circle class="sclera" fill="currentColor" cx="1248" cy="982" r="227"/>
+            <path class="iris" fill="currentColor" d="M1152 928a64 64 0 0 1 128 0v128a64 64 0 0 1-128 0z"/>
+        </svg>
+        <svg id="left_eye_cute">
+            <circle class="sclera" fill="currentColor" cx="1244" cy="1004" r="227" />
+            <circle class="iris" fill="currentColor" cx="1209" cy="1008" r="195" />
+            <ellipse cx="1159" cy="958" fill="#ffffff" rx="99" ry="77" transform="rotate(-45 1159 958)" />
+            <path fill="#8bb9a0"
+                d="M1294 1024c-8 3-15 9-18 16-9 17-20 29-32 34a32 32 0 1 0 24 60c31-13 52-38 66-64a32 32 0 0 0-40-46Z"
+                color="#000" style="mix-blend-mode:luminosity;" />
+        </svg>
+        <svg id="left_eye_3c">
+            <path class="iris" fill="currentColor"
+                d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />
+        </svg>
+        <svg id="right_eye_normal">
+            <path class="iris" fill="currentColor" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
+        </svg>
+        <svg id="right_eye_angry">
+            <path class="iris" fill="currentColor"
+                d="m 506 962 a 128 128 0 0 1 19 -66 l 237 95 v 35 a 128 128 0 0 1 -256 0 z" />
+        </svg>
+        <svg id="right_eye_cute">
+            <circle class="sclera" fill="currentColor" cx="598" cy="1004" r="227" />
+            <circle class="iris" fill="currentColor" cx="563" cy="1008" r="195" />
+            <ellipse cx="513" cy="958" fill="#ffffff" rx="99" ry="77" transform="rotate(-45 513 958)" />
+            <path fill="#8bb9a0"
+                d="M648 1024c-8 3-15 9-18 16-9 17-20 29-32 34a32 32 0 1 0 24 60c31-13 52-38 66-64a32 32 0 0 0-40-46Z"
+                color="#000" style="mix-blend-mode:luminosity;" />
+        </svg>
+        <svg id="right_eye_3c">
+            <path id="right_eye" class="iris" fill="currentColor"
+                d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />
+        </svg>
+        <svg id="right_eye_catmode">
+            <circle class="sclera" fill="currentColor" cx="604" cy="982" r="227"/>
+            <path class="iris" fill="currentColor" d="M508 928a64 64 0 0 1 128 0v128a64 64 0 0 1-128 0z"/>
+        </svg>
+        <svg id="right_eye_happy">
+            <path class="iris" stroke="currentColor" stroke-width="100" stroke-linecap="round"
+                d="m 525,945c 47,-5 158,-8 193,86" />
+        </svg>
+        <svg id="nose_neocatraxx">
+            <path class="nose" fill="currentColor" d="m 720 1338 c 59 62 62 28 91 61 c 29 33 67 29 67 29 c 0 0 37 5 67 -29 c 29 -33 32 1 91 -61 c 59 -62 11 -76 -39 -75 c -50 1 -42 2 -44 11 c -1 9 -70 9 -75 9 c -5 0 -74 1 -75 -9 c -1 -9 6 -10 -44 -11 c -50 -1 -94 13 -39 75 z"/>
+        </svg>
+        <svg id="nose_neomelody">
+            <path class="nose" fill="currentColor" d="M1099 1167c-43-44-160 22-160 22s-126-102-169-59c-70 70 116 157 166 157 51 0 230-54 163-120Z"/>
+        </svg>
+        <svg id="nose_neofox">
+            <path class="nose" fill="currentColor" d="m 832 1152 a 64 64 0 0 0 0 128 h 64 a 64 64 0 0 0 0 -128 z" />
+        </svg>
+        <svg id="nose_neodog">
+            <path class="snout" fill="currentColor" d="m 820 1120 c -137 0 -258 90 -258 254 c 0 123 109 238 238 238 h 260 c 128 0 236 -120 236 -238 c 0 -130 -92 -254 -256 -254 z" />
+            <rect class="nose" fill="currentColor" x="832" y="1279" width="65" height="77" />
+            <path class="nose" fill="currentColor" d="m 832 1152 a 64 64 0 0 0 0 128 h 64 a 64 64 0 0 0 0 -128 z" />
+        </svg>
+        <svg id="nose_neomouse">
+            <circle class="nose" fill="currentColor" cx="819" cy="1273" r="72"/>
+        </svg>
+    </div>
+</body>
 </html>
