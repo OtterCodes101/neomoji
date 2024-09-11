@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
   <style>.iris{fill:#000000}</style>
-  <rect id="left_eye" class="iris" width="256" height="324" x="1087" y="830" ry="130"/>
-  <use id="right_eye" href="#left_eye" transform="translate(-576)"/>
+  <path class="iris" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
+  <path class="iris" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 128 128 0 0 1 -256 0 z" />
 </svg>
