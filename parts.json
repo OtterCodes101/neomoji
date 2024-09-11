@@ -758,7 +758,7 @@
       {
         "name": "neomelody",
         "url": "/parts/neomelody.png",
-        "color": "pink"
+        "color": "melody"
       },
       {
         "name": "neomilk",
@@ -9262,6 +9262,11 @@
       },
       {
         "name": "reach",
+        "url": "/parts/arms_reach_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "reach",
         "url": "/parts/arms_reach_mouse.png",
         "color": "mouse"
       },
@@ -9529,6 +9534,11 @@
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_melody.png",
+        "color": "melody"
       },
       {
         "name": "scepter_dutch",
@@ -14244,6 +14254,347 @@
         "name": "wrench",
         "url": "/parts/arms_wrench_yellow.png",
         "color": "yellow"
+      },
+      {
+        "name": "3c",
+        "url": "/parts/arms_3c_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby",
+        "url": "/parts/arms_baby_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_angel",
+        "url": "/parts/arms_baby_angel_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_cry",
+        "url": "/parts/arms_baby_cry_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_devil",
+        "url": "/parts/arms_baby_devil_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_neobot",
+        "url": "/parts/arms_baby_neobot_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_sleep",
+        "url": "/parts/arms_baby_sleep_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "bc_pills",
+        "url": "/parts/arms_bc_pills_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "cane",
+        "url": "/parts/arms_cane_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "clawshot",
+        "url": "/parts/arms_clawshot_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "command_seal",
+        "url": "/parts/arms_command_seal_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "condoms",
+        "url": "/parts/arms_condoms_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "eevee",
+        "url": "/parts/arms_eevee_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "egg",
+        "url": "/parts/arms_egg_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "feed_baby",
+        "url": "/parts/arms_feed_baby_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "green_thumbs",
+        "url": "/parts/arms_green_thumbs_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "gun",
+        "url": "/parts/arms_gun_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "hammer",
+        "url": "/parts/arms_hammer_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "heart",
+        "url": "/parts/arms_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "heart_goblin",
+        "url": "/parts/arms_heart_goblin_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "hold_broom",
+        "url": "/parts/arms_hold_broom_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "loser",
+        "url": "/parts/arms_loser_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "monocle",
+        "url": "/parts/arms_monocle_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "mug",
+        "url": "/parts/arms_mug_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "mug_spicy",
+        "url": "/parts/arms_mug_spicy_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "pleading",
+        "url": "/parts/arms_pleading_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_aaa",
+        "url": "/parts/arms_sign_aaa_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_alt_text",
+        "url": "/parts/arms_sign_alt_text_melody.png",
+        "color": "melody"
+      },
+      
+      {
+        "name": "sign_blank",
+        "url": "/parts/arms_sign_blank_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_boobs",
+        "url": "/parts/arms_sign_boobs_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_butts",
+        "url": "/parts/arms_sign_butts_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_hot",
+        "url": "/parts/arms_sign_hot_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_lewd",
+        "url": "/parts/arms_sign_lewd_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_no",
+        "url": "/parts/arms_sign_no_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_nya",
+        "url": "/parts/arms_sign_nya_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_thx",
+        "url": "/parts/arms_sign_thx_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_yaoi",
+        "url": "/parts/arms_sign_yaoi_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_yes",
+        "url": "/parts/arms_sign_yes_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_yip",
+        "url": "/parts/arms_sign_yip_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sign_yuri",
+        "url": "/parts/arms_sign_yuri_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "stir_cauldron",
+        "url": "/parts/arms_stir_cauldron_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "think",
+        "url": "/parts/arms_think_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "think_about_it",
+        "url": "/parts/arms_think_about_it_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "water_glass",
+        "url": "/parts/arms_water_glass_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_melody.png",
+        "color": "melody"
       }
     ],
     "hat": [
