@@ -2190,6 +2190,146 @@
         "color": "yellow"
       },
       {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_green.png",
+        "color": "green"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_red.png",
+        "color": "red"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_white.png",
+        "color": "white"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_albino.png",
         "color": "albino"
@@ -14781,6 +14921,10 @@
       {
         "name": "neobot_shop",
         "url": "/parts/front_neobot_shop.png"
+      },
+      {
+        "name": "oven",
+        "url": "/parts/front_oven.png"
       },
       {
         "name": "tire_tracks",
