@@ -14841,6 +14841,10 @@
         "url": "/parts/hat_light_bulb.png"
       },
       {
+        "name": "neobot_antenna",
+        "url": "/parts/hat_neobot_antenna.png"
+      },
+      {
         "name": "notice",
         "url": "/parts/hat_notice.png"
       },
