@@ -14679,6 +14679,51 @@
         "color": "melody"
       },
       {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "cyan_heart",
+        "url": "/parts/arms_cyan_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "gray_heart",
+        "url": "/parts/arms_gray_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "green_heart",
+        "url": "/parts/arms_green_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "orange_heart",
+        "url": "/parts/arms_orange_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "pink_heart",
+        "url": "/parts/arms_pink_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "purple_heart",
+        "url": "/parts/arms_purple_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "red_heart",
+        "url": "/parts/arms_red_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "yellow_heart",
+        "url": "/parts/arms_yellow_heart_melody.png",
+        "color": "melody"
+      },
+      {
         "name": "heart_goblin",
         "url": "/parts/arms_heart_goblin_melody.png",
         "color": "melody"
