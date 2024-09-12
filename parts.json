@@ -8999,6 +8999,146 @@
         "color": "yellow"
       },
       {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_green.png",
+        "color": "green"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_red.png",
+        "color": "red"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_white.png",
+        "color": "white"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "mug_spicy",
         "url": "/parts/arms_mug_spicy_albino.png",
         "color": "albino"
