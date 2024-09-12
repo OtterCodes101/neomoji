@@ -14923,6 +14923,10 @@
         "url": "/parts/front_neobot_shop.png"
       },
       {
+        "name": "neopumpkin",
+        "url": "/parts/front_neopumpkin.png"
+      },
+      {
         "name": "oven",
         "url": "/parts/front_oven.png"
       },
