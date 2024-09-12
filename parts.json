@@ -123,6 +123,10 @@
         "url": "/parts/eyes_neocat_glasses.png"
       },
       {
+        "name": "neogob_medic",
+        "url": "/parts/eyes_neogob_medic.png"
+      },
+      {
         "name": "normal",
         "url": "/parts/eyes_normal.png"
       },
@@ -731,6 +735,16 @@
         "color": "goblin"
       },
       {
+        "name": "neogob_cave_abyssal",
+        "url": "/parts/neogob_cave_abyssal.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "neogob_cave_angler",
+        "url": "/parts/neogob_cave_angler.png",
+        "color": "lightbrown"
+      },
+      {
         "name": "neohaj",
         "url": "/parts/neohaj.png",
         "color": "blue"
@@ -1130,6 +1144,10 @@
       {
         "name": ":3",
         "url": "/parts/mouth_3.png"
+      },
+      {
+        "name": "angler",
+        "url": "/parts/mouth_cave_angler.png"
       },
       {
         "name": "aww",
@@ -14609,6 +14627,10 @@
       {
         "name": "apple_shot",
         "url": "/parts/hat_apple_shot.png"
+      },
+      {
+        "name": "bazin_authority",
+        "url": "/parts/hat_authority.png"
       },
       {
         "name": "blank",
