@@ -2,15 +2,15 @@
   <style>
     .mouth{stroke:#000000}
   </style>
-  <defs>
-    <clipPath id="mouth_clip" clipPathUnits="userSpaceOnUse">
-      <path d="m399 1768 240-482 98 154c14 24 47 25 64 4l97-124 125 130c14 15 38 16 54 3l190-160v475z"/>
+  <defs id="defs1">
+    <clipPath id="below_mouth" clipPathUnits="userSpaceOnUse">
+      <path id="path2" d="m370 1816 4-490 236 8 98 154c14 24 47 25 64 4l97-124 125 130c14 15 38 16 54 3l190-160v475z"/>
     </clipPath>
   </defs>
-  <path id="mouth" class="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m643 1313 98 155 125-160 156 163 191-160"/>
-  <g id="onigiri" stroke="none" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#mouth_clip)" transform="translate(-29 48)">
-    <path id="side" fill="#d9a36e" d="M1076 1684c-71 29-148 12-226 12-77 0-154 17-225-12-41-16-68-70-57-113a610 610 0 0 1 216-326c35-27 98-27 133 0a610 610 0 0 1 216 326c11 43-16 97-57 113z"/>
-    <path id="rice" fill="#fff" d="M1016 1724c-71 29-148 12-226 12-77 0-154 17-225-12-41-16-68-70-57-113a610 610 0 0 1 216-326c35-27 98-27 133 0a610 610 0 0 1 216 326c11 43-16 97-57 113z"/>
-    <rect id="wrap" width="295" height="235" x="643" y="1506" fill="#2d400e"/>
+  <path id="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m643 1313 98 155 125-160 156 163 191-160" class="mouth"/>
+  <g id="onigiri" stroke="none" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#below_mouth)">
+    <path id="side" fill="#d9a36e" d="M892 1813c-76-11-134-64-202-103-66-38-141-62-188-123-28-34-24-94 7-126 94-95 217-156 350-174 44-6 98 25 115 66 51 124 59 261 24 390-12 43-62 76-106 70Z"/>
+    <path id="rice" fill="#fff" d="M820 1817c-76-10-134-63-201-102s-142-62-189-123c-28-34-24-95 7-126 94-95 217-157 350-175 44-6 98 26 115 67 51 124 59 261 24 390-12 43-62 76-106 69Z"/>
+    <path id="wrap" fill="#2d400e" d="m606 1442 256 148-118 203-255-147Z"/>
   </g>
 </svg>

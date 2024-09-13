@@ -2,32 +2,33 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	//global variables
 
 	const color_names = [
+		"albino",
 		"blue",
 		"catraxx",
+		"cinnamon",
+		"comfy",
 		"darkbrown",
 		"dog",
+		"fawn",
 		"frozen",
+		"goblin",
 		"green",
 		"grey",
+		"hairless",
 		"lightbrown",
 		"lightgrey",
+		"melody",
+		"mouse",
+		"mouseblack",
+		"mousebrown",
+		"mousecomfy",
 		"orange",
+		"orc",
 		"pink",
 		"red",
 		"white",
 		"wyvern",
-		"yellow",
-		"mouse",
-		"hairless",
-		"fawn",
-		"albino",
-		"cinnamon",
-		"mousebrown",
-		"mouseblack",
-		"mousecomfy",
-		"comfy",
-		"orc",
-		"goblin"
+		"yellow"
 	];
 	let selected_color = "blue";
 	let color_change_callbacks = [];

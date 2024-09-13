@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 2048 2048"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="hat_neobot_antenna.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="..\..\parts\hat_neobot_antenna.png"
+   inkscape:export-xdpi="12"
+   inkscape:export-ydpi="12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.36181641"
+     inkscape:cx="1024"
+     inkscape:cy="1024"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     id="stem-8"
+     width="159.10573"
+     height="540.34943"
+     x="1454.6874"
+     y="268.39359"
+     fill="#a0a0a0"
+     paint-order="markers stroke fill"
+     rx="26.534563"
+     ry="26.127905"
+     style="stroke-width:1.01665" />
+  <rect
+     id="light-8"
+     width="159.10573"
+     height="142.83932"
+     x="1453.6707"
+     y="177.08231"
+     fill="#58d3d7"
+     paint-order="markers stroke fill"
+     rx="24.196266"
+     ry="27.449549"
+     style="stroke-width:1.01665" />
+</svg>
