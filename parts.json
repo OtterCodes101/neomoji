@@ -745,6 +745,11 @@
         "color": "lightbrown"
       },
       {
+        "name": "neogob_cave_angler_coffee",
+        "url": "/parts/neogob_cave_angler_coffee.png",
+        "color": "lightbrown"
+      }, 
+      {
         "name": "neohaj",
         "url": "/parts/neohaj.png",
         "color": "blue"
