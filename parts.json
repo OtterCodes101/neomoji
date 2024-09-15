@@ -1223,6 +1223,10 @@
         "url": "/parts/mouth_nom_apple.png"
       },
       {
+        "name": "nom_ball",
+        "url": "/parts/mouth_nom_ball.png"
+      },
+      {
         "name": "nom_bread",
         "url": "/parts/mouth_nom_bread.png"
       },
