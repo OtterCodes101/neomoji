@@ -1227,6 +1227,10 @@
         "url": "/parts/mouth_nom_ball.png"
       },
       {
+        "name": "nom_bone",
+        "url": "/parts/mouth_nom_bone.png"
+      },
+      {
         "name": "nom_bread",
         "url": "/parts/mouth_nom_bread.png"
       },
