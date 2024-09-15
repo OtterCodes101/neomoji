@@ -1255,6 +1255,10 @@
         "url": "/parts/mouth_nom_egg.png"
       },
       {
+        "name": "nom_fries",
+        "url": "/parts/mouth_nom_fries.png"
+      },
+      {
         "name": "nom_phone",
         "url": "/parts/mouth_nom_phone.png"
       },
