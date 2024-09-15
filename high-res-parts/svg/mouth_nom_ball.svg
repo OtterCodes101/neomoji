@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
       version="1.2" viewBox="0 0 2048 2048">
   <style>
-    .mouth{stroke:#000000}
+    .mouth{stroke:#37270c}
   </style>
   <defs>
     <clipPath id="below_mouth" clipPathUnits="userSpaceOnUse">
