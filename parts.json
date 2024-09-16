@@ -745,6 +745,11 @@
         "color": "lightbrown"
       },
       {
+        "name": "neogob_cave_angler_coffee",
+        "url": "/parts/neogob_cave_angler_coffee.png",
+        "color": "lightbrown"
+      }, 
+      {
         "name": "neohaj",
         "url": "/parts/neohaj.png",
         "color": "blue"
@@ -1218,6 +1223,14 @@
         "url": "/parts/mouth_nom_apple.png"
       },
       {
+        "name": "nom_ball",
+        "url": "/parts/mouth_nom_ball.png"
+      },
+      {
+        "name": "nom_bone",
+        "url": "/parts/mouth_nom_bone.png"
+      },
+      {
         "name": "nom_bread",
         "url": "/parts/mouth_nom_bread.png"
       },
@@ -1240,6 +1253,10 @@
       {
         "name": "nom_egg",
         "url": "/parts/mouth_nom_egg.png"
+      },
+      {
+        "name": "nom_fries",
+        "url": "/parts/mouth_nom_fries.png"
       },
       {
         "name": "nom_phone",
