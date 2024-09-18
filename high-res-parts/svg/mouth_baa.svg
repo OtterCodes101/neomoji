@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{fill:#a01919}
+    .tongue{fill:#d84848}
+  </style>
+  <defs>
+    <path id="mouth_path" d="m 685 1664 c -43 0 -109 -48 -109 -109 v -27 c 0 -84 86 -184 192 -184 h 308 c 126 0 204 98 204 198 c 0 72 -51 122 -122 122 z" />      
+    <clipPath id="mouth_clip">
+      <use href="#mouth_path" />
+    </clipPath>
+  </defs>
+  <path id="drool" fill="#8eb5ff" fill-opacity="0.8" d="m 1185 1587 a 48 48 0 0 1 96 0 v 286 a 48 48 0 0 1 -96 0 z" />
+  <use id="mouth_interior" class="mouth" href="#mouth_path"/>
+  <ellipse id="tongue" class="tongue" cx="1221" cy="1659" rx="326" ry="186" clip-path="url(#mouth_clip)"/>
+</svg>
