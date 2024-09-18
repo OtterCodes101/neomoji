@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{fill:#a01919}
+    .tongue{fill:#d84848}
+  </style>
+  <defs>
+    <path id="mouth_path" d="m 768 1471 a 128 128 0 0 1 256 0 v 130 a 128 128 0 0 1 -256 0 z" />      
+    <clipPath id="mouth_clip">
+      <use href="#mouth_path" />
+    </clipPath>
+  </defs>
+  <use id="mouth_interior" class="mouth" href="#mouth_path"/>
+  <ellipse id="tongue" class="tongue" cx="1022" cy="1692" rx="189" ry="155" clip-path="url(#mouth_clip)"/>
+</svg>
