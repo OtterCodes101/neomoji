@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Floofling Maker</title>
     <style>
@@ -17,183 +16,105 @@
       defer>
     </script>
     <script>
-        function replaceStyle(selector, color) {
-            let css_style = document.getElementById("neocritter_style");
-            let rule_count = css_style.sheet.cssRules.length;
-            for (let i = 0; i < rule_count; i++) {
-                if (css_style.sheet.cssRules[i].selectorText == selector) {
-                    css_style.sheet.deleteRule(i);
-                    css_style.sheet.insertRule(`${selector} {color:${color}}`, i);
-                    break;
-                }
-            }
-        }
-
-        function RGBToHex(rgb_string){
-            const patt = /rgb\((\d+), (\d+), (\d+)\)/;
-            let colors = rgb_string.match(patt);
-            if (colors){
-                let r = parseInt(colors[1]).toString(16), 
-                    g = parseInt(colors[2]).toString(16),
-                    b = parseInt(colors[3]).toString(16);
-                r = ((r.length == 1) ? "0"+r : r)
-                g = ((g.length == 1) ? "0"+g : g)
-                b = ((b.length == 1) ? "0"+b : b)
-                return `#${r}${g}${b}`
-            }
-            return rgb_string;
-        }
-
         function incrementPOS(selector, increment){
             let element = document.getElementById(selector);
             element.value = Number.parseInt(element.value) + increment;
             element.dispatchEvent(new Event('change'));
         }
 
-        async function updateCSS(){
-            let css_style = document.getElementById("neocritter_style");
-            let css_download_button = document.getElementById("css_download");
+        // async function updateCSS(){
+        //     let css_style = document.getElementById("neocritter_style");
+        //     let css_download_button = document.getElementById("css_download");
+        //     let style_text = "";
+        //     for (let rule of css_style.sheet.cssRules){
+        //         style_text += `${rule.selectorText}{color:${RGBToHex(rule.style.color)}}\n`;
+        //     }
+        //     css_style.innerHTML = style_text;
+        //     css_download_button.setAttribute("href", `data:text/css,${encodeURIComponent(style_text)}`);
+        // }
+
+
+
+        let stylesheet = new CSSStyleSheet();
+
+        async function updateStyleSheet(){
+            let svg_style = document.getElementById("neocritter_style");
             let style_text = "";
-            for (let rule of css_style.sheet.cssRules){
-                style_text += `${rule.selectorText}{color:${RGBToHex(rule.style.color)}}\n`;
+            for(const r of stylesheet.cssRules){
+                style_text += r.cssText + "\n";
             }
-            css_style.innerHTML = style_text;
-            css_download_button.setAttribute("href", `data:text/css,${encodeURIComponent(style_text)}`);
+            svg_style.innerHTML = style_text;
+            document.getElementById("css_download").setAttribute("href", `data:text/css,${encodeURIComponent(style_text)}`);
         }
 
         async function updateSVGButton(){
-            await updateCSS();
+            await updateStyleSheet();
             document.getElementById("svg_download").setAttribute("href", `data:image/svg+xml,${encodeURIComponent(document.getElementById("neocritter").outerHTML)}`);
         }
 
-        async function updatePNGButton(){
-            await updateSVGButton();
-            let svgElement = document.getElementById("neocritter");
-            let canvas = document.getElementById("canvas");
-            let ctx = canvas.getContext("2d");
-            let svgURL = new XMLSerializer().serializeToString(svgElement);
-            let img = new Image();
-            img.onload = function() {
-                ctx.drawImage(this, 0, 0);
-            }
-            img.src = 'data:image/svg+xml; charset=utf8,' + encodeURIComponent(svgURL);
-            document.getElementById("png_download").setAttribute("href", canvas.toDataURL())
+        async function makePartListeners(){
+            // Body part shapes
+            document.querySelectorAll("tr[data-svgpart]>td>select[data-svgtemplate]").forEach((selector) => {
+                selector.addEventListener("change", async (event) => {
+                    const template = document.getElementById(event.target.value);
+                    let svg_part = document.getElementById(selector.parentElement.parentElement.getAttribute("data-svgpart"));
+                    while (svg_part.firstChild) {
+                        svg_part.removeChild(svg_part.firstChild);
+                    }
+                    template.childNodes.forEach((current_node, current_index) => {
+                        svg_part.appendChild(current_node.cloneNode(true))
+                    });
+                    await updateSVGButton();
+                });
+            });
+            // Body part positions
+            document.querySelectorAll("tr[data-svgpart]>td>input[data-svgmove]").forEach((selector) => {
+                selector.addEventListener("change", async (event) => {
+                    let part_id = selector.parentElement.parentElement.getAttribute("data-svgpart");
+                    let pos_x = selector.parentElement.parentElement.querySelector("input[data-svgmove='x']").value;
+                    let pos_y = selector.parentElement.parentElement.querySelector("input[data-svgmove='y']").value;
+                    let new_rule = `#${part_id} {transform:translate(${pos_x}px,${pos_y}px)}`;
+                    let rule_count = stylesheet.cssRules.length;
+                    let i = 0;
+                    for (i= 0; i < rule_count; i++) {
+                        if ((stylesheet.cssRules[i].selectorText == `#${part_id}`) && 
+                            (stylesheet.cssRules[i].style.transform.startsWith("translate"))) {
+                            stylesheet.deleteRule(i);
+                            break;
+                        }
+                    }
+                    stylesheet.insertRule(new_rule, i);
+                    await updateSVGButton();
+                });
+            });
+            // Class colors
+            document.querySelectorAll("tr[data-svgclass]>td>input[data-svgcolor]").forEach((selector) => {
+                selector.addEventListener("change", async (event) => {
+                    let svg_class = selector.parentElement.parentElement.getAttribute("data-svgclass");
+                    let hex_color = event.target.value;
+                    let new_rule = `.${svg_class} {color:${hex_color}}`;
+                    let rule_count = stylesheet.cssRules.length;
+                    let i = 0;
+                    for (i= 0; i < rule_count; i++) {
+                        if ((stylesheet.cssRules[i].selectorText == `.${svg_class}`) && 
+                            (stylesheet.cssRules[i].style =="color")) {
+                            stylesheet.deleteRule(i);
+                            break;
+                        }
+                    }
+                    stylesheet.insertRule(new_rule, i);
+                    await updateSVGButton();
+                });
+            });
         }
 
-        document.addEventListener('DOMContentLoaded', async function () {
-            document.getElementById("body_type").addEventListener("change", (event) => {
-                const template = document.getElementById(event.target.value);
-                let svg_part = document.getElementById("neocritter_body");
-                while (svg_part.firstChild) {
-                    svg_part.removeChild(svg_part.firstChild);
-                }
-                template.childNodes.forEach(function(current_node, current_index){ svg_part.appendChild(current_node.cloneNode(true))})
-            });
-            document.getElementById("nose_type").addEventListener("change", (event) => {
-                const template = document.getElementById(event.target.value);
-                let svg_part = document.getElementById("neocritter_nose");
-                while (svg_part.firstChild) {
-                    svg_part.removeChild(svg_part.firstChild);
-                }
-                template.childNodes.forEach(function(current_node, current_index){ svg_part.appendChild(current_node.cloneNode(true))})
-            });
-            document.getElementById("left_eye_type").addEventListener("change", (event) => {
-                const template = document.getElementById(event.target.value);
-                let svg_part = document.getElementById("neocritter_left_eye");
-                while (svg_part.firstChild) {
-                    svg_part.removeChild(svg_part.firstChild);
-                }
-                template.childNodes.forEach(function(current_node, current_index){ svg_part.appendChild(current_node.cloneNode(true))})
-            });
-            document.getElementById("right_eye_type").addEventListener("change", (event) => {
-                const template = document.getElementById(event.target.value);
-                let svg_part = document.getElementById("neocritter_right_eye");
-                while (svg_part.firstChild) {
-                    svg_part.removeChild(svg_part.firstChild);
-                }
-                template.childNodes.forEach(function(current_node, current_index){ svg_part.appendChild(current_node.cloneNode(true))})
-            });
-            document.getElementById("mouth_type").addEventListener("change", (event) => {
-                const template = document.getElementById(event.target.value);
-                let svg_part = document.getElementById("neocritter_mouth");
-                while (svg_part.firstChild) {
-                    svg_part.removeChild(svg_part.firstChild);
-                }
-                template.childNodes.forEach(function(current_node, current_index){ svg_part.appendChild(current_node.cloneNode(true))})
-            });
-            document.getElementById("whiskers_type").addEventListener("change", (event) => {
-                const template = document.getElementById(event.target.value);
-                let svg_part = document.getElementById("neocritter_whiskers");
-                while (svg_part.firstChild) {
-                    svg_part.removeChild(svg_part.firstChild);
-                }
-                template.childNodes.forEach(function(current_node, current_index){ svg_part.appendChild(current_node.cloneNode(true))})
-            });
-            document.querySelectorAll("[data-modifies*='svg']").forEach((selector) => {
-                selector.addEventListener("change", (async () => {
-                    await updateSVGButton();
-                }));
-            });
-            document.querySelectorAll("[data-modifies*='css']").forEach((selector) => {
-                selector.addEventListener("change", (async () => {
-                    await updateCSS();
-                }));
-            });
-            document.querySelectorAll("[data-svgpart]").forEach((selector) => {
-                let part_name = selector.getAttribute("data-svgpart");
-                let svg_part = document.getElementById(part_name);
-                if(selector.getAttribute("data-svgtransform") == "pos_x" || selector.getAttribute("data-svgtransform") == "pos_y" ){
-                    selector.addEventListener("change", (event) => {
-                        let x = document.querySelector(`[data-svgpart=${part_name}][data-svgtransform='pos_x']`).value;
-                        let y = document.querySelector(`[data-svgpart=${part_name}][data-svgtransform='pos_y']`).value;
-                        svg_part.setAttribute("transform", `translate(${x} ${y})`);
-                    });
-                }
-            });
-            document.getElementById("fur_color").addEventListener("change", (event) => {
-                replaceStyle(".fur", event.target.value);
-            });
-            document.getElementById("outline_color").addEventListener("change", (event) => {
-                replaceStyle(".outline", event.target.value);
-            });
-            document.getElementById("mouth_color").addEventListener("change", (event) => {
-                replaceStyle(".mouth", event.target.value);
-            });
-            document.getElementById("whisker_color").addEventListener("change", (event) => {
-                replaceStyle(".whisker", event.target.value);
-            });
-            document.getElementById("tooth_color").addEventListener("change", (event) => {
-                replaceStyle(".tooth", event.target.value);
-            });
-            document.getElementById("tongue_color").addEventListener("change", (event) => {
-                replaceStyle(".tongue", event.target.value);
-            });
-            document.getElementById("iris_color").addEventListener("change", (event) => {
-                replaceStyle(".iris", event.target.value);
-            });
-            document.getElementById("sclera_color").addEventListener("change", (event) => {
-                replaceStyle(".sclera", event.target.value);
-            });
-            document.getElementById("snout_color").addEventListener("change", (event) => {
-                replaceStyle(".snout", event.target.value);
-            });
-            document.getElementById("nose_color").addEventListener("change", (event) => {
-                replaceStyle(".nose", event.target.value);
-            });
-            document.getElementById("css_download").addEventListener("click", (event) => {
-                updateCSS();
-            });
-            document.getElementById("svg_download").addEventListener("click", (event) => {
-                updateSVGButton();
-            });
-            document.getElementById("png_download").addEventListener("click", (event) => {
-                updatePNGButton();
-            });
+        document.addEventListener('DOMContentLoaded', function () {
+            makePartListeners();
+            updateStyleSheet();
             const event = new Event('change');
-            document.querySelectorAll("[data-modifies]").forEach((selector) => {
+            document.querySelectorAll("input[data-svgcolor],input[data-svgmove],select[data-svgtemplate]").forEach((selector) => {
                 selector.dispatchEvent(event);
             });
-            await updatePNGButton();
         });
     </script>
 </head>
@@ -219,20 +140,20 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr data-svgpart="neocritter_body">
                     <th scope="row">Body</th>
                     <td>
-                        <select id="body_type" data-modifies="svg">
+                        <select id="body_type" data-svgtemplate>
                             <option value="body_neocat" selected>Neocat</option>
                             <option value="body_neogob">Neogob</option>
                             <option value="body_neoslime">Neoperson</option>
                         </select>
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgpart="neocritter_nose">
                     <th scope="row">Nose</th>
                     <td>
-                        <select id="nose_type" data-modifies="svg">
+                        <select id="nose_type" data-svgtemplate>
                             <option value="blank" selected>None</option>
                             <option value="nose_neofox">Neofox</option>
                             <option value="nose_neomelody">Neomelody</option>
@@ -245,7 +166,7 @@
                         <button onclick="incrementPOS('nose_pos_x', -100)">-100</button>
                         <button onclick="incrementPOS('nose_pos_x', -10)">-10</button>
                         <button onclick="incrementPOS('nose_pos_x', -1)">-1</button>
-                        <input id="nose_pos_x" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_nose" data-svgtransform="pos_x" />
+                        <input id="nose_pos_x" type="number" value="0" data-svgmove="x" />
                         <button onclick="incrementPOS('nose_pos_x', 1)">+1</button>
                         <button onclick="incrementPOS('nose_pos_x', 10)">+10</button>
                         <button onclick="incrementPOS('nose_pos_x', 100)">+100</button>
@@ -254,16 +175,16 @@
                         <button onclick="incrementPOS('nose_pos_y', -100)">-100</button>
                         <button onclick="incrementPOS('nose_pos_y', -10)">-10</button>
                         <button onclick="incrementPOS('nose_pos_y', -1)">-1</button>
-                        <input id="nose_pos_y" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_nose" data-svgtransform="pos_y" />
+                        <input id="nose_pos_y" type="number" value="0" data-svgmove="y" />
                         <button onclick="incrementPOS('nose_pos_y', 1)">+1</button>
                         <button onclick="incrementPOS('nose_pos_y', 10)">+10</button>
                         <button onclick="incrementPOS('nose_pos_y', 100)">+100</button>
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgpart="neocritter_left_eye">
                     <th scope="row">Left Eye</th>
                     <td>
-                        <select id="left_eye_type" data-modifies="svg">
+                        <select id="left_eye_type" data-svgtemplate>
                             <option value="left_eye_normal" selected>Normal</option>
                             <option value="left_eye_angry">Angry</option>
                             <option value="left_eye_3c">3c</option>
@@ -276,7 +197,7 @@
                         <button onclick="incrementPOS('left_eye_pos_x', -100)">-100</button>
                         <button onclick="incrementPOS('left_eye_pos_x', -10)">-10</button>
                         <button onclick="incrementPOS('left_eye_pos_x', -1)">-1</button>
-                        <input id="left_eye_pos_x" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_left_eye"  data-svgtransform="pos_x"/>
+                        <input id="left_eye_pos_x" type="number" value="0" data-svgmove="x"/>
                         <button onclick="incrementPOS('left_eye_pos_x', 1)">+1</button>
                         <button onclick="incrementPOS('left_eye_pos_x', 10)">+10</button>
                         <button onclick="incrementPOS('left_eye_pos_x', 100)">+100</button>
@@ -285,29 +206,29 @@
                         <button onclick="incrementPOS('left_eye_pos_y', -100)">-100</button>
                         <button onclick="incrementPOS('left_eye_pos_y', -10)">-10</button>
                         <button onclick="incrementPOS('left_eye_pos_y', -1)">-1</button>
-                        <input id="left_eye_pos_y" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_left_eye"  data-svgtransform="pos_y" />
+                        <input id="left_eye_pos_y" type="number" value="0" data-svgmove="y" />
                         <button onclick="incrementPOS('left_eye_pos_y', 1)">+1</button>
                         <button onclick="incrementPOS('left_eye_pos_y', 10)">+10</button>
                         <button onclick="incrementPOS('left_eye_pos_y', 100)">+100</button>
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgpart="neocritter_right_eye">
                     <th scope="row">Right Eye</th>
                     <td>
-                        <select id="right_eye_type" data-modifies="svg">
-                            <option value="right_eye_normal" selected>Normal</option>
-                            <option value="right_eye_angry">Angry</option>
+                        <select id="right_eye_type" data-svgtemplate>
                             <option value="right_eye_3c">3c</option>
+                            <option value="right_eye_angry">Angry</option>
+                            <option value="right_eye_catmode">Catmode</option>
                             <option value="right_eye_cute">Cute</option>
                             <option value="right_eye_happy">Happy</option>
-                            <option value="right_eye_catmode">Catmode</option>
+                            <option value="right_eye_normal" selected>Normal</option>
                         </select>
                     </td>
                     <td>
                         <button onclick="incrementPOS('right_eye_pos_x', -100)">-100</button>
                         <button onclick="incrementPOS('right_eye_pos_x', -10)">-10</button>
                         <button onclick="incrementPOS('right_eye_pos_x', -1)">-1</button>
-                        <input id="right_eye_pos_x" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_right_eye" data-svgtransform="pos_x" />
+                        <input id="right_eye_pos_x" type="number" value="0" data-svgmove="x" />
                         <button onclick="incrementPOS('right_eye_pos_x', 1)">+1</button>
                         <button onclick="incrementPOS('right_eye_pos_x', 10)">+10</button>
                         <button onclick="incrementPOS('right_eye_pos_x', 100)">+100</button>
@@ -316,16 +237,16 @@
                         <button onclick="incrementPOS('right_eye_pos_y', -100)">-100</button>
                         <button onclick="incrementPOS('right_eye_pos_y', -10)">-10</button>
                         <button onclick="incrementPOS('right_eye_pos_y', -1)">-1</button>
-                        <input id="right_eye_pos_y" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_right_eye" data-svgtransform="pos_y" />
+                        <input id="right_eye_pos_y" type="number" value="0" data-svgmove="y" />
                         <button onclick="incrementPOS('right_eye_pos_y', 1)">+1</button>
                         <button onclick="incrementPOS('right_eye_pos_y', 10)">+10</button>
                         <button onclick="incrementPOS('right_eye_pos_y', 100)">+100</button>
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgpart="neocritter_mouth">
                     <th scope="row">Mouth</th>
                     <td>
-                        <select id="mouth_type" data-modifies="svg">
+                        <select id="mouth_type" data-svgtemplate>
                             <option value="mouth_normal" selected>Normal</option>
                             <option value="mouth_snaggletooth">Snaggletooth</option>
                             <option value="mouth_blep">Blep</option>
@@ -338,7 +259,7 @@
                         <button onclick="incrementPOS('mouth_pos_x', -100)">-100</button>
                         <button onclick="incrementPOS('mouth_pos_x', -10)">-10</button>
                         <button onclick="incrementPOS('mouth_pos_x', -1)">-1</button>
-                        <input id="mouth_pos_x" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_mouth" data-svgtransform="pos_x" />
+                        <input id="mouth_pos_x" type="number" value="0" data-svgmove="x" />
                         <button onclick="incrementPOS('mouth_pos_x', 1)">+1</button>
                         <button onclick="incrementPOS('mouth_pos_x', 10)">+10</button>
                         <button onclick="incrementPOS('mouth_pos_x', 100)">+100</button>
@@ -347,37 +268,37 @@
                         <button onclick="incrementPOS('mouth_pos_y', -100)">-100</button>
                         <button onclick="incrementPOS('mouth_pos_y', -10)">-10</button>
                         <button onclick="incrementPOS('mouth_pos_y', -1)">-1</button>
-                        <input id="mouth_pos_y" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_mouth" data-svgtransform="pos_y" />
+                        <input id="mouth_pos_y" type="number" value="0" data-svgmove="y" />
                         <button onclick="incrementPOS('mouth_pos_y', 1)">+1</button>
                         <button onclick="incrementPOS('mouth_pos_y', 10)">+10</button>
                         <button onclick="incrementPOS('mouth_pos_y', 100)">+100</button>
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgpart="neocritter_whiskers">
                     <th scope="row">Whiskers</th>
                     <td>
-                        <select id="whiskers_type" data-modifies="svg">
+                        <select id="whiskers_type" data-svgtemplate>
                             <option value="blank" selected>None</option>
                             <option value="whiskers_neocat">Neocat</option>
                         </select>
                     </td>
                     <td>
-                        <button onclick="incrementPOS('mouth_pos_x', -100)">-100</button>
-                        <button onclick="incrementPOS('mouth_pos_x', -10)">-10</button>
-                        <button onclick="incrementPOS('mouth_pos_x', -1)">-1</button>
-                        <input id="mouth_pos_x" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_mouth" data-svgtransform="pos_x" />
-                        <button onclick="incrementPOS('mouth_pos_x', 1)">+1</button>
-                        <button onclick="incrementPOS('mouth_pos_x', 10)">+10</button>
-                        <button onclick="incrementPOS('mouth_pos_x', 100)">+100</button>
+                        <button onclick="incrementPOS('whiskers_pos_x', -100)">-100</button>
+                        <button onclick="incrementPOS('whiskers_pos_x', -10)">-10</button>
+                        <button onclick="incrementPOS('whiskers_pos_x', -1)">-1</button>
+                        <input id="whiskers_pos_x" type="number" value="0" data-svgmove="x" />
+                        <button onclick="incrementPOS('whiskers_pos_x', 1)">+1</button>
+                        <button onclick="incrementPOS('whiskers_pos_x', 10)">+10</button>
+                        <button onclick="incrementPOS('whiskers_pos_x', 100)">+100</button>
                     </td>
                     <td>
-                        <button onclick="incrementPOS('mouth_pos_y', -100)">-100</button>
-                        <button onclick="incrementPOS('mouth_pos_y', -10)">-10</button>
-                        <button onclick="incrementPOS('mouth_pos_y', -1)">-1</button>
-                        <input id="mouth_pos_y" type="number" value="0" data-modifies="svg" data-svgpart="neocritter_mouth" data-svgtransform="pos_y" />
-                        <button onclick="incrementPOS('mouth_pos_y', 1)">+1</button>
-                        <button onclick="incrementPOS('mouth_pos_y', 10)">+10</button>
-                        <button onclick="incrementPOS('mouth_pos_y', 100)">+100</button>
+                        <button onclick="incrementPOS('whiskers_pos_y', -100)">-100</button>
+                        <button onclick="incrementPOS('whiskers_pos_y', -10)">-10</button>
+                        <button onclick="incrementPOS('whiskers_pos_y', -1)">-1</button>
+                        <input id="whiskers_pos_y" type="number" value="0" data-svgmove="y" />
+                        <button onclick="incrementPOS('whiskers_pos_y', 1)">+1</button>
+                        <button onclick="incrementPOS('whiskers_pos_y', 10)">+10</button>
+                        <button onclick="incrementPOS('whiskers_pos_y', 100)">+100</button>
                     </td>
                 </tr>
             </tbody>
@@ -391,74 +312,74 @@
                 <th scope="col">Color</th>
             </thead>
             <tbody>
-                <tr>
+                <tr data-svgclass="fur">
                     <th scope="row">Fur</th>
                     <td>
-                        <input id="fur_color" data-modifies="svg" 
-                        data-jscolor="{value:'#ffc95c', hideOnPaletteClick:true, palette:'#ffc95c #8bb9a0 #808080 #f7965b #070362 #d2d0ca #91746e #7beeff #66ff66cc'}" />
+                        <input id="fur_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#ffc95cff #8bb9a0ff #808080ff #f7965bff #070362ff #d2d0caff #91746eff #7beeffff #66ff66ccff'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="outline">
                     <th scope="row">Outline</th>
                     <td>
-                        <input id="outline_color" data-modifies="svg" 
-                        data-jscolor="{value:'#000000', hideOnPaletteClick:true, palette:'#000000 #2d67cc #006400 #ffffff'}" />
+                        <input id="outline_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#000000ff #2d67ccff #006400ff #ffffffff'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="mouth">
                     <th scope="row">Mouth</th>
                     <td>
-                        <input id="mouth_color" data-modifies="svg" 
-                        data-jscolor="{value:'#542912', hideOnPaletteClick:true, palette:'#542912 #32120b #666666 #ca118c #000000'}" />
+                        <input id="mouth_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#542912 #32120b #666666 #ca118c #000000'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="whisker">
                     <th scope="row">Whiskers</th>
                     <td>
-                        <input id="whisker_color" data-modifies="svg" 
-                        data-jscolor="{value:'#8e5e31ff', hideOnPaletteClick:true, palette:'#8e5e31ff'}" />
+                        <input id="whisker_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#8e5e31ff'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="tooth">
                     <th scope="row">Tooth</th>
                     <td>
-                        <input id="tooth_color" data-modifies="svg" 
-                        data-jscolor="{value:'#fefbba', hideOnPaletteClick:true, palette:'#fefbba #ffffff'}" />
+                        <input id="tooth_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#fefbba #ffffff'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="tongue">
                     <th scope="row">Tongue</th>
                     <td>
-                        <input id="tongue_color" data-modifies="svg" 
-                        data-jscolor="{value:'#d14e4e', hideOnPaletteClick:true, palette:'#d14e4e #0006a0'}" />
+                        <input id="tongue_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#d14e4e #0006a0'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="iris">
                     <th scope="row">Iris</th>
                     <td>
-                        <input id="iris_color" data-modifies="svg" 
-                        data-jscolor="{value:'#000000', hideOnPaletteClick:true, palette:'##000000 #ffffff #ff0000 #5bcefa #2a980e #ca51b9 #0000ff #006400'}" />
+                        <input id="iris_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'##000000 #ffffff #ff0000 #5bcefa #2a980e #ca51b9 #0000ff #006400'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="sclera">
                     <th scope="row">Sclera</th>
                     <td>
-                        <input id="sclera_color" data-modifies="svg" 
-                        data-jscolor="{value:'#ffffff', hideOnPaletteClick:true, palette:'#ffffff #fc5900'}" />
+                        <input id="sclera_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#ffffff #fc5900'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="snout">
                     <th scope="row">Snout</th>
                     <td>
-                        <input id="snout_color" data-modifies="svg" 
-                        data-jscolor="{value:'#ffdea7', hideOnPaletteClick:true, palette:'#ffdea7'}" />
+                        <input id="snout_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#ffdea7'}" />
                     </td>
                 </tr>
-                <tr>
+                <tr data-svgclass="nose">
                     <th scope="row">Nose</th>
                     <td>
-                        <input id="nose_color" data-modifies="svg" 
-                        data-jscolor="{value:'#000000', hideOnPaletteClick:true, palette:'#000000 #de8787 #ca118c'}" />
+                        <input id="nose_color" data-svgcolor 
+                        data-jscolor="{format:'hexa', alphaChannel: true, hideOnPaletteClick: true, palette:'#000000 #de8787 #ca118c'}" />
                     </td>
                 </tr>
             </tbody>
@@ -468,23 +389,11 @@
     <div id="output" style="position:relative;float:right">
         <h2>Output</h2>
         <ul>
-            <li><a id="png_download" download="floofling.png" target="_blank">Download as PNG imge</a> (for sharing)</li>
-            <li><a id="svg_download" download="floofling.svg" target="_blank">Download as SVG image</a> (for editing)</li>
+            <li><a id="svg_download" download="floofling.svg" target="_blank">Download as SVG image</a></li>
             <li><a id="css_download" download="floofling.css" target="_blank">Download Stylesheet</a></li>    
         </ul>
         <svg id="neocritter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="512" height="512">
-            <style id="neocritter_style">
-                .fur{color:#ffc95c}
-                .outline{color:#000000}
-                .mouth{color:#542912}
-                .whisker{color:#8e5e31}
-                .tooth{color:#ff99cc}
-                .tongue{color:#ff99cc}
-                .iris{color:#ff99cc}
-                .sclera{color:#ff99cc}
-                .nose{color:#ff99cc}
-                .snout{color:#ff99cc}
-            </style>
+            <style id="neocritter_style"></style>
             <g id="neocritter_body"></g>
             <g id="neocritter_nose"></g>
             <g id="neocritter_left_eye"></g>
