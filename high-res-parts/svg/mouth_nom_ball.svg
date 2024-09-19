@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+      version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#37270c}
+  </style>
+  <defs>
+    <clipPath id="below_mouth" clipPathUnits="userSpaceOnUse">
+      <path id="path2" d="m 610 1334 l 98 154 c 14 24 47 25 64 4 l 97 -124 l 125 130 c 14 15 38 16 54 3 l 190 -160 h 810 v 707 h -2048 v -714 z"/>
+    </clipPath>
+  </defs>
+  <path id="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m643 1313 98 155 125-160 156 163 191-160" class="mouth"/>
+  <g id="ball" clip-path="url(#below_mouth)">
+    <circle id="fuzzy_part" r="194" cy="1472" cx="873" fill="#bad80a" />
+    <path id="left_seam" fill="#f8ffb3" d="m 972.3 1305 a 194 194 90 0 1 49.5 42.2 c -11 18 -30 74.55 -30 124.55 c 0 50 19 106.55 30 124.55 a 194 194 90 0 1 -49.5 42.2 c -11 -18 -40 -116.75 -40 -166.75 c 0 -50 29 -148.75 40 -166.75"/>
+    <path id="right_seam" fill="#f8ffb3" d="m 773.5 1305 a 194 194 0 0 0 -49.5 42.2 c 11 18 30 74.55 30 124.55 c 0 50 -19 106.55 -30 124.55 a 194 194 0 0 0 49.5 42.2 c 11 -18 40 -116.75 40 -166.75 c 0 -50 -29 -148.75 -40 -166.75"/>
+  </g>
+</svg>

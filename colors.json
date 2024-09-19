@@ -58,6 +58,14 @@
     "lightgrey": {
         "fur": "#d2d0ca"
     },
+    "melody": {
+        "fur": "#ff9fcb",
+        "paw": "#fccfe8",
+        "hand": "#fccfe8",
+        "snout": "#fccfe8",
+        "outline": "#7e1883",
+        "pad": "#5a9caf"
+    },
     "mouse": {
         "fur": "#e3dedb",
         "paw": "#e9afaf"

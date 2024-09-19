@@ -3,10 +3,10 @@
     .paw{fill:#8bb9a0}
     .outline{stroke:#000}
   </style>
-  <path id="handle" fill="silver" d="M674 911c-20-3-48-11-63 0l-24 87c41-26 98-8 122 32 11 15 14 34 7 51l-127 476 77 21 138-512c4-43-23-82-53-111-22-20-48-36-77-44z"/>
-  <path id="cup" fill="#5f3e1d" d="m685 1430 92 25c34 9 54 43 45 78l-18 67c-9 34-44 54-78 45l-92-25c-34-9-54-43-45-77l18-68c10-34 44-54 78-45z"/>
-  <path id="band" fill="none" stroke="#000" stroke-width="29" stroke-linecap="butt" d="m797 1572-1 2c-5 19-25 31-45 26l-116-31c-20-6-31-26-26-46v-1"/>
-  <path id="cup_interior" fill="#3e2913" d="M667 1461c-10 0-24 6-29 21h108l-72-19-7-2z"/>
-  <path id="potion" fill="#0f0" d="M746 1482H638v2l-1 2c-4 16 5 32 21 36l36 10 59 16c16 4 32-6 37-21v-2c5-17-5-33-21-37l-8-2-15-4z"/>
-  <path id="right_paw" class="paw outline" paint-order="stroke markers fill" fill="#e9afaf" stroke-width="98" d="M726 1318a114 114 0 1 0 59-220l-83-23c-30-8-61 10-70 41l-29 110c-8 31 10 62 40 70z"/>
+  <path id="handle" fill="silver" d="M674 811c-20-3-48-11-63 0l-24 87c41-26 98-8 122 32 11 15 14 34 7 51l-127 476 77 21 138-512c4-43-23-82-53-111-22-20-48-36-77-44z"/>
+  <path id="cup" fill="#5f3e1d" d="m685 1330 92 25c34 9 54 43 45 78l-18 67c-9 34-44 54-78 45l-92-25c-34-9-54-43-45-77l18-68c10-34 44-54 78-45z"/>
+  <path id="band" fill="none" stroke="#000" stroke-linecap="butt" stroke-width="29" d="m797 1472-1 2c-5 19-25 31-45 26l-116-31c-20-6-31-26-26-46v-1"/>
+  <path id="cup_interior" fill="#3e2913" d="M667 1361c-10 0-24 6-29 21h108l-72-19z"/>
+  <path id="potion" fill="#0f0" d="M746 1382H638v2l-1 2c-4 16 5 32 21 36l36 10 59 16c16 4 32-6 37-21v-2c5-17-5-33-21-37l-8-2z"/>
+  <path id="right_paw" fill="#e9afaf" stroke-width="98" d="M726 1218a114 114 0 1 0 59-220l-83-23c-30-8-61 10-70 41l-29 110c-8 31 10 62 40 70z" class="paw outline" paint-order="stroke markers fill"/>
 </svg>
