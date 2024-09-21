@@ -1187,6 +1187,10 @@
         "url": "/parts/mouth_grimace.png"
       },
       {
+        "name": "handlebar_mustache",
+        "url": "/parts/mouth_handlebar_mustache.png"
+      },
+      {
         "name": "hissing",
         "url": "/parts/mouth_hissing.png"
       },

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#000}
+    .whiskers{fill:#000}
+  </style>
+  <path id="mouth" class="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m718,1538 127,-123 155,126"/>
+  <g id="mustache" class="whiskers">
+    <path id="right_curl" d="M1280 1156a64 64 0 0 0 0 128l8-8-8-8a36 36 0 1 1 0-72 72 72 0 1 1 0 144c-152 0-176-104-312-104a52 52 0 1 0 0 104c136 0 168 64 312 64a128 128 0 1 0 0-248Z"/>
+    <path id="left_curl" d="M464 1156a64 64 0 0 1 0 128l-16-8 16-8a36 36 0 1 0 0-72 72 72 0 1 0 0 144c144 0 168-104 304-104a52 52 0 1 1 0 104c-128 0-168 64-304 64a128 128 0 0 1 0-248Z"/>
+  </g>
+</svg>
