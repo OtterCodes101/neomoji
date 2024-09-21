@@ -14979,6 +14979,10 @@
         "url": "/parts/hat_authority.png"
       },
       {
+        "name": "beret",
+        "url": "/parts/hat_beret.png"
+      },
+      {
         "name": "blank",
         "url": "/parts/blank.png"
       },
