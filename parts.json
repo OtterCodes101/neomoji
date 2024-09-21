@@ -14983,6 +14983,10 @@
         "url": "/parts/hat_bazin_conviction.png"
       },
       {
+        "name": "bazin_doubt",
+        "url": "/parts/hat_bazin_doubt.png"
+      },
+      {
         "name": "beret",
         "url": "/parts/hat_beret.png"
       },
