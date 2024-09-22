@@ -15553,6 +15553,10 @@
         "url": "/parts/front_cauldrons.png"
       },
       {
+        "name": "fries",
+        "url": "/parts/front_fries.png"
+      },
+      {
         "name": "kissing_booth",
         "url": "/parts/front_kissing_booth.png"
       },
