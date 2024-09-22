@@ -15224,6 +15224,146 @@
         "color": "melody"
       },
       {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_green.png",
+        "color": "green"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_red.png",
+        "color": "red"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_white.png",
+        "color": "white"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "reach",
         "url": "/parts/arms_reach_melody.png",
         "color": "melody"
