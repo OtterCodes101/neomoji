@@ -1243,6 +1243,10 @@
         "url": "/parts/mouth_nom_cheese.png"
       },
       {
+        "name": "nom_chocolate",
+        "url": "/parts/mouth_nom_cheese.png"
+      },
+      {
         "name": "nom_cookie",
         "url": "/parts/mouth_nom_cookie.png"
       },
