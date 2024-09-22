@@ -9435,6 +9435,146 @@
         "color": "yellow"
       },
       {
+        "name": "pen",
+        "url": "/parts/arms_pen_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_green.png",
+        "color": "green"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_red.png",
+        "color": "red"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_white.png",
+        "color": "white"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "pen",
+        "url": "/parts/arms_pen_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "pencil",
         "url": "/parts/arms_pencil_albino.png",
         "color": "albino"
