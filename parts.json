@@ -3276,6 +3276,146 @@
         "color": "yellow"
       },
       {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_green.png",
+        "color": "green"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_red.png",
+        "color": "red"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_white.png",
+        "color": "white"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "cane",
         "url": "/parts/arms_cane_albino.png",
         "color": "albino"
