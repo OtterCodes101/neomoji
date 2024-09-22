@@ -9435,6 +9435,146 @@
         "color": "yellow"
       },
       {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_green.png",
+        "color": "green"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_red.png",
+        "color": "red"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_white.png",
+        "color": "white"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "phone",
         "url": "/parts/arms_phone_blue.png",
         "color": "blue"
