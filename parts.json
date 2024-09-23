@@ -1287,6 +1287,10 @@
         "url": "/parts/mouth_nom_potato.png"
       },
       {
+        "name": "nom_slider",
+        "url": "/parts/mouth_nom_slider.png"
+      },
+      {
         "name": "nom_toblerone",
         "url": "/parts/mouth_nom_toblerone.png"
       },
