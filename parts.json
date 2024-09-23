@@ -15759,6 +15759,10 @@
         "url": "/parts/hat_hair_buns.png"
       },
       {
+        "name": "headphones",
+        "url": "/parts/hat_headphones.png"
+      },
+      {
         "name": "light_bulb",
         "url": "/parts/hat_light_bulb.png"
       },
