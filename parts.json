@@ -5289,6 +5289,146 @@
         "color": "yellow"
       },
       {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_green.png",
+        "color": "green"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_red.png",
+        "color": "red"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_white.png",
+        "color": "white"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_yellow.png",
+        "color": "yellow"
+      },
+      {
         "name": "gun",
         "url": "/parts/arms_gun_albino.png",
         "color": "albino"
