@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <defs>
+    <linearGradient id="steam_gradient" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop id="stop3" offset="0" stop-color="#fff" stop-opacity=".4"/>
+      <stop id="stop4" offset="1" stop-color="#fff" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .fur{fill:#8bb9a0}
+    .paw{fill:#8bb9a0}
+    .hand{fill:#8bb9a0}
+    .outline{stroke:#000}
+    .iris{fill:#000}
+    .sclera{fill:#ff6a00}
+    .mouth{stroke:#542912}
+    .tooth{fill:#fefbba}
+  </style>
+  <path id="steam" fill="url(#steam_gradient)" d="M 646 1512C 646 1480 670 1448 694 1424C 718 1392 766 1392 782 1360C 806 1296 734 1232 750 1168C 774 1088 782 1000 894 968C 870 1016 870 1072 878 1128C 886 1168 902 1200 926 1232C 950 1272 1006 1288 1022 1312C 1086 1384 1094 1440 1086 1544"/>
+  <g id="drink">
+    <path id="handle" fill="none" stroke="#e1e1e1" stroke-linecap="butt" stroke-linejoin="round" stroke-width="96" d="M1030 1528h168v256h-168"/>
+    <path id="cup" fill="#fff" d="M764 1414h191c70 0 127 56 127 127v260c0 70-57 127-127 127H764c-70 0-126-57-126-127v-260c0-71 56-127 126-127z"/>
+    <path id="liquid" fill="#6d4634" d="M761 1482h196c33 0 60 26 60 60v4c0 33-27 60-60 60H761c-33 0-60-27-60-60v-4c0-34 27-60 60-60z"/>
+  </g>
+  <g id="arm">
+    <path id="forearm" class="fur outline" paint-order="markers stroke fill" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M 1528 1388C 1500 1392 1276 1448 1276 1448C 1235 1457 1213 1475 1198 1497L 1194 1506C 1180 1532 1176 1567 1186 1605C 1201 1672 1264 1708 1313 1697C 1313 1697 1552 1640 1580 1632"/>
+    <path id="paw" class="paw" d="M 1408 1675L 1313 1697C 1264 1708 1201 1672 1186 1605C 1176 1567 1180 1532 1194 1506C 1208 1479 1231 1458 1276 1448L 1368 1427C 1429 1496 1455 1587 1408 1675Z"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#8bb9a0}
+    .paw{fill:#8bb9a0}
+    .hand{fill:#8bb9a0}
+    .outline{stroke:#000}
+    .iris{fill:#000}
+    .sclera{fill:#ff6a00}
+    .mouth{stroke:#542912}
+    .tooth{fill:#fefbba}
+  </style>
+  <g id="rock">
+    <path fill="#c1b17f" d="M453 1073s149-50 230-50 134 24 134 44c0 19 134 69 134 69s54 17 70 45 171 27 171 27l224 7s87-4 56 94-216 373-266 426c-49 53-207 248-381 122-174-125-461-379-504-513-44-135-54-175 132-271z"/>
+    <path fill="#262626" d="M1313 1331s-91 37-107 42c-15 5-80 48-108 88a734 734 0 0 1-171 145c-30 12-28 4-126 75-48 34-88 54-117 66 50 42 99 80 141 110 174 126 332-69 381-122 38-40 151-205 219-327l-112-77z"/>
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-width="48" d="M453 1073s149-50 230-50 134 24 134 44c0 19 134 69 134 69s54 17 70 45 171 27 171 27l224 7s87-4 56 94-216 373-266 426c-49 53-207 248-381 122-174-125-461-379-504-513-44-135-54-175 132-271z"/>
+  </g>
+  <g id="left_arm" transform="rotate(60 1342 1507)">
+    <path id="forearm" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M1436 1371c-28 5-198 52-198 52-41 10-63 28-77 51l-4 8c-13 27-16 63-6 100 17 66 82 101 130 89 0 0 187-49 213-57" class="fur outline" paint-order="markers stroke fill"/>
+    <path id="paw" d="m1376 1646-95 25c-48 12-113-23-130-89-10-37-7-73 6-100s36-48 81-59l91-24c62 67 91 158 47 247z" class="paw"/>
+  </g>
+  <use id="right_arm" x="0" y="0" display="inline" href="#left_arm" transform="matrix(-1,0,0,1,1875,27)"/>
+</svg>

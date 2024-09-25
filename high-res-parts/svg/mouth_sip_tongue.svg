@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#542912}
+    .tongue{fill:#cf4d4c}
+  </style>
+  <path id="tongue" class="tongue" d="m903 1412-24-76-45 45c-29 29-30 70-7 92 22 23 63 21 92-7l39-39z"/>
+  <path id="mouth" class="mouth" fill="none" stroke-linecap="round" stroke-width="78" d="M864 1246c-1 62 34 181 161 227" />
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+    <g id="neocat">
+      <path id="outline" fill="#000" stroke="#000" stroke-width="72" d="M707 1299h-3c-51 2-65 59-61 101v120c-9 16-13 33-17 51h-1l-9 40a100 100 0 0 0-22 35c-6 17-4 36 3 53 3 6 5 13 3 19 0 9-5 17-7 25-8 24-1 52 18 70 13 13 31 19 49 20 12 2 21 11 30 19 33 28 74 47 117 53 24 4 47 2 71 2h41v-1 1c67 0 134 2 200-6 76-18 134-92 133-171 0-68 4-138-21-202-5-39 10-78 14-117 7-36 13-86-28-105-37-18-74 8-109 20-31 14-63 30-97 13-55-13-113-8-168 6-34-6-65-26-99-36-12-3-24-10-37-10Z"/>
+      <path id="fur" fill="#fdc75a" d="M1188 1331c-26 4-50 18-75 27l-64 26c-67-27-141-28-209-3-43-17-85-35-128-50-34-4-40 35-36 60l-1 137c-21 40-29 86-33 130-1 23 3 47 7 69 23 93 109 155 203 148 81-1 163 1 244-2 74-10 128-76 124-152-1-62 6-127-20-185-9-11-5-23-3-34l23-139c0-17-15-33-32-32Z"/>
+      <g id="whiskers" stroke="#8e5e31" stroke-linecap="round" stroke-width="76">
+        <path id="whisker_tr" d="m692 1682-32-15"/>
+        <path id="whisker_tl" d="m1108 1683 63-31"/>
+        <path id="whisker_br" d="m659 1763 32-15"/>
+        <path id="whisker_bl" d="m1171 1778-63-31"/>
+      </g>
+      <path id="mouth" fill="none" stroke="#562a13" stroke-linecap="round" stroke-linejoin="round" stroke-width="76" d="m788 1683 32 64 48-65 64 65 64-64"/>
+      <g id="eyes">
+        <path id="left_eye" d="M980 1491c27 0 49 22 49 49v30a49 49 0 1 1-98 0v-30c0-27 22-49 49-49Z"/>
+        <use id="right_eye" href="#left_eye" x="0" y="0" transform="translate(-192)"/>
+      </g>
+    </g>
+    <g id="left_arm">
+      <path id="forearm" class="fur outline" paint-order="markers stroke fill" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M1436 1371c-28 5-198 52-198 52-41 10-63 28-77 51l-4 8c-13 27-16 63-6 100 17 66 82 101 130 89 0 0 187-49 213-57"/>
+      <path id="paw" class="paw" d="m1376 1646-95 25c-48 12-113-23-130-89-10-37-7-73 6-100s36-48 81-59l91-24c62 67 91 158 47 247Z"/>
+    </g>
+    <use id="right_arm" href="#left_arm" x="0" y="0" transform="matrix(-1 0 0 1 1793 0)"/>
+</svg>

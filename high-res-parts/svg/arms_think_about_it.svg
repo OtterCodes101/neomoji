@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}.hand{fill:#e9afaf}
+  </style>
+  <path id="hand_outline" class="outline" stroke-linejoin="round" stroke-width="150" paint-order="markers stroke fill" d="M1511 747a63 63 0 0 0-90 0 63 63 0 0 0 0 91l180 182-107 106c-59 60-65 83-9 138l143 139c50 48 83 46 133-4l151-150c32-32 19-89-8-116z"/>
+  <path id="hand" class="hand" stroke-linejoin="round" stroke-width="150" paint-order="markers stroke fill" d="M1511 747a63 63 0 0 0-90 0 63 63 0 0 0 0 91l180 182-107 106c-59 60-65 83-9 138l143 139c50 48 83 46 133-4l151-150c32-32 19-89-8-116z"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <g id="left_arm" transform="translate(-66 -58)">
+    <path id="forearm" stroke-linejoin="round" stroke-width="144" d="M1384 1696c-173-145-232-443-232-531v-164c1-50 57-102 124-102 39 0 72 11 95 31s41 58 38 89c-3 32-4 273 179 513" class="fur outline" paint-order="markers stroke fill"/>
+    <path id="paw" d="M1276 899c-67 0-123 52-124 102v108c72 50 186 47 263 13-8-54-7-92-6-103 3-31-15-69-38-89s-56-31-95-31z" class="paw"/>
+  </g>
+  <use xlink:href="#left_arm" id="right_arm" width="100%" height="100%" x="0" y="0" transform="matrix(-1 0 0 1 1856 0)"/>
+</svg>

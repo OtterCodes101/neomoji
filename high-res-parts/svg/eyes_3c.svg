@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <style>
+    .iris{fill:#000}
+  </style>
+  <path id="left_eye" class="iris" d="M 1086 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />
+  <path id="right_eye" class="iris" d="M 510 960 a 128 128 0 0 1 256 0 v 64 a 64 64 0 0 1 -64 64 h -128 a 64 64 0 0 1 -64 -64 z" />
+</svg>

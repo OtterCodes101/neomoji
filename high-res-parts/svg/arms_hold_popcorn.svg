@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}
+  </style>
+  <defs>
+    <linearGradient id="rw_stripes">
+      <stop offset="0%" stop-color="red"/>
+      <stop offset="20%" stop-color="red"/>
+      <stop offset="20%" stop-color="#fff"/>
+      <stop offset="40%" stop-color="#fff"/>
+      <stop offset="40%" stop-color="red"/>
+      <stop offset="60%" stop-color="red"/>
+      <stop offset="60%" stop-color="#fff"/>
+      <stop offset="80%" stop-color="#fff"/>
+      <stop offset="80%" stop-color="red"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <g id="Popcorn">
+    <path id="Outline" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="116" d="m587 1475-15-85a54 54 0 0 1 85-54 78 78 0 0 1 101-93c0-16 7-39 23-55l-16-38c-7-39 39-86 86-78l46 16 31-8c31 0 54 23 62 46l47-7a85 85 0 0 1 62 124h7a70 70 0 0 1 70 85 70 70 0 0 1 86 70l-8 23-70 418c0 55-124 109-264 109-147 0-271-54-271-109Z"/>
+    <path id="Kernels" fill="#f8e26c" d="M1207 1553s-387 116-519 7l-62-85c-31 0-54-54-54-85a54 54 0 0 1 85-54 78 78 0 0 1 101-93c0-16 7-39 23-55l-16-38c-7-39 39-86 86-78l46 16 31-8c31 0 54 23 62 46l47-7a85 85 0 0 1 62 124h7a70 70 0 0 1 70 85 70 70 0 0 1 86 70Z"/>
+    <path id="Bucket" fill="url(#rw_stripes)" d="m1254 1405-70 434c0 55-124 109-264 109-147 0-271-54-271-109l-70-434c16 55 163 93 341 93 171 0 318-38 334-93Z"/>
+    <g id="Shadows" stroke-width="23" fill="none" stroke="#000">
+      <path d="M928 1181s-15 54-77 23"/>
+      <path d="M1052 1305s-46 23-77-31"/>
+      <path d="M796 1328s-7 54-77 46"/>
+      <path d="M959 1413s-46 31-85-23"/>
+      <path d="M1138 1382s-24 54-86 23"/>
+    </g>
+  </g>
+  <g id="left_arm">
+    <path id="forearm" class="fur outline" paint-order="markers stroke fill" stroke-linecap="butt" stroke-linejoin="round" stroke-width="144" d="M1436 1371c-28 5-198 52-198 52-41 10-63 28-77 51l-4 8c-13 27-16 63-6 100 17 66 82 101 130 89 0 0 187-49 213-57"/>
+    <path id="paw" class="paw" d="m1376 1646-95 25c-48 12-113-23-130-89-10-37-7-73 6-100s36-48 81-59l91-24c62 67 91 158 47 247Z"/>
+  </g>
+  <use id="right_arm" href="#left_arm" x="0" y="0" transform="matrix(-1 0 0 1 1793 0)"/>
+</svg>

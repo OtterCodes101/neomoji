@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .paw{fill:#f7965b}
+    .outline{stroke:#000000}
+  </style>
+  <g transform="rotate(-15 4448 1169) scale(.66048)">
+    <path id="pill" fill="#68a19b" d="M1081 538c-119 0-610 33-607 328-3 295 488 328 607 328 118 0 610-33 606-328 4-295-488-328-606-328z"/>
+    <text id="label" fill="#2e4a47" font-family="Gabriola" font-size="1000" style="line-height:1;-inkscape-font-specification:'Gabriola, Normal';white-space:pre;shape-inside:url(#rect2)" transform="translate(921,1036)"><tspan id="tspan1" x="938" y="1395">e</tspan></text>  </g>
+  <path id="right_paw" class="paw outline" paint-order="stroke markers fill" stroke-width="98" d="M525 1810a114 114 0 1 0-197-114l-43 74c-16 27-7 62 21 78l98 57c28 16 63 6 78-21z"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <style>.fur{fill:#e3dedb}.paw{fill:#e9afaf}.outline{stroke:#000}</style>
+  <g id="left_arm">
+    <path id="outline" class="outline" stroke-width="128" d="m1574 1614-6-5-306-177c-43-26-64-96-30-155 20-34 46-57 75-67s60-8 100 15l291 171"/>
+    <path id="forearm" class="fur" d="m1574 1614-6-5-306-177c-43-26-64-96-30-155 20-34 46-57 75-67s60-8 100 15l291 171"/>
+    <path id="paw" class="paw" d="m1346 1481-84-49c-43-26-64-96-30-155 20-34 46-57 75-67s60-8 100 15l81 48c-4 92-48 176-142 208z"/>
+  </g>
+  <use id="right_arm" href="#left_arm" width="100%" height="100%" transform="translate(-1098)"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#000000}
+  </style>
+  <defs id="defs1">
+    <clipPath id="below_mouth" clipPathUnits="userSpaceOnUse">
+      <path id="path2" d="m370 1816 4-490 236 8 98 154c14 24 47 25 64 4l97-124 125 130c14 15 38 16 54 3l190-160v475z"/>
+    </clipPath>
+  </defs>
+  <path id="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m643 1313 98 155 125-160 156 163 191-160" class="mouth"/>
+  <g id="onigiri" stroke="none" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#below_mouth)">
+    <path id="side" fill="#d9a36e" d="M892 1813c-76-11-134-64-202-103-66-38-141-62-188-123-28-34-24-94 7-126 94-95 217-156 350-174 44-6 98 25 115 66 51 124 59 261 24 390-12 43-62 76-106 70Z"/>
+    <path id="rice" fill="#fff" d="M820 1817c-76-10-134-63-201-102s-142-62-189-123c-28-34-24-95 7-126 94-95 217-157 350-175 44-6 98 26 115 67 51 124 59 261 24 390-12 43-62 76-106 69Z"/>
+    <path id="wrap" fill="#2d400e" d="m606 1442 256 148-118 203-255-147Z"/>
+  </g>
+</svg>

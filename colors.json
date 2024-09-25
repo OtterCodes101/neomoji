@@ -1,0 +1,110 @@
+{
+    "albino": {
+        "fur": "#ffffff", 
+        "paw": "#e9afaf"
+    },
+    "blue": {
+        "fur": "#4f8c9e" 
+    },
+    "brown": {
+        "fur": "#ba856d"
+    },
+    "catraxx": {
+        "fur": "#070362",
+        "paw": "#393581",
+        "hand": "#393581"
+    },
+    "cinnamon": {
+        "fur": "#b57746", 
+        "paw": "#e9afaf"
+    },
+    "comfy": {
+        "fur": "#5a7294"
+    },
+    "darkbrown": {
+        "fur": "#672c10" 
+    },
+    "dog": {
+        "fur": "#f3c07b",
+        "hand": "#ffdea7"
+    },
+    "fawn": {
+        "fur": "#deb28b", 
+        "paw": "#e9afaf"
+    },
+    "frozen": {
+        "fur": "#7beeff",
+        "outline": "#2d67cc"
+    },
+    "goblin": {
+        "fur": "#8bb9a0",
+        "sclera": "#fc5900",
+        "mouth": "#542912",
+        "tongue": "#cf4d4c"
+    },
+    "green": {
+        "fur": "#add359"
+    },
+    "grey": {
+        "fur": "#979797"
+    },
+    "hairless": {
+        "fur": "#e7baba",
+        "paw": "#e9afaf"
+    },
+    "lightbrown": {
+        "fur": "#ba856d"
+    },
+    "lightgrey": {
+        "fur": "#d2d0ca"
+    },
+    "melody": {
+        "fur": "#ff9fcb",
+        "paw": "#fccfe8",
+        "hand": "#fccfe8",
+        "snout": "#fccfe8",
+        "outline": "#7e1883",
+        "pad": "#5a9caf"
+    },
+    "mouse": {
+        "fur": "#e3dedb",
+        "paw": "#e9afaf"
+    },
+    "mouseblack": {
+        "fur": "#4d5b66",
+        "paw": "#e9afaf"
+    },
+    "mousebrown": {
+        "fur": "#6c5d53",
+        "paw": "#e9afaf"
+    },
+    "mousecomfy": {
+        "fur": "#5a7294",
+        "paw": "#e9afaf"
+    },
+    "orange": {
+        "fur": "#f7965b",
+        "hand": "#f9b388"
+    },
+    "orc": {
+        "fur": "#808080",
+        "sclera": "#ff6a00"
+    },
+    "pink": {
+        "fur": "#dea3aa"
+    },
+    "red": {
+        "fur": "#f2725a"
+    },
+    "white": {
+        "fur": "#ffffff"
+    },
+    "wyvern": {
+        "fur": "#91746e",
+        "hand": "#ba9c92"
+    },
+    "yellow": {
+        "fur": "#ffc95c",
+        "hand": "#ffde9c"
+    }
+}

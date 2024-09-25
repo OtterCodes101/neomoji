@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style id="style1">
+    .sclera{fill:#fff}
+    .iris{fill:#000}
+  </style>
+  <g id="left_eye" display="inline" opacity="1">
+    <circle id="sclera" class="sclera" cx="1248" cy="982" r="227" class="sclera"/>
+    <path id="iris" class="iris" d="M1152 928a64 64 0 0 1 128 0v128a64 64 0 0 1-128 0z"/>
+  </g>
+  <use id="right_eye" href="#left_eye" transform="translate(-644)"/>
+</svg>
