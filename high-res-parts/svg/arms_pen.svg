@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg1" version="1.2" viewBox="0 0 2048 2048">
+  <style id="style1">
+    .paw{fill:#e9afaf}
+    .outline{stroke:#000}
+  </style>
+  <g id="pen">
+    <path id="path44" fill="none" stroke="#000" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M492 1480c-31 31-57 69-60 112a8 8 0 0 0 16 1c3-48 45-95 86-129 20-16 48-32 73-44l-50 49 9 9-325 324 84 84 324-325 9 9 73-74 50-50s0 0 0 0c10-10 21-30-26-76-48-49-64-35-75-24l-39 40c-23 10-82 38-117 66l-32 28Zm-251 322c-13 13-30 60-41 94l6 6-12 11a15 15 0 0 0 21 21l12-11 4 4c34-10 78-26 93-41Z"/>
+    <path id="path29" fill="#d3d3d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.1" d="m200 1896 31 31c34-10 78-26 93-41l-83-84c-13 13-30 60-41 94Z"/>
+    <path id="path3" fill="#00008b" fill-opacity="1" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width=".6" d="m241 1802 84 84 408-409c8-8 20-24-21-64-40-41-53-29-62-20Z"/>
+    <path id="path30" fill="#00008b" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1" d="m206 1901-12 12a15 15 0 1 0 21 21l12-12Z"/>
+    <path id="path31" fill="#fff" fill-opacity=".8" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width=".7" d="m557 1469 101 101 122-123c9-10 24-29-25-77-48-49-64-35-75-24Z"/>
+    <path id="path32" fill="#fff" stroke-linecap="round" d="m658 1380-6 1s-85 36-128 71-88 83-92 140a8 8 0 0 0 16 1c3-48 45-95 86-129 42-34 125-69 125-69a8 8 0 0 0-1-15Z" color="#000" style="-inkscape-stroke:none"/>
+    <path id="path33" fill="#00008b" fill-opacity="1" stroke="none" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M682 1545c-12-13 0-45 27-72s59-39 72-27l-99 99Z"/>
+  </g>
+  <path id="paw" stroke-width="98" d="M402 1653a114 114 0 1 0 60 221l82-22c30-8 48-39 41-70l-30-110c-9-31-40-48-70-40z" class="paw outline" display="inline" paint-order="stroke markers fill"/>
+</svg>

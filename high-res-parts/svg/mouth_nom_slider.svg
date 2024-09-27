@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#37270c}
+  </style>
+  <defs>
+    <clipPath id="below_mouth" clipPathUnits="userSpaceOnUse">
+      <path id="path2" d="m 610 1334 l 98 154 c 14 24 47 25 64 4 l 97 -124 l 125 130 c 14 15 38 16 54 3 l 190 -160 v -1341 h 810 v 2048 h -2048 v -2048 h 610 z"/>
+    </clipPath>
+  </defs>
+  <path id="mouth" class="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m643 1313 98 155 125-160 156 163 191-160"/>
+  <g id="burger" clip-path="url(#below_mouth)">
+    <g transform="matrix(0.35,-0.35,0.35,0.35,79,1162)">
+      <path id="bottom_bun" fill="#d9964d" d="M191 1793v65c0 34 27 61 61 61h647c33 0 60-27 60-61v-65z"/>
+      <rect id="patty" fill="#5d4236" x="128" y="1600" width="898" height="192" rx="69" ry="69"/>
+      <path id="tomato" fill="#c43939" d="M195 1412h765v124H195z"/>
+      <path id="cheese" fill="#efcc75" d="M193 1536v66c169 12 255 68 371 68 112 0 249-55 395-69v-65z"/>
+      <path id="top_bun" fill="#edac66" d="M193 1413c0-280 200-371 383-371s384 81 384 371z"/>
+      <path id="lettuce" fill="none" stroke="#76bc36" stroke-linecap="round" stroke-width="76" d="m159 1440c70 0 139-63 209-63s139 63 209 63 139-63 209-63 139 63 209 63"/>
+      <g id="sesame_seeds" fill="#fff3d6">
+        <circle cx="352" cy="1248" r="32"/>
+        <circle cx="545" cy="1312" r="32"/>
+        <circle cx="608" cy="1184" r="32"/>
+        <circle cx="800" cy="1249" r="32"/>
+      </g>
+    </g>
+  </g>
+</svg>

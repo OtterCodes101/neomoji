@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <g id="beret" fill="maroon" stroke="#000" stroke-width="32" stroke-linejoin="round">
+    <path d="M 552 557L 1671 557L 1671 686L 552 686Z"/>
+    <path d="M 932 143C 817 150 654 184 559 224C 464 258 342 299 342 387C 342 482 437 557 559 557C 1373 557 1359 896 1617 896C 1692 896 1746 855 1746 794C 1746 611 1570 265 1040 157Z"/>
+    <path d="M 1414 197L 1339 333L 1522 252Z"/>
+  </g>
+</svg>

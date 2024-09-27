@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+   <style>
+      .hand{fill:#e9afaf}
+   </style>
+   <path fill="none" stroke="#000" stroke-linejoin="round" stroke-width="100" d="M1507 946c-36 0-64 28-64 64v317c-58 0-68 38-68 84 0 47 14 111 68 111h229c50 0 91-48 91-98v-125c0-52-43-97-94-97h-97l-1-192c0-36-28-64-64-64z"/>
+   <path class="hand" d="M1507 946c-36 0-64 28-64 64v317c-58 0-68 38-68 84 0 47 14 111 68 111h229c50 0 91-48 91-98v-125c0-52-43-97-94-97h-97l-1-192c0-36-28-64-64-64z"/>
+   <path fill="none" stroke="#000" stroke-linejoin="round" stroke-width="100" d="m1489 1414 172 1c-49-68-91-88-125-88h-93"/>
+   <path class="hand" d="M1441 1327v87l220 1c-49-68-91-88-125-88z"/>
+</svg>

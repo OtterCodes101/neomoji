@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+   <defs>
+   </defs>
+   <style>
+      .fur{fill:#e3dedb}
+      .paw{fill:#e9afaf}
+      .outline{stroke:#000}
+   </style>
+   <g id="arm">
+      <path id="arm_outline" class="outline" fill="none" stroke-width="128" stroke-linecap="butt" d="M1592 1332c-62 88-236 276-311 320-103 60-216 99-155 231 46 101 182 99 335-22 258-204 279-310 332-433"/>
+      <path id="arm_fur" class="fur" d="M1592 1332c-62 88-236 276-311 320-103 60-216 99-155 231 46 101 182 99 335-22 258-204 279-310 332-433"/>
+      <path id="arm_paw" class="paw" d="m1439 1877-6 5c-33 23-69 42-107 58-23 7-48 12-72 15-17 1-34-1-51-4-15-5-29-12-42-22-12-10-23-22-31-36l-9-22c-5-14-9-29-11-43a114 114 0 0 1 21-75 261 261 0 0 1 74-59l38-21 38-21 14-9c81 13 180 147 144 234Z"/>
+   </g>
+   <g id="bowl_back">
+      <path id="bowl_base" fill="gray" stroke="#000" stroke-width="32" d="M1083 1792c8 7 0 68 0 68h412s-8-61 0-68h-208z"/>
+      <path id="gravel" fill="#0f0" d="M1605 1675H974a367 367 0 0 0 109 117h412a367 367 0 0 0 110-117z"/>
+   </g>
+   <g id="neohaj">
+      <path id="haj_outline" fill="none" stroke="#000" stroke-width="32" d="m1410 1309-16 6c-41 17-66 45-81 69-125 24-132 151-99 208 34 56 92 38 92 38l121-32c49-13 41-66 41-66l-21-78c-8-23-22-39-37-51-2-19 1-53 10-77 7-18 1-20-10-17Z"/>
+      <path id="haj_fur" fill="gold" d="m1410 1309-16 6c-41 17-66 45-81 69-125 24-132 151-99 208 34 56 92 38 92 38l121-32c49-13 41-66 41-66l-21-78c-8-23-22-39-37-51-2-19 1-53 10-77 7-18 1-20-10-17Z"/>
+      <path id="haj_chin" fill="#d3d3d1" d="M1318 1520c-44 11-79 40-105 71l1 1c34 56 92 38 92 38l121-32c11-3 19-7 26-13-28-36-66-70-112-68Z"/>
+      <path id="gills" stroke="#28606d" stroke-linecap="round" stroke-width="6" d="m 1444 1509 l 5 -11 m -24 6 l 12 -21 m -30 18 l 20 -37"/>
+      <path id="teeth" fill="#f9f9f9" stroke="#000" stroke-linejoin="round" stroke-width="9" d="m1227 1564 173-48s16 76-79 94c-95 19-94-46-94-46Z"/>
+      <path id="teeth_zigzag" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="4" d="m1234 1589 7-30 29 54v-61l35 62-2-71 35 63-1-73 32 57-2-66 23 41-1-46 12 12h1"/>
+      <path id="left_eye" fill="#000" d="M1329 1417c19-5 37 6 42 24l5 20c5 18-6 36-24 41s-38-5-43-23l-5-20c-5-18 7-37 25-42Z"/>
+      <path id="right_eye" fill="#000" d="M1244 1440c18-5 36 6 41 24l6 20c4 18-6 36-24 41s-38-5-43-23l-5-20c-5-19 7-37 25-42Z"/>
+   </g>
+   <g id="bowl_front">
+      <path id="water" fill="#72d0fb" fill-opacity=".4" stroke-linejoin="round" stroke-width="130" d="M951 1350a367 367 0 0 0 132 442h412a370 370 0 0 0 128-442 336 26 0 0 1-336 26 336 26 0 0 1-332-26z"/>
+      <path id="bowl_outline" fill="#e0ffff" fill-opacity=".2" stroke="#000" stroke-linejoin="round" stroke-width="30.2" d="M1287 1214c-128 0-242 11-268 37-30 23-95 110-95 242 0 121 61 235 159 299h412c94-64 159-178 159-299 0-94-38-185-80-226-45-42-155-53-287-53z" opacity="1"/>
+      <path id="bowl_opening" stroke="#000" stroke-linejoin="round" stroke-width="32" d="M1026 1244c0 15 118 26 261 26 148 0 265-11 265-26"/>
+   </g>
+</svg>
