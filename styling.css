@@ -194,6 +194,7 @@ main {
 }
 .left-panel section {
 	overflow-x: auto;
+	overscroll-behavior-x: contain;
 	padding: var(--padding);
 	padding-inline-end: calc(var(--padding) * 2);
 	border-bottom: 1px solid rgba(100,100,100,0.1);
