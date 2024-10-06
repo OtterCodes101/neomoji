@@ -1228,6 +1228,10 @@
         "url": "/parts/mouth_mustache_blep.png"
       },
       {
+        "name": "neocat_woozy",
+        "url": "/parts/mouth_neocat_woozy.png"
+      },
+      {
         "name": "nom_apple",
         "url": "/parts/mouth_nom_apple.png"
       },
