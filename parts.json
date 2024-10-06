@@ -900,6 +900,11 @@
         "color": "fawn"
       },
       {
+        "name": "neomug",
+        "url": "/parts/neomug.png",
+        "color": "white"
+      },
+      {
         "name": "neoorc",
         "url": "/parts/neoorc.png",
         "color": "orc"
@@ -1115,6 +1120,11 @@
         "color": "yellow"
       },
       {
+        "name": "neotoiletroll",
+        "url": "/parts/neotoiletroll.png",
+        "color": "white"
+      },
+      {
         "name": "neotrain",
         "url": "/parts/neotrain.png",
         "color": "white"
@@ -1221,6 +1231,10 @@
       {
         "name": "mustache_blep",
         "url": "/parts/mouth_mustache_blep.png"
+      },
+      {
+        "name": "neocat_woozy",
+        "url": "/parts/mouth_neocat_woozy.png"
       },
       {
         "name": "nom_apple",
