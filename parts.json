@@ -1120,6 +1120,11 @@
         "color": "yellow"
       },
       {
+        "name": "neotoiletroll",
+        "url": "/parts/neotoiletroll.png",
+        "color": "white"
+      },
+      {
         "name": "neotrain",
         "url": "/parts/neotrain.png",
         "color": "white"
