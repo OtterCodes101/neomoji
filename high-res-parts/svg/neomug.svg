@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <defs id="defs2">
+    <linearGradient id="steam_gradient" x1="0.5" x2="0.5" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <path id="outline" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="256" d="M591 194a390 390 0 0 0-391 394v874c0 217 174 394 391 394h673c179 0 331-120 379-284h418c82 0 149-67 149-149V652c0-82-67-149-149-149h-412a393 393 0 0 0-385-309Zm1068 607h253v473h-253Z"/>
+  <path id="steam" fill="url(#steam_gradient)" d="m 238,553c 0,-99 75,-199 149,-273 75,-99 224,-99 273,-199 75,-199 -149,-397 -99,-596 75,-248 99,-522 447,-621 -75,149 -75,323 -50,497 25,124 75,224 149,323 75,124 248,174 298,248C 1604,155 1629,329 1604,652"/>
+  <path id="handle" fill="none" stroke="#e2e2e2" stroke-linecap="butt" stroke-linejoin="round" stroke-width="298" d="M1515 652h546v771h-546"/>
+  <path id="cup" fill="#fff" d="M591 194h673c218 0 395 174 395 394v874c0 217-177 394-395 394H591a392 392 0 0 1-391-394V588c0-220 174-394 391-394Z"/>
+  <path id="liquid" fill="#6d4634" d="M542 325h769c119 0 217 111 217 223 0 111-100 222-217 222H542c-117 0-217-111-217-222-1-112 98-223 217-223Z"/>
+</svg>

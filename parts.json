@@ -900,6 +900,11 @@
         "color": "fawn"
       },
       {
+        "name": "neomug",
+        "url": "/parts/neomug.png",
+        "color": "white"
+      },
+      {
         "name": "neoorc",
         "url": "/parts/neoorc.png",
         "color": "orc"
