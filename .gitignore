@@ -5,3 +5,10 @@ parts.json.bak
 nmm/
 faviconpics/
 api/nmm-api/
+batch.json
+new_parts.txt
+RobotoCondensed-Medium.ttf
+.vscode/launch.json
+.vscode/settings.json
+__pycache__/
+__pycache__/

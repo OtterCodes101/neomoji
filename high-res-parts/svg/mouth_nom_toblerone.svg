@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <style>
+    .mouth{stroke:#37270c}
+  </style>
+  <defs>
+    <clipPath id="below_mouth" clipPathUnits="userSpaceOnUse">
+      <path id="path2" d="m 610 1334 l 98 154 c 14 24 47 25 64 4 l 97 -124 l 125 130 c 14 15 38 16 54 3 l 190 -160 h 810 v 707 h -2048 v -714 z"/>
+    </clipPath>
+  </defs>
+  <path id="mouth" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="80" d="m643 1313 98 155 125-160 156 163 191-160" class="mouth"/>
+  <g id="toblerone" clip-path="url(#below_mouth)">
+  </g>
+  <image id="ref" x="0" y="0" width="2048" height="2048"
+         href="../../../../emoji/Volpeon/neocat/neocat_nom_toblerone_2048.png" />
+</svg>
