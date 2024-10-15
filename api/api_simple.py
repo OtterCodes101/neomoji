@@ -15,8 +15,27 @@ def get_src_parts():
         g.src_parts = {}
         with open("parts.json") as parts_file:
             g.src_parts = json.load(parts_file)
-            
     return g.src_parts
+
+def make_specification_from_request(request):
+    specification = {l: None for l in Level}
+    if request.is_json:
+        for k, v in request.json.items():
+            if k not in (*Level, "author"):
+                error_list.append(f"There is no layer named {k}")
+            elif k == "author":
+                pass
+            else:
+                specification[Level[k.upper()]] = v
+    else:
+        for k, v in request.args.items():
+            if k not in (*Level, "author"):
+                error_list.append(f"There is no layer named {k}")
+            elif k == "author":
+                pass
+            else:
+                specification[Level[k.upper()]] = v
+    return specification
 
 Level = StrEnum("LEVELS", ["BODY", "EYES", "HAT", "MOUTH", "ARMS", "FRONT"])
 
@@ -109,23 +128,7 @@ class Neomoji:
 def handle_create(specification:dict=None):
     error_list = []
     if not specification:
-        specification = {l: None for l in Level}
-        if request.is_json:
-            for k, v in request.json.items():
-                if k not in (*Level, "author"):
-                    error_list.append(f"There is no layer named {k}")
-                elif k == "author":
-                    pass
-                else:
-                    specification[Level[k.upper()]] = v
-        else:
-            for k, v in request.args.items():
-                if k not in (*Level, "author"):
-                    error_list.append(f"There is no layer named {k}")
-                elif k == "author":
-                    pass
-                else:
-                    specification[Level[k.upper()]] = v
+        specification = make_specification_from_request(request)
     
     n = Neomoji()
     for l in Level:
@@ -156,7 +159,7 @@ def handle_create(specification:dict=None):
 
 @app.route("/create/random", methods=["GET", "POST"])
 def handle_create_random():
-    random_spec = {}
+    random_spec = make_specification_from_request(request)
     blank_chance = {
         Level.BODY: 0,
         Level.EYES: 0.01,
@@ -166,6 +169,8 @@ def handle_create_random():
         Level.FRONT: 0.95
     }
     for l in Level:
+        if random_spec[l]:
+            continue
         if blank_chance[l] < random.random():
             parts = JSONPath(f'$.type.{l}[*][name]').parse(get_src_parts())
             random_spec[str(l)] = random.choice(parts)
