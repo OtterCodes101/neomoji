@@ -15932,6 +15932,10 @@
         "url": "/parts/front_lurk.png"
       },
       {
+        "name": "neobot_delivery",
+        "url": "/parts/front_neobot_delivery.png"
+      },
+      {
         "name": "neobot_shop",
         "url": "/parts/front_neobot_shop.png"
       },
