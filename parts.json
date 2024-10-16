@@ -1289,6 +1289,10 @@
         "url": "/parts/mouth_nom_bone.png"
       },
       {
+        "name": "nom_brains",
+        "url": "/parts/mouth_nom_brains.png"
+      },
+      {
         "name": "nom_bread",
         "url": "/parts/mouth_nom_bread.png"
       },
