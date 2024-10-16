@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
+  <g id="bow" stroke="#aa5559" stroke-linecap="round" stroke-linejoin="round" stroke-width="64" paint-order="markers stroke fill">
+   <path fill="#e798a1" d="M1037 1756c42-43 162-136 218-169 39-26 86-27 82 36 1 52 12 178-9 264-10 39-35 118-72 103-93-37-221-113-221-113z"/>
+   <path fill="#e798a1" d="M975 1760a887 887 0 0 0-244-155c-30-12-73-24-82 40-11 83 13 216 40 278 16 37 37 82 74 67 93-37 221-113 221-113z"/>
+  </g>
+  <g id="crease" stroke="#aa5559" stroke-linecap="round" stroke-linejoin="round"  stroke-width="32">
+   <path fill="none" d="M1044 1788s79 20 162-40"/>
+   <path fill="none" d="M1040 1823s96-4 148 39"/>
+   <path fill="none" d="M957 1822s-73 14-98 49"/>
+   <path fill="none" d="M969 1796s-47 9-80-6c-32-15-47-22-87-6"/>
+  </g>
+  <ellipse cx="1010" cy="1816" fill="#e798a1" stroke="#aa5559" stroke-linecap="round" stroke-linejoin="round" stroke-width="64" paint-order="markers stroke fill" rx="60" ry="81"/>
+</svg>
