@@ -9637,6 +9637,11 @@
         "color": "yellow"
       },
       {
+        "name": "neckbolts",
+        "url": "/parts/arms_neckbolts.png",
+        "color": ""
+      },
+      {
         "name": "pen",
         "url": "/parts/arms_pen_albino.png",
         "color": "albino"
@@ -15847,6 +15852,10 @@
       {
         "name": "police",
         "url": "/parts/hat_police.png"
+      },
+      {
+        "name": "stitches",
+        "url": "/parts/hat_stitches.png"
       },
       {
         "name": "third_eye",
