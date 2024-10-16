@@ -36,7 +36,7 @@ heart_color_list = [
 
 tree = ET.parse(f"high-res-parts/svg/arms_heart.svg")
 for heart_color, heart_inner, heart_outer in heart_color_list:
-  for color, palette in color_dict.items():
+  for color, palette in [c for c in color_dict.items() if c[0]=="melody"]:
     print(f"Needs to be made: .\\parts\\arms_{heart_color}_heart_{color}.png")
     style = tree.find(".//{http://www.w3.org/2000/svg}style")
     style.text = re.sub(r"\.fur{fill:\#[0-9a-f]{3,8}}", f".fur{{fill:{palette["fur"]}}}", style.text)
