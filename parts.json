@@ -111,6 +111,46 @@
         "url": "/parts/eyes_laugh_sweat.png"
       },
       {
+        "name": "mask_neobot",
+        "url": "/parts/eyes_mask_bot.png"
+      },
+      {
+        "name": "mask_neocat",
+        "url": "/parts/eyes_mask_cat.png"
+      },
+      {
+        "name": "mask_neocatraxx",
+        "url": "/parts/eyes_mask_catraxx.png"
+      },
+      {
+        "name": "mask_neodog",
+        "url": "/parts/eyes_mask_dog.png"
+      },
+      {
+        "name": "mask_neofox",
+        "url": "/parts/eyes_mask_fox.png"
+      },
+      {
+        "name": "mask_neogob",
+        "url": "/parts/eyes_mask_gob.png"
+      },
+      {
+        "name": "mask_neomelody",
+        "url": "/parts/eyes_mask_melody.png"
+      },
+      {
+        "name": "mask_neoslime_blue",
+        "url": "/parts/eyes_mask_slime_blue.png"
+      },
+      {
+        "name": "mask_neoslime_green",
+        "url": "/parts/eyes_mask_slime_green.png"
+      },
+      {
+        "name": "mask_neoslime_red",
+        "url": "/parts/eyes_mask_slime_red.png"
+      },
+      {
         "name": "neobot",
         "url": "/parts/eyes_neobot.png"
       },
@@ -1247,6 +1287,10 @@
       {
         "name": "nom_bone",
         "url": "/parts/mouth_nom_bone.png"
+      },
+      {
+        "name": "nom_brains",
+        "url": "/parts/mouth_nom_brains.png"
       },
       {
         "name": "nom_bread",
@@ -9597,6 +9641,11 @@
         "color": "yellow"
       },
       {
+        "name": "neckbolts",
+        "url": "/parts/arms_neckbolts.png",
+        "color": ""
+      },
+      {
         "name": "pen",
         "url": "/parts/arms_pen_albino.png",
         "color": "albino"
@@ -15809,6 +15858,10 @@
         "url": "/parts/hat_police.png"
       },
       {
+        "name": "stitches",
+        "url": "/parts/hat_stitches.png"
+      },
+      {
         "name": "third_eye",
         "url": "/parts/hat_third_eye.png"
       },
@@ -15847,6 +15900,10 @@
         "url": "/parts/front_boop.png"
       },
       {
+        "name": "bow",
+        "url": "/parts/front_bow.png"
+      },
+      {
         "name": "bread",
         "url": "/parts/front_bread.png"
       },
@@ -15875,8 +15932,16 @@
         "url": "/parts/front_lurk.png"
       },
       {
+        "name": "neobot_delivery",
+        "url": "/parts/front_neobot_delivery.png"
+      },
+      {
         "name": "neobot_shop",
         "url": "/parts/front_neobot_shop.png"
+      },
+      {
+        "name": "neogobs_playing",
+        "url": "/parts/front_neogobs_playing.png"
       },
       {
         "name": "neopumpkin",
