@@ -1,0 +1,155 @@
+<html>
+	<head>
+		<title>Neomojimixer API documentation</title>
+		<style>
+			 /* The sidebar menu */
+			.sidenav {
+			  height: 100%; /* Full-height: remove this if you want "auto" height */
+			  width: 250px; /* Set the width of the sidebar */
+			  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+			  z-index: 1; /* Stay on top */
+			  top: 0; /* Stay at the top */
+			  left: 0;
+			  /* background-color: #111; /* Black */
+			  overflow-x: hidden; /* Disable horizontal scroll */
+			  padding-top: 20px;
+			}
+
+			/* The navigation menu links */
+			.sidenav a, span{
+			  padding: 6px 8px 6px 16px;
+			  text-decoration: none;
+			  /* font-size: 25px; */
+			  /*color: #818181;*/
+			  display: block;
+			}
+
+			/* When you mouse over the navigation links, change their color */
+			.sidenav a:hover {
+			  color: #f1f1f1;
+			}
+
+			/* Style page content */
+			.main {
+			  margin-left: 250px; /* Same as the width of the sidebar */
+			  padding: 0px 10px;
+			}
+			
+			span.abstand {
+				padding-bottom: 5px;
+				padding-left: 0px;
+			}
+			
+			
+			code {
+				background-color: #000000;
+				color: #FFFFFF;
+			
+			img {
+				height: 25px;
+				width: 25px;
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+
+			/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+			@media screen and (max-height: 450px) {
+			  .sidenav {padding-top: 15px;}
+			  .sidenav a {font-size: 18px;}
+			} 
+		</style>
+	</head>
+	<body>
+		 <!-- Side navigation -->
+		<div class="sidenav">
+		  <a href="#">About</a>
+		  <span>Available Endpoints</span>
+		  <a href="#list">/list</a>
+		  <a href="#list-level">/list/&lt;level&gt;</a>
+		  <a href="#part-level-name">/part/&lt;level&gt;/&lt;name&gt;</a>
+		  <a href="#part-level-name-variant">/part/&lt;level&gt;/&lt;name&gt;/&lt;variant&gt;</a>
+		  <a href="#create">/create</a>
+		  <a href="#create-random">/create/random</a>
+		</div>
+
+		<!-- Page content -->
+		<div class="main">
+		  <div class="content" id="About">
+			<h2>Neomojimixer API docutmentation</h2>
+			As many people requested it here is the Neomojimixer API.<br />
+			It was written by <a href="https://kitty.social/@o76923" target="_blank">James Endicott (@o76923@kitty.social)</a> to have a easy way to access the neomojimixer from programms outside of the browser. See the available endpoints below
+		  </div>
+		  
+		  <hr />
+		  
+		  <div class="content" id="list">
+		  <h3><code>/list</code></h3>
+		  <span class="abstand"><b>Parameters</b>: None</span>
+		  <span class="abstand">Returns a JSON with the complete list of all avaialabe parts currently in the Neomojimixer. It gives back the level/layer and then which part is available in this level.</span>
+		  <span class="abstand"><b>Example</b>:</span>
+		  <span class="abstand"><code>{"arms":["3c","aww", ... ,"yellow_heart"],"body":["blobbee",...,],</code> etc.</span>
+		  </div>
+		  
+		  <hr />
+		  
+		  <div class="content" id="list-level">
+		  <h3><code>/list/&lt;level&gt;</code></h3>
+		  <span class="abstand"><b>Parameters</b>: None</span>
+		  <span class="abstand">Returns a JSON with the complete list of all avaialabe parts in the specified level/layer. <code>/body</code> will return a second level with the specified colour of that element and <code>/arms</code> will return a second level with a list of all the colour variations.</span>
+		  <span class="abstand"><b>Example</b>:<code>/list/mouth</code></span>
+		  <span class="abstand"><code>{":3":{},"angler":{},"aww":{},"baa":{},"blank":{},</code> etc.</span>
+		  </div>
+		  
+		  <hr />
+		  
+		  <div class="content" id="part-level-name">
+		  <h3><code>/part/&lt;level&gt;/&lt;name&gt;</code></h3>
+		  <span class="abstand"><b>Parameters</b>: None</span>
+		  <span class="abstand">Returns a PNG with the specified part. <code>&lt;level&gt;</code> and <code>&lt;name&gt;</code> are the ones specified in <code>/list</code>. </span>
+		  <span class="abstand"><b>Example</b>:<code>/part/body/neomilk</code></span>
+		  <span class="abstand">Returns <img src="./part/body/neomilk" /></span>
+		  </div>
+		  
+		  <hr />
+		  
+		  <div class="content" id="part-level-name-variant">
+		  <h3><code>/part/&lt;level&gt;/&lt;name&gt;/&lt;variant&gt;</code></h3>
+		  <span class="abstand"><b>Parameters</b>: None</span>
+		  <span class="abstand">Returns a PNG with the specified part for the <code>arms</code> level. <code>&lt;level&gt;</code>, <code>&lt;name&gt;</code> and <code>&lt;variant&gt;</code> are the ones specified in <code>/list</code>. </span>
+		  <span class="abstand"><b>Example</b>:<code>/part/arms/aww/yellow</code></span>
+		  <span class="abstand">Returns <img src="./part/arms/aww/yellow" /></span>
+		  </div>
+		  
+		  <hr />
+		  
+		  <div class="content" id="create">
+		  <h3><code>/create</code></h3>
+		  <span class="abstand"><b>Parameters</b>: Optional <code>GET</code> or <code>POST</code><br />
+		  Either add <code>GET</code> parameters in the style of <code>?body=neocat&arms=baby&eyes=drowsy</code><br />
+		  or provide a <code>JSON</code> string via <code>POST</code> like <code>{"body": "neocat", "arms": baby", "eyes": "drowsy"}</code> </span>
+		  <span class="abstand">Returns a PNG with the specified parts. All levels that hasn't been specified will be returned blank.</span>
+		  <span class="abstand"><b>Example</b>:<code>/create?body=neocat&arms=baby&eyes=drowsy</code></span>
+		  <span class="abstand">Returns <img src="./create?body=neocat&arms=baby&eyes=drowsy" /></span>
+		  </div>
+		  
+		  <hr />
+		  
+		  <div class="content" id="create-random">
+		  <h3><code>/create/random</code></h3>
+		  <span class="abstand"><b>Parameters</b>: Optional <code>GET</code> or <code>POST</code><br />
+		  Either add <code>GET</code> parameters in the style of <code>?body=neofox&arms=torch&eyes=cute</code><br />
+		  or provide a <code>JSON</code> string via <code>POST</code> like <code>{"body": "neofox", "arms": torch", "eyes": "cute"}</code> </span>
+		  <span class="abstand">Returns a PNG with the specified parts. All levels that hasn't been specified will be randomized. For a completly randomized Neomoji just don't provide any parameters. To prevent a specific level from appearing just set it to <code>blank</code>.<br />
+		  There is a bias set to each level how likley it is to be set to <code>blank</code> instead of a random element.<br >
+		  <code>body</code>: 0%<br />
+		  <code>eyes</code>: 1%<br />
+		  <code>mouth</code>: 1%<br />
+		  <code>arms</code>: 50%<br />
+		  <code>hat</code>: 75%<br />
+		  <code>front</code>: 95%</span>
+		  <span class="abstand"><b>Example</b>:<code>/create/random?body=neofox&arms=torch</code></span>
+		  <span class="abstand">Returns <img src="./create/random?body=neofox&arms=torch" /></span>
+		  </div>
+		</div> 
+	</body>
+</html>
