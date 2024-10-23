@@ -15966,6 +15966,10 @@
         "url": "/parts/eyes_mask_slime_red.png"
       },
 	  {
+		  "name": "so_gay",
+		  "url": "/parts/badge_so_gay.png"
+	  },
+	  {
         "name": "blank",
         "url": "/parts/blank.png"
       }
