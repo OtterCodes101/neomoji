@@ -10,6 +10,8 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+Level = StrEnum("LEVELS", ["BACK", "BODY", "EYES", "HAT", "MOUTH", "BADGE", "ARMS", "FRONT"])
+
 def get_src_parts():
     if "src_parts" not in g:
         g.src_parts = {}
@@ -36,8 +38,6 @@ def make_specification_from_request(request):
             else:
                 specification[Level[k.upper()]] = v
     return specification
-
-Level = StrEnum("LEVELS", ["BODY", "EYES", "HAT", "MOUTH", "ARMS", "FRONT"])
 
 @dataclass
 class Layer:
