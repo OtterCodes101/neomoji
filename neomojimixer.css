@@ -32,6 +32,14 @@ img.front {
 	position: absolute;
 }
 
+img.badge {
+	position: absolute;
+}
+
+img.back {
+	position: absolute;
+}
+
 canvas {
 	height: 300px;
 	width: 300px;
