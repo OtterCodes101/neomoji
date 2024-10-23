@@ -166,7 +166,9 @@ def handle_create_random():
         Level.MOUTH: 0.01,
         Level.ARMS: 0.5,
         Level.HAT: 0.75,
-        Level.FRONT: 0.95
+        Level.FRONT: 0.95,
+        Level.BADGE: 0.95,
+        Level.BACK: 0.95
     }
     for l in Level:
         if random_spec[l]:
