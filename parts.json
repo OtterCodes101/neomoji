@@ -111,46 +111,6 @@
         "url": "/parts/eyes_laugh_sweat.png"
       },
       {
-        "name": "mask_neobot",
-        "url": "/parts/eyes_mask_bot.png"
-      },
-      {
-        "name": "mask_neocat",
-        "url": "/parts/eyes_mask_cat.png"
-      },
-      {
-        "name": "mask_neocatraxx",
-        "url": "/parts/eyes_mask_catraxx.png"
-      },
-      {
-        "name": "mask_neodog",
-        "url": "/parts/eyes_mask_dog.png"
-      },
-      {
-        "name": "mask_neofox",
-        "url": "/parts/eyes_mask_fox.png"
-      },
-      {
-        "name": "mask_neogob",
-        "url": "/parts/eyes_mask_gob.png"
-      },
-      {
-        "name": "mask_neomelody",
-        "url": "/parts/eyes_mask_melody.png"
-      },
-      {
-        "name": "mask_neoslime_blue",
-        "url": "/parts/eyes_mask_slime_blue.png"
-      },
-      {
-        "name": "mask_neoslime_green",
-        "url": "/parts/eyes_mask_slime_green.png"
-      },
-      {
-        "name": "mask_neoslime_red",
-        "url": "/parts/eyes_mask_slime_red.png"
-      },
-      {
         "name": "neobot",
         "url": "/parts/eyes_neobot.png"
       },
@@ -15963,6 +15923,58 @@
         "name": "wall",
         "url": "/parts/front_wall.png"
       }
-    ]
+    ],
+	"badge": [
+	  {
+        "name": "mask_neobot",
+        "url": "/parts/eyes_mask_bot.png"
+      },
+      {
+        "name": "mask_neocat",
+        "url": "/parts/eyes_mask_cat.png"
+      },
+      {
+        "name": "mask_neocatraxx",
+        "url": "/parts/eyes_mask_catraxx.png"
+      },
+      {
+        "name": "mask_neodog",
+        "url": "/parts/eyes_mask_dog.png"
+      },
+      {
+        "name": "mask_neofox",
+        "url": "/parts/eyes_mask_fox.png"
+      },
+      {
+        "name": "mask_neogob",
+        "url": "/parts/eyes_mask_gob.png"
+      },
+      {
+        "name": "mask_neomelody",
+        "url": "/parts/eyes_mask_melody.png"
+      },
+      {
+        "name": "mask_neoslime_blue",
+        "url": "/parts/eyes_mask_slime_blue.png"
+      },
+      {
+        "name": "mask_neoslime_green",
+        "url": "/parts/eyes_mask_slime_green.png"
+      },
+      {
+        "name": "mask_neoslime_red",
+        "url": "/parts/eyes_mask_slime_red.png"
+      },
+	  {
+        "name": "blank",
+        "url": "/parts/blank.png"
+      }
+	],
+	"back": [
+	  {
+        "name": "blank",
+        "url": "/parts/blank.png"
+      }
+	]
   }
 }
