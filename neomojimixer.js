@@ -106,7 +106,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		},
 	};
 
-	function PartHandler(name) {
+	function PartHandler(name, likelyhood=0) {
 		this.name = name;
 		this.entries = []; //Arrays to hold the parts
 		this.entry_indices = []; //Maps selected_index to entries index
@@ -114,6 +114,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		this.image_element = document.getElementById(name + "_img");
 		this.name_element = document.getElementById(name + "_name");
 		this.part_options = []; //Option button wrappers
+		this.probability = likelyhood; //The probabilty how likely it is that the layer gets set to "blank" instead of randomly choosing one item
 		// this.button_left = document.getElementById(name + "_left");
 		// this.button_right = document.getElementById(name + "_right");
 	}
@@ -174,8 +175,15 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		activateControls: function() {
 			this.name_element.disabled = false;
 		},
-		randomize: function() {
-			this.setIndex(Math.floor(Math.random() * this.entry_indices.length));
+		randomize: function() { //Checks if the set probability is lower than the random value and if not then the layer is blank
+			let random = Math.random();
+
+			if (this.probability < random) {
+				this.setIndex(Math.floor(Math.random() * this.entry_indices.length));
+			}
+			else {
+				this.trySetIndexByName("blank", 0);
+			}
 		},
 		createExportImage: function() {
 			const entry = this.getSelectedEntry();
@@ -282,14 +290,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	});
 
 	const part_handlers = {
-		body: new BodyPartHandler("body"),
-		eyes: new PartHandler("eyes"),
-		hat: new PartHandler("hat"),
-		mouth: new PartHandler("mouth"),
-		arms: new ColoredPartHandler("arms"),
-		front: new PartHandler("front"),
-		badge: new PartHandler("badge"),
-		back: new PartHandler("back"),
+		body: new BodyPartHandler("body", 0),
+		eyes: new PartHandler("eyes", 0.01),
+		hat: new PartHandler("hat", 0.75),
+		mouth: new PartHandler("mouth", 0.01),
+		arms: new ColoredPartHandler("arms", 0.5),
+		front: new PartHandler("front", 0.95),
+		badge: new PartHandler("badge", 0.95),
+		back: new PartHandler("back", 0.95),
 	};
 
 
