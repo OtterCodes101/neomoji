@@ -176,9 +176,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			this.name_element.disabled = false;
 		},
 		randomize: function() { //Checks if the set probability is lower than the random value and if not then the layer is blank
-			let random = Math.random();
-
-			if (this.probability < random) {
+			if (this.probability < Math.random()) {
 				this.setIndex(Math.floor(Math.random() * this.entry_indices.length));
 			}
 			else {
