@@ -15976,6 +15976,10 @@
       {
         "name": "so_gay",
         "url": "/parts/badge_so_gay.png"
+      },
+      {
+        "name": "trans",
+        "url": "/parts/badge_trans.png"
       }
     ],
     "back": [
