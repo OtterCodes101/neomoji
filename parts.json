@@ -16186,8 +16186,20 @@
         "url": "/parts/blank.png"
       },
       {
+        "name": "dog_tail",
+        "url": "/parts/back_dog_tail.png"
+      },
+      {
         "name": "fire",
         "url": "/parts/back_fire.png"
+      },
+      {
+        "name": "outlet",
+        "url": "/parts/back_outlet.png"
+      },
+      {
+        "name": "spade_tail",
+        "url": "/parts/back_spade_tail.png"
       }
     ]
   }
