@@ -1293,6 +1293,10 @@
         "url": "/parts/mouth_nom_phone.png"
       },
       {
+        "name": "nom_phone",
+        "url": "/parts/mouth_nom_phone.png"
+      },
+      {
         "name": "nom_pita",
         "url": "/parts/mouth_nom_pita.png"
       },
@@ -1513,6 +1517,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_mouse.png",
         "color": "mouse"
       },
@@ -1645,6 +1654,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_melody.png",
+        "color": "melody"
       },
       {
         "name": "aww",
@@ -1793,6 +1807,11 @@
       },
       {
         "name": "baby",
+        "url": "/parts/arms_baby_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby",
         "url": "/parts/arms_baby_mouse.png",
         "color": "mouse"
       },
@@ -1925,6 +1944,11 @@
         "name": "baby_angel",
         "url": "/parts/arms_baby_angel_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "baby_angel",
+        "url": "/parts/arms_baby_angel_melody.png",
+        "color": "melody"
       },
       {
         "name": "baby_angel",
@@ -2073,6 +2097,11 @@
       },
       {
         "name": "baby_cry",
+        "url": "/parts/arms_baby_cry_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_cry",
         "url": "/parts/arms_baby_cry_mouse.png",
         "color": "mouse"
       },
@@ -2205,6 +2234,11 @@
         "name": "baby_devil",
         "url": "/parts/arms_baby_devil_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "baby_devil",
+        "url": "/parts/arms_baby_devil_melody.png",
+        "color": "melody"
       },
       {
         "name": "baby_devil",
@@ -2490,9 +2524,13 @@
         "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_melody.png",
         "color": "melody"
+        "url": "/parts/arms_baby_googly_woozy_melody.png",
+        "color": "melody"
       },
       {
         "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_mouse.png",
+        "color": "mouse"
         "url": "/parts/arms_baby_googly_woozy_mouse.png",
         "color": "mouse"
       },
@@ -2505,6 +2543,11 @@
         "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_mouse_brown.png",
         "color": "mousebrown"
+      },
+      {
+        "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_comfy.png",
+        "color": "mousecomfy"
       },
       {
         "name": "baby_googly_woozy",
@@ -2630,6 +2673,11 @@
         "name": "baby_neobot",
         "url": "/parts/arms_baby_neobot_lightgrey.png",
         "color": "lightgrey"
+      },
+      {
+        "name": "baby_neobot",
+        "url": "/parts/arms_baby_neobot_melody.png",
+        "color": "melody"
       },
       {
         "name": "baby_neobot",
@@ -2778,6 +2826,11 @@
       },
       {
         "name": "baby_sleep",
+        "url": "/parts/arms_baby_sleep_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "baby_sleep",
         "url": "/parts/arms_baby_sleep_mouse.png",
         "color": "mouse"
       },
@@ -2918,6 +2971,11 @@
       },
       {
         "name": "bc_pills",
+        "url": "/parts/arms_bc_pills_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "bc_pills",
         "url": "/parts/arms_bc_pills_mouse.png",
         "color": "mouse"
       },
@@ -2975,6 +3033,146 @@
         "name": "blank",
         "url": "/parts/blank.png",
         "color": ""
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_albino.png",
+        "color": "albino"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_blue.png",
+        "color": "blue"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_brown.png",
+        "color": "brown"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_cinnamon.png",
+        "color": "cinnamon"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_comfy.png",
+        "color": "comfy"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_darkbrown.png",
+        "color": "darkbrown"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_dog.png",
+        "color": "dog"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_fawn.png",
+        "color": "fawn"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_frozen.png",
+        "color": "frozen"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_goblin.png",
+        "color": "goblin"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_green.png",
+        "color": "green"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_grey.png",
+        "color": "grey"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_hairless.png",
+        "color": "hairless"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_lightbrown.png",
+        "color": "lightbrown"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_lightgrey.png",
+        "color": "lightgrey"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_melody.png",
+        "color": "melody"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_mouse.png",
+        "color": "mouse"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_mouseblack.png",
+        "color": "mouseblack"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_mousebrown.png",
+        "color": "mousebrown"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_mousecomfy.png",
+        "color": "mousecomfy"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_orange.png",
+        "color": "orange"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_orc.png",
+        "color": "orc"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_pink.png",
+        "color": "pink"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_red.png",
+        "color": "red"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_white.png",
+        "color": "white"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_wyvern.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "blue_heart",
+        "url": "/parts/arms_blue_heart_yellow.png",
+        "color": "yellow"
       },
       {
         "name": "blue_heart",
@@ -15988,8 +16186,20 @@
         "url": "/parts/blank.png"
       },
       {
+        "name": "dog_tail",
+        "url": "/parts/back_dog_tail.png"
+      },
+      {
         "name": "fire",
         "url": "/parts/back_fire.png"
+      },
+      {
+        "name": "outlet",
+        "url": "/parts/back_outlet.png"
+      },
+      {
+        "name": "spade_tail",
+        "url": "/parts/back_spade_tail.png"
       }
     ]
   }
