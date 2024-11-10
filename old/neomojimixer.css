@@ -1,0 +1,77 @@
+body {
+	font-size: 1em;
+}
+
+p#noJSmessage {
+	font-size:2em;
+	color: red;
+}
+
+.container {
+	 position: realtive;
+	 width: 256px;
+	 height: 256px;
+}
+
+img.body {
+	position: absolute;
+}
+
+img.eyes {
+	position: absolute;
+}
+
+img.mouth {
+	position: absolute;
+}
+
+img.arms {
+	position: absolute;
+}
+
+#controls {
+	position:relative;
+	width: 256px;
+}
+
+button {
+	width: 25px;
+	height: 25px;
+}
+
+button#random {
+	width: 250px;
+}
+
+button#export {
+	width: 250px;
+}
+
+span.name {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	background: #D3D3D3;
+	vertical-align: middle;
+}
+
+div#stats {
+	font-size: 0.5em;
+}
+
+canvas {
+	height: 300px;
+	width: 300px;
+}
+
+p#exportSaveMessage {
+	font-size: 0.5em;
+}
+
+input#fullNeomojiName {
+	width: 250px;
+}
+
+a.links {
+	color: black;
+}

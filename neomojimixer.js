@@ -57,7 +57,9 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		if (name == "hat") {return "hats"};
 		if (name == "mouth") {return "mouths"};
 		if (name == "arms") {return "arms"};
-		if (name == "front") {return "front decorations"}
+		if (name == "front") {return "front decorations"};
+		if (name == "badge") {return "badges and masks"};
+		if (name == "back") {return "backgrounds"}
 		else {return name};
 	}
 
@@ -104,7 +106,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		},
 	};
 
-	function PartHandler(name) {
+	function PartHandler(name, likelyhood=0) {
 		this.name = name;
 		this.entries = []; //Arrays to hold the parts
 		this.entry_indices = []; //Maps selected_index to entries index
@@ -112,6 +114,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		this.image_element = document.getElementById(name + "_img");
 		this.name_element = document.getElementById(name + "_name");
 		this.part_options = []; //Option button wrappers
+		this.probability = likelyhood; //The probabilty how likely it is that the layer gets set to "blank" instead of randomly choosing one item
 		// this.button_left = document.getElementById(name + "_left");
 		// this.button_right = document.getElementById(name + "_right");
 	}
@@ -172,8 +175,13 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		activateControls: function() {
 			this.name_element.disabled = false;
 		},
-		randomize: function() {
-			this.setIndex(Math.floor(Math.random() * this.entry_indices.length));
+		randomize: function() { //Checks if the set probability is lower than the random value and if not then the layer is blank
+			if (this.probability < Math.random()) {
+				this.setIndex(Math.floor(Math.random() * this.entry_indices.length));
+			}
+			else {
+				this.trySetIndexByName("blank", 0);
+			}
 		},
 		createExportImage: function() {
 			const entry = this.getSelectedEntry();
@@ -280,12 +288,14 @@ const NeomojiMixer = (function(NeomojiMixer) {
 	});
 
 	const part_handlers = {
-		body: new BodyPartHandler("body"),
-		eyes: new PartHandler("eyes"),
-		hat: new PartHandler("hat"),
-		mouth: new PartHandler("mouth"),
-		arms: new ColoredPartHandler("arms"),
-		front: new PartHandler("front"),
+		body: new BodyPartHandler("body", 0),
+		eyes: new PartHandler("eyes", 0.01),
+		hat: new PartHandler("hat", 0.75),
+		mouth: new PartHandler("mouth", 0.01),
+		arms: new ColoredPartHandler("arms", 0.5),
+		front: new PartHandler("front", 0.95),
+		badge: new PartHandler("badge", 0.95),
+		back: new PartHandler("back", 0.95),
 	};
 
 
@@ -357,7 +367,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			.split('+');
 
 		// define a constant order for the parts to appear in the hash
-		const parts_order = ["body", "eyes", "mouth", "arms", "hat", "front"];
+		const parts_order = ["back", "body", "eyes", "mouth", "badge", "arms", "hat", "front"];
 
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
@@ -389,15 +399,17 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 		//Set name for the emoji to use as the image name and to show as shortcode
-		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0] + "_" + part_handlers.hat.getSelectedEntry()[0] + "_" + part_handlers.front.getSelectedEntry()[0];
+		let name = part_handlers.body.getSelectedEntry()[0] + "_" + part_handlers.eyes.getSelectedEntry()[0] + "_" + part_handlers.mouth.getSelectedEntry()[0] + "_" + part_handlers.arms.getSelectedEntry()[0] + "_" + part_handlers.hat.getSelectedEntry()[0] + "_" + part_handlers.front.getSelectedEntry()[0] + "_" + part_handlers.badge.getSelectedEntry()[0] + "_" + part_handlers.back.getSelectedEntry()[0];
 		neomoji_name.innerText = name;
-		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0] + "+" + part_handlers.hat.getSelectedEntry()[0] + "+" + part_handlers.front.getSelectedEntry()[0], document.location.href)
+		neomoji_name.href = new URL("#" + part_handlers.body.getSelectedEntry()[0] + "+" + part_handlers.eyes.getSelectedEntry()[0] + "+" + part_handlers.mouth.getSelectedEntry()[0] + "+" + part_handlers.arms.getSelectedEntry()[0] + "+" + part_handlers.hat.getSelectedEntry()[0] + "+" + part_handlers.front.getSelectedEntry()[0] + "+" + part_handlers.badge.getSelectedEntry()[0] + "+" + part_handlers.back.getSelectedEntry()[0], document.location.href)
 
 		let export_layers = [
+			part_handlers.back.createExportImage(),
 			part_handlers.body.createExportImage(),
 			part_handlers.eyes.createExportImage(),
 			part_handlers.hat.createExportImage(),
 			part_handlers.mouth.createExportImage(),
+			part_handlers.badge.createExportImage(),
 			part_handlers.arms.createExportImage(),
 			part_handlers.front.createExportImage(),
 		];
