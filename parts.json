@@ -2542,12 +2542,12 @@
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouse_black.png",
+        "url": "/parts/arms_baby_googly_woozy_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouse_brown.png",
+        "url": "/parts/arms_baby_googly_woozy_mousebrown.png",
         "color": "mousebrown"
       },
       {
@@ -2562,7 +2562,7 @@
       },
       {
         "name": "baby_googly_woozy",
-        "url": "/parts/arms_baby_googly_woozy_mouse_comfy.png",
+        "url": "/parts/arms_baby_googly_woozy_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
@@ -5572,17 +5572,17 @@
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouse_black.png",
+        "url": "/parts/arms_feed_baby_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouse_brown.png",
+        "url": "/parts/arms_feed_baby_mousebrown.png",
         "color": "mousebrown"
       },
       {
         "name": "feed_baby",
-        "url": "/parts/arms_feed_baby_mouse_comfy.png",
+        "url": "/parts/arms_feed_baby_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
@@ -8347,17 +8347,17 @@
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouse_black.png",
+        "url": "/parts/arms_loser_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouse_brown.png",
+        "url": "/parts/arms_loser_mousebrown.png",
         "color": "mousebrown"
       },
       {
         "name": "loser",
-        "url": "/parts/arms_loser_mouse_comfy.png",
+        "url": "/parts/arms_loser_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
@@ -10052,17 +10052,17 @@
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouse_black.png",
+        "url": "/parts/arms_pleading_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouse_brown.png",
+        "url": "/parts/arms_pleading_mousebrown.png",
         "color": "mousebrown"
       },
       {
         "name": "pleading",
-        "url": "/parts/arms_pleading_mouse_comfy.png",
+        "url": "/parts/arms_pleading_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
@@ -14932,17 +14932,17 @@
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouse_black.png",
+        "url": "/parts/arms_thumbsdown_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouse_brown.png",
+        "url": "/parts/arms_thumbsdown_mousebrown.png",
         "color": "mousebrown"
       },
       {
         "name": "thumbsdown",
-        "url": "/parts/arms_thumbsdown_mouse_comfy.png",
+        "url": "/parts/arms_thumbsdown_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
@@ -15067,17 +15067,17 @@
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouse_black.png",
+        "url": "/parts/arms_thumbsup_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouse_brown.png",
+        "url": "/parts/arms_thumbsup_mousebrown.png",
         "color": "mousebrown"
       },
       {
         "name": "thumbsup",
-        "url": "/parts/arms_thumbsup_mouse_comfy.png",
+        "url": "/parts/arms_thumbsup_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
@@ -15352,17 +15352,17 @@
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouse_black.png",
+        "url": "/parts/arms_vulcan_mouseblack.png",
         "color": "mouseblack"
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouse_brown.png",
+        "url": "/parts/arms_vulcan_mousebrown.png",
         "color": "mousebrown"
       },
       {
         "name": "vulcan",
-        "url": "/parts/arms_vulcan_mouse_comfy.png",
+        "url": "/parts/arms_vulcan_mousecomfy.png",
         "color": "mousecomfy"
       },
       {
