@@ -6877,6 +6877,11 @@
       },
       {
         "name": "heart",
+        "url": "/parts/arms_heart_catraxx.png",
+        "color": "catraxx"
+      },
+      {
+        "name": "heart",
         "url": "/parts/arms_heart_melody.png",
         "color": "melody"
       },
