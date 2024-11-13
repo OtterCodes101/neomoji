@@ -500,11 +500,6 @@
         "color": "yellow"
       },
       {
-        "name": "neofox_sapphic",
-        "url": "/parts/neofox_sapphic.png",
-        "color": "yellow"
-      },
-      {
         "name": "neocatraxx",
         "url": "/parts/neocatraxx.png",
         "color": "catraxx"
@@ -737,6 +732,11 @@
       {
         "name": "neofox_trans",
         "url": "/parts/neofox_trans.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_sapphic",
+        "url": "/parts/neofox_sapphic.png",
         "color": "orange"
       },
       {
