@@ -367,7 +367,10 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			.split('+');
 
 		// define a constant order for the parts to appear in the hash
-		const parts_order = ["back", "body", "eyes", "mouth", "badge", "arms", "hat", "front"];
+		const parts_order = ["body", "eyes", "mouth", "arms", "hat", "front", "badge", "back"];
+
+		//Order of the hash body, eyes, mouth, arms, hat, front, badge. back
+		//Check line 407 | "neomoji_name.href = new URL(" for reference
 
 		if (parts.length == parts_order.length) {
 			// convert the part names to part indices
