@@ -410,6 +410,11 @@
         "color": "yellow"
       },
       {
+        "name": "neocat_earsdown",
+        "url": "/parts/neocat_earsdown.png",
+        "color": "yellow"
+      },
+      {
         "name": "neocat_finsexual",
         "url": "/parts/neocat_finsexual.png",
         "color": "yellow"
@@ -650,6 +655,11 @@
         "color": "orange"
       },
       {
+        "name": "neofox_earsdown",
+        "url": "/parts/neofox_earsdown.png",
+        "color": "orange"
+      },
+      {
         "name": "neofox_finsexual",
         "url": "/parts/neofox_finsexual.png",
         "color": "orange"
@@ -657,6 +667,11 @@
       {
         "name": "neofox_floof",
         "url": "/parts/neofox_floofy.png",
+        "color": "orange"
+      },
+      {
+        "name": "neofox_floof_earsdown",
+        "url": "/parts/neofox_floof_earsdown.png",
         "color": "orange"
       },
       {
