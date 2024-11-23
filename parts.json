@@ -490,11 +490,6 @@
         "color": "yellow"
       },
       {
-        "name": "neocat_santa",
-        "url": "/parts/neocat_santa.png",
-        "color": "yellow"
-      },
-      {
         "name": "neocat_sapphic",
         "url": "/parts/neocat_sapphic.png",
         "color": "yellow"
@@ -732,11 +727,6 @@
       {
         "name": "neofox_salmacian",
         "url": "/parts/neofox_salmacian.png",
-        "color": "orange"
-      },
-      {
-        "name": "neofox_santa",
-        "url": "/parts/neofox_santa.png",
         "color": "orange"
       },
       {
