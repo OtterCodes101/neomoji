@@ -258,6 +258,9 @@
 				<a href="imprint.html" class="button muted">Sources, FAQ & Legal notice</a>
 				
 				<div id="export-container" style="display: none;">
+					<div class="export-header">
+						<button class="close-button" onclick="document.getElementById('export-container').style.display='none';">×</button>
+					</div>
 					<canvas id="canvas_export" width="256" height="256" name="test.png" hidden></canvas>
 					<img id="imageExport" src="" />
 					<a id="imageExportLink" class="button" download href="" target="_blank">Download</a>
