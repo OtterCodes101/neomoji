@@ -1572,6 +1572,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_pink.png",
         "color": "pink"
       },
@@ -1714,6 +1719,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_otter.png",
+        "color": "otter"
       },
       {
         "name": "aww",
@@ -5757,6 +5767,11 @@
       },
       {
         "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "fingerguns",
         "url": "/parts/arms_fingerguns_pink.png",
         "color": "pink"
       },
@@ -6454,6 +6469,11 @@
         "name": "gun",
         "url": "/parts/arms_gun_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "gun",
+        "url": "/parts/arms_gun_otter.png",
+        "color": "otter"
       },
       {
         "name": "gun",
@@ -7942,6 +7962,11 @@
       },
       {
         "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_pink.png",
         "color": "pink"
       },
@@ -8754,6 +8779,11 @@
         "name": "megaphone",
         "url": "/parts/arms_megaphone_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_otter.png",
+        "color": "otter"
       },
       {
         "name": "megaphone",
@@ -10252,6 +10282,11 @@
       },
       {
         "name": "pleading",
+        "url": "/parts/arms_pleading_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "pleading",
         "url": "/parts/arms_pleading_pink.png",
         "color": "pink"
       },
@@ -10532,6 +10567,11 @@
       },
       {
         "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "raised_finger",
         "url": "/parts/arms_raised_finger_pink.png",
         "color": "pink"
       },
@@ -10674,6 +10714,11 @@
         "name": "reach",
         "url": "/parts/arms_reach_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_otter.png",
+        "color": "otter"
       },
       {
         "name": "reach",
@@ -11314,6 +11359,11 @@
         "name": "shocked",
         "url": "/parts/arms_shocked_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "shocked",
+        "url": "/parts/arms_shocked_orc.png",
+        "color": "otter"
       },
       {
         "name": "shocked",
@@ -14872,6 +14922,11 @@
       },
       {
         "name": "think",
+        "url": "/parts/arms_think_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "think",
         "url": "/parts/arms_think_pink.png",
         "color": "pink"
       },
@@ -15009,6 +15064,11 @@
         "name": "think_about_it",
         "url": "/parts/arms_think_about_it_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "think_about_it",
+        "url": "/parts/arms_think_about_it_otter.png",
+        "color": "otter"
       },
       {
         "name": "think_about_it",
@@ -15152,6 +15212,11 @@
       },
       {
         "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_pink.png",
         "color": "pink"
       },
@@ -15289,6 +15354,11 @@
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_otter.png",
+        "color": "otter"
       },
       {
         "name": "thumbsup",
@@ -15579,6 +15649,11 @@
         "name": "vulcan",
         "url": "/parts/arms_vulcan_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "vulcan",
+        "url": "/parts/arms_vulcan_otter.png",
+        "color": "otter"
       },
       {
         "name": "vulcan",
