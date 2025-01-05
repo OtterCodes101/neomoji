@@ -930,6 +930,11 @@
         "color": "orc"
       },
       {
+        "name": "neootter",
+        "url": "/parts/neootter.png",
+        "color": "darkbrown"
+      },
+      {
         "name": "neopossum",
         "url": "/parts/neopossum.png",
         "color": "lightgrey"
