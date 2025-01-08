@@ -8637,11 +8637,6 @@
       },
       {
         "name": "megaphone",
-        "url": "/parts/arms_megaphone.png",
-        "color": ""
-      },
-      {
-        "name": "megaphone",
         "url": "/parts/arms_megaphone_albino.png",
         "color": "albino"
       },
