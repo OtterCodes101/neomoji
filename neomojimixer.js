@@ -24,6 +24,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"mousecomfy",
 		"orange",
 		"orc",
+		"otter",
 		"pink",
 		"red",
 		"white",
