@@ -244,10 +244,14 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 8px;
+	margin-bottom: 8px;
 }
 label {
 	display: flex;
-	margin: var(--padding);
+	align-items: center;
+	margin: 0;
+	gap: 8px;
 }
 label input:not([type="checkbox"]) {
 	margin-inline-start: auto;

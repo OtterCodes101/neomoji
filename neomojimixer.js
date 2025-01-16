@@ -403,9 +403,22 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		}
 	}
 
-	function randomize() { //Randomize which parts are shown
+	function randomize() {
+		const keepBody = document.getElementById("keep-body").checked;
+		
+		// Speichere aktuellen Body wenn nötig
+		const currentBody = keepBody ? part_handlers.body.getSelectedEntry()[0] : null;
+		
+		// Randomisiere alle Teile
 		for (const i in part_handlers) {
-			part_handlers[i].randomize();
+			if (!(keepBody && i === 'body')) {
+				part_handlers[i].randomize();
+			}
+		}
+		
+		// Stelle Body wieder her wenn nötig
+		if (keepBody && currentBody) {
+			part_handlers.body.trySetIndexByName(currentBody);
 		}
 	}
 
