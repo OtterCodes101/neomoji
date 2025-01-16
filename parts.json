@@ -87,6 +87,10 @@
         "url": "/parts/eyes_googly_woozy_angry.png"
       },
       {
+        "name": "happy",
+        "url": "/parts/eyes_happy.png"
+      },
+      {
         "name": "heart",
         "url": "/parts/eyes_heart.png"
       },
