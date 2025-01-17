@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   sodipodi:docname="mouth_hissing.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:export-filename="../mouth/mouth_hissing_2048.png"
+   inkscape:export-xdpi="768"
+   inkscape:export-ydpi="768"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.2787621"
+     inkscape:cx="117.60771"
+     inkscape:cy="133.18635"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     style="display:inline;fill:#a01919;fill-opacity:1;stroke:none;stroke-width:16.381;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 74.395152,165.15879 c -16.82892,19.54856 -9.386667,37.70181 -3.723637,42.66666 l 13.886061,-17.76485 24.281214,15.20485 33.74545,-15.35999 25.52243,19.54909 c 15.80784,-16.61913 3.11854,-38.90576 -4.73212,-46.85576 l -21.02303,15.28242 -33.74545,-15.35999 -23.660615,15.20484 z"
+     id="path1"
+     sodipodi:nodetypes="ccccccccccc"
+     inkscape:label="mouth" />
+  <path
+     id="path2"
+     style="fill:#e65555;fill-opacity:1;stroke:none;stroke-width:16.381;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+     d="M 150.40625 184.04492 C 134.51454 184.25458 117.11322 188.99025 111.78516 203.92383 L 142.58398 189.90625 L 168.10742 209.45508 C 174.5334 202.6993 176.24896 195.0058 175.49609 187.7207 C 170.13584 185.63698 160.59466 183.91051 150.40625 184.04492 z "
+     inkscape:label="tongue" />
+</svg>
