@@ -16584,6 +16584,10 @@
         "url": "/parts/hat_headphones.png"
       },
       {
+        "name": "heart",
+        "url": "/parts/hat_heart.png"
+      },
+      {
         "name": "light_bulb",
         "url": "/parts/hat_light_bulb.png"
       },
