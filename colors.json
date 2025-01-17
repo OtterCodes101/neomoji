@@ -106,5 +106,8 @@
     "yellow": {
         "fur": "#ffc95c",
         "hand": "#ffde9c"
+    },
+    "otter": {
+        "fur": "#7c5e47"
     }
 }
