@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="2048"
+   height="2048"
+   viewBox="0 0 2048 2048"
+   sodipodi:docname="mouth_scream.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="958.80912,1209.7948"
+       end_point="958.80912,1725.1302"
+       center_point="958.80912,1467.4625"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     inkscape:zoom="0.29040527"
+     inkscape:cx="946.95253"
+     inkscape:cy="1117.404"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     id="path3"
+     style="opacity:1;fill:#a01919;fill-opacity:1;stroke-width:11;stroke-linecap:round"
+     d="m 912.39062,1210.5781 c -272.91972,0 -394.28203,148.6466 -398.41796,303.8301 -6.5377,245.3002 214.07407,209.7346 408.67968,212.4375 h 72.3125 c 194.60566,-2.7029 415.21936,32.8627 408.68166,-212.4375 -4.1359,-155.1835 -125.5001,-303.8301 -398.4199,-303.8301 z"
+     sodipodi:nodetypes="csccscc"
+     inkscape:label="mouth" />
+  <path
+     id="path4"
+     style="opacity:1;fill:#e65555;fill-opacity:1;stroke-width:11;stroke-linecap:round"
+     d="m 1206.4062,1474.8652 c -13.0655,0.068 -25.8399,0.3284 -38.2109,0.6582 -110.2911,2.9409 -188.90701,52.7098 -230.71288,96.418 -52.52426,54.9143 -42.6829,106.7345 -21.99414,154.877 26.49198,0.06 52.98441,0.027 79.47656,0.027 194.60566,-2.7029 415.21936,32.8627 408.68166,-212.4375 -0.115,-4.3141 -0.3554,-8.6209 -0.6524,-12.9219 -63.7117,-22.6403 -133.5078,-26.9482 -196.5879,-26.6211 z"
+     sodipodi:nodetypes="scsccscs"
+     inkscape:label="tongue" />
+</svg>
