@@ -7590,11 +7590,6 @@
         "color": "orc"
       },
       {
-        "name": "ride_broom",
-        "url": "/parts/arms_ride_broom_otter.png",
-        "color": "otter"
-      },
-      {
         "name": "hold_broom",
         "url": "/parts/arms_hold_broom_pink.png",
         "color": "pink"
@@ -11186,6 +11181,11 @@
       },
       {
         "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "ride_broom",
         "url": "/parts/arms_ride_broom_pink.png",
         "color": "pink"
       },
@@ -13149,7 +13149,6 @@
         "url": "/parts/arms_sign_soon_otter.png",
         "color": "otter"
       },
-
       {
         "name": "sign_soon",
         "url": "/parts/arms_sign_soon_pink.png",
@@ -16622,6 +16621,10 @@
       {
         "name": "stitches",
         "url": "/parts/hat_stitches.png"
+      },
+      {
+        "name": "thief",
+        "url": "/parts/hat_thief.png"
       },
       {
         "name": "third_eye",
