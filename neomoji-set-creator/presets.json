@@ -1,0 +1,177 @@
+{
+  "-1": {
+    "eyes": "smug",
+    "arms": "thumbsdown",
+    "mouth": "sad"
+  },
+  "+1": {
+    "eyes": "happy",
+    "arms": "thumbsup",
+    "mouth": ":3"
+  },
+  "XD": {
+    "eyes": "squint",
+    "mouth": "blep"
+  },
+  "actually": {
+    "eyes": "glasses",
+    "mouth": ":3",
+    "arms": "raised_finger"
+  },
+  "adoring": {
+    "eyes": "cute",
+    "hat": "heart",
+    "mouth": "laugh"
+  },
+  "angel": {
+    "eyes": "cute",
+    "hat": "angel",
+    "mouth": "normal"
+  },
+  "blep": {
+    "mouth": "blep",
+    "eyes": "3c"
+  },
+  "confused": {
+    "eyes": "googly_woozy",
+    "hat": "confused",
+    "mouth": ":3"
+  },
+  "content": {
+    "mouth": "kisser",
+    "eyes": "shy"
+  },
+  "cute_reach": {
+    "eyes": "cute",
+    "arms": "reach",
+    "mouth": "normal"
+  },
+  "dead": {
+    "eyes": "x_x",
+    "mouth": "what"
+  },
+  "drool": {
+    "eyes": "cute",
+    "mouth": "drool"
+  },
+  "evil": {
+    "eyes": "angry",
+    "mouth": "normal"
+  },
+  "evil_3c": {
+    "eyes": "angry",
+    "mouth": "normal",
+    "arms": "3c"
+  },
+  "eyeroll": {
+    "mouth": "pout",
+    "eyes": "rolling"
+  },
+  "finger_guns": {
+    "eyes": "wink",
+    "arms": "fingerguns",
+    "mouth": ":3"
+  },
+  "giggle": {
+    "eyes": "happy",
+    "mouth": ":3",
+    "arms": "3c"
+  },
+  "happy": {
+    "eyes": "happy",
+    "mouth": "normal"
+  },
+  "happy_cute": {
+    "eyes": "cute",
+    "mouth": ":3"
+  },
+  "happy_pat": {
+    "eyes": "happy",
+    "hat": "pat",
+    "mouth": ":3"
+  },
+  "heart": {
+    "eyes": "happy",
+    "hat": "heart",
+    "mouth": ":3"
+  },
+  "heart_hold": {
+    "eyes": "cute",
+    "arms": "heart"
+  },
+  "knife": {
+    "arms": "knife",
+    "mouth": "normal",
+    "eyes": "angry"
+  },
+  "o_o": {
+    "eyes": "owo",
+    "mouth": "sad"
+  },
+  "pensive_cowboy": {
+    "mouth": "meh",
+    "eyes": "pensive",
+    "hat": "cowboy"
+  },
+  "pleading_fingers_touching": {
+    "eyes": "pleading",
+    "mouth": "sad",
+    "arms": "pleading"
+  },
+  "scheming": {
+    "eyes": "glare",
+    "mouth": ":3"
+  },
+  "shocked": {
+    "mouth": "baa",
+    "eyes": "owo"
+  },
+  "sign_no": {
+    "eyes": "cute",
+    "arms": "sign_no"
+  },
+  "sign_yes": {
+    "eyes": "cute",
+    "arms": "sign_yes"
+  },
+  "silent": {
+    "mouth": "zipper",
+    "eyes": "owo"
+  },
+  "sleeping": {
+    "eyes": "drowsy",
+    "mouth": "baa"
+  },
+  "sob": {
+    "mouth": "sad",
+    "eyes": "sob"
+  },
+  "tada": {
+    "hat": "party",
+    "eyes": "happy",
+    "mouth": "party_blower"
+  },
+  "think_about_it": {
+    "eyes": "wink",
+    "mouth": "smirk",
+    "arms": "think_about_it"
+  },
+  "thinking": {
+    "eyes": "thinking",
+    "mouth": "normal",
+    "arms": "think"
+  },
+  "think_owo": {
+    "eyes": "owo",
+    "mouth": "normal",
+    "arms": "think"
+  },
+  "wink": {
+    "eyes": "wink",
+    "mouth": ":3"
+  },
+  "woozy": {
+    "eyes": "woozy",
+    "mouth": ":3"
+  }
+}
