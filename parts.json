@@ -87,6 +87,10 @@
         "url": "/parts/eyes_googly_woozy_angry.png"
       },
       {
+        "name": "happy",
+        "url": "/parts/eyes_happy.png"
+      },
+      {
         "name": "heart",
         "url": "/parts/eyes_heart.png"
       },
@@ -930,6 +934,11 @@
         "color": "orc"
       },
       {
+        "name": "neootter",
+        "url": "/parts/neootter.png",
+        "color": "otter"
+      },
+      {
         "name": "neopossum",
         "url": "/parts/neopossum.png",
         "color": "lightgrey"
@@ -1128,6 +1137,11 @@
         "name": "neoredpanda",
         "url": "/parts/neoredpanda.png",
         "color": "orange"
+      },
+      {
+        "name": "neosheep",
+        "url": "/parts/neosheep.png",
+        "color": "white"
       },
       {
         "name": "neoSSB",
@@ -1567,6 +1581,11 @@
       },
       {
         "name": "3c",
+        "url": "/parts/arms_3c_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "3c",
         "url": "/parts/arms_3c_pink.png",
         "color": "pink"
       },
@@ -1709,6 +1728,11 @@
         "name": "aww",
         "url": "/parts/arms_aww_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "aww",
+        "url": "/parts/arms_aww_otter.png",
+        "color": "otter"
       },
       {
         "name": "aww",
@@ -1857,6 +1881,11 @@
       },
       {
         "name": "baby",
+        "url": "/parts/arms_baby_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "baby",
         "url": "/parts/arms_baby_pink.png",
         "color": "pink"
       },
@@ -1999,6 +2028,11 @@
         "name": "baby_angel",
         "url": "/parts/arms_baby_angel_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "baby_angel",
+        "url": "/parts/arms_baby_angel_otter.png",
+        "color": "otter"
       },
       {
         "name": "baby_angel",
@@ -2147,6 +2181,11 @@
       },
       {
         "name": "baby_cry",
+        "url": "/parts/arms_baby_cry_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "baby_cry",
         "url": "/parts/arms_baby_cry_pink.png",
         "color": "pink"
       },
@@ -2292,6 +2331,11 @@
       },
       {
         "name": "baby_devil",
+        "url": "/parts/arms_baby_devil_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "baby_devil",
         "url": "/parts/arms_baby_devil_pink.png",
         "color": "pink"
       },
@@ -2429,6 +2473,11 @@
         "name": "baby_dough",
         "url": "/parts/arms_baby_dough_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "baby_dough",
+        "url": "/parts/arms_baby_dough_otter.png",
+        "color": "otter"
       },
       {
         "name": "baby_dough",
@@ -2592,6 +2641,11 @@
       },
       {
         "name": "baby_googly_woozy",
+        "url": "/parts/arms_baby_googly_woozy_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "baby_googly_woozy",
         "url": "/parts/arms_baby_googly_woozy_pink.png",
         "color": "pink"
       },
@@ -2734,6 +2788,11 @@
         "name": "baby_neobot",
         "url": "/parts/arms_baby_neobot_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "baby_neobot",
+        "url": "/parts/arms_baby_neobot_otter.png",
+        "color": "otter"
       },
       {
         "name": "baby_neobot",
@@ -2882,6 +2941,11 @@
       },
       {
         "name": "baby_sleep",
+        "url": "/parts/arms_baby_sleep_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "baby_sleep",
         "url": "/parts/arms_baby_sleep_pink.png",
         "color": "pink"
       },
@@ -3024,6 +3088,11 @@
         "name": "bc_pills",
         "url": "/parts/arms_bc_pills_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "bc_pills",
+        "url": "/parts/arms_bc_pills_otter.png",
+        "color": "otter"
       },
       {
         "name": "bc_pills",
@@ -3752,6 +3821,11 @@
       },
       {
         "name": "bowl_haj",
+        "url": "/parts/arms_bowl_haj_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "bowl_haj",
         "url": "/parts/arms_bowl_haj_pink.png",
         "color": "pink"
       },
@@ -3964,6 +4038,11 @@
         "name": "cane",
         "url": "/parts/arms_cane_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "cane",
+        "url": "/parts/arms_cane_otter.png",
+        "color": "otter"
       },
       {
         "name": "cane",
@@ -4182,6 +4261,11 @@
       },
       {
         "name": "clawshot",
+        "url": "/parts/arms_clawshot_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "clawshot",
         "url": "/parts/arms_clawshot_pink.png",
         "color": "pink"
       },
@@ -4397,6 +4481,11 @@
       },
       {
         "name": "command_seal",
+        "url": "/parts/arms_command_seal_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "command_seal",
         "url": "/parts/arms_command_seal_pink.png",
         "color": "pink"
       },
@@ -4534,6 +4623,11 @@
         "name": "condoms",
         "url": "/parts/arms_condoms_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "condoms",
+        "url": "/parts/arms_condoms_otter.png",
+        "color": "otter"
       },
       {
         "name": "condoms",
@@ -5042,6 +5136,11 @@
       },
       {
         "name": "eevee",
+        "url": "/parts/arms_eevee_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "eevee",
         "url": "/parts/arms_eevee_pink.png",
         "color": "pink"
       },
@@ -5182,6 +5281,11 @@
       },
       {
         "name": "egg",
+        "url": "/parts/arms_egg_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "egg",
         "url": "/parts/arms_egg_pink.png",
         "color": "pink"
       },
@@ -5319,6 +5423,11 @@
         "name": "estrogen_pill",
         "url": "/parts/arms_estrogen_pill_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "estrogen_pill",
+        "url": "/parts/arms_estrogen_pill_otter.png",
+        "color": "otter"
       },
       {
         "name": "estrogen_pill",
@@ -5612,6 +5721,11 @@
       },
       {
         "name": "feed_baby",
+        "url": "/parts/arms_feed_baby_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "feed_baby",
         "url": "/parts/arms_feed_baby_pink.png",
         "color": "pink"
       },
@@ -5749,6 +5863,11 @@
         "name": "fingerguns",
         "url": "/parts/arms_fingerguns_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "fingerguns",
+        "url": "/parts/arms_fingerguns_otter.png",
+        "color": "otter"
       },
       {
         "name": "fingerguns",
@@ -6172,6 +6291,11 @@
       },
       {
         "name": "green_thumbs",
+        "url": "/parts/arms_green_thumbs_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "green_thumbs",
         "url": "/parts/arms_green_thumbs_pink.png",
         "color": "pink"
       },
@@ -6309,6 +6433,11 @@
         "name": "guitar",
         "url": "/parts/arms_guitar_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "guitar",
+        "url": "/parts/arms_guitar_otter.png",
+        "color": "otter"
       },
       {
         "name": "guitar",
@@ -6452,6 +6581,11 @@
       },
       {
         "name": "gun",
+        "url": "/parts/arms_gun_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "gun",
         "url": "/parts/arms_gun_pink.png",
         "color": "pink"
       },
@@ -6589,6 +6723,11 @@
         "name": "guns_akimbo",
         "url": "/parts/arms_guns_akimbo_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "guns_akimbo",
+        "url": "/parts/arms_guns_akimbo_otter.png",
+        "color": "otter"
       },
       {
         "name": "guns_akimbo",
@@ -6732,6 +6871,11 @@
       },
       {
         "name": "hammer",
+        "url": "/parts/arms_hammer_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "hammer",
         "url": "/parts/arms_hammer_pink.png",
         "color": "pink"
       },
@@ -6869,6 +7013,11 @@
         "name": "hammer_and_sickle",
         "url": "/parts/arms_hammer_and_sickle_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "hammer_and_sickle",
+        "url": "/parts/arms_hammer_and_sickle_otter.png",
+        "color": "otter"
       },
       {
         "name": "hammer_and_sickle",
@@ -7012,6 +7161,11 @@
       },
       {
         "name": "heart",
+        "url": "/parts/arms_heart_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "heart",
         "url": "/parts/arms_heart_pink.png",
         "color": "pink"
       },
@@ -7152,6 +7306,11 @@
       },
       {
         "name": "heart_goblin",
+        "url": "/parts/arms_heart_goblin_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "heart_goblin",
         "url": "/parts/arms_heart_goblin_pink.png",
         "color": "pink"
       },
@@ -7289,6 +7448,11 @@
         "name": "hide",
         "url": "/parts/arms_hide_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "hide",
+        "url": "/parts/arms_hide_otter.png",
+        "color": "otter"
       },
       {
         "name": "hide",
@@ -7797,6 +7961,11 @@
       },
       {
         "name": "hold_neocat",
+        "url": "/parts/arms_hold_neocat_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "hold_neocat",
         "url": "/parts/arms_hold_neocat_pink.png",
         "color": "pink"
       },
@@ -7934,6 +8103,11 @@
         "name": "hold_popcorn",
         "url": "/parts/arms_hold_popcorn_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "hold_popcorn",
+        "url": "/parts/arms_hold_popcorn_otter.png",
+        "color": "otter"
       },
       {
         "name": "hold_popcorn",
@@ -8266,6 +8440,11 @@
         "color": "yellow"
       },
       {
+        "name": "keyboard",
+        "url": "/parts/arms_keyboard_otter.png",
+        "color": "otter"
+      },
+      {
         "name": "knife",
         "url": "/parts/arms_knife_blue.png",
         "color": "blue"
@@ -8532,6 +8711,11 @@
       },
       {
         "name": "loser",
+        "url": "/parts/arms_loser_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "loser",
         "url": "/parts/arms_loser_pink.png",
         "color": "pink"
       },
@@ -8629,11 +8813,6 @@
         "name": "mastodont",
         "url": "/parts/arms_mastodont_yellow.png",
         "color": "yellow"
-      },
-      {
-        "name": "megaphone",
-        "url": "/parts/arms_megaphone.png",
-        "color": ""
       },
       {
         "name": "megaphone",
@@ -8749,6 +8928,11 @@
         "name": "megaphone",
         "url": "/parts/arms_megaphone_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "megaphone",
+        "url": "/parts/arms_megaphone_otter.png",
+        "color": "otter"
       },
       {
         "name": "megaphone",
@@ -9042,6 +9226,11 @@
       },
       {
         "name": "monocle",
+        "url": "/parts/arms_monocle_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "monocle",
         "url": "/parts/arms_monocle_pink.png",
         "color": "pink"
       },
@@ -9069,6 +9258,11 @@
         "name": "moon_stick",
         "url": "/parts/arms_moon_stick.png",
         "color": ""
+      },
+      {
+        "name": "moon_stick",
+        "url": "/parts/arms_moon_stick_otter.png",
+        "color": "otter"
       },
       {
         "name": "mug",
@@ -9184,6 +9378,11 @@
         "name": "mug",
         "url": "/parts/arms_mug_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "mug",
+        "url": "/parts/arms_mug_otter.png",
+        "color": "otter"
       },
       {
         "name": "mug",
@@ -9327,6 +9526,11 @@
       },
       {
         "name": "mug_honey",
+        "url": "/parts/arms_mug_honey_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "mug_honey",
         "url": "/parts/arms_mug_honey_pink.png",
         "color": "pink"
       },
@@ -9464,6 +9668,11 @@
         "name": "mug_spicy",
         "url": "/parts/arms_mug_spicy_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "mug_spicy",
+        "url": "/parts/arms_mug_spicy_otter.png",
+        "color": "otter"
       },
       {
         "name": "mug_spicy",
@@ -9752,6 +9961,11 @@
       },
       {
         "name": "pen",
+        "url": "/parts/arms_pen_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "pen",
         "url": "/parts/arms_pen_pink.png",
         "color": "pink"
       },
@@ -9889,6 +10103,11 @@
         "name": "pencil",
         "url": "/parts/arms_pencil_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "pencil",
+        "url": "/parts/arms_pencil_otter.png",
+        "color": "otter"
       },
       {
         "name": "pencil",
@@ -10247,6 +10466,11 @@
       },
       {
         "name": "pleading",
+        "url": "/parts/arms_pleading_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "pleading",
         "url": "/parts/arms_pleading_pink.png",
         "color": "pink"
       },
@@ -10527,6 +10751,11 @@
       },
       {
         "name": "raised_finger",
+        "url": "/parts/arms_raised_finger_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "raised_finger",
         "url": "/parts/arms_raised_finger_pink.png",
         "color": "pink"
       },
@@ -10669,6 +10898,11 @@
         "name": "reach",
         "url": "/parts/arms_reach_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "reach",
+        "url": "/parts/arms_reach_otter.png",
+        "color": "otter"
       },
       {
         "name": "reach",
@@ -10952,6 +11186,11 @@
       },
       {
         "name": "ride_broom",
+        "url": "/parts/arms_ride_broom_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "ride_broom",
         "url": "/parts/arms_ride_broom_pink.png",
         "color": "pink"
       },
@@ -11094,6 +11333,11 @@
         "name": "scepter_dutch",
         "url": "/parts/arms_scepter_dutch_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "scepter_dutch",
+        "url": "/parts/arms_scepter_dutch_otter.png",
+        "color": "otter"
       },
       {
         "name": "scepter_dutch",
@@ -11312,6 +11556,11 @@
       },
       {
         "name": "shocked",
+        "url": "/parts/arms_shocked_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "shocked",
         "url": "/parts/arms_shocked_pink.png",
         "color": "pink"
       },
@@ -11449,6 +11698,11 @@
         "name": "sickle",
         "url": "/parts/arms_sickle_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sickle",
+        "url": "/parts/arms_sickle_otter.png",
+        "color": "otter"
       },
       {
         "name": "sickle",
@@ -11592,6 +11846,11 @@
       },
       {
         "name": "sign_aaa",
+        "url": "/parts/arms_sign_aaa_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_aaa",
         "url": "/parts/arms_sign_aaa_pink.png",
         "color": "pink"
       },
@@ -11729,6 +11988,11 @@
         "name": "sign_alt_text",
         "url": "/parts/arms_sign_alt_text_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_alt_text",
+        "url": "/parts/arms_sign_alt_text_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_alt_text",
@@ -11872,6 +12136,11 @@
       },
       {
         "name": "sign_blank",
+        "url": "/parts/arms_sign_blank_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_blank",
         "url": "/parts/arms_sign_blank_pink.png",
         "color": "pink"
       },
@@ -12009,6 +12278,11 @@
         "name": "sign_boobs",
         "url": "/parts/arms_sign_boobs_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_boobs",
+        "url": "/parts/arms_sign_boobs_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_boobs",
@@ -12152,6 +12426,11 @@
       },
       {
         "name": "sign_butts",
+        "url": "/parts/arms_sign_butts_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_butts",
         "url": "/parts/arms_sign_butts_pink.png",
         "color": "pink"
       },
@@ -12289,6 +12568,11 @@
         "name": "sign_hot",
         "url": "/parts/arms_sign_hot_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_hot",
+        "url": "/parts/arms_sign_hot_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_hot",
@@ -12432,6 +12716,11 @@
       },
       {
         "name": "sign_lewd",
+        "url": "/parts/arms_sign_lewd_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_lewd",
         "url": "/parts/arms_sign_lewd_pink.png",
         "color": "pink"
       },
@@ -12569,6 +12858,11 @@
         "name": "sign_no",
         "url": "/parts/arms_sign_no_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_no",
+        "url": "/parts/arms_sign_no_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_no",
@@ -12712,6 +13006,11 @@
       },
       {
         "name": "sign_nya",
+        "url": "/parts/arms_sign_nya_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_nya",
         "url": "/parts/arms_sign_nya_pink.png",
         "color": "pink"
       },
@@ -12849,6 +13148,11 @@
         "name": "sign_soon",
         "url": "/parts/arms_sign_soon_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_soon",
+        "url": "/parts/arms_sign_soon_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_soon",
@@ -12992,6 +13296,11 @@
       },
       {
         "name": "sign_thx",
+        "url": "/parts/arms_sign_thx_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_thx",
         "url": "/parts/arms_sign_thx_pink.png",
         "color": "pink"
       },
@@ -13129,6 +13438,11 @@
         "name": "sign_yaoi",
         "url": "/parts/arms_sign_yaoi_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_yaoi",
+        "url": "/parts/arms_sign_yaoi_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_yaoi",
@@ -13272,6 +13586,11 @@
       },
       {
         "name": "sign_yes",
+        "url": "/parts/arms_sign_yes_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_yes",
         "url": "/parts/arms_sign_yes_pink.png",
         "color": "pink"
       },
@@ -13412,6 +13731,11 @@
       },
       {
         "name": "sign_yip",
+        "url": "/parts/arms_sign_yip_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "sign_yip",
         "url": "/parts/arms_sign_yip_pink.png",
         "color": "pink"
       },
@@ -13549,6 +13873,11 @@
         "name": "sign_yuri",
         "url": "/parts/arms_sign_yuri_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sign_yuri",
+        "url": "/parts/arms_sign_yuri_otter.png",
+        "color": "otter"
       },
       {
         "name": "sign_yuri",
@@ -13694,6 +14023,11 @@
         "name": "sip_ladle",
         "url": "/parts/arms_sip_ladle_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sip_ladle",
+        "url": "/parts/arms_sip_ladle_otter.png",
+        "color": "otter"
       },
       {
         "name": "sip_ladle",
@@ -13854,6 +14188,11 @@
         "name": "smell_tulip",
         "url": "/parts/arms_smell_tulip_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "smell_tulip",
+        "url": "/parts/arms_smell_tulip_otter.png",
+        "color": "otter"
       },
       {
         "name": "smell_tulip",
@@ -14297,6 +14636,11 @@
       },
       {
         "name": "stir_cauldron",
+        "url": "/parts/arms_stir_cauldron_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "stir_cauldron",
         "url": "/parts/arms_stir_cauldron_pink.png",
         "color": "pink"
       },
@@ -14509,6 +14853,11 @@
         "name": "sword",
         "url": "/parts/arms_sword_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "sword",
+        "url": "/parts/arms_sword_otter.png",
+        "color": "otter"
       },
       {
         "name": "sword",
@@ -14727,6 +15076,11 @@
       },
       {
         "name": "testosterone_gel",
+        "url": "/parts/arms_testosterone_gel_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "testosterone_gel",
         "url": "/parts/arms_testosterone_gel_pink.png",
         "color": "pink"
       },
@@ -14864,6 +15218,11 @@
         "name": "think",
         "url": "/parts/arms_think_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "think",
+        "url": "/parts/arms_think_otter.png",
+        "color": "otter"
       },
       {
         "name": "think",
@@ -15007,6 +15366,11 @@
       },
       {
         "name": "think_about_it",
+        "url": "/parts/arms_think_about_it_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "think_about_it",
         "url": "/parts/arms_think_about_it_pink.png",
         "color": "pink"
       },
@@ -15147,6 +15511,11 @@
       },
       {
         "name": "thumbsdown",
+        "url": "/parts/arms_thumbsdown_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "thumbsdown",
         "url": "/parts/arms_thumbsdown_pink.png",
         "color": "pink"
       },
@@ -15284,6 +15653,11 @@
         "name": "thumbsup",
         "url": "/parts/arms_thumbsup_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "thumbsup",
+        "url": "/parts/arms_thumbsup_otter.png",
+        "color": "otter"
       },
       {
         "name": "thumbsup",
@@ -15577,6 +15951,11 @@
       },
       {
         "name": "vulcan",
+        "url": "/parts/arms_vulcan_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "vulcan",
         "url": "/parts/arms_vulcan_pink.png",
         "color": "pink"
       },
@@ -15717,6 +16096,11 @@
       },
       {
         "name": "water_glass",
+        "url": "/parts/arms_water_glass_otter.png",
+        "color": "otter"
+      },
+      {
+        "name": "water_glass",
         "url": "/parts/arms_water_glass_pink.png",
         "color": "pink"
       },
@@ -15789,6 +16173,11 @@
         "name": "wine",
         "url": "/parts/arms_wine_orange.png",
         "color": "orange"
+      },
+      {
+        "name": "wine",
+        "url": "/parts/arms_wine_otter.png",
+        "color": "otter"
       },
       {
         "name": "wine",
@@ -15929,6 +16318,11 @@
         "name": "wrench",
         "url": "/parts/arms_wrench_orc.png",
         "color": "orc"
+      },
+      {
+        "name": "wrench",
+        "url": "/parts/arms_wrench_otter.png",
+        "color": "otter"
       },
       {
         "name": "wrench",
@@ -16194,6 +16588,10 @@
         "url": "/parts/hat_headphones.png"
       },
       {
+        "name": "heart",
+        "url": "/parts/hat_heart.png"
+      },
+      {
         "name": "light_bulb",
         "url": "/parts/hat_light_bulb.png"
       },
@@ -16228,6 +16626,10 @@
       {
         "name": "stitches",
         "url": "/parts/hat_stitches.png"
+      },
+      {
+        "name": "thief",
+        "url": "/parts/hat_thief.png"
       },
       {
         "name": "third_eye",

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="2048"
+   height="2048"
+   viewBox="0 0 2048 2048"
+   sodipodi:docname="mouth_shocked.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="1000,0"
+       end_point="1000,2048"
+       center_point="1000,1024"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="1291,1472.8473"
+       end_point="1291.595,1730.0614"
+       center_point="1291.2975,1601.4543"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="0.30212401"
+     inkscape:cx="410.42749"
+     inkscape:cy="1355.4037"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     id="rect1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;stroke-linecap:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke:none;stroke-opacity:1;fill:#a01919;fill-opacity:1"
+     d="M 747.59961 1471.3984 C 625.00535 1470.912 572.41406 1554.781 572.41406 1626.0293 C 572.41406 1697.2776 622.46115 1727.9827 698.79883 1728.3066 L 915.00391 1729.2227 L 915.00391 1729.3145 L 925.85547 1729.2676 L 936.70898 1729.3145 L 936.70898 1729.2227 L 1152.9141 1728.3066 C 1229.2518 1727.9827 1279.2988 1697.2776 1279.2988 1626.0293 C 1279.2988 1554.781 1226.7076 1470.912 1104.1133 1471.3984 L 925.85547 1472.1074 L 747.59961 1471.3984 z "
+     inkscape:label="mouth" />
+  <path
+     id="path2"
+     style="opacity:1;mix-blend-mode:normal;fill:#d84848;fill-opacity:1;stroke:none;stroke-width:11;stroke-linecap:round;stroke-opacity:1"
+     d="m 1104.4746,1601.0703 c -153.46611,3.3305 -234.44891,74.0374 -274.04296,127.7949 l 84.57227,0.3575 v 0.092 l 10.85156,-0.047 10.85351,0.047 v -0.092 l 216.20512,-0.9161 c 76.3377,-0.3239 126.3847,-31.029 126.3847,-102.2773 0,-5.8496 -0.4923,-11.7937 -1.2109,-17.7598 -40.0778,-3.0875 -88.7292,-5.679 -148.9277,-7.1562 -8.4299,-0.2069 -16.6565,-0.2172 -24.6856,-0.043 z"
+     inkscape:label="tongue" />
+</svg>

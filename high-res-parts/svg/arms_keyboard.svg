@@ -247,11 +247,12 @@
          d="m 1763.0611,1374.8249 c 10.8286,40.413 80.9583,221.2971 18.7329,283.5225 l -115.9656,115.9655 c -36.0624,34.6482 -112.4299,31.8198 -159.8061,-15.5564 -27.5772,-27.5772 -43.1335,-58.6898 -45.2548,-89.0954 -2.1213,-30.4056 72.0208,-90.0036 96.0624,-109.8026 24.7488,-20.5061 -43.9923,-110.9588 -43.8263,-149.3179"
          class="fur outline"
          paint-order="markers stroke fill"
-         style="fill:#ffc95c;fill-opacity:1;stroke:#000000;stroke-opacity:0.5"
+         fill="#ffc95c"
+         stroke="#000000"
+         style="fill-opacity:1;stroke-opacity:0.5"
          inkscape:label="forearm"
          sodipodi:nodetypes="cscsscc" /></g></g><style
      id="style1">
-      <style>
     .fur{fill:#8bb9a0}
     .paw{fill:#8bb9a0}
     .hand{fill:#8bb9a0}

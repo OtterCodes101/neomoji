@@ -24,6 +24,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"mousecomfy",
 		"orange",
 		"orc",
+		"otter",
 		"pink",
 		"red",
 		"white",
@@ -134,15 +135,32 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			return this.entries[this.entry_indices[this.selected_index]];
 		},
 		setIndex: function(index) {
-			const modulo = this.entry_indices.length; //Check if index is too big for the array
+			const modulo = this.entry_indices.length;
 			if (!modulo) {
-				this.selected_index = 0; //Error
+				this.selected_index = 0;
 			} else {
-				index %= modulo;
-				if (index < 0) {
-					index += modulo;
+				// Wenn das gleiche Element nochmal ausgewählt wird und es nicht body ist
+				if (this.selected_index === index && this.name !== "body") {
+					// Finde den Index des "blank" Elements
+					const blankIndex = this.part_options.findIndex(x => x.name === "blank");
+					if (blankIndex >= 0) {
+						this.selected_index = blankIndex;
+					} else {
+						// Falls kein blank gefunden, normales Verhalten
+						index %= modulo;
+						if (index < 0) {
+							index += modulo;
+						}
+						this.selected_index = index;
+					}
+				} else {
+					// Normales Verhalten für erste Auswahl oder body
+					index %= modulo;
+					if (index < 0) {
+						index += modulo;
+					}
+					this.selected_index = index;
 				}
-				this.selected_index = index;
 			}
 			this.redraw();
 		},
@@ -385,9 +403,22 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		}
 	}
 
-	function randomize() { //Randomize which parts are shown
+	function randomize() {
+		const keepBody = document.getElementById("keep-body").checked;
+		
+		// Speichere aktuellen Body wenn nötig
+		const currentBody = keepBody ? part_handlers.body.getSelectedEntry()[0] : null;
+		
+		// Randomisiere alle Teile
 		for (const i in part_handlers) {
-			part_handlers[i].randomize();
+			if (!(keepBody && i === 'body')) {
+				part_handlers[i].randomize();
+			}
+		}
+		
+		// Stelle Body wieder her wenn nötig
+		if (keepBody && currentBody) {
+			part_handlers.body.trySetIndexByName(currentBody);
 		}
 	}
 

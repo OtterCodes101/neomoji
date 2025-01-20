@@ -93,3 +93,44 @@ ul.donation {
 ul.donation li {
 	padding-top: 0.5em;
 }
+
+#export-container {
+    position: relative;
+    /* ... existing styles ... */
+}
+
+.export-header {
+    position: relative;
+    height: 30px;
+}
+
+.close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    color: #444;
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button:hover {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .close-button {
+        width: 40px;
+        height: 40px;
+        font-size: 28px;
+    }
+}
