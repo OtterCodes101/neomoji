@@ -16523,6 +16523,10 @@
         "name": "blank",
         "url": "/parts/blank.png"
       },
+       {
+        "name": "blue_hair",
+        "url": "/parts/hat_blue_hair.png"
+      },
       {
         "name": "bonk",
         "url": "/parts/hat_bonk.png"
