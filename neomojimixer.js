@@ -25,6 +25,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		"orange",
 		"orc",
 		"otter",
+		"pig",
 		"pink",
 		"red",
 		"white",
