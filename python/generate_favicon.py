@@ -2,97 +2,68 @@ import json
 import random
 from PIL import Image
 
-
+# Load the parts configuration from JSON file
 with open('../parts.json', 'r') as f:
   data = json.load(f)
 
-#no Arms because that made the favicon very noisy
+# No Arms because that made the favicon very noisy
 eyes = []
 mouth = []
 bodies = []
-arms = []
-hat = []
-front = []
-images = []
 
 print('Loading URLs of eyes, mouth and bodies...')
 
-#Extracting only the URLs in list for all three body parts
+# Extract only the URLs for normal eyes
 for eye in data['type']['eyes']:
-    eyes.append(eye['url'])
+    if eye['name'] == 'normal':
+        eyes.append(eye['url'])
 
+# Extract only the URLs for normal mouths
 for mund in data['type']['mouth']:
-    mouth.append(mund['url'])
+    if mund['name'] == 'normal':
+        mouth.append(mund['url'])
 
-for hut in data['type']['hat']:
-    hat.append(hut['url'])
-
-for deko in data['type']['front']:
-    front.append(deko['url'])
-
+# Extract URLs and colors for all body types
 for body in data['type']['body']:
     bodies.append([body['url'], body['color']])
 
-for arm in data['type']['arms']:
-    arms.append([arm['url'], arm['color']])
+# Load random eye and mouth images and convert to RGBA
+image_eye = Image.open("../"+random.choice(eyes)).convert("RGBA")
+image_mouth = Image.open("../"+random.choice(mouth)).convert("RGBA")
 
+# List to store all generated images for the GIF
+images = []
 
-print ("Generating 100 pictures...")
-for i in range(100):
+# Number of images to generate
+NUM_IMAGES = 300
 
-    color_arms = []
-    skip_element = 100
+print(f"Generating {NUM_IMAGES} pictures...")
 
-    if i > 1:
-        skip_element = random.randint(0,3)
-
-    if skip_element != 2:
-        chosen_body = random.choice(bodies)
-
-    for item in arms:
-        if item[1] == chosen_body[1]:
-            color_arms.append(item[0])
-
-    if skip_element != 3:
-        arms_url = random.choice(color_arms)
-        index_arms = color_arms.index(arms_url)
-    else:
-        arms_url=color_arms[index_arms]
-
-    if skip_element != 0:
-        image_eye = Image.open("../"+random.choice(eyes)).convert("RGBA")
-
-    if skip_element != 1:
-        image_mouth = Image.open("../"+random.choice(mouth)).convert("RGBA")
-
-    if skip_element != 4:
-        image_hat = Image.open("../"+random.choice(hat)).convert("RGBA")
-
-    if skip_element != 5:
-        image_front = Image.open("../"+random.choice(front)).convert("RGBA")
-
+# Generate the specified number of combinations
+for i in range(NUM_IMAGES):
+    # Select and load a random body
+    chosen_body = random.choice(bodies)
     image_bodies = Image.open("../"+chosen_body[0]).convert("RGBA")
 
-    image_arms = Image.open("../"+arms_url).convert("RGBA")
-
+    # Resize all components to 128x128 pixels
     image_eye = image_eye.resize((128, 128))
     image_mouth = image_mouth.resize((128, 128))
     image_bodies = image_bodies.resize((128, 128))
-    image_arms = image_arms.resize((128, 128))
-    image_hat = image_hat.resize((128, 128))
-    image_front = image_front.resize((128, 128))
 
-    result_image = Image.new("RGBA", (128, 128))
+    # Create a new white background image instead of transparent
+    result_image = Image.new("RGB", (128, 128), "white")
 
+    # Layer the components: body first, then eyes, then mouth
     result_image.paste(image_bodies, (0, 0), image_bodies)
     result_image.paste(image_eye, (0, 0), image_eye)
-    result_image.paste(image_hat, (0, 0), image_hat)
     result_image.paste(image_mouth, (0, 0), image_mouth)
-    result_image.paste(image_arms, (0, 0), image_arms)
-    result_image.paste(image_front, (0, 0), image_front)
 
-    #result_image.save("./favicon_pics/"+str(i)+".png", format="png")
+    # Add the completed image to our list
     images.append(result_image)
 
 print("Saving favicon")
-images[0].save('../favicon.gif', save_all=True, append_images=images[1:], optimize=False, duration=100, loop=0, disposal=2)
+# Save all images as an animated GIF
+# duration=1000 means each frame shows for 1 second
+# loop=0 means infinite loop
+# disposal=2 means each frame is cleared before showing the next
+images[0].save('../favicon.gif', save_all=True, append_images=images[1:], optimize=False, duration=1000, loop=0, disposal=2)
