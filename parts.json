@@ -1179,6 +1179,16 @@
         "color": "red"
       },
       {
+        "name": "neowolf",
+        "url": "/parts/neowolf.png",
+        "color": "wyvern"
+      },
+      {
+        "name": "neowolf_floof",
+        "url": "/parts/neowolf_floof.png",
+        "color": "wyvern"
+      },
+      {
         "name": "neowyvern",
         "url": "/parts/neowyvern.png",
         "color": "wyvern"
