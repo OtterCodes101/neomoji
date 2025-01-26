@@ -2,6 +2,7 @@ import urllib.request
 import json
 from os import path
 from os import makedirs
+from datetime import datetime
 
 
 # Set to true to write over already created emoji
@@ -29,7 +30,8 @@ def json_to_qs(json_object):
         
     # return qs minus last &
     return qs[:-1]
-    
+
+
 for emoji_set in sets:
     body = sets[emoji_set]["body"]
     # Make sure the output folder exists
@@ -39,6 +41,12 @@ for emoji_set in sets:
     if sets[emoji_set]["emoji"] == True:
         # Replace true with all the emoji in presets
         sets[emoji_set]["emoji"] = presets.keys()
+    
+    meta = dict()
+    meta["metaVersion"] = sets[emoji_set]["metaVersion"]
+    meta["host"] = sets[emoji_set]["host"]
+    meta["exportedAt"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    meta["emojis"] = []
     
     for emoji_to_make in sets[emoji_set]["emoji"]:
         
@@ -54,9 +62,24 @@ for emoji_set in sets:
         # Turn the json into a query string and slap it on the end of the server address
         request_url = server + json_to_qs(presets[emoji_to_make])
         try:
-            emoji_out = urllib.request.urlretrieve(url=request_url, filename=f"{emoji_set}/{emoji_set}_{emoji_to_make}.png")
+            name = f"{emoji_set}_{emoji_to_make}"
+            emoji_out = urllib.request.urlretrieve(url=request_url, filename=f"{emoji_set}/{name}.png")
+
+            emoji_meta = dict()
+            emoji_meta["downloaded"] = True
+            emoji_meta["fileName"] = f"{name}.png"
+            emoji_meta["emoji"] = dict()
+            emoji_meta["emoji"]["name"] = name
+            emoji_meta["emoji"]["category"] = emoji_set
+            emoji_meta["emoji"]["aliases"] = []
+
+            meta["emojis"].append(emoji_meta)
+
             print(f"Made {emoji_set}/{emoji_set}_{emoji_to_make}.png")
         except urllib.error.HTTPError as e:
             print(f"Error while making {emoji_set}/{emoji_set}_{emoji_to_make}.png")
             print(presets[emoji_to_make])
             print(e)
+    
+    with open(f"{emoji_set}/meta.json", "w") as meta_file:
+        json.dump(meta, meta_file)
