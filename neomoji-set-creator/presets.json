@@ -173,5 +173,106 @@
   "woozy": {
     "eyes": "woozy",
     "mouth": ":3"
+  },
+  "_w_": {
+    "eyes": "drowsy",
+    "mouth": "normal"
+  },
+  "3c": {
+    "eyes": "3c",
+    "mouth": "normal",
+    "arms": "3c"
+  },
+  "angel_pleading": {
+    "hat": "angel",
+    "eyes": "pleading",
+    "mouth": "sad"
+  },
+  "aww": {
+    "eyes": "cute",
+    "mouth": "aww",
+    "arms": "aww"
+  },
+  "baa": {
+    "eyes": "baa",
+    "mouth": "baa"
+  },
+  "blank": {
+    "eyes": "normal"
+  },
+  "excited": {
+    "eyes": "squint",
+    "mouth": "aww",
+    "arms": "aww"
+  },
+  "boop": {
+    "eyes": "normal",
+    "mouth": "normal",
+    "front": "boop"
+  },
+  "boop_blep": {
+    "eyes": "normal",
+    "mouth": "blep",
+    "front": "boop"
+  },
+  "boop_happy": {
+    "eyes": "happy",
+    "mouth": "normal",
+    "front": "boop"
+  },
+  "cry": {
+    "eyes": "cry",
+    "mouth": "sad"
+  },
+  "cute": {
+    "eyes": "cute",
+    "mouth": "normal"
+  },
+  "drowsy": {
+    "eyes": "drowsy",
+    "mouth": "drowsy"
+  },
+  "googly_woozy": {
+    "eyes": "googly_woozy",
+    "mouth": "woozy"
+  },
+  "laugh": {
+    "eyes": "laugh",
+    "mouth": "laugh"
+  },
+  "laugh_sweat": {
+    "eyes": "laugh_sweat",
+    "mouth": "laugh"
+  },
+  "owo": {
+    "eyes": "owo",
+    "mouth": "normal"
+  },
+  "pleading": {
+    "eyes": "pleading",
+    "mouth": "sad"
+  },
+  "pleading_reach": {
+    "eyes": "pleading",
+    "mouth": "sad",
+    "arms": "reach"
+  },
+  "think_woozy": {
+    "eyes": "woozy",
+    "mouth": "woozy",
+    "arms": "think"
+  },
+  "thonk": {
+    "eyes": "glare",
+    "mouth": "sad",
+    "arms": "think"
+  },
+  "uwu": {
+    "eyes": "shy",
+    "mouth": "normal"
+  },
+  "what": {
+    "eyes": "glare",
+    "mouth": "what"
   }
 }
