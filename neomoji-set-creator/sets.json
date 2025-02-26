@@ -1,10 +1,14 @@
 {
-    "neodog_floof":{
-        "body": "neodog_floof",
+    "neowolf_floof":{
+        "body": "neowolf_floof",
+        "metaVersion":"1.0",
+        "host": "",
         "emoji": true
     },
     "neofox": {
         "body": "neofox",
+        "metaVersion":"1.0",
+        "host": "",
         "emoji": true
     }
 }
