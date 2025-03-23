@@ -380,6 +380,8 @@ label input:not([type="checkbox"]) {
 
 #export-container {
 	position: sticky;
+	display: flex;
+	flex-direction: column;
 	bottom: calc(0px - var(--padding) / 2);
 	margin: calc(0px - var(--padding) / 2);
 	background: var(--bg-2);
@@ -387,18 +389,22 @@ label input:not([type="checkbox"]) {
 	border-radius: var(--radius);
 	font-weight: bold;
 	margin-top: var(--padding);
+	overflow: hidden;
+	box-shadow: var(--harsh-shadow);
+	border: 1px solid rgba(100,100,100,0.1);
 	animation: jumpFromBottom .4s cubic-bezier(0,0.7,0,1.2);
 }
 #export-container img {
 	height: 150px;
 	width: 100%;
-	object-fit: contain
+	object-fit: contain;
+	margin-bottom: calc(var(--padding) / 2);
 }
 #export-container a {
-	border-radius: 100px
-}
-#export-container .footer {
-	font-size: .7em
+	border-radius: 100px;
+	word-break: break-word;
+	margin-top: calc(var(--padding) / 2);
+	color: inherit;
 }
 
 

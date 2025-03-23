@@ -294,20 +294,16 @@
 						</a>
 	
 					</div>
+					<div id="export-container" style="display: none;">
+						<button class="close-button" onclick="document.getElementById('export-container').style.display='none';">×</button>
+						<canvas id="canvas_export" width="256" height="256" name="test.png" hidden></canvas>
+						<img id="imageExport" src="" />
+						<a id="fullNeomojiName"></a>
+						<small>To save right click and choose "Save image as..." or click the "Download" link</small>
+						<a id="imageExportLink" class="button" download href="" target="_blank">Download</a>
+					</div>
 				</div>
 				
-				<div id="export-container" style="display: none;">
-					<div class="export-header">
-						<button class="close-button" onclick="document.getElementById('export-container').style.display='none';">×</button>
-					</div>
-					<canvas id="canvas_export" width="256" height="256" name="test.png" hidden></canvas>
-					<img id="imageExport" src="" />
-					<a id="imageExportLink" class="button" download href="" target="_blank">Download</a>
-					<div class="footer">
-						<a id="fullNeomojiName"></a>
-						<p>To save right click and choose "Save image as..." or click the "Download" link</p>
-					</div>
-				</div>
 			</div>
 		</div>
 
