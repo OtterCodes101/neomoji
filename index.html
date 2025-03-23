@@ -9,12 +9,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<a class="title" href="./">
-			<h1>Neomojimixer</h1>
-			<p>Mix your Neomoji parts as you like.</p>
-		</a>
+		<header id="page-header">
+			<a class="title" href="./">
+				<h1>Neomojimixer</h1>
+				<span>Mix your Neomoji parts as you like.</span>
+			</a>
+			<div class="header-buttons">
+				<a aria-current="page" href="./" class="button muted">Mixer</a>
+				<a href="imprint.html" class="button muted">FAQ & Legal</a>
+				<a href="https://hai.z0ne.social/@neomojimixer" class="button muted" target="_blank">
+					Fediverse
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+				</a>
+			</div>
+		</header>
 		<noscript>
-			<p>Please active JavaScript to use the Neomojimixer!</p>
+			<h2><b>Please activate JavaScript to use the Neomojimixer!</b></h2>
 		</noscript>
 		<div id="main-panel">
 			<div class="left-panel">
@@ -114,8 +124,14 @@
 				</section>
 				<section id="controls">
 					<div class="random">
-						<button class="button" id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button>
-						<button class="button" id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
+						<button class="button" id="random" onclick="NeomojiMixer.randomize();" disabled>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dices"><rect width="12" height="12" x="2" y="10" rx="2" ry="2"/><path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"/><path d="M6 18h.01"/><path d="M10 14h.01"/><path d="M15 6h.01"/><path d="M18 9h.01"/></svg>
+							Random
+						</button>
+						<button class="button" id="export" onclick="NeomojiMixer.exportImage();" disabled>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-from-line"><path d="M3 5v14"/><path d="M21 12H7"/><path d="m15 18 6-6-6-6"/></svg>
+							Export Image
+						</button>
 					</div>
 					<div class="fields">
 						<label class="field-item">
@@ -277,8 +293,6 @@
 					</a>
 
 				</div>
-				<a href="https://hai.z0ne.social/@neomojimixer" class="button muted" target="_blank">Official Fedi account</a>
-				<a href="imprint.html" class="button muted">Sources, FAQ & Legal notice</a>
 				
 				<div id="export-container" style="display: none;">
 					<div class="export-header">

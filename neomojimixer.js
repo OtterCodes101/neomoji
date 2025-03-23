@@ -364,7 +364,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 			stats_text += `
 				<li class='field-item'>
 					<b>${part_handlers[i].entries.length}</b>
-					<small>${ReturnPlural(part_handlers[i].name)}</small>
+					${ReturnPlural(part_handlers[i].name)}
 				</li>`;
 			sum += part_handlers[i].entries.length;
 			variety *= part_handlers[i].entry_indices.length;
@@ -374,18 +374,18 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		stats_text += `
 			<li class='field-item'>
 				<b>${color_names.length}</b>
-				<small>different arm colours</small>
+				different arm colours
 			</li>
 		`;
 		// stats.innerHTML = stats_text + "<li class='field-item'>In total there are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.</li>";
 		stats.innerHTML = stats_text + `
 			<li class='field-item'>
 				<b>${new Intl.NumberFormat("de-DE").format(sum)}</b>
-				<small>elements available</small>
+				elements available
 			</li>
 			<li class='field-item'>
 				<b>${new Intl.NumberFormat("de-DE").format(variety)}</b>
-				<small>possible combinations</small>
+				possible combinations
 			</li>
 		`;
 
