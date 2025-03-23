@@ -493,6 +493,7 @@ label input:not([type="checkbox"]) {
 		border-radius: var(--radius) var(--radius) 0 0;
 		box-shadow: 0 -150px 0 var(--accent), inset var(--harsh-shadow);
 		z-index: 2;
+		pointer-events: none;
 	}
 }
 
