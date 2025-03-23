@@ -116,13 +116,14 @@
 					<div class="random">
 						<button class="button" id="random" onclick="NeomojiMixer.randomize();" disabled>Random</button>
 						<button class="button" id="export" onclick="NeomojiMixer.exportImage();" disabled>Export Image</button>
-						<label>
-							<input type="checkbox" id="keep-body"> Keep body on random
-						</label>
 					</div>
-					<div class="export">
-						<label>
-							Export type:
+					<div class="fields">
+						<label class="field-item">
+							<b>Keep body on random</b>
+							<input type="checkbox" id="keep-body">
+						</label>
+						<label class="field-item">
+							<b>Export type</b>
 							<input type="text" id="export-mime" list="export-mime-list" value="image/png" />
 							<datalist id="export-mime-list">
 								<option value="image/png"></option>
@@ -135,8 +136,11 @@
 						</label> -->
 					</div>
 				</section>
-				<p>Neomojis are from the following sources: </p>
-				<div class="neo-list">
+				<hr />
+				<ul id="stats" class="fields">stats</ul>
+				<hr />
+				<h2 class="field-item">Neomojis are from the following sources</h2>
+				<div class="neo-list fields">
 					<a href="https://volpeon.ink/emojis/neofox" title="Neofox">
 						<img src="./parts/neofox.png" alt="">
 					</a>
@@ -272,9 +276,7 @@
 						<img src="./parts/neowolf.png" alt="">
 					</a>
 
-				</div>	<br>
-			<div id="stats">stats</div>
-				<br>
+				</div>
 				<a href="https://hai.z0ne.social/@neomojimixer" class="button muted" target="_blank">Official Fedi account</a>
 				<a href="imprint.html" class="button muted">Sources, FAQ & Legal notice</a>
 				

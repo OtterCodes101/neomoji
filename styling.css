@@ -4,6 +4,7 @@
 	--accent-fg: white;
 	--bg: white;
 	--bg-2: #e9e9e9;
+	--bg-3: #e0e0e0;
 	--fg: black;
 	--radius: 24px;
 	--radius-small: 12px;
@@ -25,6 +26,12 @@
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
+}
+hr {
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid rgba(100,100,100,0.2);
+	margin-block: 30px;
 }
 .button {
 	display: inline-block;
@@ -48,10 +55,10 @@ h1, h2, h3, h4, h5, h6, p {
 	font-size: .8em
 }
 @media (prefers-reduced-motion: no-preference) {
-	.button:hover {
+	.button:hover, .fields > a:hover {
 		transform: scale(1.02)
 	}
-	.button:active {
+	.button:active, .fields > a:active {
 		transform: scale(.97);
 		transition: transform .3s cubic-bezier(0,0.2,0,1);
 	}
@@ -233,6 +240,9 @@ main {
 .right-panel section {
 	width: 100%;
 }
+.right-panel h2 {
+	font-size: 1em;
+}
 
 #controls {
 	box-sizing: border-box;
@@ -257,16 +267,71 @@ label input:not([type="checkbox"]) {
 	margin-inline-start: auto;
 }
 
-.neo-list {
-	display: flex;
-	justify-content: center;
-	gap: 4px;
-	flex-wrap: wrap;
-}
 .neo-list img {
 	width: 30px;
 	height: 30px;
 }
+
+.fields {
+	all: unset;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 4px;
+	margin-top: 16px;
+	margin-bottom: 20px;
+	border-radius: var(--radius);
+	overflow: hidden;
+	text-align: initial;
+	/* box-shadow: var(--harsh-shadow); */
+	filter: drop-shadow(var(--harsh-shadow));
+	line-height: 1.2;
+	font-size: .9em;
+}
+.fields > .field-item,
+.fields > a {
+	display: block;
+	background: var(--bg-2);
+	border-radius: 4px;
+	padding: calc(var(--padding) / 2) calc(var(--padding) / 1.5);
+	flex-grow: 1;
+	/* box-shadow: var(--harsh-shadow); */
+	text-transform: capitalize;
+	font-size: 1em;
+	transition: background .2s, color .2s, transform .4s cubic-bezier(0,0,0,2.5);
+}
+.fields > .field-item > b {
+	display: block;
+}
+.fields > a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: calc(var(--padding) / 3);
+	line-height: 1;
+	transition-duration: 1s;
+}
+.fields > a:hover,
+.fields > a:focus {
+	background: var(--accent);
+	color: var(--accent-fg);
+	transition-duration: 0s;
+}
+.fields > label:hover,
+.fields > label:focus-within {
+	background: var(--bg-3);
+}
+.fields > label.field-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.fields input {
+	background: none;
+	border: none;
+	text-align: end;
+	font-size: 1em;
+}
+
 
 #export-container {
 	position: sticky;

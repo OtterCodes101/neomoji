@@ -60,7 +60,7 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		if (name == "mouth") {return "mouths"};
 		if (name == "arms") {return "arms"};
 		if (name == "front") {return "front decorations"};
-		if (name == "badge") {return "badges and masks"};
+		if (name == "badge") {return "badges & masks"};
 		if (name == "back") {return "backgrounds"}
 		else {return name};
 	}
@@ -361,15 +361,33 @@ const NeomojiMixer = (function(NeomojiMixer) {
 		stats_text = "";
 
 		for (const i in part_handlers) {
-
-			stats_text += "<p>There are " + part_handlers[i].entries.length + " " + ReturnPlural(part_handlers[i].name) + ".</p>"
+			stats_text += `
+				<li class='field-item'>
+					<b>${part_handlers[i].entries.length}</b>
+					<small>${ReturnPlural(part_handlers[i].name)}</small>
+				</li>`;
 			sum += part_handlers[i].entries.length;
 			variety *= part_handlers[i].entry_indices.length;
 		}
 
-		stats_text += "<p>There are " + color_names.length + " different colours for the arms.</p>"
-
-		stats.innerHTML = stats_text + "<br /><p>In total there are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.</p>";
+		// stats_text += "<li class='field-item'>There are " + color_names.length + " different colours for the arms.</li>"
+		stats_text += `
+			<li class='field-item'>
+				<b>${color_names.length}</b>
+				<small>different arm colours</small>
+			</li>
+		`;
+		// stats.innerHTML = stats_text + "<li class='field-item'>In total there are " + new Intl.NumberFormat("de-DE").format(sum) + " Elements available,<br />with " + new Intl.NumberFormat("de-DE").format(variety) + " possible combinations.</li>";
+		stats.innerHTML = stats_text + `
+			<li class='field-item'>
+				<b>${new Intl.NumberFormat("de-DE").format(sum)}</b>
+				<small>elements available</small>
+			</li>
+			<li class='field-item'>
+				<b>${new Intl.NumberFormat("de-DE").format(variety)}</b>
+				<small>possible combinations</small>
+			</li>
+		`;
 
 		//Activate the buttons after everything is loaded in
 		for (const i in part_handlers) {
