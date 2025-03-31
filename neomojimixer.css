@@ -3,9 +3,9 @@ body {
 }
 
 .container {
-	 position: relative;
-	 width: 256px;
-	 height: 256px;
+	position: relative;
+	width: 256px;
+	height: 256px;
 }
 
 img.body {
@@ -57,17 +57,8 @@ a.links {
 	color: black;
 }
 
-p#link{
-	top-padding: 0.5em;
-}
-
 h2.imprint {
 	padding-top: 1em;
-}
-
-ul.source {
-	margin: auto;
-	max-width: 600px;
 }
 
 img.source {
@@ -82,12 +73,6 @@ div.faq {
 
 div.faq h3 {
 	padding-top: 0.75em;
-}
-
-ul.donation {
-	margin: auto;
-	max-width: 600px;
-	text-align: justify;
 }
 
 ul.donation li {
