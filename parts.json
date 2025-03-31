@@ -115,6 +115,10 @@
         "url": "/parts/eyes_laugh_sweat.png"
       },
       {
+        "name": "monday",
+        "url": "/parts/eyes_monday.png"
+      },
+      {
         "name": "neobot",
         "url": "/parts/eyes_neobot.png"
       },
@@ -264,23 +268,8 @@
         "color": "white"
       },
       {
-        "name": "neobattery_empty",
-        "url": "/parts/neobattery_empty.png",
-        "color": "white"
-      },
-      {
-        "name": "neobattery_high",
-        "url": "/parts/neobattery_high.png",
-        "color": "white"
-      },
-      {
-        "name": "neobattery_low",
-        "url": "/parts/neobattery_low.png",
-        "color": "white"
-      },
-      {
-        "name": "neobattery_medium",
-        "url": "/parts/neobattery_medium.png",
+        "name": "neoarcticfox_floof",
+        "url": "/parts/neoarcticfox_floof.png",
         "color": "white"
       },
       {
@@ -1291,6 +1280,10 @@
       {
         "name": "mlem",
         "url": "/parts/mouth_mlem.png"
+      },
+      {
+        "name": "monday",
+        "url": "/parts/mouth_monday.png"
       },
       {
         "name": "mustache_blep",
