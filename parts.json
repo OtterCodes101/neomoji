@@ -264,6 +264,26 @@
         "color": "white"
       },
       {
+        "name": "neobattery_empty",
+        "url": "/parts/neobattery_empty.png",
+        "color": "white"
+      },
+      {
+        "name": "neobattery_high",
+        "url": "/parts/neobattery_high.png",
+        "color": "white"
+      },
+      {
+        "name": "neobattery_low",
+        "url": "/parts/neobattery_low.png",
+        "color": "white"
+      },
+      {
+        "name": "neobattery_medium",
+        "url": "/parts/neobattery_medium.png",
+        "color": "white"
+      },
+      {
         "name": "neobear",
         "url": "/parts/neobear.png",
         "color": "darkbrown"
